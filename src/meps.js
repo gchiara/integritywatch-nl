@@ -44,6 +44,10 @@ var vuedata = {
       title: 'Doorlopende nevenfuncties inkomsten',
       info: ''
     },
+    travel: {
+      title: 'Aantal reizen per jaar',
+      info: ''
+    },
     gifts: {
       title: 'Aantal ontvangen giften',
       info: ''
@@ -85,10 +89,11 @@ var vuedata = {
       "PvdA": "#bb1018",
       "CU": "#00aeef",
       "PvdD": "#006535",
-      "50Plus": "#90268f",
+      "50PLUS": "#90268f",
       "SGP": "#f36421",
       "DENK": "#35bfc1",
       "FvD": "#933939",
+      "vKA": "#aaa",
       "Onafhankelijk": "#c0c0c0"
     }
   }
@@ -121,6 +126,26 @@ new Vue({
         window.open(shareURL, '_blank', 'toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250,top=300,left=300');
         return;
       }
+    },
+    incomesList: function (income){
+      var incomeText = '';
+      income.forEach(function (x) {
+        incomeText += x.Jaar + ': '+x.Bedrag+' € '+x.BedragSoort+' '+x.Frequentie+'<br />';
+      });
+			return incomeText;
+    },
+    getGiftValue: function (desc){
+      var pattern = /\€\d+(?:,\d+)*(?:\.\d+)?/;
+      if(desc.includes('onbekend')){
+        return 'onbekend';
+      } else {
+        var values = desc.match(pattern);
+        if(values){
+          return values.join(' ');
+        } else {
+          return '';
+        }
+      }
     }
   }
 });
@@ -143,6 +168,10 @@ var charts = {
   positionsIncome: {
     chart: dc.pieChart("#positionsincome_chart"),
     type: 'pie'
+  },
+  travel: {
+    chart: dc.barChart("#travel_chart"),
+    type: 'bar'
   },
   gifts: {
     chart: dc.barChart("#gifts_chart"),
@@ -241,6 +270,13 @@ var resizeGraphs = function() {
     }
   }
 };
+//Functions for multikey dimensions
+function multikey(x,y) {
+  return x + 'x' + y;
+}
+function splitkey(k) {
+  return k.split('x');
+}
 
 //Add commas to thousands
 function addcommas(x){
@@ -299,9 +335,19 @@ var getAge = function(dateString) {
 //Load data and generate charts
 
 json('./data/meps.json', (err, meps) => {
-
+  //Prepare data var for travel data, for the stacked bar chart
+  var travelData = [];
   //Loop through data to aply fixes and calculations
   _.each(meps, function (d) {
+    //Find party
+    d.party = '';
+    d.partyName = '';
+    d.FractieZetelPersoon.forEach(function (x) {
+      if(x.TotEnMet == null){
+        d.party = x.FractieZetel.Fractie.Afkorting;
+        d.partyName = x.FractieZetel.Fractie.NaamNL;
+      }
+    });
     //Calculate number of active positions and define range and income categories.
     d.activePositions = 0;
     d.activePositionsRange = '';
@@ -339,22 +385,63 @@ json('./data/meps.json', (err, meps) => {
       }
     });
     //Calculate age and set age range
-    d.age = getAge(d.Geboortedatum.split('T')[0]);
+    d.birthDate = d.Geboortedatum.split('T')[0];
+    d.age = getAge(d.birthDate);
     d.ageRange = d.age[1];
+    //Add travel entries to travelData var to use for stacked bar chart
+    d.travelYears = [];
+    d.PersoonReis.forEach(function (x) {
+      var travelYear = x.Van.split('-')[0];
+      d.travelYears.push(travelYear);
+      var tEntry = x;
+      tEntry.Achternaam = d.Achternaam;
+      tEntry.Voornamen = d.Voornamen;
+      tEntry.party = d.party;
+      tEntry.activePositionsRange = d.activePositionsRange;
+      tEntry.activePositionsIncomes = d.activePositionsIncomes;
+      tEntry.gifts = d.PersoonGeschenk.length;
+      tEntry.giftsValues = d.giftsValues;
+      tEntry.gender = d.Geslacht;
+      tEntry.ageRange = d.ageRange;
+      travelData.push(tEntry);
+    });
+    //Photo URL
+    d.photoUrl = '';
   });
 
-  //Set dc main vars
+  //Set dc main vars. The second crossfilter is used to handle the travels stacked bar chart.
   var ndx = crossfilter(meps);
+  var ndx2 = crossfilter(travelData);
   var searchDimension = ndx.dimension(function (d) {
       var entryString = d.Achternaam + ' ' + d.Voornamen;
       return entryString.toLowerCase();
   });
+  //Dimensions used for custom filtering between the two crossfilters
+  var travelYearsDimension = ndx.dimension(function (d) {
+    //return d.Achternaam + ' ' + d.Voornamen;
+    return d.travelYears;
+  }, true);
+  var travelSearchDimension = ndx2.dimension(function (d) { 
+    var entryString = d.Achternaam + ' ' + d.Voornamen;
+    return entryString.toLowerCase();
+  });
+  var travelPartyDimension = ndx2.dimension(function (d) { return d.party; });
+  var travelpositionsRangeDimension = ndx2.dimension(function (d) { return d.activePositionsRange; });
+  var travelpositionsIncomesDimension = ndx2.dimension(function (d) { return d.activePositionsIncomes; }, true);
+  var travelGiftsDimension = ndx2.dimension(function (d) { 
+    var gifts = d.gifts;
+    if(gifts > 10) { gifts = '> 10'; }
+    return gifts.toString();
+  });
+  var travelGiftsValuesDimension = ndx2.dimension(function (d) { return d.giftsValues; }, true);
+  var travelGenderDimension = ndx2.dimension(function (d) { return d.gender; });
+  var travelAgeDimension = ndx2.dimension(function (d) { return d.ageRange; });
 
   //CHART 1
   var createPartyChart = function() {
     var chart = charts.party.chart;
     var dimension = ndx.dimension(function (d) {
-        return d.FractieZetelPersoon[0].FractieZetel.Fractie.Afkorting;
+        return d.party;
     });
     var group = dimension.group().reduceSum(function (d) {
         return 1;
@@ -391,6 +478,16 @@ json('./data/meps.json', (err, meps) => {
       .elasticX(true)
       .xAxis().ticks(4);
     chart.render();
+    chart.on('filtered', function(c) { 
+      if(c.filters().length) {
+        travelPartyDimension.filterFunction(function(k) { 
+          return c.filters().indexOf(k) !== -1; 
+        }); 
+      } else {
+        travelPartyDimension.filter(null);
+      }
+      dc.redrawAll() 
+    });
   }
 
   //CHART 2 - Positions
@@ -427,6 +524,16 @@ json('./data/meps.json', (err, meps) => {
       });
       */
     chart.render();
+    chart.on('filtered', function(c) { 
+      if(c.filters().length) {
+        travelpositionsRangeDimension.filterFunction(function(k) { 
+          return c.filters().indexOf(k) !== -1; 
+        }); 
+      } else {
+        travelpositionsRangeDimension.filter(null);
+      }
+      dc.redrawAll() 
+    });
   }
 
   //CHART 3 - Positions Income
@@ -463,6 +570,66 @@ json('./data/meps.json', (err, meps) => {
       });
       */
     chart.render();
+    chart.on('filtered', function(c) { 
+      if(c.filters().length) {
+        travelpositionsIncomesDimension.filterFunction(function(k) { 
+          return c.filters().indexOf(k) !== -1; 
+        }); 
+      } else {
+        travelpositionsIncomesDimension.filter(null);
+      }
+      dc.redrawAll() 
+    });
+  }
+
+  //CHART 4 - Travel
+  var createTravelChart = function() {
+    var chart = charts.travel.chart;
+    var dimension = ndx2.dimension(function (d) {
+        //Try returning year by splitting entry
+        //console.log(d.travel);
+        //return d.travel;
+        return d.Van.split('-')[0];
+    });
+    var group = dimension.group().reduceSum(function (d) {
+        if(d.BetaaldDoor.includes('Tweede Kamer')){
+          return 1;
+        }
+        return 0;
+    });
+    var group2 = dimension.group().reduceSum(function (d) {
+      return 1;
+    });
+    var width = recalcWidthGifts();
+    chart
+      .width(width)
+      .height(440)
+      .group(group)
+      .stack(group2)
+      .dimension(dimension)
+      .on("preRender",(function(chart,filter){
+      }))
+      .margins({top: 0, right: 10, bottom: 20, left: 20})
+      //.x(d3.scaleBand().domain([0,1,2,3,4,5,6,7,8,9,10,"> 10"]))
+      //.x(d3.scaleBand().domain(["0","1","2","3","4","5","6","7","8","9","10","> 10"]))
+      //.xUnits(dc.units.ordinal)
+      .x(d3.scaleBand())
+      .xUnits(dc.units.ordinal)
+      .gap(5)
+      .elasticY(true);
+      //.ordinalColors(vuedata.colors.countries);
+    chart.render();
+    //Custom filtering function to apply filter across the 2 different crossfiltered datasets
+    chart.on('filtered', function(c) { 
+      if(c.filters().length) {
+        travelYearsDimension.filterFunction(function(k) { 
+          return c.filters().indexOf(k) !== -1; 
+        }); 
+      } else {
+        travelYearsDimension.filter(null);
+      }
+      dc.redrawAll() 
+    });
   }
 
   //CHART 5 - Gifts
@@ -494,6 +661,16 @@ json('./data/meps.json', (err, meps) => {
       .elasticY(true);
       //.ordinalColors(vuedata.colors.countries);
     chart.render();
+    chart.on('filtered', function(c) { 
+      if(c.filters().length) {
+        travelGiftsDimension.filterFunction(function(k) { 
+          return c.filters().indexOf(k) !== -1; 
+        }); 
+      } else {
+        travelGiftsDimension.filter(null);
+      }
+      dc.redrawAll() 
+    });
   }
 
   //CHART 6 - Gifts value
@@ -530,6 +707,16 @@ json('./data/meps.json', (err, meps) => {
       });
       */
     chart.render();
+    chart.on('filtered', function(c) { 
+      if(c.filters().length) {
+        travelGiftsValuesDimension.filterFunction(function(k) { 
+          return c.filters().indexOf(k) !== -1; 
+        }); 
+      } else {
+        travelGiftsValuesDimension.filter(null);
+      }
+      dc.redrawAll() 
+    });
   }
 
   //CHART 7 - Gender
@@ -564,6 +751,16 @@ json('./data/meps.json', (err, meps) => {
       });
       */
     chart.render();
+    chart.on('filtered', function(c) { 
+      if(c.filters().length) {
+        travelGenderDimension.filterFunction(function(k) { 
+          return c.filters().indexOf(k) !== -1; 
+        }); 
+      } else {
+        travelGenderDimension.filter(null);
+      }
+      dc.redrawAll() 
+    });
   }
 
   //CHART 8 - Age
@@ -590,6 +787,16 @@ json('./data/meps.json', (err, meps) => {
       .elasticY(true);
       //.ordinalColors(vuedata.colors.countries)
     chart.render();
+    chart.on('filtered', function(c) { 
+      if(c.filters().length) {
+        travelAgeDimension.filterFunction(function(k) { 
+          return c.filters().indexOf(k) !== -1; 
+        }); 
+      } else {
+        travelAgeDimension.filter(null);
+      }
+      dc.redrawAll() 
+    });
   }
   
   //TABLE
@@ -620,7 +827,7 @@ json('./data/meps.json', (err, meps) => {
           "targets": 2,
           "defaultContent":"N/A",
           "data": function(d) {
-            return d.FractieZetelPersoon[0].FractieZetel.Fractie.NaamNL;
+            return d.partyName;
           }
         },
         {
@@ -714,6 +921,9 @@ json('./data/meps.json', (err, meps) => {
     searchDimension.filter(function(d) { 
       return d.indexOf(s) !== -1;
     });
+    travelSearchDimension.filter(function(d) { 
+      return d.indexOf(s) !== -1;
+    });
     throttle();
     var throttleTimer;
     function throttle() {
@@ -732,6 +942,7 @@ json('./data/meps.json', (err, meps) => {
       }
     }
     searchDimension.filter(null);
+    travelSearchDimension.filter(null);
     $('#search-input').val('');
     dc.redrawAll();
   }
@@ -743,6 +954,7 @@ json('./data/meps.json', (err, meps) => {
   createPartyChart();
   createPositionsChart();
   createPositionsIncomeChart();
+  createTravelChart();
   createGiftsChart();
   createGiftsValueChart();
   createGenderChart();

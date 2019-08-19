@@ -847,11 +847,57 @@ table.dataTable tbody tr:hover {
   padding: 5px;
 }
 
-/* MEETINGS PAGE STYLE */
-@media only screen and (max-width: 768px) {
-  .meetings-page .chart-table td:nth-child(1), .meetings-page .chart-table td:nth-child(4), .meetings-page .chart-table td:nth-child(5), .meetings-page .chart-table th:nth-child(1), .meetings-page .chart-table th:nth-child(4), .meetings-page .chart-table th:nth-child(5) {
-    display: none;
-  }
+/* MEPS INFO MODAL STYLING */
+#detailsModal {
+  margin-bottom: 80px;
+}
+#detailsModal a {
+  color: #2e7db0;
+  font-weight: 600;
+}
+#detailsModal .modal-title {
+  font-weight: 600;
+  color: #2e7db0;
+}
+#detailsModal .details-line {
+  text-align: left;
+}
+#detailsModal .modal-divider {
+  height: 1px;
+  background: #eee;
+  margin: 30px -25px;
+}
+#detailsModal .modal-table-title {
+  font-weight: 600;
+  text-align: left;
+  margin: 10px 0 10px 0;
+}
+#detailsModal .modal-table {
+  width: 100%;
+}
+#detailsModal .modal-table thead tr th {
+  background: #2e7db0;
+  color: #fff;
+  padding: 5px 10px;
+  border: 2px solid #fff;
+  font-weight: 500;
+}
+#detailsModal .modal-table tbody tr {
+  padding: 0;
+}
+#detailsModal .modal-table tbody tr:nth-child(even) {
+  background: #fafafa;
+}
+#detailsModal .modal-table tbody tr:nth-child(odd) {
+  background: #f4f4f4;
+}
+#detailsModal .modal-table tbody tr td {
+  padding: 10px;
+  border: 2px solid #fff;
+  font-size: 13px;
+}
+#detailsModal .modal-table-else {
+  text-align: left;
 }.overlay[data-v-899003] {
   background-color: rgba(255, 255, 255, 0.9);
   z-index: 10001;

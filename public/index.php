@@ -59,6 +59,13 @@
               <div class="chart-inner" id="positionsincome_chart"></div>
             </div>
           </div>
+          <!-- CHARTS - SECOND ROW -->
+          <div class="col-md-12 chart-col">
+            <div class="boxed-container chart-container meetings_1">
+              <chart-header :title="charts.travel.title" :info="charts.travel.info" ></chart-header>
+              <div class="chart-inner" id="travel_chart"></div>
+            </div>
+          </div>
           <!-- CHARTS - THIRD ROW -->
           <div class="col-md-8 chart-col">
             <div class="boxed-container chart-container meetings_1">
@@ -115,7 +122,8 @@
             <!-- Modal Header -->
             <div class="modal-header">
               <div class="modal-title">
-                <div class="">{{ selectedElement }}</div>
+                <div class="">{{ selectedElement.Voornamen }} {{ selectedElement.Achternaam }}</div>
+                <div>{{ selectedElement.partyName }}</div>
               </div>
               <button type="button" class="close" data-dismiss="modal"><i class="material-icons">close</i></button>
             </div>
@@ -123,9 +131,62 @@
             <div class="modal-body">
               <div class="container">
                 <div class="row">
+                  <div class="col-md-8">
+                    <div class="details-line"><span class="details-line-title">Geboren:</span> {{ selectedElement.birthDate }}, {{ selectedElement.Geboorteplaats }}</div>
+                    <div class="details-line"><span class="details-line-title">Tweede kamer lid sinds:</span> TBD</div>
+                    <div class="details-line"><span class="details-line-title">Profiel:</span> TBD</div>
+                  </div>
+                  <div class="col-md-4">
+                    <img :src="selectedElement.photoUrl" />
+                  </div>
                   <div class="col-md-12">
-                    <div class="details-title details-title-left">SUBTITLE</div>
-                    <div class="details-line"><span class="details-line-title">Party:</span> lorem ipsum</div>
+                    <!-- Divider -->
+                    <div class="modal-divider"></div>
+                    <!-- Info table 1 -->
+                    <div class="modal-table-title">Nevenactiviteiten en belangen</div>
+                    <table class="modal-table" v-if="selectedElement.PersoonNevenfunctie && selectedElement.PersoonNevenfunctie.length > 0">
+                      <thead><tr><th>Omschijving</th><th>Van</th><th>Tot en met</th><th>VergoedingSoort</th><th>Inkomsten</th></tr></thead>
+                      <tbody>
+                        <tr v-for="el in selectedElement.PersoonNevenfunctie">
+                          <td>{{ el.Omschrijving }}</td>
+                          <td>{{ el.PeriodeVan }}</td>
+                          <td v-if="el.PeriodeTotEnMet == null">Heden</td>
+                          <td v-else>{{ el.PeriodeTotEnMet }}</td>
+                          <td>{{ el.VergoedingSoort }}</td>
+                          <td v-html="incomesList(el.PersoonNevenfunctieInkomsten)"></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <div class="modal-table-else" v-else>/</div>
+                    <!-- Info table 2 -->
+                    <div class="modal-table-title">Reizen</div>
+                    <table class="modal-table" v-if="selectedElement.PersoonReis && selectedElement.PersoonReis.length > 0">
+                      <thead><tr><th>Doel</th><th>Vanaf</th><th>Tot en met</th><th>Betaald door</th><th>Bestemming</th></tr></thead>
+                      <tbody>
+                        <tr v-for="el in selectedElement.PersoonReis">
+                          <td>{{ el.Doel }}</td>
+                          <td>{{ el.Van }}</td>
+                          <td v-if="el.TotEnMet == null">Heden</td>
+                          <td v-else>{{ el.TotEnMet }}</td>
+                          <td>{{ el.BetaaldDoor }}</td>
+                          <td>{{ el.Bestemming }}</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <div class="modal-table-else" v-else>/</div>
+                    <!-- Info table 3 -->
+                    <div class="modal-table-title">Giften</div>
+                    <table class="modal-table" v-if="selectedElement.PersoonGeschenk && selectedElement.PersoonGeschenk.length > 0">
+                      <thead><tr><th>Omschijving</th><th>Datum</th><th>Waarde</th></tr></thead>
+                      <tbody>
+                        <tr v-for="el in selectedElement.PersoonGeschenk">
+                          <td>{{ el.Omschrijving }}</td>
+                          <td>{{ el.Datum.split('T')[0] }}</td>
+                          <td v-html="getGiftValue(el.Omschrijving)"></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <div class="modal-table-else" v-else>/</div>
                   </div>
                 </div>
               </div>
