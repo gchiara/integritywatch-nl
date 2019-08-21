@@ -847,6 +847,27 @@ table.dataTable tbody tr:hover {
   padding: 5px;
 }
 
+/* Travel filter buttons */
+.travel-filter-buttons {
+  text-align: right;
+  padding: 15px;
+}
+.travel-filter-buttons button {
+  border: none;
+  color: #fff;
+  background: #2a7aae;
+  border-radius: 2px;
+  padding: 5px 15px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.travel-filter-buttons button .thirdparty {
+  background: #2a7aae;
+}
+.travel-filter-buttons button .nonthirdparty {
+  background: #2a7aae;
+}
+
 /* MEPS INFO MODAL STYLING */
 #detailsModal {
   margin-bottom: 80px;
@@ -898,6 +919,20 @@ table.dataTable tbody tr:hover {
 }
 #detailsModal .modal-table-else {
   text-align: left;
+}
+#detailsModal .details-tables-buttons {
+  text-align: left;
+}
+#detailsModal .details-tables-buttons button {
+  border: none;
+  color: #fff;
+  background: #2a7aae;
+  border-radius: 2px;
+  padding: 5px 15px;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0px 2px 5px 0;
+  cursor: pointer;
 }.container {
   padding: 30px 0;
   padding-bottom: 50px;

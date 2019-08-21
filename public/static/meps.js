@@ -46807,6 +46807,7 @@ var vuedata = {
     "P": "",
     "Sub": ""
   },
+  modalShowTable: '',
   colors: {
     ecPolicy: {
       "Directors-General": "#395a75",
@@ -46882,6 +46883,13 @@ new _vue.default({
           return '';
         }
       }
+    },
+    getActiveCommissies: function getActiveCommissies(comm) {
+      var activeCommissies = _.filter(comm, function (x, index) {
+        return x.TotEnMet == null;
+      });
+
+      return activeCommissies;
     }
   }
 }); //Initialize info popovers
@@ -47078,8 +47086,12 @@ var getAge = function getAge(dateString) {
   }
 
   return [age, agerange];
-}; //Load data and generate charts
+}; //Totals for footer counters
 
+
+var totalActivities = 0;
+var totalGifts = 0;
+var totalTravels = 0; //Load data and generate charts
 
 (0, _d3Request.json)('./data/meps.json', function (err, meps) {
   //Prepare data var for travel data, for the stacked bar chart
@@ -47137,12 +47149,20 @@ var getAge = function getAge(dateString) {
 
     d.birthDate = d.Geboortedatum.split('T')[0];
     d.age = getAge(d.birthDate);
-    d.ageRange = d.age[1]; //Add travel entries to travelData var to use for stacked bar chart
+    d.ageRange = d.age[1]; //Add activities, gifts and travels to total counts for footer
+
+    totalActivities += d.PersoonNevenfunctie.length;
+    totalGifts += d.PersoonGeschenk.length;
+    totalTravels += d.PersoonReis.length; //Photo URL
+
+    d.photoUrl = ''; //Add travel entries to travelData var to use for stacked bar chart
 
     d.travelYears = [];
+    d.travelTypes = [];
     d.PersoonReis.forEach(function (x) {
       var travelYear = x.Van.split('-')[0];
       d.travelYears.push(travelYear);
+      d.travelTypes.push(x.BetaaldDoor);
       var tEntry = x;
       tEntry.Achternaam = d.Achternaam;
       tEntry.Voornamen = d.Voornamen;
@@ -47154,23 +47174,31 @@ var getAge = function getAge(dateString) {
       tEntry.gender = d.Geslacht;
       tEntry.ageRange = d.ageRange;
       travelData.push(tEntry);
-    }); //Photo URL
+    });
+  }); //Set totals for footer counters
 
-    d.photoUrl = '';
-  }); //Set dc main vars. The second crossfilter is used to handle the travels stacked bar chart.
 
+  $('.count-box-activities .total-count').text(totalActivities);
+  $('.count-box-gifts .total-count').text(totalGifts);
+  $('.count-box-travels .total-count').text(totalTravels); //Set dc main vars. The second crossfilter is used to handle the travels stacked bar chart.
 
   var ndx = crossfilter(meps);
   var ndx2 = crossfilter(travelData);
   var searchDimension = ndx.dimension(function (d) {
     var entryString = d.Achternaam + ' ' + d.Voornamen;
     return entryString.toLowerCase();
-  }); //Dimensions used for custom filtering between the two crossfilters
+  }); //Dimensions used for custom filtering between the two crossfilters and travel type filters buttons
 
   var travelYearsDimension = ndx.dimension(function (d) {
-    //return d.Achternaam + ' ' + d.Voornamen;
     return d.travelYears;
   }, true);
+  var travelTypesDimension = ndx.dimension(function (d) {
+    console.log(d.travelTypes);
+    return d.travelTypes;
+  }, true);
+  var travelTypesDimension2 = ndx2.dimension(function (d) {
+    return d.BetaaldDoor;
+  });
   var travelSearchDimension = ndx2.dimension(function (d) {
     var entryString = d.Achternaam + ' ' + d.Voornamen;
     return entryString.toLowerCase();
@@ -47346,9 +47374,6 @@ var getAge = function getAge(dateString) {
   var createTravelChart = function createTravelChart() {
     var chart = charts.travel.chart;
     var dimension = ndx2.dimension(function (d) {
-      //Try returning year by splitting entry
-      //console.log(d.travel);
-      //return d.travel;
       return d.Van.split('-')[0];
     });
     var group = dimension.group().reduceSum(function (d) {
@@ -47359,6 +47384,10 @@ var getAge = function getAge(dateString) {
       return 0;
     });
     var group2 = dimension.group().reduceSum(function (d) {
+      if (d.BetaaldDoor.includes('Tweede Kamer')) {
+        return 0;
+      }
+
       return 1;
     });
     var width = recalcWidthGifts();
@@ -47367,10 +47396,7 @@ var getAge = function getAge(dateString) {
       right: 10,
       bottom: 20,
       left: 20
-    }) //.x(d3.scaleBand().domain([0,1,2,3,4,5,6,7,8,9,10,"> 10"]))
-    //.x(d3.scaleBand().domain(["0","1","2","3","4","5","6","7","8","9","10","> 10"]))
-    //.xUnits(dc.units.ordinal)
-    .x(d3.scaleBand()).xUnits(dc.units.ordinal).gap(5).elasticY(true); //.ordinalColors(vuedata.colors.countries);
+    }).x(d3.scaleBand()).xUnits(dc.units.ordinal).gap(5).elasticY(true); //.ordinalColors(vuedata.colors.countries);
 
     chart.render(); //Custom filtering function to apply filter across the 2 different crossfiltered datasets
 
@@ -47639,8 +47665,47 @@ var getAge = function getAge(dateString) {
       charts.mainTable.chart.fnAddData(alldata);
       charts.mainTable.chart.fnDraw();
     });
-  } //SEARCH INPUT FUNCTIONALITY
+  } //Travel type filter buttons
+  //var travelTypesDimension = ndx.dimension(function (d) { return d.travelTypes; }, true);
+  //var travelTypesDimension2 = ndx2.dimension(function (d) { return d.BetaaldDoor; }, true);
 
+
+  $('.travel-filter-btn').click(function () {
+    var filterType = 'all';
+
+    if ($(this).hasClass('thirdparty')) {
+      filterType = '3rd';
+    } else if ($(this).hasClass('nonthirdparty')) {
+      filterType = 'non3rd';
+    }
+
+    console.log(filterType);
+    travelTypesDimension.filter(function (d) {
+      var stringDim = d;
+
+      if (d && d.length > 1) {
+        stringDim = d.toString();
+      }
+
+      if (filterType == '3rd') {
+        return stringDim.indexOf('Tweede Kamer') == -1;
+      } else if (filterType == 'non3rd') {
+        return stringDim.indexOf('Tweede Kamer') !== -1;
+      } else {
+        return true;
+      }
+    });
+    travelTypesDimension2.filter(function (d) {
+      if (filterType == '3rd') {
+        return d.indexOf('Tweede Kamer') == -1;
+      } else if (filterType == 'non3rd') {
+        return d.indexOf('Tweede Kamer') !== -1;
+      } else {
+        return true;
+      }
+    });
+    dc.redrawAll();
+  }); //SEARCH INPUT FUNCTIONALITY
 
   var typingTimer;
   var doneTypingInterval = 1000;
@@ -47682,6 +47747,8 @@ var getAge = function getAge(dateString) {
 
     searchDimension.filter(null);
     travelSearchDimension.filter(null);
+    travelTypesDimension.filter(null);
+    travelTypesDimension2.filter(null);
     $('#search-input').val('');
     dc.redrawAll();
   };
@@ -47713,70 +47780,75 @@ var getAge = function getAge(dateString) {
   }); //Custom counters
 
   var iniCountSetup = false;
-  /*
-  function drawOrgCounter() {
-    var dim = ndx.dimension (function(d) {
+
+  function drawActivitiesCounter() {
+    var dim = ndx.dimension(function (d) {
       if (!d.Id) {
         return "";
       } else {
         return d.Id;
       }
     });
-    var group = dim.group().reduce(
-      function(p,d) {  
-        p.nb +=1;
-        if (!d.Id || !vuedata.organizations[d.Id]) {
-          return p;
-        }
-        p.fte = +vuedata.organizations[d.Id].FTE;
-        p.accredited = +vuedata.organizations[d.Id].Accred;
+    var group = dim.group().reduce(function (p, d) {
+      p.nb += 1;
+
+      if (!d.Id) {
         return p;
-      },
-      function(p,d) {  
-        p.nb -=1;
-        if (!d.Id || ! vuedata.organizations[d.Id]) {
-          return p;
-        }
-        p.fte = +vuedata.organizations[d.Id].FTE;
-        p.accredited = +vuedata.organizations[d.Id].Accred;
+      }
+
+      p.actnum = +d.PersoonNevenfunctie.length;
+      p.giftsnum += +d.PersoonGeschenk.length;
+      p.travelnum += +d.PersoonReis.length;
+      return p;
+    }, function (p, d) {
+      p.nb -= 1;
+
+      if (!d.Id) {
         return p;
-      },
-      function(p,d) {  
-        return {nb: 0, fte: 0, accredited: 0}; 
       }
-    );
-    group.order(function(p){ return p.nb });
-    var fte = 0;
-    var accredited = 0;
-    var counter = dc.dataCount(".org-count")
-    .dimension(group)
-    .group({value: function() {
-      return group.all().filter(function(kv) {
-        if (kv.value.nb >0) {
-          fte += +kv.value.fte;
-          accredited += +kv.value.accredited;
-        }
-        return kv.value.nb > 0; 
-      }).length;
-    }})
-    .renderlet(function (chart) {
-      $(".nbfte").text(fte);
-      $(".nbfte").text(addcommas(Math.round(fte)));
-      $(".nbaccredited").text(addcommas(Math.round(accredited)));
-      //Set up initial count
-      if(iniCountSetup == false){
-        $('.count-box-lobbyists .total-count').text(addcommas(Math.round(fte)));
-        $('.count-box-accred .total-count').text(addcommas(Math.round(accredited)));
-        iniCountSetup = true;
+
+      p.actnum = +d.PersoonNevenfunctie.length;
+      p.giftsnum -= +d.PersoonGeschenk.length;
+      p.travelnum -= +d.PersoonReis.length;
+      return p;
+    }, function (p, d) {
+      return {
+        nb: 0,
+        actnum: 0,
+        giftsnum: 0,
+        travelnum: 0
+      };
+    });
+    group.order(function (p) {
+      return p.nb;
+    });
+    var actnum = 0;
+    var giftsnum = 0;
+    var travelnum = 0;
+    var counter = dc.dataCount(".count-box-activities").dimension(group).group({
+      value: function value() {
+        giftsnum = 0;
+        travelnum = 0;
+        return group.all().filter(function (kv) {
+          if (kv.value.nb > 0) {
+            actnum += +kv.value.actnum;
+            giftsnum += +kv.value.giftsnum;
+            travelnum += +kv.value.travelnum;
+          }
+
+          return kv.value.nb > 0;
+        }).length;
       }
-      fte=0;
-      accredited=0;
+    }).renderlet(function (chart) {
+      $(".nbactivities").text(actnum);
+      $(".nbgifts").text(giftsnum);
+      $(".nbtravels").text(travelnum);
+      actnum = 0;
     });
     counter.render();
   }
-  drawOrgCounter();
-  */
-  //Window resize function
+
+  drawActivitiesCounter(); //Window resize function
 
   window.onresize = function (event) {
     resizeGraphs();

@@ -63,6 +63,11 @@
           <div class="col-md-12 chart-col">
             <div class="boxed-container chart-container meetings_1">
               <chart-header :title="charts.travel.title" :info="charts.travel.info" ></chart-header>
+              <div class="travel-filter-buttons">
+                <button class="travel-filter-btn thirdparty">3rd party only</button>
+                <button class="travel-filter-btn nonthirdparty">non 3rd party</button>
+                <button class="travel-filter-btn">all travel</button>
+              </div>
               <div class="chart-inner" id="travel_chart"></div>
             </div>
           </div>
@@ -142,51 +147,130 @@
                   <div class="col-md-12">
                     <!-- Divider -->
                     <div class="modal-divider"></div>
+                    <div class="details-tables-buttons">
+                      <button @click="modalShowTable = 'a'">Commissies Lid</button>
+                      <button @click="modalShowTable = 'b'">Commissies Vervanger</button>
+                      <button @click="modalShowTable = 'c'">Nevenactiviteiten en belangen</button>
+                      <button @click="modalShowTable = 'd'">Reizen</button>
+                      <button @click="modalShowTable = 'e'">Giften</button>
+                      <button @click="modalShowTable = 'f'">Loopbaan</button>
+                      <button @click="modalShowTable = 'g'">Onderwijs</button>
+                    </div>
+                    <!-- Commissie Lists 1 -->
+                    <div v-show="modalShowTable == 'a'">
+                      <div class="modal-table-title">Commissies Lid</div>
+                      <table class="modal-table" v-if="selectedElement.CommissieZetelVastPersoon && selectedElement.CommissieZetelVastPersoon.length > 0">
+                        <tbody>
+                          <tr v-for="el in getActiveCommissies(selectedElement.CommissieZetelVastPersoon)">
+                            <td>{{ el.CommissieZetel.Commissie.NaamWebNL }}</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div class="modal-table-else" v-else>/</div>
+                    </div>
+                    <!-- Commissie Lists 2 -->
+                    <div v-show="modalShowTable == 'b'">
+                      <div class="modal-table-title">Commissies Vervanger</div>
+                      <table class="modal-table" v-if="selectedElement.CommissieZetelVervangerPersoon && selectedElement.CommissieZetelVervangerPersoon.length > 0">
+                        <tbody>
+                          <tr v-for="el in getActiveCommissies(selectedElement.CommissieZetelVervangerPersoon)">
+                            <td>{{ el.CommissieZetel.Commissie.NaamWebNL }}</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div class="modal-table-else" v-else>/</div>
+                    </div>
                     <!-- Info table 1 -->
-                    <div class="modal-table-title">Nevenactiviteiten en belangen</div>
-                    <table class="modal-table" v-if="selectedElement.PersoonNevenfunctie && selectedElement.PersoonNevenfunctie.length > 0">
-                      <thead><tr><th>Omschijving</th><th>Van</th><th>Tot en met</th><th>VergoedingSoort</th><th>Inkomsten</th></tr></thead>
-                      <tbody>
-                        <tr v-for="el in selectedElement.PersoonNevenfunctie">
-                          <td>{{ el.Omschrijving }}</td>
-                          <td>{{ el.PeriodeVan }}</td>
-                          <td v-if="el.PeriodeTotEnMet == null">Heden</td>
-                          <td v-else>{{ el.PeriodeTotEnMet }}</td>
-                          <td>{{ el.VergoedingSoort }}</td>
-                          <td v-html="incomesList(el.PersoonNevenfunctieInkomsten)"></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    <div class="modal-table-else" v-else>/</div>
+                    <div v-show="modalShowTable == 'c'">
+                      <div class="modal-table-title">Nevenactiviteiten en belangen</div>
+                      <table class="modal-table" v-if="selectedElement.PersoonNevenfunctie && selectedElement.PersoonNevenfunctie.length > 0">
+                        <thead><tr><th>Omschijving</th><th>Van</th><th>Tot en met</th><th>VergoedingSoort</th><th>Inkomsten</th></tr></thead>
+                        <tbody>
+                          <tr v-for="el in selectedElement.PersoonNevenfunctie">
+                            <td>{{ el.Omschrijving }}</td>
+                            <td>{{ el.PeriodeVan }}</td>
+                            <td v-if="el.PeriodeTotEnMet == null">Heden</td>
+                            <td v-else>{{ el.PeriodeTotEnMet }}</td>
+                            <td>{{ el.VergoedingSoort }}</td>
+                            <td v-html="incomesList(el.PersoonNevenfunctieInkomsten)"></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div class="modal-table-else" v-else>/</div>
+                    </div>
                     <!-- Info table 2 -->
-                    <div class="modal-table-title">Reizen</div>
-                    <table class="modal-table" v-if="selectedElement.PersoonReis && selectedElement.PersoonReis.length > 0">
-                      <thead><tr><th>Doel</th><th>Vanaf</th><th>Tot en met</th><th>Betaald door</th><th>Bestemming</th></tr></thead>
-                      <tbody>
-                        <tr v-for="el in selectedElement.PersoonReis">
-                          <td>{{ el.Doel }}</td>
-                          <td>{{ el.Van }}</td>
-                          <td v-if="el.TotEnMet == null">Heden</td>
-                          <td v-else>{{ el.TotEnMet }}</td>
-                          <td>{{ el.BetaaldDoor }}</td>
-                          <td>{{ el.Bestemming }}</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    <div class="modal-table-else" v-else>/</div>
+                    <div v-show="modalShowTable == 'd'">
+                      <div class="modal-table-title">Reizen</div>
+                      <table class="modal-table" v-if="selectedElement.PersoonReis && selectedElement.PersoonReis.length > 0">
+                        <thead><tr><th>Doel</th><th>Vanaf</th><th>Tot en met</th><th>Betaald door</th><th>Bestemming</th></tr></thead>
+                        <tbody>
+                          <tr v-for="el in selectedElement.PersoonReis">
+                            <td>{{ el.Doel }}</td>
+                            <td>{{ el.Van }}</td>
+                            <td v-if="el.TotEnMet == null">Heden</td>
+                            <td v-else>{{ el.TotEnMet }}</td>
+                            <td>{{ el.BetaaldDoor }}</td>
+                            <td>{{ el.Bestemming }}</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div class="modal-table-else" v-else>/</div>
+                    </div>
                     <!-- Info table 3 -->
-                    <div class="modal-table-title">Giften</div>
-                    <table class="modal-table" v-if="selectedElement.PersoonGeschenk && selectedElement.PersoonGeschenk.length > 0">
-                      <thead><tr><th>Omschijving</th><th>Datum</th><th>Waarde</th></tr></thead>
-                      <tbody>
-                        <tr v-for="el in selectedElement.PersoonGeschenk">
-                          <td>{{ el.Omschrijving }}</td>
-                          <td>{{ el.Datum.split('T')[0] }}</td>
-                          <td v-html="getGiftValue(el.Omschrijving)"></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    <div class="modal-table-else" v-else>/</div>
+                    <div v-show="modalShowTable == 'e'">
+                      <div class="modal-table-title">Giften</div>
+                      <table class="modal-table" v-if="selectedElement.PersoonGeschenk && selectedElement.PersoonGeschenk.length > 0">
+                        <thead><tr><th>Omschijving</th><th>Datum</th><th>Waarde</th></tr></thead>
+                        <tbody>
+                          <tr v-for="el in selectedElement.PersoonGeschenk">
+                            <td>{{ el.Omschrijving }}</td>
+                            <td>{{ el.Datum.split('T')[0] }}</td>
+                            <td v-html="getGiftValue(el.Omschrijving)"></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div class="modal-table-else" v-else>/</div>
+                    </div>
+                    <!-- Info table 4 -->
+                    <div v-show="modalShowTable == 'f'">
+                      <div class="modal-table-title">Loopbaan</div>
+                      <table class="modal-table" v-if="selectedElement.PersoonLoopbaan && selectedElement.PersoonLoopbaan.length > 0">
+                        <thead><tr><th>Functie</th><th>Van</th><th>Tot en met</th><th>Werkgever</th><th>Plaats</th></tr></thead>
+                        <tbody>
+                          <tr v-for="el in selectedElement.PersoonLoopbaan">
+                            <td>{{ el.Functie }}</td>
+                            <td>{{ el.Van }}</td>
+                            <td>{{ el.TotEnMet }}</td>
+                            <td>{{ el.Werkgever }}</td>
+                            <td v-if="el.Plaats == null">Niet aangegeven</td>
+                            <td v-else>{{ el.Plaats }}</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div class="modal-table-else" v-else>/</div>
+                    </div>
+                    <!-- Info table 4 -->
+                    <div v-show="modalShowTable == 'g'">
+                      <div class="modal-table-title">Onderwijs</div>
+                      <table class="modal-table" v-if="selectedElement.PersoonOnderwijs && selectedElement.PersoonOnderwijs.length > 0">
+                        <thead><tr><th>Opleiding</th><th>Van</th><th>Tot en met</th><th>Instelling</th><th>Plaats</th></tr></thead>
+                        <tbody>
+                          <tr v-for="el in selectedElement.PersoonOnderwijs">
+                            <td v-if="el.OpleidingNL == null">{{ el.OpleidingEn }}</td>
+                            <td v-else>{{ el.OpleidingNL }}</td>
+                            <td v-if="el.Van == null">Niet aangegeven</td>
+                            <td v-else>{{ el.Van }}</td>
+                            <td v-if="el.TotEnMet == null">Niet aangegeven</td>
+                            <td v-else>{{ el.TotEnMet }}</td>
+                            <td v-if="el.Instelling == null">Niet aangegeven</td>
+                            <td v-else>{{ el.Instelling }}</td>
+                            <td v-if="el.Plaats == null">Niet aangegeven</td>
+                            <td v-else>{{ el.Plaats }}</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div class="modal-table-else" v-else>/</div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -205,16 +289,16 @@
           </div>
           <div class="footer-col col-4 col-sm-8 footer-counts">
             <div class="dc-data-count count-box">
-              <div class="filter-count">0</div>out of <strong class="total-count">0</strong> meetings
+              <div class="filter-count">0</div>van de <strong class="total-count">0</strong> Kamerleden
             </div>
-            <div class="org-count count-box">
-              <div class="filter-count">0</div>out of <strong class="total-count">0</strong> organisations
+            <div class="count-box count-box-activities">
+              <div class="filter-count nbactivities">0</div>van de <strong class="total-count">0</strong> nevenactivteiten
             </div>
-            <div class="count-box count-box-lobbyists">
-              <div class="filter-count nbfte">0</div> out of <strong class="total-count">0</strong> Lobbyists
+            <div class="count-box count-box-gifts">
+              <div class="filter-count nbgifts">0</div>van de <strong class="total-count">0</strong> giften
             </div>
-            <div class="count-box count-box-accred">
-              <div class="filter-count nbaccredited">0</div> out of <strong class="total-count">0</strong> EP passes
+            <div class="count-box count-box-travels">
+              <div class="filter-count nbtravels">0</div>van de <strong class="total-count">0</strong> reizen
             </div>
           </div>
         </div>
