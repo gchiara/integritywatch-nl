@@ -23,10 +23,8 @@
               <!-- INFO -->
               <div class="col-md-8 chart-col" v-if="showInfo">
                 <div class="boxed-container description-container">
-                  <h1>Dashboard title</h1>
-                  <p>Dashboard description
-                  <a href="./about.php?section=1">Read more</a></p> 
-                  <p>By simply clicking on the graphs or the list below users can rank, sort and filter the data.</p>
+                  <h1>Integrity Watch Nederland - Kamerleden</h1>
+                  <p>Door op de grafieken of op de onderstaande lijst te klikken, worden parlementariërs gesorteerd op hun neveninkomsten, ontvangen geschenken en het aantal reizen dat zij hebben gemaakt. Integrity Watch maakt het gemakkelijker voor burgers om toezicht te houden op potentiële belangenverstrengeling in de Nederlandse politiek.</p> 
                   <i class="material-icons close-btn" @click="showInfo = false">close</i>
                 </div>
               </div>
@@ -64,9 +62,9 @@
             <div class="boxed-container chart-container meetings_1">
               <chart-header :title="charts.travel.title" :info="charts.travel.info" ></chart-header>
               <div class="travel-filter-buttons">
-                <button class="travel-filter-btn thirdparty">3rd party only</button>
-                <button class="travel-filter-btn nonthirdparty">non 3rd party</button>
-                <button class="travel-filter-btn">all travel</button>
+                <button class="travel-filter-btn thirdparty" :class="{ active: travelFilter == '3rd' }">3rd party only</button>
+                <button class="travel-filter-btn nonthirdparty" :class="{ active: travelFilter == 'non3rd' }">non 3rd party</button>
+                <button class="travel-filter-btn" :class="{ active: travelFilter == 'all' }">all travel</button>
               </div>
               <div class="chart-inner" id="travel_chart"></div>
             </div>
@@ -84,14 +82,18 @@
               <div class="chart-inner" id="giftsvalue_chart"></div>
             </div>
           </div>
+          <!-- TOGGLE BUTTONS FOR 4TH ROW -->
+          <div class="col-md-12 toggle-btn-container">
+            <button class="toggle-btn" id="charts-toggle-btn" @click="showAllCharts = !showAllCharts">Zie meer</button>
+          </div>
           <!-- CHARTS - FOURTH ROW - CAN BE TOGGLED -->
-          <div class="col-md-4 chart-col">
+          <div class="col-md-4 chart-col" v-show="showAllCharts">
             <div class="boxed-container chart-container meetings_1">
               <chart-header :title="charts.gender.title" :info="charts.gender.info" ></chart-header>
               <div class="chart-inner" id="gender_chart"></div>
             </div>
           </div>
-          <div class="col-md-4 chart-col">
+          <div class="col-md-4 chart-col" v-show="showAllCharts">
             <div class="boxed-container chart-container meetings_1">
               <chart-header :title="charts.age.title" :info="charts.age.info" ></chart-header>
               <div class="chart-inner" id="age_chart"></div>
@@ -314,7 +316,6 @@
     <script type="text/javascript" src="vendor/js/crossfilter.min.js"></script>
     <script type="text/javascript" src="vendor/js/dc.js"></script>
     <script type="text/javascript" src="vendor/js/dc.cloud.js"></script>
-
     <script src="static/meps.js"></script>
 
  

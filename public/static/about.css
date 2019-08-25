@@ -855,17 +855,43 @@ table.dataTable tbody tr:hover {
 .travel-filter-buttons button {
   border: none;
   color: #fff;
-  background: #2a7aae;
+  background: #ccc;
   border-radius: 2px;
   padding: 5px 15px;
   font-size: 14px;
   font-weight: 400;
+  cursor: pointer;
+  transition: all 0.4s;
 }
-.travel-filter-buttons button .thirdparty {
+.travel-filter-buttons button:hover {
+  background: #bbb;
+}
+.travel-filter-buttons button.active {
   background: #2a7aae;
 }
-.travel-filter-buttons button .nonthirdparty {
+.travel-filter-buttons button.active:hover {
+  background: #1a6a9e;
+}
+
+/* Toggle last row of charts button */
+.toggle-btn-container {
+  text-align: left;
+  padding: 0px 10px;
+  margin-bottom: 20px;
+}
+.toggle-btn-container button {
+  border: none;
+  color: #fff;
   background: #2a7aae;
+  border-radius: 2px;
+  padding: 5px 15px;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.toggle-btn-container button:hover {
+  background: #1a6a9e;
 }
 
 /* MEPS INFO MODAL STYLING */
@@ -933,6 +959,10 @@ table.dataTable tbody tr:hover {
   font-weight: 400;
   margin: 0px 2px 5px 0;
   cursor: pointer;
+  transition: all 0.4s;
+}
+#detailsModal .details-tables-buttons button:hover {
+  background: #1a6a9e;
 }.container {
   padding: 30px 0;
   padding-bottom: 50px;

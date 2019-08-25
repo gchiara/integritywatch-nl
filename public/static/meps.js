@@ -46761,8 +46761,9 @@ var vuedata = {
   loader: true,
   showInfo: true,
   showShare: true,
+  showAllCharts: true,
   chartMargin: 40,
-  organizations: {},
+  travelFilter: 'all',
   charts: {
     party: {
       title: 'Party',
@@ -46814,7 +46815,7 @@ var vuedata = {
       "Commissioners": "#4081ae",
       "Cabinet Members": "#3b95d0"
     },
-    party: ["#3b95d0"],
+    generic: ["#3b95d0", "#4081ae", "#406a95", "#395a75"],
     parties: {
       "VVD": "#f68f1e",
       "PVV": "#153360",
@@ -46855,7 +46856,6 @@ new _vue.default({
       }
 
       if (platform == 'facebook') {
-        //var toShareUrl = window.location.href.split('?')[0];
         var toShareUrl = 'https://integritywatch.nl';
         var shareURL = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(toShareUrl);
         window.open(shareURL, '_blank', 'toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250,top=300,left=300');
@@ -46901,51 +46901,54 @@ $(function () {
 var charts = {
   party: {
     chart: dc.rowChart("#party_chart"),
-    type: 'row'
+    type: 'row',
+    divId: 'party_chart'
   },
   positions: {
     chart: dc.pieChart("#positions_chart"),
-    type: 'pie'
+    type: 'pie',
+    divId: 'positions_chart'
   },
   positionsIncome: {
     chart: dc.pieChart("#positionsincome_chart"),
-    type: 'pie'
+    type: 'pie',
+    divId: 'positionsincome_chart'
   },
   travel: {
     chart: dc.barChart("#travel_chart"),
-    type: 'bar'
+    type: 'bar',
+    divId: 'travel_chart'
   },
   gifts: {
     chart: dc.barChart("#gifts_chart"),
-    type: 'bar'
+    type: 'bar',
+    divId: 'gifts_chart'
   },
   giftsValue: {
     chart: dc.pieChart("#giftsvalue_chart"),
-    type: 'pie'
+    type: 'pie',
+    divId: 'giftsvalue_chart'
   },
   gender: {
     chart: dc.pieChart("#gender_chart"),
-    type: 'pie'
+    type: 'pie',
+    divId: 'gender_chart'
   },
   age: {
     chart: dc.barChart("#age_chart"),
-    type: 'bar'
+    type: 'bar',
+    divId: 'age_chart'
   },
   mainTable: {
     chart: null,
-    type: 'table'
+    type: 'table',
+    divId: 'dc-data-table'
   } //Functions for responsivness
 
 };
 
-var recalcWidth = function recalcWidth() {
-  //Edit this function so that it supports different widths, perhaps use single chart id as parameters
-  return document.getElementById("party_chart").offsetWidth - vuedata.chartMargin;
-};
-
-var recalcWidthGifts = function recalcWidthGifts() {
-  var width = document.getElementById("gifts_chart").offsetWidth - vuedata.chartMargin;
-  return width;
+var recalcWidth = function recalcWidth(divId) {
+  return document.getElementById(divId).offsetWidth - vuedata.chartMargin;
 };
 
 var recalcWidthWordcloud = function recalcWidthWordcloud() {
@@ -46958,8 +46961,8 @@ var recalcCharsLength = function recalcCharsLength(width) {
   return parseInt(width / 8);
 };
 
-var calcPieSize = function calcPieSize() {
-  var newWidth = recalcWidth();
+var calcPieSize = function calcPieSize(divId) {
+  var newWidth = recalcWidth(divId);
   var sizes = {
     'width': newWidth,
     'height': 0,
@@ -46987,45 +46990,42 @@ var calcPieSize = function calcPieSize() {
 };
 
 var resizeGraphs = function resizeGraphs() {
-  var newWidth = recalcWidth();
-  var charsLength = recalcCharsLength(newWidth);
-  var sizes = calcPieSize();
-
   for (var c in charts) {
-    if (charts[c].type == 'row') {
-      charts[c].chart.width(newWidth);
-      charts[c].chart.label(function (d) {
-        var thisKey = d.key;
+    if ((c == 'gender' || c == 'age') && vuedata.showAllCharts == false) {} else {
+      var sizes = calcPieSize(charts[c].divId);
+      var newWidth = recalcWidth(charts[c].divId);
+      var charsLength = recalcCharsLength(newWidth);
 
-        if (thisKey.indexOf('###') > -1) {
-          thisKey = thisKey.split('###')[0];
-        }
+      if (charts[c].type == 'row') {
+        charts[c].chart.width(newWidth);
+        charts[c].chart.label(function (d) {
+          var thisKey = d.key;
 
-        if (thisKey.length > charsLength) {
-          return thisKey.substring(0, charsLength) + '...';
-        }
+          if (thisKey.indexOf('###') > -1) {
+            thisKey = thisKey.split('###')[0];
+          }
 
-        return thisKey;
-      });
-      charts[c].chart.redraw();
-    } else if (charts[c].type == 'pie') {
-      charts[c].chart.width(sizes.width).height(sizes.height).cy(sizes.cy).innerRadius(sizes.innerRadius).radius(sizes.radius).legend(dc.legend().x(0).y(sizes.legendY).gap(10));
-      charts[c].chart.redraw();
-    } else if (charts[c].type == 'cloud') {
-      charts[c].chart.size(recalcWidthWordcloud());
-      charts[c].chart.redraw();
+          if (thisKey.length > charsLength) {
+            return thisKey.substring(0, charsLength) + '...';
+          }
+
+          return thisKey;
+        });
+        charts[c].chart.redraw();
+      } else if (charts[c].type == 'bar') {
+        charts[c].chart.width(newWidth);
+        charts[c].chart.rescale();
+        charts[c].chart.redraw();
+      } else if (charts[c].type == 'pie') {
+        charts[c].chart.width(sizes.width).height(sizes.height).cy(sizes.cy).innerRadius(sizes.innerRadius).radius(sizes.radius).legend(dc.legend().x(0).y(sizes.legendY).gap(10));
+        charts[c].chart.redraw();
+      } else if (charts[c].type == 'cloud') {
+        charts[c].chart.size(recalcWidthWordcloud());
+        charts[c].chart.redraw();
+      }
     }
   }
-}; //Functions for multikey dimensions
-
-
-function multikey(x, y) {
-  return x + 'x' + y;
-}
-
-function splitkey(k) {
-  return k.split('x');
-} //Add commas to thousands
+}; //Add commas to thousands
 
 
 function addcommas(x) {
@@ -47155,7 +47155,7 @@ var totalTravels = 0; //Load data and generate charts
     totalGifts += d.PersoonGeschenk.length;
     totalTravels += d.PersoonReis.length; //Photo URL
 
-    d.photoUrl = ''; //Add travel entries to travelData var to use for stacked bar chart
+    d.photoUrl = './images/meps/' + d.Id + '.jpg'; //Add travel entries to travelData var to use for stacked bar chart
 
     d.travelYears = [];
     d.travelTypes = [];
@@ -47193,7 +47193,6 @@ var totalTravels = 0; //Load data and generate charts
     return d.travelYears;
   }, true);
   var travelTypesDimension = ndx.dimension(function (d) {
-    console.log(d.travelTypes);
     return d.travelTypes;
   }, true);
   var travelTypesDimension2 = ndx2.dimension(function (d) {
@@ -47250,7 +47249,7 @@ var totalTravels = 0; //Load data and generate charts
       };
     }(group);
 
-    var width = recalcWidth();
+    var width = recalcWidth(charts.party.divId);
     var charsLength = recalcCharsLength(width);
     chart.width(width).height(530).margins({
       top: 0,
@@ -47292,7 +47291,7 @@ var totalTravels = 0; //Load data and generate charts
       return 1;
     });
     var order = ['0', '1 - 2', '3 - 4', '> 5'];
-    var sizes = calcPieSize();
+    var sizes = calcPieSize(charts.positions.divId);
     chart.width(sizes.width).height(sizes.height).cy(sizes.cy).ordering(function (d) {
       return order.indexOf(d);
     }).innerRadius(sizes.innerRadius).radius(sizes.radius).legend(dc.legend().x(0).y(sizes.legendY).gap(10).autoItemWidth(true).horizontal(true).legendWidth(sizes.width).legendText(function (d) {
@@ -47305,7 +47304,7 @@ var totalTravels = 0; //Load data and generate charts
       return thisKey;
     })).title(function (d) {
       return d.key + ': ' + d.value;
-    }).dimension(dimension).group(group);
+    }).dimension(dimension).ordinalColors(vuedata.colors.generic).group(group);
     /*
     .colorCalculator(function(d, i) {
       return vuedata.colors.incomes[d.key];
@@ -47336,7 +47335,7 @@ var totalTravels = 0; //Load data and generate charts
       return 1;
     });
     var order = ['Onbezoldigd', 'Bezoldigd met bedrag opgave', 'Bezoldigd zonder bedrag opgave'];
-    var sizes = calcPieSize();
+    var sizes = calcPieSize(charts.positionsIncome.divId);
     chart.width(sizes.width).height(sizes.height).cy(sizes.cy).ordering(function (d) {
       return order.indexOf(d);
     }).innerRadius(sizes.innerRadius).radius(sizes.radius).legend(dc.legend().x(0).y(sizes.legendY).gap(10).autoItemWidth(true).horizontal(true).legendWidth(sizes.width).legendText(function (d) {
@@ -47349,13 +47348,7 @@ var totalTravels = 0; //Load data and generate charts
       return thisKey;
     })).title(function (d) {
       return d.key + ': ' + d.value;
-    }).dimension(dimension).group(group);
-    /*
-    .colorCalculator(function(d, i) {
-      return vuedata.colors.incomes[d.key];
-    });
-    */
-
+    }).dimension(dimension).ordinalColors(vuedata.colors.generic).group(group);
     chart.render();
     chart.on('filtered', function (c) {
       if (c.filters().length) {
@@ -47390,14 +47383,13 @@ var totalTravels = 0; //Load data and generate charts
 
       return 1;
     });
-    var width = recalcWidthGifts();
+    var width = recalcWidth(charts.travel.divId);
     chart.width(width).height(440).group(group).stack(group2).dimension(dimension).on("preRender", function (chart, filter) {}).margins({
       top: 0,
       right: 10,
       bottom: 20,
       left: 20
-    }).x(d3.scaleBand()).xUnits(dc.units.ordinal).gap(5).elasticY(true); //.ordinalColors(vuedata.colors.countries);
-
+    }).x(d3.scaleBand()).xUnits(dc.units.ordinal).gap(5).elasticY(true).ordinalColors(vuedata.colors.generic);
     chart.render(); //Custom filtering function to apply filter across the 2 different crossfiltered datasets
 
     chart.on('filtered', function (c) {
@@ -47428,15 +47420,13 @@ var totalTravels = 0; //Load data and generate charts
     var group = dimension.group().reduceSum(function (d) {
       return 1;
     });
-    var width = recalcWidthGifts();
+    var width = recalcWidth(charts.gifts.divId);
     chart.width(width).height(440).group(group).dimension(dimension).on("preRender", function (chart, filter) {}).margins({
       top: 0,
       right: 10,
       bottom: 20,
       left: 20
-    }) //.x(d3.scaleBand().domain([0,1,2,3,4,5,6,7,8,9,10,"> 10"]))
-    .x(d3.scaleBand().domain(["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "> 10"])).xUnits(dc.units.ordinal).gap(5).elasticY(true); //.ordinalColors(vuedata.colors.countries);
-
+    }).x(d3.scaleBand().domain(["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "> 10"])).xUnits(dc.units.ordinal).gap(5).elasticY(true).ordinalColors(vuedata.colors.generic);
     chart.render();
     chart.on('filtered', function (c) {
       if (c.filters().length) {
@@ -47461,7 +47451,7 @@ var totalTravels = 0; //Load data and generate charts
       return 1;
     });
     var order = ['Giften met bekende waarde', 'Giften van onbekende waarde'];
-    var sizes = calcPieSize();
+    var sizes = calcPieSize(charts.giftsValue.divId);
     chart.width(sizes.width).height(sizes.height).cy(sizes.cy).ordering(function (d) {
       return order.indexOf(d);
     }).innerRadius(sizes.innerRadius).radius(sizes.radius).legend(dc.legend().x(0).y(sizes.legendY).gap(10).autoItemWidth(true).horizontal(true).legendWidth(sizes.width).legendText(function (d) {
@@ -47474,13 +47464,7 @@ var totalTravels = 0; //Load data and generate charts
       return thisKey;
     })).title(function (d) {
       return d.key + ': ' + d.value;
-    }).dimension(dimension).group(group);
-    /*
-    .colorCalculator(function(d, i) {
-      return vuedata.colors.incomes[d.key];
-    });
-    */
-
+    }).dimension(dimension).ordinalColors(vuedata.colors.generic).group(group);
     chart.render();
     chart.on('filtered', function (c) {
       if (c.filters().length) {
@@ -47504,7 +47488,7 @@ var totalTravels = 0; //Load data and generate charts
     var group = dimension.group().reduceSum(function (d) {
       return 1;
     });
-    var sizes = calcPieSize();
+    var sizes = calcPieSize(charts.gender.divId);
     chart.width(sizes.width).height(sizes.height).cy(sizes.cy).innerRadius(sizes.innerRadius).radius(sizes.radius).legend(dc.legend().x(0).y(sizes.legendY).gap(10).autoItemWidth(true).horizontal(true).legendWidth(sizes.width).legendText(function (d) {
       var thisKey = d.name;
 
@@ -47516,12 +47500,6 @@ var totalTravels = 0; //Load data and generate charts
     })).title(function (d) {
       return d.key + ': ' + d.value;
     }).dimension(dimension).group(group);
-    /*
-    .colorCalculator(function(d, i) {
-      return vuedata.colors.incomes[d.key];
-    });
-    */
-
     chart.render();
     chart.on('filtered', function (c) {
       if (c.filters().length) {
@@ -47545,14 +47523,13 @@ var totalTravels = 0; //Load data and generate charts
     var group = dimension.group().reduceSum(function (d) {
       return 1;
     });
-    var width = recalcWidth();
+    var width = recalcWidth(charts.age.divId);
     chart.width(width).height(440).group(group).dimension(dimension).on("preRender", function (chart, filter) {}).margins({
       top: 0,
       right: 10,
       bottom: 20,
       left: 20
-    }).x(d3.scaleBand().domain(["20-29", "30-39", "40-49", "50-59", "60-69", "70-79"])).xUnits(dc.units.ordinal).gap(10).elasticY(true); //.ordinalColors(vuedata.colors.countries)
-
+    }).x(d3.scaleBand().domain(["20-29", "30-39", "40-49", "50-59", "60-69", "70-79"])).xUnits(dc.units.ordinal).gap(10).ordinalColors(vuedata.colors.generic).elasticY(true);
     chart.render();
     chart.on('filtered', function (c) {
       if (c.filters().length) {
@@ -47658,7 +47635,6 @@ var totalTravels = 0; //Load data and generate charts
 
 
   function RefreshTable() {
-    console.log('refreshing table');
     dc.events.trigger(function () {
       var alldata = searchDimension.top(Infinity);
       charts.mainTable.chart.fnClearTable();
@@ -47666,8 +47642,6 @@ var totalTravels = 0; //Load data and generate charts
       charts.mainTable.chart.fnDraw();
     });
   } //Travel type filter buttons
-  //var travelTypesDimension = ndx.dimension(function (d) { return d.travelTypes; }, true);
-  //var travelTypesDimension2 = ndx2.dimension(function (d) { return d.BetaaldDoor; }, true);
 
 
   $('.travel-filter-btn').click(function () {
@@ -47679,7 +47653,7 @@ var totalTravels = 0; //Load data and generate charts
       filterType = 'non3rd';
     }
 
-    console.log(filterType);
+    vuedata.travelFilter = filterType;
     travelTypesDimension.filter(function (d) {
       var stringDim = d;
 
@@ -47749,6 +47723,7 @@ var totalTravels = 0; //Load data and generate charts
     travelSearchDimension.filter(null);
     travelTypesDimension.filter(null);
     travelTypesDimension2.filter(null);
+    vuedata.travelFilter = 'all';
     $('#search-input').val('');
     dc.redrawAll();
   };
@@ -47766,7 +47741,14 @@ var totalTravels = 0; //Load data and generate charts
   createGenderChart();
   createAgeChart();
   createTable();
-  $('.dataTables_wrapper').append($('.dataTables_length')); //Hide loader
+  $('.dataTables_wrapper').append($('.dataTables_length')); //Toggle last charts functionality and fix for responsiveness
+
+  vuedata.showAllCharts = false;
+  $('#charts-toggle-btn').click(function () {
+    if (vuedata.showAllCharts) {
+      resizeGraphs();
+    }
+  }); //Hide loader
 
   vuedata.loader = false; //COUNTERS
   //Main counter
@@ -47778,8 +47760,6 @@ var totalTravels = 0; //Load data and generate charts
   counter.on("renderlet.resetall", function (c) {
     RefreshTable();
   }); //Custom counters
-
-  var iniCountSetup = false;
 
   function drawActivitiesCounter() {
     var dim = ndx.dimension(function (d) {
