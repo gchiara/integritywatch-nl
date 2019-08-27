@@ -10,7 +10,7 @@
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          National versions
+          Andere versies
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="https://www.integritywatch.fr/" target="_blank">France</a>
@@ -21,7 +21,7 @@
     </ul>
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a href="./about" class="nav-link">About</a>
+        <a href="./about" class="nav-link">Over Integrity Watch NL</a>
       </li>
       <li class="nav-item">
         <i class="material-icons nav-link icon-btn info-btn" @click="showInfo = !showInfo">info</i>

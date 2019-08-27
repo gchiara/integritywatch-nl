@@ -448,7 +448,7 @@ json('./data/meps.json', (err, meps) => {
   var travelTypesDimension = ndx.dimension(function (d) { return d.travelTypes; }, true);
   var travelTypesDimension2 = ndx2.dimension(function (d) { return d.BetaaldDoor; });
   var travelSearchDimension = ndx2.dimension(function (d) { 
-    var entryString = d.Achternaam + ' ' + d.Voornamen;
+    var entryString = d.Achternaam + ' ' + d.Voornamen + ' ' + d.party;
     return entryString.toLowerCase();
   });
   var travelPartyDimension = ndx2.dimension(function (d) { return d.party; });

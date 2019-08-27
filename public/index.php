@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Meetings</title>
+    <title>Kamerleden</title>
     <!-- Add twitter and og meta here -->
     <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="static/meps.css">
 </head>
 <body>
-    <div id="app" class="meetings-page">   
+    <div id="app" class="tabA">   
       <?php include 'header.php' ?>
       <div class="container-fluid dashboard-container-outer">
         <div class="row dashboard-container">
@@ -285,7 +285,7 @@
         <div class="row">
           <div class="footer-col col-8 col-sm-4">
             <div class="footer-input">
-              <input type="text" id="search-input" placeholder="Filter by Lobbyist, Host, Subject…">
+              <input type="text" id="search-input" placeholder="Filter per lid of partij">
               <i class="material-icons">search</i>
             </div>
           </div>
