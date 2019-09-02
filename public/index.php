@@ -194,7 +194,7 @@
                             <td v-if="el.PeriodeTotEnMet == null">Heden</td>
                             <td v-else>{{ el.PeriodeTotEnMet }}</td>
                             <td>{{ el.VergoedingSoort }}</td>
-                            <td v-html="incomesList(el.PersoonNevenfunctieInkomsten)"></td>
+                            <td v-html="incomesList(el)"></td>
                           </tr>
                         </tbody>
                       </table>

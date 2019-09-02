@@ -128,21 +128,58 @@ new Vue({
         return;
       }
     },
-    incomesList: function (income){
+    incomesList: function (el){
+      var income = el.PersoonNevenfunctieInkomsten;
       var incomeText = '';
-      income.forEach(function (x) {
-        incomeText += x.Jaar + ': '+x.Bedrag+' € '+x.BedragSoort+' '+x.Frequentie+'<br />';
-      });
-			return incomeText;
+      //If no income
+      if(el.VergoedingSoort == 'Onbezoldigd'){
+        return 'Niet van toepassing';
+      }
+      //If income
+      if(el.VergoedingSoort == 'Bezoldigd'){
+        //If income object
+        if(income.length > 0) {
+          income.forEach(function (x) {
+            //If amount is empty or null
+            if(x.Bedrag == null){
+              incomeText += x.Jaar + ': ' + x.Opmerking;
+            } else {
+              //If Soort is netto or bruto
+              if(x.BedragSoort == 'Netto' || x.BedragSoort == 'Bruto'){
+                incomeText += x.Jaar + ': '+x.Bedrag+' € '+x.BedragSoort+' '+x.Frequentie+'<br />';
+              } else if(x.BedragSoort == 'Onbekend' || x.BedragSoort == null) {
+              //If Soort is null or Onbekend
+                incomeText += x.Jaar + ': '+x.Bedrag+' € '+x.Frequentie+' (Onbekend)'+'<br />';
+              }
+            }
+          });
+        } else {
+          //If income object is null or empty
+          return el.VergoedingToelichting;
+        }
+      }
+      return incomeText;
+
     },
     getGiftValue: function (desc){
       var pattern = /\€\d+(?:,\d+)*(?:\.\d+)?/;
+      //var pattern = /(?<=\€)(\w*)*(\.)*(\w*)*/;
+      var patternTotal = /\Totale waarde €\d+(?:,\d+)*(?:\.\d+)?/i;
       if(desc.includes('onbekend')){
         return 'onbekend';
       } else {
         var values = desc.match(pattern);
+        var valueTotal = desc.match(patternTotal);
+        if(valueTotal){
+          return valueTotal.toString();
+        }
         if(values){
-          return values.join(' ');
+          if(values.length > 1){
+            console.log(values);
+            return values.join(', ');
+          } else {
+            return values.join(' ');
+          }
         } else {
           return '';
         }
