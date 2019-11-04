@@ -34,28 +34,28 @@ var vuedata = {
   travelFilter: 'all',
   charts: {
     party: {
-      title: 'Party',
-      info: 'Lorem Ipsum'
+      title: 'Partij (Aantalkamerleden)',
+      info: 'Aantal doorlopende nevenfuncties per partij. Klik op een partij om specifiekere informatie weer te geven.'
     },
     positions: {
-      title: 'Aantal doorlopende nevenfuncties',
-      info: ''
+      title: 'Aantal doorlopende nevenfuncties per Kamerlid',
+      info: 'Hoeveelheid nevenfuncties per persoon.'
     },
     positionsIncome: {
       title: 'Doorlopende nevenfuncties inkomsten',
-      info: ''
+      info: 'Het is verplicht om op te geven of de functie een inkomen oplevert en hoeveel.'
     },
     travel: {
       title: 'Aantal reizen per jaar',
-      info: ''
+      info: 'Niet door derden betaald’ wordt gezien als de eigen partij of de Tweede Kamer. Alles daarbuiten wordt gezien als derden.'
     },
     gifts: {
-      title: 'Aantal ontvangen giften',
+      title: 'Aantal giften per partij',
       info: ''
     },
     giftsValue: {
       title: 'Waarde van de giften',
-      info: ''
+      info: 'Het is verplicht om aan te geven hoeveel een gift waard is. In principe geldt dit voor giften van meer dan vijftig euro. Sommigen partijleden geven echter ook giften op met een waarde van minder dan vijftig euro.'
     },
     gender: {
       title: 'Geslacht',
@@ -694,14 +694,18 @@ json('./data/meps.json', (err, meps) => {
   var createGiftsChart = function() {
     var chart = charts.gifts.chart;
     var dimension = ndx.dimension(function (d) {
+        return d.party;
+        /*
         var gifts = d.PersoonGeschenk.length;
         if(gifts > 10) {
           gifts = '> 10';
         }
         return gifts.toString();
+        */
     });
     var group = dimension.group().reduceSum(function (d) {
-        return 1;
+        //return 1;
+        return d.PersoonGeschenk.length;
     });
     var width = recalcWidth(charts.gifts.divId);
     chart
@@ -712,11 +716,16 @@ json('./data/meps.json', (err, meps) => {
       .on("preRender",(function(chart,filter){
       }))
       .margins({top: 0, right: 10, bottom: 20, left: 20})
-      .x(d3.scaleBand().domain(["0","1","2","3","4","5","6","7","8","9","10","> 10"]))
+      //.x(d3.scaleBand().domain(["0","1","2","3","4","5","6","7","8","9","10","> 10"]))
+      .x(d3.scaleBand())
       .xUnits(dc.units.ordinal)
       .gap(5)
       .elasticY(true)
-      .ordinalColors(vuedata.colors.generic);
+      .ordering(function(d) { return -d.value; })
+      .colorCalculator(function(d, i) {
+        return vuedata.colors.parties[d.key];
+      });
+      //.ordinalColors(vuedata.colors.generic);
     chart.render();
     chart.on('filtered', function(c) { 
       if(c.filters().length) {

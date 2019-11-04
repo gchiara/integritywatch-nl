@@ -62,9 +62,9 @@
             <div class="boxed-container chart-container meetings_1">
               <chart-header :title="charts.travel.title" :info="charts.travel.info" ></chart-header>
               <div class="travel-filter-buttons">
-                <button class="travel-filter-btn thirdparty" :class="{ active: travelFilter == '3rd' }">3rd party only</button>
-                <button class="travel-filter-btn nonthirdparty" :class="{ active: travelFilter == 'non3rd' }">non 3rd party</button>
-                <button class="travel-filter-btn" :class="{ active: travelFilter == 'all' }">all travel</button>
+                <button class="travel-filter-btn thirdparty" :class="{ active: travelFilter == '3rd' }">Door derden betaald</button>
+                <button class="travel-filter-btn nonthirdparty" :class="{ active: travelFilter == 'non3rd' }">Niet door derden betaald</button>
+                <button class="travel-filter-btn" :class="{ active: travelFilter == 'all' }">Alle reizen</button>
               </div>
               <div class="chart-inner" id="travel_chart"></div>
             </div>

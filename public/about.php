@@ -20,12 +20,21 @@
           <div class="panel panel-default">
             <div class="panel-heading">
               <h1 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">1. About</a>
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">1. Over Integrity Watch NL</a>
               </h1>
             </div>
             <div id="collapse1" class="panel-collapse collapse in">
               <div class="panel-body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque viverra posuere dolor id rutrum. Nulla eu convallis magna, vel luctus dolor. Proin ac nunc nec enim tempor sagittis eget et felis. Vivamus eget orci in massa sollicitudin auctor. Donec in arcu ac augue euismod cursus. Mauris venenatis nulla ac hendrerit posuere. Morbi eget aliquet est, non tincidunt lectus. Maecenas aliquam eros ut felis fermentum, sed congue tellus iaculis.</p>
+              <p>Integrity Watch NL is ontworpen voor journalisten, burgers en maatschappelijke organisaties om volksvertegenwoordigers te kunnen controleren. Onze online tools zorgen ervoor dat schenkingen, reizen en nevenfuncties van Kamerleden inzichtelijk en benaderbaar zijn. De officiële registers waarin deze informatie is verzameld zijn onoverzichtelijk en moeilijk vindbaar. Het platform zorgt ervoor dat iedereen op een intuïtieve manier de informatie kan doorzoeken, rangschikken en filteren. Hierdoor draagt Integrity Watch NL bij aan de transparantie en integriteit in de Nederlandse politiek en bevordert participatie van de samenleving.</p> 
+              <p>Met Integrity Watch wil Transparancy International NL Kamerleden stimuleren de registers correct en volledig in te vullen. Hoewel het invullen van de registers verplicht is, bestaan er in Nederland, in tegenstelling tot andere landen, geen formele sancties voor onvolledig of onjuist verstrekte informatie. Uit onze grafieken wordt soms duidelijk dat het invullen van de registers niet altijd correct en volledig gebeurt. Daarnaast is anti-corruptie wetgeving voornamelijk gericht op partijen in plaats van individuen. We hopen dat Integrity Watch NL de politiek stimuleert om strengere regels te implementeren om transparantie te bevorderen en belangenverstrengeling te voorkomen.</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+              <p>De technologie achter het platform (D3.js) is ontwikkeld door de New York Times om complexe datasets toegankelijk te maken voor een breder publiek. Alle datasets zijn tevens op onze site te downloaden omdat wij geloven in de principes van open-source software en data.</p> 
+              <p>Momenteel zijn er 3 registers openbaar:</p> 
+              <p><strong>Het nevenfunctieregister</strong> – politici geven hier aan welke functies zij los van hun politieke ambt vervullen en wat zij hiermee verdienen of welke relevante belangen een rol spelen.</p> 
+              <p><strong>Het reizenregister</strong> – in dit register staan de reizen die politici naar het buitenland hebben gemaakt, al dan niet vergoed door derden.</p> 
+              <p><strong>Het schenkingenregister</strong> – hier geven politici aan welke giften zij hebben ontvangen met een hogere waarde dan vijftig euro.</p> 
+              <p>Er bestaat ook een <a href="https://www.tweedekamer.nl/sites/default/files/atoms/files/lobbyistenregister_d.d._27_mei_2019.pdf" target="_blank">lobbyregister</a>, maar daarin wordt alleen bijgehouden welke lobbyisten toegang hebben tot het parlement, niet wanneer ze wie ontmoeten, zoals in het Europese transparantieregister wel wordt bijgehouden. Volgens Transparancy International Nederland ligt hier nog veel ruimte voor verbetering.</p> 
+              <p>Alle data komen van de officiële bronnen van de Tweede Kamer. Deze zijn <a href="https://www.tweedekamer.nl/kamerleden_en_commissies/openbare_registers" target="_blank">hier</a> te vinden en worden iedere maand geüpdatet. Indien je onjuiste of onnauwkeurige informatie opvalt, laat het ons weten via het contactformulier. Wanneer je de data van het platform gebruikt, controleer dan altijd bevindingen bij de originele bron.</p> 
+              <p>Dit project wordt mede gefinancierd door de Europese Commissie Noch de instellingen en organen van de Europese Unie, noch enige persoon die namens hen optreedt, kunnen aansprakelijk worden gesteld voor het gebruik van de opgenomen informatie van Integrity Watch NL.</p>
                 <div class="about-eu-funding">
                   <img class="logo" src="./images/flag_yellow_low.jpg" />
                   <p style="font-family: Arial">This online platform was funded by the European Union’s Internal Security Fund – Police</p>
@@ -44,12 +53,13 @@
             </div>
             <div id="contact" class="panel-collapse">
               <div class="panel-body">
-              <p>Lorem ipsum sit dolor amet:</p>
               <p>
-                <strong>Lorem Ipsum</strong><br />
-                Adipiscit elur<br />
-                +00 000000000<br />
-                <a href="mailto:loremipsum@loremipsum.com">loremipsum@loremipsum.com</a>
+                <strong>Transparency International Nederland</strong><br /><br />
+                Koninklijk Instituut voor de Tropen<br />
+                Kamer 2D-3<br />
+                Mauritskade 64<br />
+                1092 AD Amsterdam<br /><br />
+                <a href="mailto:communicatie@transparency.nl ">communicatie@transparency.nl </a>
               </p>
             </div>
             </div>
