@@ -294,7 +294,7 @@
               <div class="filter-count">0</div>van de <strong class="total-count">0</strong> Kamerleden
             </div>
             <div class="count-box count-box-activities">
-              <div class="filter-count nbactivities">0</div>van de <strong class="total-count">0</strong> nevenactivteiten
+              <div class="filter-count nbactivities">0</div>van de <strong class="total-count-act">0</strong> nevenactivteiten
             </div>
             <div class="count-box count-box-gifts">
               <div class="filter-count nbgifts">0</div>van de <strong class="total-count">0</strong> giften

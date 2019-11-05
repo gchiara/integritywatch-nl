@@ -469,7 +469,7 @@ json('./data/meps.json', (err, meps) => {
   });
 
   //Set totals for footer counters
-  $('.count-box-activities .total-count').text(totalActivities);
+  $('.count-box-activities .total-count-act').text(totalActivities);
   $('.count-box-gifts .total-count').text(totalGifts);
   $('.count-box-travels .total-count').text(totalTravels);
 
