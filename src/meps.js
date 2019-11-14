@@ -380,6 +380,27 @@ var getAge = function(dateString) {
   }
   return [age, agerange];
 }
+//Lists sorting functions
+var comparatorActivities = function(a, b) {
+  if(a.PeriodeVan === "" || a.PeriodeVan === null) return 1;
+  if(b.PeriodeVan === "" || b.PeriodeVan === null) return -1;
+  if(a.PeriodeVan === b) return 0;
+  return Date.parse(b.PeriodeVan) - Date.parse(a.PeriodeVan);
+}
+var comparatorVan = function(a, b) {
+  if(a.Van === "" || a.Van === null) return 1;
+  if(b.Van === "" || b.Van === null) return -1;
+  if(a.Van === b) return 0;
+  return Date.parse(b.Van) - Date.parse(a.Van);
+}
+var comparatorGiften = function(a, b) {
+  var compareA = a.Datum !== null ? a.Datum.split('T')[0] : 0;
+  var compareB = b.Datum !== null ? b.Datum.split('T')[0] : 0;
+  if(compareA === "" || compareA === null) return 1;
+  if(compareB === "" || compareB === null) return -1;
+  if(compareA === b) return 0;
+  return Date.parse(compareB) - Date.parse(compareA);
+}
 
 //Totals for footer counters
 var totalActivities = 0;
@@ -445,6 +466,12 @@ json('./data/meps.json', (err, meps) => {
     totalActivities += d.PersoonNevenfunctie.length;
     totalGifts += d.PersoonGeschenk.length;
     totalTravels += d.PersoonReis.length;
+    //Sort lists by date
+    d.PersoonNevenfunctie.sort(comparatorActivities);
+    d.PersoonGeschenk.sort(comparatorGiften);
+    d.PersoonReis.sort(comparatorVan);
+    d.PersoonLoopbaan.sort(comparatorVan);
+    d.PersoonOnderwijs.sort(comparatorVan);
     //Photo URL
     d.photoUrl = './images/meps/'+d.Id+'.jpg';
     //Add travel entries to travelData var to use for stacked bar chart
