@@ -2,7 +2,7 @@
   <div class="chart-header row">
     <div class="chart-title col-9">{{ title }}</div>
     <div class="chart-header-buttons col-3">
-      <button type="button" class="btn btn-secondary btn-info" data-container="body" data-toggle="popover" data-html="true" data-placement="bottom" :data-content="info">
+      <button type="button" class="btn btn-secondary btn-info" data-container="body" data-toggle="popover" data-html="true" data-placement="bottom" :data-content="info" v-if="info && info !== ''">
         i
       </button>
     </div>
@@ -29,17 +29,17 @@ $color_TI_darker: darken( $color_TI, 20% );
   margin: 0;
   background: #fafafa;
   .chart-title {
-    font-size: 20px;
+    font-size: 18px;
     text-align: left;
     color: $color_TI_darker;
     @media only screen and (max-width: 1400px) {
-      font-size: 18px;
-    }
-    @media only screen and (max-width: 1250px) {
       font-size: 16px;
     }
+    @media only screen and (max-width: 1250px) {
+      font-size: 15px;
+    }
     @media only screen and (max-width: 767px) {
-      font-size: 20px;
+      font-size: 18px;
     }
   }
   .chart-header-buttons {

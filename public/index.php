@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Kamerleden</title>
+    <title>Integrity Watch NL – Tweede kamerleden</title>
     <!-- Add twitter and og meta here -->
+    <meta property="og:url" content="https://www.integritywatch.nl" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Integrity Watch NL – Tweede kamerleden" />
+    <meta property="og:description" content="Dit gebruiksvriendelijke interactieve database geeft een overzicht op nevenfuncties, giften en reizen van Eerste en Tweede kamerleden." />
+    <meta property="og:image" content="https://www.integritywatch.nl/images/thumbnail.png" />
     <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
-    <link rel="stylesheet" href="static/meps.css">
+    <link rel="stylesheet" href="static/tab_a.css">
 </head>
 <body>
     <div id="app" class="tabA">   
@@ -23,43 +28,41 @@
               <!-- INFO -->
               <div class="col-md-8 chart-col" v-if="showInfo">
                 <div class="boxed-container description-container">
-                  <h1>Integrity Watch Nederland - Kamerleden</h1>
-                  <p>Door op de grafieken of op de onderstaande lijst te klikken, worden parlementariërs gesorteerd op hun neveninkomsten, ontvangen geschenken en het aantal reizen dat zij hebben gemaakt. Integrity Watch maakt het gemakkelijker voor burgers om toezicht te houden op potentiële belangenverstrengeling in de Nederlandse politiek.</p> 
+                  <h1>Integrity Watch Nederland - Tweede Kamerleden</h1>
+                  <p>Door op de onderstaande lijst of grafieken te klikken, worden de 150 Tweede Kamerleden en hun partijen gesorteerd op hun neveninkomsten, ontvangen geschenken en het aantal reizen dat zij hebben gemaakt. Integrity Watch NL maakt het gemakkelijker voor burgers en journalisten om toezicht te houden op potentiële belangenverstrengeling in de Nederlandse politiek.</p> 
                   <i class="material-icons close-btn" @click="showInfo = false">close</i>
-                </div>
-              </div>
-              <!-- SHARE -->
-              <div class="col-md-4 chart-col" v-if="showShare">
-                <div class="boxed-container share-container">
-                  <button class="twitter-btn" @click="share('twitter')">Share on Twitter</button>
-                  <button class="facebook-btn" @click="share('facebook')">Share on Facebook</button>
-                  <i class="material-icons close-btn" @click="showShare = false">close</i>
                 </div>
               </div>
             </div>
           </div>
           <!-- CHARTS - FIRST ROW -->
-          <div class="col-md-4 chart-col">
-            <div class="boxed-container chart-container meetings_1">
+          <div class="col-md-3 chart-col">
+            <div class="boxed-container chart-container tab_a_1">
               <chart-header :title="charts.party.title" :info="charts.party.info" ></chart-header>
               <div class="chart-inner" id="party_chart"></div>
             </div>
           </div>
-          <div class="col-md-4 chart-col">
-            <div class="boxed-container chart-container meetings_1">
+          <div class="col-md-3 chart-col">
+            <div class="boxed-container chart-container tab_a_2">
               <chart-header :title="charts.positions.title" :info="charts.positions.info" ></chart-header>
               <div class="chart-inner" id="positions_chart"></div>
             </div>
           </div>
-          <div class="col-md-4 chart-col">
-            <div class="boxed-container chart-container meetings_1">
+          <div class="col-md-3 chart-col">
+            <div class="boxed-container chart-container tab_a_3">
               <chart-header :title="charts.positionsIncome.title" :info="charts.positionsIncome.info" ></chart-header>
               <div class="chart-inner" id="positionsincome_chart"></div>
             </div>
           </div>
+          <div class="col-md-3 chart-col">
+            <div class="boxed-container chart-container tab_a_4">
+              <chart-header :title="charts.giftsValue.title" :info="charts.giftsValue.info" ></chart-header>
+              <div class="chart-inner" id="giftsvalue_chart"></div>
+            </div>
+          </div>
           <!-- CHARTS - SECOND ROW -->
-          <div class="col-md-12 chart-col">
-            <div class="boxed-container chart-container meetings_1">
+          <div class="col-md-5 chart-col">
+            <div class="boxed-container chart-container tab_a_5">
               <chart-header :title="charts.travel.title" :info="charts.travel.info" ></chart-header>
               <div class="travel-filter-buttons">
                 <button class="travel-filter-btn thirdparty" :class="{ active: travelFilter == '3rd' }">Door derden betaald</button>
@@ -69,32 +72,26 @@
               <div class="chart-inner" id="travel_chart"></div>
             </div>
           </div>
-          <!-- CHARTS - THIRD ROW -->
-          <div class="col-md-8 chart-col">
-            <div class="boxed-container chart-container meetings_1">
+          <div class="col-md-7 chart-col">
+            <div class="boxed-container chart-container tab_a_6">
               <chart-header :title="charts.gifts.title" :info="charts.gifts.info" ></chart-header>
               <div class="chart-inner" id="gifts_chart"></div>
             </div>
           </div>
-          <div class="col-md-4 chart-col">
-            <div class="boxed-container chart-container meetings_1">
-              <chart-header :title="charts.giftsValue.title" :info="charts.giftsValue.info" ></chart-header>
-              <div class="chart-inner" id="giftsvalue_chart"></div>
-            </div>
-          </div>
+          
           <!-- TOGGLE BUTTONS FOR 4TH ROW -->
           <div class="col-md-12 toggle-btn-container">
             <button class="toggle-btn" id="charts-toggle-btn" @click="showAllCharts = !showAllCharts">Zie meer</button>
           </div>
           <!-- CHARTS - FOURTH ROW - CAN BE TOGGLED -->
           <div class="col-md-4 chart-col" v-show="showAllCharts">
-            <div class="boxed-container chart-container meetings_1">
+            <div class="boxed-container chart-container tab_a_7">
               <chart-header :title="charts.gender.title" :info="charts.gender.info" ></chart-header>
               <div class="chart-inner" id="gender_chart"></div>
             </div>
           </div>
           <div class="col-md-4 chart-col" v-show="showAllCharts">
-            <div class="boxed-container chart-container meetings_1">
+            <div class="boxed-container chart-container tab_a_8">
               <chart-header :title="charts.age.title" :info="charts.age.info" ></chart-header>
               <div class="chart-inner" id="age_chart"></div>
             </div>
@@ -110,8 +107,8 @@
                       <th class="header">Nr</th> 
                       <th class="header">Naam</th> 
                       <th class="header">Fractie</th> 
-                      <th class="header">Aantal aangegeven Nevenfuncties</th> 
-                      <th class="header">Aantal huidige Nevenfuncties</th> 
+                      <th class="header">Aantal aangegeven nevenfuncties</th> 
+                      <th class="header">Aantal huidige nevenfuncties</th> 
                       <th class="header">Aantal giften</th> 
                       <th class="header">Aantal reizen</th> 
                     </tr>
@@ -129,7 +126,7 @@
             <!-- Modal Header -->
             <div class="modal-header">
               <div class="modal-title">
-                <div class="">{{ selectedElement.Voornamen }} {{ selectedElement.Achternaam }}</div>
+                <div class="">{{ selectedElement.fullName2 }}</div>
                 <div>{{ selectedElement.partyName }}</div>
               </div>
               <button type="button" class="close" data-dismiss="modal"><i class="material-icons">close</i></button>
@@ -180,25 +177,27 @@
                           </tr>
                         </tbody>
                       </table>
-                      <div class="modal-table-else" v-else>/</div>
+                      <div class="modal-table-else" v-else>Geen vervanger in Commissie</div>
                     </div>
                     <!-- Info table 1 -->
                     <div v-show="modalShowTable == 'c'">
                       <div class="modal-table-title">Nevenactiviteiten en belangen</div>
                       <table class="modal-table" v-if="selectedElement.PersoonNevenfunctie && selectedElement.PersoonNevenfunctie.length > 0">
-                        <thead><tr><th>Omschijving</th><th>Van</th><th>Tot en met</th><th>VergoedingSoort</th><th>Inkomsten</th></tr></thead>
+                        <thead><tr><th>Omschijving</th><th>Van</th><th>Tot en met</th><th>VergoedingSoort</th><th>Inkomsten</th><th>Is actief?</th></tr></thead>
                         <tbody>
                           <tr v-for="el in selectedElement.PersoonNevenfunctie">
                             <td>{{ el.Omschrijving }}</td>
                             <td>{{ el.PeriodeVan }}</td>
-                            <td v-if="el.PeriodeTotEnMet == null">Heden</td>
+                            <td v-if="el.PeriodeTotEnMet == null"></td>
                             <td v-else>{{ el.PeriodeTotEnMet }}</td>
                             <td>{{ el.VergoedingSoort }}</td>
                             <td v-html="incomesList(el)"></td>
+                            <td v-if="el.IsActief">Ja</td>
+                            <td v-else>Nee</td>
                           </tr>
                         </tbody>
                       </table>
-                      <div class="modal-table-else" v-else>/</div>
+                      <div class="modal-table-else" v-else>Geen nevenactiviteiten opgegeven</div>
                     </div>
                     <!-- Info table 2 -->
                     <div v-show="modalShowTable == 'd'">
@@ -216,7 +215,7 @@
                           </tr>
                         </tbody>
                       </table>
-                      <div class="modal-table-else" v-else>/</div>
+                      <div class="modal-table-else" v-else>Geen reizen opgegeven</div>
                     </div>
                     <!-- Info table 3 -->
                     <div v-show="modalShowTable == 'e'">
@@ -231,7 +230,7 @@
                           </tr>
                         </tbody>
                       </table>
-                      <div class="modal-table-else" v-else>/</div>
+                      <div class="modal-table-else" v-else>Geen giften opegegeven</div>
                     </div>
                     <!-- Info table 4 -->
                     <div v-show="modalShowTable == 'f'">
@@ -283,13 +282,13 @@
       <!-- Bottom bar -->
       <div class="container-fluid footer-bar">
         <div class="row">
-          <div class="footer-col col-8 col-sm-4">
+          <div class="footer-col col-sm-3">
             <div class="footer-input">
               <input type="text" id="search-input" placeholder="Filter per lid of partij">
               <i class="material-icons">search</i>
             </div>
           </div>
-          <div class="footer-col col-4 col-sm-8 footer-counts">
+          <div class="footer-col col-sm-9 footer-counts">
             <div class="dc-data-count count-box">
               <div class="filter-count">0</div>van de <strong class="total-count">0</strong> Kamerleden
             </div>
@@ -306,6 +305,12 @@
         </div>
         <!-- Reset filters -->
         <button class="reset-btn"><i class="material-icons">settings_backup_restore</i><span class="reset-btn-text">Reset filters</span></button>
+        <!-- Share buttons -->
+        <div class="footer-buttons-right">
+          <button class="btn-twitter" @click="share('twitter')"><img src="./images/twitter.png" /></button>
+          <button class="btn-fb" @click="share('facebook')"><img src="./images/facebook.png" /></button>
+          <button class="btn-linkedin" @click="share('linkedin')"><img src="./images/linkedin.png" /></button>
+        </div>
       </div>
       <!-- Loader -->
       <loader v-if="loader" :text="'Loading ...'" />
@@ -316,7 +321,7 @@
     <script type="text/javascript" src="vendor/js/crossfilter.min.js"></script>
     <script type="text/javascript" src="vendor/js/dc.js"></script>
     <script type="text/javascript" src="vendor/js/dc.cloud.js"></script>
-    <script src="static/meps.js"></script>
+    <script src="static/tab_a.js"></script>
 
  
 </body>

@@ -164,26 +164,38 @@ $color_lobby: #42b983;
   &.chart-container-table {
     height: auto;
   }
-  &.meetings_1 {
+  &.tab_a_1 {
     height: 600px;
   }
-  &.meetings_2 {
+  &.tab_a_2 {
     height: 600px;
   }
-  &.meetings_3 {
+  &.tab_a_3 {
     height: 600px;
   }
-  &.meetings_4 {
+  &.tab_a_4 {
     height: 600px;
   }
-  &.meetings_5 {
-    height: 630px;
+  &.tab_a_5 {
+    height: 550px;
   }
-  &.meetings_6 {
-    height: 630px;
+  &.tab_a_6 {
+    height: 550px;
   }
-  &.meetings_7 {
-    height: 630px;
+  &.tab_a_7 {
+    height: 530px;
+  }
+  &.tab_a_8 {
+    height: 530px;
+  }
+  &.tab_c_1 {
+    height: 525px;
+  }
+  &.tab_c_2 {
+    height: 525px;
+  }
+  &.tab_c_3 {
+    height: 525px;
   }
   @media only screen and (max-width: 767px) {
     height: auto !important;
@@ -211,6 +223,9 @@ $color_lobby: #42b983;
     -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
+    @media only screen and (max-width: 767px) {
+      display: none;
+    }
     i {
       vertical-align: middle;
       position: absolute;
@@ -256,8 +271,19 @@ $color_lobby: #42b983;
       font-size: 14px;
       line-height: 110%;
       float: left;
-      &.count-box-lobbyists, &.count-box-accred {
+      &.count-box-gifts, &.count-box-travels {
         @media only screen and (max-width: 1280px) {
+          display: none;
+        }
+      }
+      &.count-box-activities {
+        @media only screen and (max-width: 920px) {
+          display: none;
+        }
+      }
+      &.count-box-donationsamt {
+        width: 250px;
+        @media only screen and (max-width: 920px) {
           display: none;
         }
       }
@@ -273,9 +299,48 @@ $color_lobby: #42b983;
       }
     }
   }
+  .footer-buttons-right {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+    button {
+      color: #fff;
+      background: none;
+      border: none;
+      cursor: pointer;
+      position: relative;
+      vertical-align: middle;
+      i {
+        font-size: 35px;
+        vertical-align: middle;
+      }
+      img {
+        height: 25px;
+        vertical-align: middle;
+      }
+      &.btn-twitter {
+        img {
+
+        }
+      }
+      &.btn-fb {
+        img {
+          height: 29px;
+        }
+      }
+      &.btn-linkedin {
+        img {
+          height: 29px;
+        }
+      }
+    }
+  }
   .reset-btn {
     position: absolute;
-    right: 25px;
+    right: 170px;
     top: 50%;
     -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
@@ -287,6 +352,10 @@ $color_lobby: #42b983;
     cursor: pointer;
     background: rgb(226, 94, 108);
     transition: all .4s;
+    @media only screen and (max-width: 767px) {
+      right: auto;
+      left: 20px;
+    }
     &:hover, &:focus, &.active {
       background: rgb(206, 74, 88);
       outline: none;
@@ -588,8 +657,8 @@ table.dataTable tbody tr:hover {
     background: #ccc;
     border-radius: 2px;
     padding: 5px 15px;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 12px;
+    font-weight: 500;
     cursor: pointer;
     transition: all .4s;
     &:hover {
@@ -702,3 +771,28 @@ table.dataTable tbody tr:hover {
   }
 }
 
+/* Mobile tables */
+
+.tabA {
+  .chart-table {
+    td, th {
+      &:nth-child(1), &:nth-child(5), &:nth-child(6), &:nth-child(7) {
+        @media only screen and (max-width: 768px) {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+.tabB {
+  .chart-table {
+    td, th {
+      &:nth-child(1), &:nth-child(5), &:nth-child(6), &:nth-child(7), &:nth-child(8), &:nth-child(9) {
+        @media only screen and (max-width: 768px) {
+          display: none;
+        }
+      }
+    }
+  }
+}

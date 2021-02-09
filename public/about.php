@@ -3,7 +3,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About</title>
+    <title>Integrity Watch NL – Meer informatie</title>
+    <!-- Add twitter and og meta here -->
+    <meta property="og:url" content="https://www.integritywatch.nl/about" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Integrity Watch NL – Meer informatie" />
+    <meta property="og:description" content="Meer informatie over Integrity Watch Nederland." />
+    <meta property="og:image" content="https://www.integritywatch.nl/images/thumbnail.png" />
     <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -20,7 +26,7 @@
           <div class="panel panel-default">
             <div class="panel-heading">
               <h1 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">1. Over Integrity Watch NL</a>
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Over Integrity Watch NL</a>
               </h1>
             </div>
             <div id="collapse1" class="panel-collapse collapse in">
@@ -48,20 +54,21 @@
           <div class="panel panel-default panel-static">
             <div class="panel-heading">
               <h2 class="panel-title">
-                <a href="#">Contact Details</a>
+                <a href="#">Contact details</a>
               </h2>
             </div>
             <div id="contact" class="panel-collapse">
               <div class="panel-body">
-              <p>
-                <strong>Transparency International Nederland</strong><br /><br />
-                Koninklijk Instituut voor de Tropen<br />
-                Kamer 2D-3<br />
-                Mauritskade 64<br />
-                1092 AD Amsterdam<br /><br />
-                <a href="mailto:communicatie@transparency.nl ">communicatie@transparency.nl </a>
-              </p>
-            </div>
+                <p>Integrity Watch NL is een platform aangeboden door Transparency International Nederland (TI-NL). TI-NL is de Nederlandse afdeling van Transparency International (TI), een internationale niet-gouvernementele organisatie (NGO) die als taak heeft wereldwijd corruptie te bestrijden. Voor meer informatie, bezoek www.transparency.nl neem contact met ons op:</p>
+                <p>
+                  <strong>Transparency International Nederland</strong><br /><br />
+                  Koninklijk Instituut voor de Tropen<br />
+                  Kamer 2D-3<br />
+                  Mauritskade 64<br />
+                  1092 AD Amsterdam<br /><br />
+                  <a href="mailto:communicatie@transparency.nl ">communicatie@transparency.nl </a>
+                </p>
+              </div>
             </div>
           </div>
 
