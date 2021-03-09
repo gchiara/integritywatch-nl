@@ -30,25 +30,26 @@ var vuedata = {
   showInfo: true,
   showShare: true,
   showAllCharts: true,
+  showMps: true,
   chartMargin: 40,
   travelFilter: 'all',
   charts: {
     party: {
-      title: 'Parties',
-      info: ''
+      title: 'Totaalbedrag aan donaties per politieke partij',
+      info: 'Totaalbedrag aan donaties per politieke partij. Klik op een partij om een filter aan te zetten. De resultaten op de rest van deze pagina geven dan enkel gegevens over de aangeklikte partij(en) weer. Klik op ‘reset filter’ om de selectie weer ongedaan te maken.'
     },
     years: {
-      title: 'Donations per year',
-      info: ''
+      title: 'Totaalbedrag aan donaties per jaar',
+      info: 'Totaalbedrag aan donaties per jaar.'
     },
     topdonors: {
-      title: 'Top donors',
-      info: ''
+      title: 'Top 10 donateurs',
+      info: 'Top 10 donateurs, naar totaal gedoneerd bedrag. Sommige partijen verplichten gekozen vertegenwoordigers (Kamerleden, wethouders, etc.) om een deel van hun salaris aan de partij af te staan. Dit verklaart bijvoorbeeld het hoge bedrag aan donaties bij de SP. Als u de optie “zonder Kamerleden” selecteert, worden zittende Kamerleden niet meegenomen in de lijst van donateurs.'
     },
     mainTable: {
       chart: null,
       type: 'table',
-      title: 'Donations',
+      title: 'Donaties',
       info: ''
     }
   },
@@ -77,7 +78,9 @@ var vuedata = {
       "GroenLinks": "#39A935",
       "ChristenUnie": "#032963",
       "Fractie-Otten": "#FAE800",
-      "OSF": "#8FD5FF"
+      "OSF": "#8FD5FF",
+      "Partij voor de Dieren": "#518354",
+      "Forum voor Democratie": "#6F2422"
     }
   }
 }
@@ -130,7 +133,7 @@ var charts = {
   },
   years: {
     chart: dc.lineChart("#years_chart"),
-    type: 'pie',
+    type: 'line',
     divId: 'years_chart'
   },
   topdonors: {
@@ -184,42 +187,42 @@ var calcPieSize = function(divId) {
 };
 var resizeGraphs = function() {
   for (var c in charts) {
-    if((c == 'gender' || c == 'age') && vuedata.showAllCharts == false){
-      
-    } else {
-      var sizes = calcPieSize(charts[c].divId);
-      var newWidth = recalcWidth(charts[c].divId);
-      var charsLength = recalcCharsLength(newWidth);
-      if(charts[c].type == 'row'){
-        charts[c].chart.width(newWidth);
-        charts[c].chart.label(function (d) {
-          var thisKey = d.key;
-          if(thisKey.indexOf('###') > -1){
-            thisKey = thisKey.split('###')[0];
-          }
-          if(thisKey.length > charsLength){
-            return thisKey.substring(0,charsLength) + '...';
-          }
-          return thisKey;
-        })
-        charts[c].chart.redraw();
-      } else if(charts[c].type == 'bar') {
-        charts[c].chart.width(newWidth);
-        charts[c].chart.rescale();
-        charts[c].chart.redraw();
-      } else if(charts[c].type == 'pie') {
-        charts[c].chart
-          .width(sizes.width)
-          .height(sizes.height)
-          .cy(sizes.cy)
-          .innerRadius(sizes.innerRadius)
-          .radius(sizes.radius)
-          .legend(dc.legend().x(0).y(sizes.legendY).gap(10));
-        charts[c].chart.redraw();
-      } else if(charts[c].type == 'cloud') {
-        charts[c].chart.size(recalcWidthWordcloud());
-        charts[c].chart.redraw();
-      }
+    var sizes = calcPieSize(charts[c].divId);
+    var newWidth = recalcWidth(charts[c].divId);
+    var charsLength = recalcCharsLength(newWidth);
+    if(charts[c].type == 'row'){
+      charts[c].chart.width(newWidth);
+      charts[c].chart.label(function (d) {
+        var thisKey = d.key;
+        if(thisKey.indexOf('###') > -1){
+          thisKey = thisKey.split('###')[0];
+        }
+        if(thisKey.length > charsLength){
+          return thisKey.substring(0,charsLength) + '...';
+        }
+        return thisKey;
+      })
+      charts[c].chart.redraw();
+    } else if(charts[c].type == 'bar') {
+      charts[c].chart.width(newWidth);
+      charts[c].chart.rescale();
+      charts[c].chart.redraw();
+    } else if(charts[c].type == 'pie') {
+      charts[c].chart
+        .width(sizes.width)
+        .height(sizes.height)
+        .cy(sizes.cy)
+        .innerRadius(sizes.innerRadius)
+        .radius(sizes.radius)
+        .legend(dc.legend().x(0).y(sizes.legendY).gap(10));
+      charts[c].chart.redraw();
+    } else if(charts[c].type == 'cloud') {
+      charts[c].chart.size(recalcWidthWordcloud());
+      charts[c].chart.redraw();
+    } else if(charts[c].type == 'line') {
+      charts[c].chart.width(newWidth);
+      charts[c].chart.rescale();
+      charts[c].chart.redraw();
     }
   }
 };
@@ -231,7 +234,7 @@ function addcommas(x){
   }
   return x;
 }
-//Custom date order for dataTables
+//Custom date order for dataTables and custom amount order
 var dmy = d3.timeParse("%d/%m/%Y");
 jQuery.extend( jQuery.fn.dataTableExt.oSort, {
   "date-eu-pre": function (date) {
@@ -247,28 +250,57 @@ jQuery.extend( jQuery.fn.dataTableExt.oSort, {
       return ((a < b) ? 1 : ((a > b) ? -1 : 0));
   }
 });
+jQuery.extend( jQuery.fn.dataTableExt.oSort, {
+  "amt-pre": function (v) {
+    var amt = v.replace(",","").replace("€ ","");
+    var amtNum = 0;
+    if(!isNaN(amt)) {
+      amtNum = parseFloat(amt);
+    }
+    return amtNum;
+  },
+  "amt-asc": function ( a, b ) {
+      return ((a < b) ? -1 : ((a > b) ? 1 : 0));
+  },
+  "amt-desc": function ( a, b ) {
+      return ((a < b) ? 1 : ((a > b) ? -1 : 0));
+  }
+});
 
 //Totals for footer counters
 var totalDonationsAmt = 0;
 
 //Load data and generate charts
 csv('./data/donations.csv', (err, donations) => {
+csv('./data/donations_mps_names.csv', (err, mps) => {
   //Loop through data to apply fixes and calculations
+  var idCount = 0;
   _.each(donations, function (d) {
+    d.id = idCount;
+    idCount ++;
     d.amt = 0;
-    if(d.amount_total.indexOf(' €') > -1) {
-      d.amt = parseFloat(d.amount_total.replace('.','').replace(',','.').replace(' €','').replace('€','')).toFixed(2);
+    //if(d.amount_total.indexOf(' €') > -1) {
+    d.amtString = d.amount_total.replace('.','').replace(',','.').replace(' €','').replace('€','');
+    if(!isNaN(d.amtString)) {
+      d.amt = parseFloat(d.amtString).toFixed(2);
       totalDonationsAmt += parseFloat(d.amt);
+    } else {
+      console.log(d.amount_total);
+    }
+    //Check if mp
+    d.mp = false;
+    if(_.find(mps, function (x) { return x.name.toLowerCase().trim() == d.name_donor.toLowerCase().trim() })) {
+      d.mp = true;
     }
   });
 
   //Set totals for footer counters
-  $('.count-box-donationsamt .total-count-donationsamt').text(totalDonationsAmt + ' €');
+  $('.count-box-donationsamt .total-count-donationsamt').text('€ ' + addcommas(totalDonationsAmt.toFixed(2)));
 
   //Set dc main vars. The second crossfilter is used to handle the travels stacked bar chart.
   var ndx = crossfilter(donations);
   var searchDimension = ndx.dimension(function (d) {
-      var entryString = d.name_donor + ' ' + d.political_affiliation;
+      var entryString = d.name_donor + ' ' + d.political_affiliation + ' ' + d.recipient_name + ' ismp:' + d.mp;
       return entryString.toLowerCase();
   });
 
@@ -294,7 +326,7 @@ csv('./data/donations.csv', (err, donations) => {
     var charsLength = recalcCharsLength(width);
     chart
       .width(width)
-      .height(450)
+      .height(430)
       .margins({top: 0, left: 0, right: 0, bottom: 20})
       .group(filteredGroup)
       .dimension(dimension)
@@ -319,7 +351,9 @@ csv('./data/donations.csv', (err, donations) => {
   var createYearChart = function() {
     var chart = charts.years.chart;
     var dimension = ndx.dimension(function (d) {
-      return d.year;
+      if(d.year) {
+        return d.year;
+      }
     });
     var group = dimension.group().reduceSum(function (d) {
         return d.amt;
@@ -327,7 +361,7 @@ csv('./data/donations.csv', (err, donations) => {
     var width = recalcWidth(charts.years.divId);
     chart
       .width(width)
-      .height(460)
+      .height(490)
       .margins({top: 10, left: 30, right: 0, bottom: 20})
       .group(group)
       .dimension(dimension)
@@ -367,7 +401,7 @@ csv('./data/donations.csv', (err, donations) => {
     var charsLength = recalcCharsLength(width);
     chart
       .width(width)
-      .height(450)
+      .height(480)
       .margins({top: 0, left: 0, right: 0, bottom: 20})
       .group(filteredGroup)
       .dimension(dimension)
@@ -419,7 +453,7 @@ csv('./data/donations.csv', (err, donations) => {
           "targets": 2,
           "defaultContent":"N/A",
           "data": function(d) {
-            return d.amount_total;
+            return d.address;
           }
         },
         {
@@ -448,6 +482,28 @@ csv('./data/donations.csv', (err, donations) => {
           "data": function(d) {
             return d.recipient_name;
           }
+        },
+        {
+          "searchable": false,
+          "orderable": true,
+          "targets": 6,
+          "defaultContent":"N/A",
+          "type": "amt",
+          "data": function(d) {
+            return "€ " + addcommas(d.amount_total.replace(",","."));
+          }
+        },
+        {
+          "searchable": false,
+          "orderable": true,
+          "targets": 7,
+          "defaultContent":"N/A",
+          "data": function(d) {
+            if(d.mp) {
+              return "ja";
+            }
+            return "";
+          }
         }
       ],
       "iDisplayLength" : 25,
@@ -470,12 +526,6 @@ csv('./data/donations.csv', (err, donations) => {
         });
       });
       datatable.DataTable().draw();
-
-    $('#dc-data-table tbody').on('click', 'tr', function () {
-      var data = datatable.DataTable().row( this ).data();
-      vuedata.selectedElement = data;
-      $('#detailsModal').modal();
-    });
   }
   //REFRESH TABLE
   function RefreshTable() {
@@ -513,6 +563,27 @@ csv('./data/donations.csv', (err, donations) => {
     }
   }
 
+  //Filter out mps
+  var excludeMps = function() {
+    searchDimension.filter(function(d) { 
+      return d.indexOf("ismp:true") == -1;
+    });
+    dc.redrawAll();
+  }
+  $('.toggle-mps-btn').click(function(){
+    if(vuedata.showMps){
+      vuedata.showMps = false;
+      excludeMps();
+      $('.toggle-mps-btn').html("Include mps");
+    } else {
+      vuedata.showMps = true;
+      searchDimension.filter(null);
+      $('#search-input').val('');
+      dc.redrawAll();
+      $('.toggle-mps-btn').html("Exclude mps");
+    }
+  })
+
   //Reset charts
   var resetGraphs = function() {
     for (var c in charts) {
@@ -532,7 +603,6 @@ csv('./data/donations.csv', (err, donations) => {
   createPartyChart();
   createYearChart();
   createTopDonorsChart();
-
   createTable();
 
   $('.dataTables_wrapper').append($('.dataTables_length'));
@@ -563,16 +633,16 @@ csv('./data/donations.csv', (err, donations) => {
   //Custom counters
   function drawDonationsCounter() {
     var dim = ndx.dimension (function(d) {
-      if (!d.name_donor) {
+      if (!d.id) {
         return "";
       } else {
-        return d.name_donor;
+        return d.id;
       }
     });
     var group = dim.group().reduce(
       function(p,d) {  
         p.nb +=1;
-        if (!d.name_donor) {
+        if (!d.amt) {
           return p;
         }
         p.donationsTot = +d.amt;
@@ -580,10 +650,10 @@ csv('./data/donations.csv', (err, donations) => {
       },
       function(p,d) {  
         p.nb -=1;
-        if (!d.name_donor) {
+        if (!d.amt) {
           return p;
         }
-        p.donationsTot = +d.amt;
+        p.donationsTot = -d.amt;
         return p;
       },
       function(p,d) {  
@@ -603,7 +673,7 @@ csv('./data/donations.csv', (err, donations) => {
       }).length;
     }})
     .renderlet(function (chart) {
-      $(".donationsamt").text(addcommas(donationsTot.toFixed(2)) + ' €');
+      $(".donationsamt").text('€ ' + addcommas(donationsTot.toFixed(2)));
       donationsTot=0;
     });
     counter.render();
@@ -614,4 +684,5 @@ csv('./data/donations.csv', (err, donations) => {
   window.onresize = function(event) {
     resizeGraphs();
   };
+})
 })

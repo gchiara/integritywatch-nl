@@ -15,8 +15,11 @@ $color_lobby: #42b983;
   a {
     font-weight: bold;
     color: $color_TI;
-    &.active, &:hover {
-      color: $color_TI_darker;
+    &:hover {
+      color: #dd3c31;
+    }
+    &.active {
+      color: #dd3c31;
     }
   }
   .icon-btn {
@@ -189,13 +192,13 @@ $color_lobby: #42b983;
     height: 530px;
   }
   &.tab_c_1 {
-    height: 525px;
+    height: 560px;
   }
   &.tab_c_2 {
-    height: 525px;
+    height: 560px;
   }
   &.tab_c_3 {
-    height: 525px;
+    height: 560px;
   }
   @media only screen and (max-width: 767px) {
     height: auto !important;
@@ -219,7 +222,7 @@ $color_lobby: #42b983;
     position: absolute;
     top: 50%;
     left: 25px;
-    width: 80%;
+    width: 90%;
     -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -243,7 +246,7 @@ $color_lobby: #42b983;
       background: rgba(0,0,0,0.2);
       border: none;
       padding: 15px 10px 15px 50px;
-      font-size: 18px;
+      font-size: 16px;
       color: #fff;
       &:focus {
         outline-color: #fff;
@@ -371,6 +374,28 @@ $color_lobby: #42b983;
       @media only screen and (max-width: 767px) {
         margin-right: 0;
       }
+    }
+  }
+  .toggle-mps-btn {
+    position: absolute;
+    right: 350px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    padding: 15px 20px;
+    cursor: pointer;
+    background: rgb(226, 94, 108);
+    transition: all .4s;
+    @media only screen and (max-width: 1250px) {
+      display: none;
+    }
+    &:hover, &:focus, &.active {
+      background: rgb(206, 74, 88);
+      outline: none;
     }
   }
 }
@@ -548,6 +573,9 @@ table.dataTable thead .sorting_desc_disabled {
   th {
     color: $color_TI;
     text-align: left;
+    &.donations-amt-col {
+      min-width: 150px;
+    }
   }
   td {
     text-align: left;
@@ -793,6 +821,39 @@ table.dataTable tbody tr:hover {
           display: none;
         }
       }
+    }
+  }
+}
+
+.tabC {
+  .chart-table {
+    td, th {
+      &:nth-child(3), &:nth-child(4), &:nth-child(6), &:nth-child(8) {
+        @media only screen and (max-width: 768px) {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+.toggle-mps-container-mobile {
+  text-align: left;
+  padding: 0;
+  @media only screen and (min-width: 1250px) {
+    display: none;
+  }
+  button {
+    border: none;
+    background: #ce4a58;
+    color: #fff;
+    border-radius: 2px;
+    padding: 5px 20px;
+    cursor: pointer;
+    transition: all 0.4s;
+    &:hover {
+      background: #be3a48;
+      color: #fff;
     }
   }
 }

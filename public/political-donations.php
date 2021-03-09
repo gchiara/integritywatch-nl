@@ -28,12 +28,16 @@
               <!-- INFO -->
               <div class="col-md-8 chart-col" v-if="showInfo">
                 <div class="boxed-container description-container">
-                  <h1>Integrity Watch Nederland - Political donations</h1>
-                  <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae ultrices lorem. Proin pulvinar, leo in porta porttitor, sapien est sagittis tortor, vitae porta nunc mauris vel dolor.</p> 
+                  <h1>Integrity Watch Nederland – Partijfinanciering</h1>
+                  <p>Door op onderstaande grafieken te klikken, worden de totaalbedragen aan donaties per politieke partij en de top donateurs per partij weergegeven. Integrity Watch NL maakt het gemakkelijker voor burgers en journalisten om toezicht te houden op potentiële belangenverstrengeling in de Nederlandse politiek. </p> 
                   <i class="material-icons close-btn" @click="showInfo = false">close</i>
                 </div>
               </div>
+            </div>
+          </div>
+          <div class="col-md-12 chart-col">
+            <div class="toggle-mps-container-mobile">
+              <button class="toggle-mps-btn">Exclude mps</button>
             </div>
           </div>
           <!-- CHARTS - FIRST ROW -->
@@ -64,38 +68,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae ultrices lor
                   <thead>
                     <tr class="header">
                       <th class="header">Nr</th> 
-                      <th class="header">Donor</th> 
-                      <th class="header">Amount</th> 
-                      <th class="header">Year</th> 
-                      <th class="header">Recipient</th> 
-                      <th class="header">Political Affiliation</th> 
+                      <th class="header">Naam donateur</th> 
+                      <th class="header">Adres donateur</th> 
+                      <th class="header">Jaar donatie </th>  
+                      <th class="header">Naam ontvanger</th> 
+                      <th class="header">Politieke affiliatie</th> 
+                      <th class="header donations-amt-col">Bedrag</th>
+                      <th class="header">Kamerlid</th>
                     </tr>
                   </thead>
                 </table>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- DETAILS MODAL -->
-      <div class="modal" id="detailsModal">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <!-- Modal Header -->
-            <div class="modal-header">
-              <div class="modal-title">
-                <div>{{ selectedElement.name_donor }}</div>
-              </div>
-              <button type="button" class="close" data-dismiss="modal"><i class="material-icons">close</i></button>
-            </div>
-            <!-- Modal body -->
-            <div class="modal-body">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-12">
-                    Lorem Ipsum
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -106,20 +88,21 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae ultrices lor
         <div class="row">
           <div class="footer-col col-sm-3">
             <div class="footer-input">
-              <input type="text" id="search-input" placeholder="Filter per lid of partij">
+              <input type="text" id="search-input" placeholder="Filter per lid, partij of donateur">
               <i class="material-icons">search</i>
             </div>
           </div>
           <div class="footer-col col-sm-9 footer-counts">
             <div class="dc-data-count count-box">
-              <div class="filter-count">0</div>van de <strong class="total-count">0</strong> donors
+              <div class="filter-count">0</div>van de <strong class="total-count">0</strong> donaties
             </div>
             <div class="count-box count-box-donationsamt">
-              <div class="filter-count donationsamt">0</div>van de <strong class="total-count-donationsamt">0</strong> donations amount
+              <div class="filter-count donationsamt">0</div>van het totaalbedrag aan donaties van <strong class="total-count-donationsamt">0</strong>
             </div>
           </div>
         </div>
         <!-- Reset filters -->
+        <button class="toggle-mps-btn">Exclude mps</button>
         <button class="reset-btn"><i class="material-icons">settings_backup_restore</i><span class="reset-btn-text">Reset filters</span></button>
         <!-- Share buttons -->
         <div class="footer-buttons-right">
