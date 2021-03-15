@@ -167,6 +167,11 @@ $color_lobby: #42b983;
   &.chart-container-table {
     height: auto;
   }
+  .chart-notes {
+    text-align: left;
+    font-size: 11px;
+    padding: 10px 15px 0 15px;
+  }
   &.tab_a_1 {
     height: 600px;
   }
@@ -192,13 +197,16 @@ $color_lobby: #42b983;
     height: 530px;
   }
   &.tab_c_1 {
-    height: 560px;
+    height: 630px;
+    @media only screen and (max-width: 767px) {
+      height: 630px !important;
+    }
   }
   &.tab_c_2 {
-    height: 560px;
+    height: 630px;
   }
   &.tab_c_3 {
-    height: 560px;
+    height: 630px;
   }
   @media only screen and (max-width: 767px) {
     height: auto !important;

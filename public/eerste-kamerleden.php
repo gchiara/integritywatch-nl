@@ -37,25 +37,25 @@
           </div>
           <!-- CHARTS - FIRST ROW -->
           <div class="col-md-3 chart-col">
-            <div class="boxed-container chart-container meetings_1">
+            <div class="boxed-container chart-container tab_a_1">
               <chart-header :title="charts.party.title" :info="charts.party.info" ></chart-header>
               <div class="chart-inner" id="party_chart"></div>
             </div>
           </div>
           <div class="col-md-3 chart-col">
-            <div class="boxed-container chart-container meetings_2">
+            <div class="boxed-container chart-container tab_a_2">
               <chart-header :title="charts.positions.title" :info="charts.positions.info" ></chart-header>
               <div class="chart-inner" id="positions_chart"></div>
             </div>
           </div>
           <div class="col-md-3 chart-col">
-            <div class="boxed-container chart-container meetings_3">
+            <div class="boxed-container chart-container tab_a_3">
               <chart-header :title="charts.positionsIncome.title" :info="charts.positionsIncome.info" ></chart-header>
               <div class="chart-inner" id="positionsincome_chart"></div>
             </div>
           </div>
           <div class="col-md-3 chart-col">
-            <div class="boxed-container chart-container meetings_4">
+            <div class="boxed-container chart-container tab_a_4">
               <chart-header :title="charts.positionsWithConsultancy.title" :info="charts.positionsWithConsultancy.info" ></chart-header>
               <div class="chart-inner" id="positionswithconsultancy_chart"></div>
             </div>

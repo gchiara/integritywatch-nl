@@ -100,7 +100,7 @@ new Vue({
     share: function (platform) {
       if(platform == 'twitter'){
         var thisPage = window.location.href.split('?')[0];
-        var shareText = 'Lorem ipsum ' + thisPage;
+        var shareText = 'Integrity Watch Nederland kun je snel zien hoeveel donaties politieke partijen hebben ontvangen ! ' + thisPage;
         var shareURL = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(shareText);
         window.open(shareURL, '_blank');
         return;
@@ -280,7 +280,7 @@ csv('./data/donations_mps_names.csv', (err, mps) => {
     idCount ++;
     d.amt = 0;
     //if(d.amount_total.indexOf(' €') > -1) {
-    d.amtString = d.amount_total.replace('.','').replace(',','.').replace(' €','').replace('€','');
+    d.amtString = d.amount_total.replace(' €','').replace('€','');
     if(!isNaN(d.amtString)) {
       d.amt = parseFloat(d.amtString).toFixed(2);
       totalDonationsAmt += parseFloat(d.amt);
@@ -327,13 +327,16 @@ csv('./data/donations_mps_names.csv', (err, mps) => {
     chart
       .width(width)
       .height(430)
-      .margins({top: 0, left: 0, right: 0, bottom: 20})
+      .margins({top: 0, left: 0, right: 10, bottom: 20})
       .group(filteredGroup)
       .dimension(dimension)
       .colorCalculator(function(d, i) {
         return vuedata.colors.parties[d.key];
       })
       .label(function (d) {
+          if(d.key == "SP") {
+            return "SP*";
+          }
           if(d.key.length > charsLength){
             return d.key.substring(0,charsLength) + '...';
           }
@@ -361,7 +364,7 @@ csv('./data/donations_mps_names.csv', (err, mps) => {
     var width = recalcWidth(charts.years.divId);
     chart
       .width(width)
-      .height(490)
+      .height(550)
       .margins({top: 10, left: 30, right: 0, bottom: 20})
       .group(group)
       .dimension(dimension)
@@ -373,6 +376,7 @@ csv('./data/donations_mps_names.csv', (err, mps) => {
       .renderHorizontalGridLines(true)
       .elasticY(true)
       .elasticX(false)
+      .yAxisPadding("10%")
       .title(function (d) {
         return d.key + ': ' + d.value.toFixed(2);
       });
@@ -401,7 +405,7 @@ csv('./data/donations_mps_names.csv', (err, mps) => {
     var charsLength = recalcCharsLength(width);
     chart
       .width(width)
-      .height(480)
+      .height(540)
       .margins({top: 0, left: 0, right: 0, bottom: 20})
       .group(filteredGroup)
       .dimension(dimension)
@@ -574,13 +578,13 @@ csv('./data/donations_mps_names.csv', (err, mps) => {
     if(vuedata.showMps){
       vuedata.showMps = false;
       excludeMps();
-      $('.toggle-mps-btn').html("Include mps");
+      $('.toggle-mps-btn').html("Met kamerleden");
     } else {
       vuedata.showMps = true;
       searchDimension.filter(null);
       $('#search-input').val('');
       dc.redrawAll();
-      $('.toggle-mps-btn').html("Exclude mps");
+      $('.toggle-mps-btn').html("Zonder kamerleden");
     }
   })
 
