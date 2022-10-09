@@ -845,6 +845,24 @@ table.dataTable tbody tr:hover {
   }
 }
 
+.tabD {
+  .chart-table {
+    td, th {
+      &:nth-child(4), &:nth-child(5) {
+        @media only screen and (max-width: 768px) {
+          display: none;
+        }
+      }
+      &:nth-child(1) {
+        width: 60px;
+      }
+      &:nth-child(6) {
+        width: 150px;
+      }
+    }
+  }
+}
+
 .toggle-mps-container-mobile {
   text-align: left;
   padding: 0;
@@ -862,6 +880,44 @@ table.dataTable tbody tr:hover {
     &:hover {
       background: #be3a48;
       color: #fff;
+    }
+  }
+}
+
+.mandate-select-container {
+  text-align: left;
+  padding-left: 5px;
+  .link-button {
+    border: none;
+    color: #fff;
+    display: inline-block;
+    margin: 5px 5px;
+    padding: 10px;
+    border-radius: 2px;
+    width: auto;
+    max-width: 90%;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #2a7aae;
+    text-decoration: none;
+    transition: all .4s;
+    &:hover {
+      color: #fff;
+      background-color: #1a6a9e;
+    }
+    &.active {
+      color: #fff;
+      background-color: #dd3c31;
+    }
+  }
+}
+
+/* DC legend vertical alignment fix */
+.dc-legend{
+  .dc-legend-item {
+    rect  {
+      y: -5px !important;
     }
   }
 }

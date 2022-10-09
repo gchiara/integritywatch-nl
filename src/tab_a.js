@@ -26,6 +26,7 @@ import ChartHeader from './components/ChartHeader.vue';
 
 var vuedata = {
   page: 'tabA',
+  previousmandate: false,
   loader: true,
   showInfo: true,
   showShare: true,
@@ -79,6 +80,27 @@ var vuedata = {
     //generic: ["#A8CBE0", "#3B95D0", "#1E73AB", "#0B3D5F" ],
     generic: ["#3B95D0", "#1C5075", "#DD3C31", "#FF834D" ],
     parties: {
+      "VVD": "#F68F1E",
+      "PVV": "#153360",
+      "CDA": "#009C48",
+      "D66": "#3DB54A",
+      "GL": "#8CBE57",
+      "SP": "#EE2E22",
+      "PvdA": "#BB1018",
+      "CU": "#00AEEF",
+      "PvdD": "#006535",
+      "SGP": "#F36421",
+      "DENK": "#35BFC1",
+      "FVD": "#933939",
+      "Fractie Den Haan": "#aaaaaa",
+      "Van Haga": "#777777",
+      "BBB": "#A6CB45",
+      "BIJ1": "#FFFF00",
+      "Volt": "#582488",
+      "Groep Van Haga": "#cccccc",
+      "JA21": "#999999",
+    },
+    partiesPrevious: {
       "VVD": "#f68f1e",
       "PVV": "#153360",
       "CDA": "#009c48",
@@ -127,7 +149,7 @@ new Vue({
         return;
       }
       if(platform == 'linkedin'){
-        var shareURL = 'https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fintegritywatch.nl&title=Integrity+Watch+Nederland&summary=Soldi+e+Poltica&source=integritywatch.nl';
+        var shareURL = 'https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fintegritywatch.nl&title=Integrity+Watch+Nederland&summary=Integrity+Watch+Nederland&source=integritywatch.nl';
         window.open(shareURL, '_blank', 'toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes');
       }
     },
@@ -337,6 +359,7 @@ function addcommas(x){
   }
   return x;
 }
+
 //Custom date order for dataTables
 var dmy = d3.timeParse("%d/%m/%Y");
 jQuery.extend( jQuery.fn.dataTableExt.oSort, {
@@ -424,12 +447,29 @@ var compareDate = function(date) {
   return false;
 }
 
+//Get URL parameters
+function getParameterByName(name, url) {
+  if (!url) url = window.location.href;
+  name = name.replace(/[\[\]]/g, '\\$&');
+  var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+      results = regex.exec(url);
+  if (!results) return null;
+  if (!results[2]) return '';
+  return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+var tweedekamerDataset = './data/tweedekamer.json';
+if(getParameterByName('previousmandate') == '1') {
+  tweedekamerDataset = './data/tweedekamer_previous.json';
+  vuedata.colors.parties = vuedata.colors.partiesPrevious;
+  vuedata.previousmandate = true;
+}
+
 //Load data and generate charts
-json('./data/tweedekamer.json', (err, meps) => {
+json(tweedekamerDataset, (err, meps) => {
   meps = meps.value;
   //Prepare data var for travel data, for the stacked bar chart
   var travelData = [];
-  //Loop through data to aply fixes and calculations
+  //Loop through data to apply fixes and calculations
   _.each(meps, function (d) {
     //Define full name for table list
     d.firstName = d.Voornamen;
@@ -461,7 +501,11 @@ json('./data/tweedekamer.json', (err, meps) => {
     d.activePositionsRange = '';
     d.activePositionsIncomes = [];
     d.PersoonNevenfunctie.forEach(function (x) {
-      if(x.IsActief == true){
+      x.active = false;
+      if(x.IsActief || (x.PeriodeVan && !x.PeriodeTotEnMet)) {
+        x.active = true;
+      }
+      if(x.active == true){
         d.activePositions ++;
         if(x.VergoedingSoort == 'Onbezoldigd'){
           d.activePositionsIncomes.push('Onbezoldigd');

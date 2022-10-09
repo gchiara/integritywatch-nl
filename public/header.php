@@ -14,6 +14,9 @@
       <li class="nav-item">
         <a href="./political-donations.php" class="nav-link" :class="{active: page == 'tabC'}">Partijfinanciering</a>
       </li>
+      <li class="nav-item">
+        <a href="./agendas.php" class="nav-link" :class="{active: page == 'tabD'}">Agenda's</a>
+      </li>
     </ul>
     <ul class="navbar-nav ml-auto">
       <li class="nav-item dropdown">
