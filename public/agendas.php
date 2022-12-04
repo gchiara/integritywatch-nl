@@ -82,7 +82,7 @@
             <!-- Modal Header -->
             <div class="modal-header">
               <div class="modal-title">
-                <div>{{selectedElement.datum}}</div>
+                <div>{{selectedElement.datumFormatted}}</div>
                 <div class="">{{selectedElement.activiteitnaam}}</div>
               </div>
               <button type="button" class="close" data-dismiss="modal"><i class="material-icons">close</i></button>

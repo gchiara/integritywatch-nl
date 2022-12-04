@@ -260,6 +260,12 @@ json(agendasDataFile, (err, events) => {
       d.subtitel_full = d.subtitel_full.replaceAll('href="/', 'href="https://www.rijksoverheid.nl/')
       //Get date int
       var dateInt = dateToInt(d.datum);
+      //Format date
+      d.datumFormatted = "";
+      var splitDate = d.datum.split("-");
+      if(splitDate.length == 3) {
+        d.datumFormatted = splitDate[2] + "/" + splitDate[1] + "/" + splitDate[0];
+      }
       _.each(d.people, function (p) {
         //Get ministers
         var matchingEntry = _.find(ministriesMatching, function (x) { 
@@ -425,8 +431,9 @@ json(agendasDataFile, (err, events) => {
             "orderable": true,
             "targets": 5,
             "defaultContent":"N/A",
+            "type": "date-eu",
             "data": function(d) {
-              return d.datum;
+              return d.datumFormatted;
             }
           }
         ],
