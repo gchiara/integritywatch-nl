@@ -609,7 +609,7 @@
         "datum": "2019-11-19",
         "locatie": "",
         "subtitel": "Bijeenkomst voor relevante stakeholders op het gebied van Internationaal Maatschappelijk Verantwoord Ondernemen (IMVO). Dit was 1 ...",
-        "subtitel_full": "<div class=\"intro\"><p>Bijeenkomst voor relevante stakeholders op het gebied van Internationaal Maatschappelijk Verantwoord Ondernemen (IMVO). Dit was 1 van de eerste bijeenkomsten in het kader van het project 'IMVO-maatregelen in perspectief'. Het ministerie van Buitenlandse Zaken startte dat <a href=\"/onderwerpen/internationaal-maatschappelijk-verantwoord-ondernemen-imvo/evaluatie-en-vernieuwing-imvo-beleid\">project om het huidige IMVO-beleid te evalueren</a>.</p></div>",
+        "subtitel_full": "<div class=\"intro\"><p>Bijeenkomst voor relevante stakeholders op het gebied van Internationaal Maatschappelijk Verantwoord Ondernemen (IMVO). Dit was 1 van de eerste bijeenkomsten in het kader van het project 'IMVO-maatregelen in perspectief'. Het ministerie van Buitenlandse Zaken startte dat  project om het huidige IMVO-beleid te evalueren.</p></div>",
         "type": "NA",
         "url": "/actueel/agenda/2019/11/19/brede-stakeholdersbijeenkomst-internationaal-maatschappelijk-verantwoord-ondernemen"
     },
@@ -4075,7 +4075,7 @@
         "datum": "2021-02-01",
         "locatie": "via communicatietechnologie",
         "subtitel": "Minister van Engelshoven is bij het college van bachelorstudenten aan de Universiteit Utrecht en de Universiteit van Amsterdam om ...",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>Minister van Engelshoven is bij het college van bachelorstudenten aan de Universiteit Utrecht en de Universiteit van Amsterdam om te zien hoe onderwijs in coronatijd eruit ziet.</p></div>",
         "type": "NA",
         "url": "/actueel/agenda/2021/02/01/collegetour"
     },
@@ -4085,7 +4085,7 @@
         "datum": "2021-02-01",
         "locatie": "Via communicatietechnologie",
         "subtitel": "Minister Koolmees heeft een bestuurlijk overleg SBV/UWV. ",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Koolmees heeft een bestuurlijk overleg SBV/UWV. </p></div>",
         "type": "NA",
         "url": "/actueel/agenda/2021/02/01/bestuurlijk-overleg-uwv-svb"
     },
@@ -4105,7 +4105,7 @@
         "datum": "2021-02-01",
         "locatie": "via communicatietechnologie",
         "subtitel": "Minister Slob heeft een gesprek met verschillende partijen over een duurzaam medialandschap. ",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Slob heeft een gesprek met verschillende partijen over een duurzaam medialandschap. </p></div>",
         "type": "NA",
         "url": "/actueel/agenda/2021/02/01/gesprek-over-duurzaam-medialandschap"
     },
@@ -4130,6 +4130,74 @@
         "subtitel_full": "",
         "type": "NA",
         "url": "/actueel/agenda/2021/02/01/ao-preventie"
+    },
+    {
+        "activiteitnaam": "Gesprek met MP Curaçao",
+        "bewindspersoon": [
+            "Kajsa Ollongren"
+        ],
+        "datum": "2021-02-01",
+        "locatie": "Via digitale communicatietechnologie",
+        "subtitel": "Staatssecretaris Knops heeft een gesprek met de MP van Curaçao, de heer Ruggenaath.",
+        "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Knops heeft een gesprek met de MP van Curaçao, de heer Ruggenaath.</p></div>",
+        "type": "Gesprek",
+        "url": "/actueel/agenda/2021/02/01/gesprek-met-mp-curacao"
+    },
+    {
+        "activiteitnaam": "Nationale conferentie Circulaire Economie",
+        "bewindspersoon": [
+            "Mark Rutte"
+        ],
+        "datum": "2021-02-01",
+        "locatie": "Den Haag",
+        "subtitel": "Minister-president Rutte houdt een afsluitende speech en heeft een vraaggesprek tijdens de Nationale Conferentie Circulaire ...",
+        "subtitel_full": "<div class=\"intro\"><p>Minister-president Rutte houdt een afsluitende speech en heeft een vraaggesprek tijdens de Nationale Conferentie Circulaire Economie.</p></div>",
+        "type": "Evenement",
+        "url": "/actueel/agenda/2021/02/01/nationale-conferentie-circulaire-economie"
+    },
+    {
+        "activiteitnaam": "Wetgevingsoverleg implementatie van Richtlijn 2019/713/EU",
+        "bewindspersoon": [],
+        "datum": "2021-02-01",
+        "locatie": "Den Haag",
+        "subtitel": "Minister Grapperhaus gaat in gesprek met de Tweede Kamer over de implementatie van Richtlijn 2019/713/EU van het Europees ...",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Grapperhaus gaat in gesprek met de Tweede Kamer over de implementatie van Richtlijn 2019/713/EU van het Europees Parlement en de Raad van 17 april 2019 betreffende de bestrijding van fraude met een vervalsing van niet contante betaalmiddelen.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/02/01/wetgevingsoverleg-implementatie-van-richtlijn-2019-713-eu"
+    },
+    {
+        "activiteitnaam": "Bestuurlijk overleg met MBO Raad",
+        "bewindspersoon": [],
+        "datum": "2021-02-01",
+        "locatie": "via communicatietechnologie",
+        "subtitel": "Minister Van Engelshoven heeft een regulier bestuurlijk overleg met de MBO Raad en spreekt hen over de coronamaatregelen.",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Van Engelshoven heeft een regulier bestuurlijk overleg met de MBO Raad en spreekt hen over de coronamaatregelen.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/02/01/bestuurlijk-overleg-met-mbo-raad"
+    },
+    {
+        "activiteitnaam": "Werkbezoek aan Urk",
+        "bewindspersoon": [
+            "Kajsa Ollongren"
+        ],
+        "datum": "2021-02-01",
+        "locatie": "Urk",
+        "subtitel": "Minister Ollongren brengt een bezoek in het kader van maatschappelijke onrust en corona.",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Ollongren brengt een bezoek in het kader van maatschappelijke onrust en corona.</p></div>",
+        "type": "Werkbezoek",
+        "url": "/actueel/agenda/2021/02/01/werkbezoek-aan-urk"
+    },
+    {
+        "activiteitnaam": "Bestuurlijk Overleg Doorbraakaanpak tijdige jeugdbescherming/jeugdhulp",
+        "bewindspersoon": [
+            "Hugo de Jonge,"
+        ],
+        "datum": "2021-02-01",
+        "locatie": "Den Haag",
+        "subtitel": "Minister Dekker heeft een bestuurlijk overleg met minister De Jonge, de VNG en branche organisaties (via telecommunicatie).",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Dekker heeft een bestuurlijk overleg met minister De Jonge, de VNG en branche organisaties (via telecommunicatie).</p></div>",
+        "type": "Bestuurlijk overleg",
+        "url": "/actueel/agenda/2021/02/02/bestuurlijk-overleg-doorbraakaanpak-tijdige-jeugdbescherming-jeugdhulp"
     },
     {
         "activiteitnaam": "Webinar exportcontrole strategische goederen",
@@ -5518,7 +5586,7 @@
         "datum": "2021-02-10",
         "locatie": "Tweede Kamer",
         "subtitel": "Notaoverleg Initiatiefnota van de leden Sazias, Van den Berg en Veldman over urgentie invoering uitgebreid persoonlijk profiel.",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>Notaoverleg Initiatiefnota van de leden Sazias, Van den Berg en Veldman over urgentie invoering uitgebreid persoonlijk profiel.</p></div>",
         "type": "NA",
         "url": "/actueel/agenda/2021/02/10/notaoverleg-initiatiefnota-over-urgentie-invoering-uitgebreid-persoonlijk-profiel"
     },
@@ -5551,6 +5619,63 @@
         "subtitel_full": "",
         "type": "NA",
         "url": "/actueel/agenda/2021/02/10/overleg-ronde-tafel-met-provinciale-bestuurders-over-digitale-economie-conferentie-nederland-digitaal"
+    },
+    {
+        "activiteitnaam": "Algemeen Overleg FATCA",
+        "bewindspersoon": [
+            "Wopke Hoekstra",
+            "Hans Vijlbrief"
+        ],
+        "datum": "2021-02-10",
+        "locatie": "Tweede Kamer",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "Kamervergadering",
+        "url": "/actueel/agenda/2021/02/10/algemeen-overleg-fatca"
+    },
+    {
+        "activiteitnaam": "Notaoverleg Initiatiefnota over een gezonde leefstijl",
+        "bewindspersoon": [],
+        "datum": "2021-02-10",
+        "locatie": "Tweede kamer",
+        "subtitel": "Notaoverleg Initiatiefnota van het lid Diertens over een gezonde leefstijl.",
+        "subtitel_full": "<div class=\"intro\"><p>Notaoverleg Initiatiefnota van het lid Diertens over een gezonde leefstijl.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/02/10/notaoverleg-initiatiefnota-over-een-gezonde-leefstijl"
+    },
+    {
+        "activiteitnaam": "Gesprek met voorzitter VNO-NCW",
+        "bewindspersoon": [
+            "Mark Rutte"
+        ],
+        "datum": "2021-02-10",
+        "locatie": "Den Haag",
+        "subtitel": "Gesprek met de voorzitter van VNO-NCW, mevrouw Thijssen.",
+        "subtitel_full": "<div class=\"intro\"><p>Gesprek met de voorzitter van VNO-NCW, mevrouw Thijssen.</p></div>",
+        "type": "Gesprek",
+        "url": "/actueel/agenda/2021/02/10/gesprek-met-voorzitter-vno-ncw"
+    },
+    {
+        "activiteitnaam": "Ambassadeursconferentie",
+        "bewindspersoon": [
+            "Mark Rutte"
+        ],
+        "datum": "2021-02-10",
+        "locatie": "Den Haag",
+        "subtitel": "Spreken tijdens de digitale ambassadeursconferentie.",
+        "subtitel_full": "<div class=\"intro\"><p>Spreken tijdens de digitale ambassadeursconferentie.</p></div>",
+        "type": "Internationale bijeenkomst",
+        "url": "/actueel/agenda/2021/02/10/ambassadeursconferentie"
+    },
+    {
+        "activiteitnaam": "Werkbezoek Veilig Thuis Zuid-Oost Brabant",
+        "bewindspersoon": [],
+        "datum": "2021-02-10",
+        "locatie": "via communicatietechnologie",
+        "subtitel": "Minister Grapperhaus brengt een digitaal werkbezoek aan Veilig Thuis Zuid-Oost Brabant in het kader van stalking.",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Grapperhaus brengt een digitaal werkbezoek aan Veilig Thuis Zuid-Oost Brabant in het kader van stalking.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/02/10/werkbezoek-veilig-thuis-zuid-oost-brabant"
     },
     {
         "activiteitnaam": "Gesprek met voorzitter, Lid TLN (Transport en Logistiek Nederland) en CEO van Koopman Logistics Group te Leek",
@@ -7389,7 +7514,7 @@
         "datum": "2021-03-01",
         "locatie": "Breukelen",
         "subtitel": "Minister Slob brengt een werkbezoek aan een school voor voortgezet onderwijs in verband met de heropening.",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Slob brengt een werkbezoek aan een school voor voortgezet onderwijs in verband met de heropening.</p></div>",
         "type": "NA",
         "url": "/actueel/agenda/2021/03/01/werkbezoek-heropening-voortgezet-onderwijs"
     },
@@ -7399,9 +7524,29 @@
         "datum": "2021-03-01",
         "locatie": "Utrecht",
         "subtitel": "Minister Grapperhaus is aanwezig.",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Grapperhaus is aanwezig.</p></div>",
         "type": "NA",
         "url": "/actueel/agenda/2021/03/01/strategisch-beraad-veiligheid"
+    },
+    {
+        "activiteitnaam": "Bijeenkomst Vaccinatiealliantie",
+        "bewindspersoon": [],
+        "datum": "2021-03-01",
+        "locatie": "via communicatietechnologie",
+        "subtitel": "Staatssecretaris Blokhuis neemt deel aan de laatste bijeenkomst van de Vaccinatiealliantie.",
+        "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Blokhuis neemt deel aan de laatste bijeenkomst van de Vaccinatiealliantie.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/03/01/bijeenkomst-vaccinatiealliantie"
+    },
+    {
+        "activiteitnaam": "Werkbezoek aan ROC Mondriaan",
+        "bewindspersoon": [],
+        "datum": "2021-03-01",
+        "locatie": "Den Haag",
+        "subtitel": "Minister Van Engelshoven brengt een werkbezoek aan een MBO klas van het ROC Mondriaan in het kader van onderwijs in coronatijd.",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Van Engelshoven brengt een werkbezoek aan een MBO klas van het ROC Mondriaan in het kader van onderwijs in coronatijd.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/03/01/werkbezoek-aan-roc-mondriaan"
     },
     {
         "activiteitnaam": "Gesprek met Sligro en Bidfood",
@@ -8756,7 +8901,7 @@
         "datum": "2021-03-11",
         "locatie": "Via communicatietechnologie",
         "subtitel": "Minister Van Engelshoven voert een bestuurlijk overleg met de SBB.",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Van Engelshoven voert een bestuurlijk overleg met de SBB.</p></div>",
         "type": "NA",
         "url": "/actueel/agenda/2021/03/11/bestuurlijk-overleg-met-de-samenwerkingsorganisatie-beroepsonderwijs-en-bedrijfsleven-sbb"
     },
@@ -8766,7 +8911,7 @@
         "datum": "2021-03-11",
         "locatie": "Via communicatietechnologie",
         "subtitel": "Minister Van Engelshoven spreekt vertegenwoordigers van de MBO Raad en de NRTO over een update van het corona- servicedocument ...",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Van Engelshoven spreekt vertegenwoordigers van de MBO Raad en de NRTO over een update van het corona- servicedocument MBO.</p></div>",
         "type": "NA",
         "url": "/actueel/agenda/2021/03/11/gesprek-over-servicedocument-mbo"
     },
@@ -8776,7 +8921,7 @@
         "datum": "2021-03-11",
         "locatie": "Via communicatietechnologie",
         "subtitel": "Minister Koolmees gaat in gesprek met minister Van ’t Wout (EZK), FNV, VNO-NCW, de Vakcentrale voor Professionals (VCP) en de ...",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Koolmees gaat in gesprek met minister Van ’t Wout (EZK), FNV, VNO-NCW, de Vakcentrale voor Professionals (VCP) en de Stichting van de Arbeid (StvdA).</p></div>",
         "type": "NA",
         "url": "/actueel/agenda/2021/03/11/bo-corona-en-economie"
     },
@@ -13905,7 +14050,7 @@
         "datum": "2021-04-22",
         "locatie": "Via digitale communicatietechnologie",
         "subtitel": "Staatssecretaris Knops heeft een gesprek met de Nationale Ombudsman.",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Knops heeft een gesprek met de Nationale Ombudsman.</p></div>",
         "type": "NA",
         "url": "/actueel/agenda/2021/04/22/gesprek-met-de-nationale-ombudsman"
     },
@@ -13918,6 +14063,58 @@
         "subtitel_full": "",
         "type": "NA",
         "url": "/actueel/agenda/2021/04/22/kamerdebat-burgerinitiatief-ehbo-in-het-onderwijs"
+    },
+    {
+        "activiteitnaam": "Bestuurlijk Overleg Stikstof Breed",
+        "bewindspersoon": [
+            "Carola Schouten"
+        ],
+        "datum": "2021-04-22",
+        "locatie": "Digitaal",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "Bestuurlijk overleg",
+        "url": "/actueel/agenda/2021/04/22/bestuurlijk-overleg-stikstof-breed"
+    },
+    {
+        "activiteitnaam": "Congres ‘Ontwikkeling Telt’ van het programma tel mee taal",
+        "bewindspersoon": [],
+        "datum": "2021-04-22",
+        "locatie": "via communicatietechnologie",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/04/22/congres-ontwikkeling-telt-van-het-programma-tel-mee-taal"
+    },
+    {
+        "activiteitnaam": "BO VNG",
+        "bewindspersoon": [],
+        "datum": "2021-04-22",
+        "locatie": "Via digitale communicatietechnologie",
+        "subtitel": "Minister Koolmees heeft een bestuurlijk overleg met de Vereniging van Nederlandse Gemeenten (VNG). ",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Koolmees heeft een bestuurlijk overleg met de Vereniging van Nederlandse Gemeenten (VNG). </p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/04/22/bo-vng"
+    },
+    {
+        "activiteitnaam": "Werkbezoek Portugal",
+        "bewindspersoon": [],
+        "datum": "2021-04-22",
+        "locatie": "Lissabon",
+        "subtitel": "Strategic compass Lissabon.",
+        "subtitel_full": "<div class=\"intro\"><p>Strategic compass Lissabon.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/04/22/werkbezoek-portugal"
+    },
+    {
+        "activiteitnaam": "Europese Commissie – Vrouwen in Digitaal dag",
+        "bewindspersoon": [],
+        "datum": "2021-04-22",
+        "locatie": "Via communicatietechnologie",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/04/22/europese-commissie-%E2%80%93-vrouwen-in-digitaal-dag"
     },
     {
         "activiteitnaam": "Bestuurlijk overleg Kinderopvangtoeslagenaffaire",
@@ -18228,7 +18425,7 @@
         "datum": "2021-06-02",
         "locatie": "Den Haag",
         "subtitel": "Minister Grapperhaus brengt een werkbezoek aan een cyberoefening.",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Grapperhaus brengt een werkbezoek aan een cyberoefening.</p></div>",
         "type": "NA",
         "url": "/actueel/agenda/2021/06/02/werkbezoek-cyberoefening-isidoor-2021"
     },
@@ -18240,7 +18437,7 @@
         "datum": "2021-06-02",
         "locatie": "Tilburg",
         "subtitel": "Minister Ollongren brengt een werkbezoek aan de gemeente Tilburg in het kader van leefbaarheid.",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Ollongren brengt een werkbezoek aan de gemeente Tilburg in het kader van leefbaarheid.</p></div>",
         "type": "Werkbezoek",
         "url": "/actueel/agenda/2021/06/02/werkbezoek-aan-gemeente-tilburg"
     },
@@ -18250,7 +18447,7 @@
         "datum": "2021-06-02",
         "locatie": "digitaal vergaderen",
         "subtitel": "Minister Van Engelshoven reikt de LSVb scriptieprijs uit. ",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Van Engelshoven reikt de LSVb scriptieprijs uit. </p></div>",
         "type": "NA",
         "url": "/actueel/agenda/2021/06/02/uitreiking-lsvb-scriptieprijs"
     },
@@ -19655,7 +19852,7 @@
         "datum": "2021-06-11",
         "locatie": "Den Haag",
         "subtitel": "De ministerraad heeft de  agenda vastgesteld. Na afloop van de ministerraad is de  besluitenlijst gepubliceerd.",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>De ministerraad heeft de <a href=\"/documenten/vergaderstukken/2021/06/11/agenda-ministerraad-11-juni-2021\">agenda</a> vastgesteld. Na afloop van de ministerraad is de <a href=\"/documenten/vergaderstukken/2021/06/11/geannoteerde-besluitenlijst-ministerraad-11-juni-2021\">besluitenlijst</a> gepubliceerd.</p></div>",
         "type": "Ministerraad, onderraad, ministerieel overleg",
         "url": "/actueel/agenda/2021/06/11/ministerraad"
     },
@@ -19675,7 +19872,7 @@
         "datum": "2021-06-11",
         "locatie": "Amsterdam en Diemen",
         "subtitel": "Minister Grapperhaus brengt een werkbezoek aan Kindt Clinics en Eric Vermetten in het kader van PTSS bij politieagenten.",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Grapperhaus brengt een werkbezoek aan Kindt Clinics en Eric Vermetten in het kader van PTSS bij politieagenten.</p></div>",
         "type": "NA",
         "url": "/actueel/agenda/2021/06/11/werkbezoek-ptss-bij-politieagenten"
     },
@@ -21573,7 +21770,7 @@
         "datum": "2021-06-24",
         "locatie": "Via digitale communicatietechnologie",
         "subtitel": "De minister spreekt via een videoboodschap op het Veerstichting symposium.",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>De minister spreekt via een videoboodschap op het Veerstichting symposium.</p></div>",
         "type": "Evenement",
         "url": "/actueel/agenda/2021/06/24/het-veerstichting-symposium"
     },
@@ -21583,9 +21780,117 @@
         "datum": "2021-06-24",
         "locatie": "Den Haag",
         "subtitel": "Minister Grapperhaus neemt deel aan het Rechtsstaatgesprek georganiseerd door de Raad van State.",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Grapperhaus neemt deel aan het Rechtsstaatgesprek georganiseerd door de Raad van State.</p></div>",
         "type": "NA",
         "url": "/actueel/agenda/2021/06/24/rechtsstaatgesprek-raad-van-state"
+    },
+    {
+        "activiteitnaam": "Uitreiking eremedaille voor Verdiensten Politie",
+        "bewindspersoon": [],
+        "datum": "2021-06-24",
+        "locatie": "Den Haag",
+        "subtitel": "Minister Grapperhaus is aanwezig bij de uitreiking van de eremedaille voor Verdiensten Politie.",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Grapperhaus is aanwezig bij de uitreiking van de eremedaille voor Verdiensten Politie.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/06/24/uitreiking-eremedaille-voor-verdiensten-politie"
+    },
+    {
+        "activiteitnaam": "'Collegetour'",
+        "bewindspersoon": [],
+        "datum": "2021-06-24",
+        "locatie": "Via digitale communicatietechnologie",
+        "subtitel": "Minister Van Engelshoven is bij het college van studenten van de Assoicate degree ondernemen en retail management bij NHL ...",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Van Engelshoven is bij het college van studenten van de Assoicate degree ondernemen en retail management bij NHL Stenden, om te zien hoe onderwijs in coronatijd eruit ziet.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/06/24/collegetour"
+    },
+    {
+        "activiteitnaam": "Wetgevingsoverleg Jaarverslag en Slotwet Buitenlandse Handel en Ontwikkelingssamenwerking 2020",
+        "bewindspersoon": [
+            "Sigrid Kaag"
+        ],
+        "datum": "2021-06-24",
+        "locatie": "Den Haag",
+        "subtitel": "Minister Kaag neemt deel aan het wetgevingsoverleg over het jaarverslag en de slotwet Buitenlandse Handel en ...",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Kaag neemt deel aan het wetgevingsoverleg over het jaarverslag en de slotwet Buitenlandse Handel en Ontwikkelingssamenwerking.</p></div>",
+        "type": "Kamervergadering",
+        "url": "/actueel/agenda/2021/06/24/wetgevingsoverleg-jaarverslag-en-slotwet-buitenlandse-handel-en-ontwikkelingssamenwerking-2020"
+    },
+    {
+        "activiteitnaam": "Gesprek met de president van De Nederlandsche Bank",
+        "bewindspersoon": [
+            "Wopke Hoekstra"
+        ],
+        "datum": "2021-06-24",
+        "locatie": "Via digitale communicatietechnologie",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "Gesprek",
+        "url": "/actueel/agenda/2021/06/24/gesprek-met-de-president-van-de-nederlandsche-bank"
+    },
+    {
+        "activiteitnaam": "Tweeminutendebat MIRT",
+        "bewindspersoon": [],
+        "datum": "2021-06-24",
+        "locatie": "Tweede Kamer",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "Kamervergadering",
+        "url": "/actueel/agenda/2021/06/24/tweeminutendebat-mirt"
+    },
+    {
+        "activiteitnaam": "Commissiedebat Gezond en veilig werken",
+        "bewindspersoon": [],
+        "datum": "2021-06-24",
+        "locatie": "Den Haag",
+        "subtitel": "Minister Koolmees neemt deel aan het commissiedebat Gezond en veilig werken.",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Koolmees neemt deel aan het commissiedebat Gezond en veilig werken.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/06/24/commissiedebat-gezond-en-veilig-werken"
+    },
+    {
+        "activiteitnaam": "Kennismaking met de Directeur Generaal CBS",
+        "bewindspersoon": [],
+        "datum": "2021-06-24",
+        "locatie": "Den Haag",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/06/24/kennismaking-met-de-directeur-generaal-cbs"
+    },
+    {
+        "activiteitnaam": "Tweeminutendebat Maritiem",
+        "bewindspersoon": [],
+        "datum": "2021-06-24",
+        "locatie": "Tweede Kamer",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/06/24/tweeminutendebat-maritiem"
+    },
+    {
+        "activiteitnaam": "Bestuurlijk Overleg Waddengebied met Minister I&W en provincies",
+        "bewindspersoon": [
+            "Carola Schouten"
+        ],
+        "datum": "2021-06-24",
+        "locatie": "Via digitale communicatietechnologie",
+        "subtitel": "Voor vragen of verzoeken rondom dit gesprek kunt u contact opnemen met Bertine Moenaff-Fennema, tel: 06-29172880 of ...",
+        "subtitel_full": "<div class=\"intro\"><p>Voor vragen of verzoeken rondom dit gesprek kunt u contact opnemen met Bertine Moenaff-Fennema, tel: 06-29172880 of <a href=\"mailto:b.l.moenaff@minlnv.nl\">b.l.moenaff@minlnv.nl</a> .</p></div>",
+        "type": "Bestuurlijk overleg",
+        "url": "/actueel/agenda/2021/06/24/bestuurlijk-overleg-waddengebied-met-minister-iw-en-provincies"
+    },
+    {
+        "activiteitnaam": "Europese Raad",
+        "bewindspersoon": [
+            "Mark Rutte"
+        ],
+        "datum": "2021-06-24",
+        "locatie": "Brussel",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "Internationale bijeenkomst",
+        "url": "/actueel/agenda/2021/06/24/europese-raad"
     },
     {
         "activiteitnaam": "PicNic",
@@ -22960,7 +23265,7 @@
         "datum": "2021-07-01",
         "locatie": "Den Haag",
         "subtitel": "Minister Koolmees neemt het rapport onverplichte tegemoetkoming onvolledige AOW Suriname in ontvangst door de Commissie van ...",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Koolmees neemt het rapport onverplichte tegemoetkoming onvolledige AOW Suriname in ontvangst door de Commissie van Wijzen.</p></div>",
         "type": "NA",
         "url": "/actueel/agenda/2021/07/01/aow-suriname"
     },
@@ -22985,6 +23290,162 @@
         "subtitel_full": "",
         "type": "NA",
         "url": "/actueel/agenda/2021/07/01/commissiedebat-sportbeleid"
+    },
+    {
+        "activiteitnaam": "Commissiedebat mijnbouw en Groningen",
+        "bewindspersoon": [
+            "Kajsa Ollongren,"
+        ],
+        "datum": "2021-07-01",
+        "locatie": "Tweede Kamer",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "Kamervergadering",
+        "url": "/actueel/agenda/2021/07/01/commissiedebat-mijnbouw-en-groningen"
+    },
+    {
+        "activiteitnaam": "Gesprek wethouder onderwijs Rotterdam",
+        "bewindspersoon": [],
+        "datum": "2021-07-01",
+        "locatie": "Via communicatietechnologie",
+        "subtitel": "Minister Slob voert een gesprek met de wethouder onderwijs van de gemeente Rotterdam over de aanpak van het lerarentekort en het ...",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Slob voert een gesprek met de wethouder onderwijs van de gemeente Rotterdam over de aanpak van het lerarentekort en het Nationaal Programma Onderwijs.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/07/01/gesprek-wethouder-onderwijs-rotterdam"
+    },
+    {
+        "activiteitnaam": "Werkbezoek politie Harderwijk",
+        "bewindspersoon": [],
+        "datum": "2021-07-01",
+        "locatie": "Harderwijk",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/07/01/werkbezoek-politie-harderwijk"
+    },
+    {
+        "activiteitnaam": "Overleg Jeugdbescherming en jeugdhulp",
+        "bewindspersoon": [],
+        "datum": "2021-07-01",
+        "locatie": "Via communicatietechnologie",
+        "subtitel": "Minister Dekker en staatssecretaris Blokhuis hebben een bestuurlijk overleg met de VNG in het kader van convenant continuïteit ...",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Dekker en staatssecretaris Blokhuis hebben een bestuurlijk overleg met de VNG in het kader van convenant continuïteit jeugdhulp.</p></div>",
+        "type": "Bestuurlijk overleg",
+        "url": "/actueel/agenda/2021/07/01/bo-jeugdbescherming-en-jeugdhulp"
+    },
+    {
+        "activiteitnaam": "Commissiedebat Hersteloperatie kinderopvangtoeslag",
+        "bewindspersoon": [
+            "Alexandra van Huffelen"
+        ],
+        "datum": "2021-07-01",
+        "locatie": "Tweede Kamer",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "Kamervergadering",
+        "url": "/actueel/agenda/2021/07/01/commissiedebat-hersteloperatie-kinderopvangtoeslag"
+    },
+    {
+        "activiteitnaam": "Tweeminutendebat Openbaar vervoer en taxi",
+        "bewindspersoon": [],
+        "datum": "2021-07-01",
+        "locatie": "Tweede Kamer",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/07/01/tweeminutendebat-openbaar-vervoer-en-taxi"
+    },
+    {
+        "activiteitnaam": "Bestuurlijk Overleg Regionale Economie",
+        "bewindspersoon": [],
+        "datum": "2021-07-01",
+        "locatie": "Via communicatie technologie",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/07/01/bestuurlijk-overleg-regionale-economie"
+    },
+    {
+        "activiteitnaam": "Persmoment inwerkingtreding Alcoholwet",
+        "bewindspersoon": [],
+        "datum": "2021-07-01",
+        "locatie": "Den Haag",
+        "subtitel": "Staatssecretaris Blokhuis is aanwezig bij een bijeenkomst in het kader van de inwerkingtreding van de Alcoholwet.",
+        "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Blokhuis is aanwezig bij een bijeenkomst in het kader van de inwerkingtreding van de Alcoholwet.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/07/01/persmoment-inwerkingtreding-alcoholwet"
+    },
+    {
+        "activiteitnaam": "Gesprek met de kinderombudsvrouw",
+        "bewindspersoon": [],
+        "datum": "2021-07-01",
+        "locatie": "Den Haag",
+        "subtitel": "Staatssecretaris Blokhuis spreekt met de kinderombudsvrouw, Margrite Kalverboer.",
+        "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Blokhuis spreekt met de kinderombudsvrouw, Margrite Kalverboer.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/07/01/gesprek-met-de-kinderombudsvrouw"
+    },
+    {
+        "activiteitnaam": "Overleg met vertegenwoordigers van MKB",
+        "bewindspersoon": [],
+        "datum": "2021-07-01",
+        "locatie": "Via communicatie technologie",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "Bestuurlijk overleg",
+        "url": "/actueel/agenda/2021/07/01/overleg-met-vertegenwoordigers-van-mkb"
+    },
+    {
+        "activiteitnaam": "Overleg met de Chileense minister",
+        "bewindspersoon": [
+            "Dilan Yeşilgöz-Zegerius"
+        ],
+        "datum": "2021-07-01",
+        "locatie": "Den Haag",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "Gesprek",
+        "url": "/actueel/agenda/2021/07/01/overleg-met-de-chileense-minister"
+    },
+    {
+        "activiteitnaam": "Commissiedebat pakketbeheer",
+        "bewindspersoon": [],
+        "datum": "2021-07-01",
+        "locatie": "Rotterdam",
+        "subtitel": "Minister van Ark opent de polikliniek in Kralingen.",
+        "subtitel_full": "<div class=\"intro\"><p>Minister van Ark opent de polikliniek in Kralingen.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/07/01/opening-polikliniek-kralingen"
+    },
+    {
+        "activiteitnaam": "Digitaal Event WetSenB",
+        "bewindspersoon": [],
+        "datum": "2021-07-01",
+        "locatie": "Utrecht",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/07/01/digitaal-event-wetsenb"
+    },
+    {
+        "activiteitnaam": "Commissiedebat Externe veiligheid",
+        "bewindspersoon": [],
+        "datum": "2021-07-01",
+        "locatie": "Tweede Kamer",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/07/01/commissiedebat-externe-veiligheid"
+    },
+    {
+        "activiteitnaam": "Tweeminutendebat Spoor, spoorveiligheid en ERTMS",
+        "bewindspersoon": [],
+        "datum": "2021-07-01",
+        "locatie": "Tweede Kamer",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/07/01/tweeminutendebat-spoor-spoorveiligheid-en-ertms"
     },
     {
         "activiteitnaam": "Ministerraad",
@@ -24258,7 +24719,7 @@
         "datum": "2021-07-09",
         "locatie": "Via communicatietechnologie",
         "subtitel": "Minister Koolmees neemt deel aan het bestuurlijk overleg Kinderopvangtoeslag samen met minister Ollongren, minister Dekker, ...",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Koolmees neemt deel aan het bestuurlijk overleg Kinderopvangtoeslag samen met minister Ollongren, minister Dekker, staatssecretaris Van Huffelen en de VNG.</p></div>",
         "type": "NA",
         "url": "/actueel/agenda/2021/07/09/bo-kot"
     },
@@ -24280,7 +24741,7 @@
         "datum": "2021-07-09",
         "locatie": "Venetië (Italië)",
         "subtitel": "Minister Hoekstra vertegenwoordigt Nederland bij de G20-bijeenkomst voor ministers van Financiën.",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Hoekstra vertegenwoordigt Nederland bij de G20-bijeenkomst voor ministers van Financiën.</p></div>",
         "type": "Internationale bijeenkomst",
         "url": "/actueel/agenda/2021/07/09/g20"
     },
@@ -24296,7 +24757,7 @@
         "datum": "2021-07-09",
         "locatie": "Den Haag",
         "subtitel": "De ministerraad heeft de  agenda vastgesteld. Na afloop van de ministerraad is de besluitenlijst gepubliceerd.",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>De ministerraad heeft de <a href=\"/documenten/vergaderstukken/2021/07/09/agenda-ministerraad-9-juli-2021\">agenda</a> vastgesteld. Na afloop van de ministerraad is de <a href=\"/documenten/vergaderstukken/2021/07/09/geannoteerde-besluitenlijst-ministerraad-9-juli-2021\">besluitenlijst</a> gepubliceerd.</p></div>",
         "type": "Ministerraad, onderraad, ministerieel overleg",
         "url": "/actueel/agenda/2021/07/09/ministerraad"
     },
@@ -24326,7 +24787,7 @@
         "datum": "2021-07-09",
         "locatie": "Den Haag",
         "subtitel": "De Rijksministerraad heeft de  agenda vastgesteld. Na afloop van de Rijksministerraad is de besluitenlijst gepubliceerd.",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>De Rijksministerraad heeft de <a href=\"/documenten/vergaderstukken/2021/07/09/agenda-rijksministerraad-9-juli-2021\">agenda</a> vastgesteld. Na afloop van de Rijksministerraad is de <a href=\"/documenten/vergaderstukken/2021/07/09/geannoteerde-besluitenlijst-rijksministerraad-9-juli-2021\">besluitenlijst</a> gepubliceerd.</p></div>",
         "type": "Ministerraad, onderraad, ministerieel overleg",
         "url": "/actueel/agenda/2021/07/09/rijksministerraad"
     },
@@ -25033,8 +25494,7 @@
         "activiteitnaam": "Ministeriële Commissie COVID-19",
         "bewindspersoon": [
             "Kajsa Ollongren",
-            "Sigrid Kaag",
-            "Dennis Wiersma"
+            "Sigrid Kaag"
         ],
         "datum": "2021-08-13",
         "locatie": "Den Haag",
@@ -25170,8 +25630,7 @@
         "bewindspersoon": [
             "Mark Rutte",
             "Sigrid Kaag",
-            "Wopke Hoekstra",
-            "Dennis Wiersma,"
+            "Wopke Hoekstra"
         ],
         "datum": "2021-08-19",
         "locatie": "Den Haag",
@@ -25306,14 +25765,12 @@
     },
     {
         "activiteitnaam": "Steunpakket",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-08-23",
         "locatie": "Via communicatietechnologie",
         "subtitel": "Staatssecretaris Wiersma neemt deel aan het bestuurlijk overleg inzake steunpakket, samen met de VNG en Divosa.",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma neemt deel aan het bestuurlijk overleg inzake steunpakket, samen met de VNG en Divosa.</p></div>",
-        "type": "Bestuurlijk overleg",
+        "type": "NA",
         "url": "/actueel/agenda/2021/08/23/steunpakket"
     },
     {
@@ -25449,8 +25906,7 @@
             "Kajsa Ollongren",
             "Carola Schouten",
             "Wopke Hoekstra",
-            "Hans Vijlbrief",
-            "Dennis Wiersma"
+            "Hans Vijlbrief,"
         ],
         "datum": "2021-08-25",
         "locatie": "Den Haag",
@@ -25496,8 +25952,7 @@
         "bewindspersoon": [
             "Carola Schouten",
             "Wopke Hoekstra",
-            "Hans Vijlbrief",
-            "Dennis Wiersma"
+            "Hans Vijlbrief"
         ],
         "datum": "2021-08-25",
         "locatie": "Den Haag",
@@ -25541,8 +25996,7 @@
             "Kajsa Ollongren",
             "Carola Schouten",
             "Wopke Hoekstra",
-            "Hans Vijlbrief",
-            "Dennis Wiersma,"
+            "Hans Vijlbrief"
         ],
         "datum": "2021-08-26",
         "locatie": "Den Haag",
@@ -25629,8 +26083,7 @@
             "Kajsa Ollongren",
             "Carola Schouten",
             "Sigrid Kaag",
-            "Wopke Hoekstra",
-            "Dennis Wiersma,"
+            "Wopke Hoekstra"
         ],
         "datum": "2021-08-27",
         "locatie": "Den Haag",
@@ -25696,14 +26149,12 @@
     },
     {
         "activiteitnaam": "Participatiewet",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-08-30",
         "locatie": "Huizen",
         "subtitel": "Staatssecretaris Wiersma gaat op werkbezoek in Huizen en praat met consulenten en ervaringsdeskundigen over de uitvoering van de ...",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma gaat op werkbezoek in Huizen en praat met consulenten en ervaringsdeskundigen over de uitvoering van de participatiewet.</p></div>",
-        "type": "Werkbezoek",
+        "type": "NA",
         "url": "/actueel/agenda/2021/08/30/participatiewet"
     },
     {
@@ -25988,8 +26439,7 @@
     {
         "activiteitnaam": "Oudergesprekken",
         "bewindspersoon": [
-            "Alexandra van Huffelen",
-            "Dennis Wiersma"
+            "Alexandra van Huffelen,"
         ],
         "datum": "2021-09-01",
         "locatie": "Rotterdam",
@@ -26237,8 +26687,7 @@
             "Carola Schouten",
             "Wopke Hoekstra",
             "Hans Vijlbrief",
-            "Dilan Yeşilgöz-Zegerius",
-            "Dennis Wiersma"
+            "Dilan Yeşilgöz-Zegerius"
         ],
         "datum": "2021-09-03",
         "locatie": "Den Haag",
@@ -26308,8 +26757,7 @@
             "Carola Schouten",
             "Wopke Hoekstra",
             "Hans Vijlbrief",
-            "Dilan Yeşilgöz-Zegerius",
-            "Dennis Wiersma"
+            "Dilan Yeşilgöz-Zegerius"
         ],
         "datum": "2021-09-03",
         "locatie": "Den Haag",
@@ -26430,14 +26878,12 @@
     },
     {
         "activiteitnaam": "Gesprek met een aantal leden van de BKB Academie",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-09-06",
         "locatie": "Den Haag",
         "subtitel": "Staatssecretaris Wiersma gaat in gesprek met een aantal leden van de BKB Academie.",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma gaat in gesprek met een aantal leden van de BKB Academie.</p></div>",
-        "type": "Gesprek",
+        "type": "NA",
         "url": "/actueel/agenda/2021/09/06/gesprek-met-bkb-academie"
     },
     {
@@ -26461,6 +26907,262 @@
         "subtitel_full": "",
         "type": "Gesprek",
         "url": "/actueel/agenda/2021/09/06/gesprek-met-gedupeerde-ouders-over-position-paper"
+    },
+    {
+        "activiteitnaam": "Werkbezoek Shell in het kader van verduurzaming",
+        "bewindspersoon": [],
+        "datum": "2021-09-06",
+        "locatie": "Pernis",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/09/06/werkbezoek-shell-in-het-kader-van-verduurzaming"
+    },
+    {
+        "activiteitnaam": "Digital Summit in Tallinn",
+        "bewindspersoon": [],
+        "datum": "2021-09-06",
+        "locatie": "Tallinn (Estland)",
+        "subtitel": "Staatssecretaris Knops neemt deel aan de Digital Summit in Tallinn.",
+        "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Knops neemt deel aan de <span dir=\"ltr\" lang=\"en\">Digital Summit</span> in Tallinn.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/09/06/digital-summit-in-tallinn"
+    },
+    {
+        "activiteitnaam": "Gesprek\tmet dhr. Momen (minister Buitenlandse Zaken in Bangladesh)",
+        "bewindspersoon": [],
+        "datum": "2021-09-06",
+        "locatie": "Rotterdam",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/09/06/gesprekmet-dhr.-momen-minister-buitenlandse-zaken-in-bangladesh"
+    },
+    {
+        "activiteitnaam": "Gesprek met Commissie Heiner/Woodrow",
+        "bewindspersoon": [],
+        "datum": "2021-09-06",
+        "locatie": "Den Haag",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/09/06/gesprek-met-commissie-heiner-woodrow"
+    },
+    {
+        "activiteitnaam": "Uitreiking certificaten en lego-pakket (Van Wind naar Watt lespakket)",
+        "bewindspersoon": [
+            "Dilan Yeşilgöz-Zegerius"
+        ],
+        "datum": "2021-09-06",
+        "locatie": "Via communicatietechnologie",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "Evenement",
+        "url": "/actueel/agenda/2021/09/06/uitreiking-certificaten-en-lego-pakket-van-wind-naar-watt-lespakket"
+    },
+    {
+        "activiteitnaam": "Extra Ecofinraad",
+        "bewindspersoon": [
+            "Wopke Hoekstra"
+        ],
+        "datum": "2021-09-06",
+        "locatie": "Den Haag (Digitaal)",
+        "subtitel": "Minister Hoekstra vertegenwoordigt Nederland bij de bijeenkomst van de ministers van Financiën van de 27 EU-lidstaten.",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Hoekstra vertegenwoordigt Nederland bij de bijeenkomst van de ministers van Financiën van de 27 EU-lidstaten.</p></div>",
+        "type": "Internationale bijeenkomst",
+        "url": "/actueel/agenda/2021/09/06/extra-ecofinraad"
+    },
+    {
+        "activiteitnaam": "Bestuurlijk overleg met het UWV",
+        "bewindspersoon": [],
+        "datum": "2021-09-06",
+        "locatie": "Via communicatietechnologie",
+        "subtitel": "Minister Koolmees neemt deel aan een bestuurlijk overleg met het UWV.",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Koolmees neemt deel aan een bestuurlijk overleg met het UWV.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/09/06/bestuurlijk-overleg-met-uwv"
+    },
+    {
+        "activiteitnaam": "Bezoek van Zweedse minister van Europese Zaken",
+        "bewindspersoon": [
+            "Sigrid Kaag"
+        ],
+        "datum": "2021-09-06",
+        "locatie": "Den Haag",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "Gesprek",
+        "url": "/actueel/agenda/2021/09/06/bezoek-van-zweedse-minister-van-europese-zaken"
+    },
+    {
+        "activiteitnaam": "Veiligheidsberaad",
+        "bewindspersoon": [],
+        "datum": "2021-09-06",
+        "locatie": "Utrecht",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/09/06/veiligheidsberaad"
+    },
+    {
+        "activiteitnaam": "Gesprek met de Koning",
+        "bewindspersoon": [
+            "Mark Rutte"
+        ],
+        "datum": "2021-09-06",
+        "locatie": "Den Haag",
+        "subtitel": "Minister-president Rutte heeft het wekelijks gesprek met de Koning.",
+        "subtitel_full": "<div class=\"intro\"><p>Minister-president Rutte heeft het wekelijks gesprek met de Koning.</p></div>",
+        "type": "Gesprek",
+        "url": "/actueel/agenda/2021/09/06/gesprek-met-de-koning"
+    },
+    {
+        "activiteitnaam": "Ceremoniële opening GCA Floating Office",
+        "bewindspersoon": [],
+        "datum": "2021-09-06",
+        "locatie": "Rotterdam",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/09/06/ceremoniele-opening-gca-floating-office"
+    },
+    {
+        "activiteitnaam": "Werkbezoek opening Integrale Kindcentra",
+        "bewindspersoon": [],
+        "datum": "2021-09-06",
+        "locatie": "Genemuiden",
+        "subtitel": "Minister Slob verricht de officiële opening van 3 Integrale Kindcentra.",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Slob verricht de officiële opening van 3 Integrale Kindcentra.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/09/06/werkbezoek-opening-integrale-kindcentra"
+    },
+    {
+        "activiteitnaam": "Opening Academisch Jaar Politieacademie",
+        "bewindspersoon": [],
+        "datum": "2021-09-06",
+        "locatie": "Apeldoorn",
+        "subtitel": "Minister Grapperhaus geeft een toespraak bij de opening van het academisch jaar van de Politieacademie.",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Grapperhaus geeft een toespraak bij de opening van het academisch jaar van de Politieacademie.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/09/06/opening-academisch-jaar-politieacademie"
+    },
+    {
+        "activiteitnaam": "Gesprek\tmet mw. Espinosa (UNFCCC)",
+        "bewindspersoon": [],
+        "datum": "2021-09-06",
+        "locatie": "Rotterdam",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/09/06/gesprekmet-mw.-espinosa-unfccc"
+    },
+    {
+        "activiteitnaam": "Gesprek met VNG/IPO en Unie van Waterschappen",
+        "bewindspersoon": [
+            "Kajsa Ollongren"
+        ],
+        "datum": "2021-09-06",
+        "locatie": "Via communicatietechnologie",
+        "subtitel": "Minister Ollongren heeft een gesprek met VNG/IPO en de Unie van Waterschappen samen met de staatssecretaris van Financiën.",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Ollongren heeft een gesprek met VNG/IPO en de Unie van Waterschappen samen met de staatssecretaris van Financiën.</p></div>",
+        "type": "Gesprek",
+        "url": "/actueel/agenda/2021/09/06/gesprek-met-vng-ipo-en-unie-van-waterschappen"
+    },
+    {
+        "activiteitnaam": "Gesprek met gedupeerde ouder kinderopvangtoeslag",
+        "bewindspersoon": [
+            "Mark Rutte"
+        ],
+        "datum": "2021-09-06",
+        "locatie": "Den Haag",
+        "subtitel": "Gesprek met gedupeerde ouder kinderopvangtoeslag, samen staatssecretaris Van Huffelen (Financiën) en staatssecretaris Wiersma ...",
+        "subtitel_full": "<div class=\"intro\"><p>Gesprek met gedupeerde ouder kinderopvangtoeslag, samen staatssecretaris Van Huffelen (Financiën) en staatssecretaris Wiersma (SZW).<br/>\n </p></div>",
+        "type": "Gesprek",
+        "url": "/actueel/agenda/2021/09/06/gesprek-met-gedupeerde-ouder-kinderopvangtoeslag"
+    },
+    {
+        "activiteitnaam": "Strategisch Beraad Veiligheid",
+        "bewindspersoon": [],
+        "datum": "2021-09-06",
+        "locatie": "Via communicatietechnologie",
+        "subtitel": "Minister Grapperhaus is aanwezig.",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Grapperhaus is aanwezig.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/09/06/strategisch-beraad-veiligheid"
+    },
+    {
+        "activiteitnaam": "Opening schooljaar regio Zuid",
+        "bewindspersoon": [],
+        "datum": "2021-09-06",
+        "locatie": "Den Bosch",
+        "subtitel": "Minister Slob brengt een bezoek aan een school voor voortgezet onderwijs in het kader van de start van het nieuwe schooljaar in ...",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Slob brengt een bezoek aan een school voor voortgezet onderwijs in het kader van de start van het nieuwe schooljaar in de regio Zuid.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/09/06/opening-schooljaar-regio-zuid"
+    },
+    {
+        "activiteitnaam": "Werkbezoek aan FC Zoetermeer",
+        "bewindspersoon": [],
+        "datum": "2021-09-06",
+        "locatie": "Zoetermeer",
+        "subtitel": "Staatssecretaris Paul Blokhuis trapt samen met NOC*NSF en de sportbonden de campagne 'NIX18, wel zo sportief' af bij voetbalclub ...",
+        "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Paul Blokhuis trapt samen met NOC*NSF en de sportbonden de campagne 'NIX18, wel zo sportief' af bij voetbalclub FC Zoetermeer.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/09/06/werkbezoek-aan-fc-zoetermeer"
+    },
+    {
+        "activiteitnaam": "Werkbezoek aan de Sociale Dienst Drechtsteden",
+        "bewindspersoon": [],
+        "datum": "2021-09-06",
+        "locatie": "Dordrecht",
+        "subtitel": "Staatssecretaris Wiersma brengt een  werkbezoek aan de Sociale Dienst Drechtsteden en praat met ervaringsdeskundigen over o.a. de ...",
+        "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma brengt een  werkbezoek aan de Sociale Dienst Drechtsteden en praat met ervaringsdeskundigen over o.a. de TOZO.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/09/06/werkbezoek-aan-de-sociale-dienst-drechtsteden"
+    },
+    {
+        "activiteitnaam": "Bezoek van Jemenitische minister van Buitenlandse Zaken",
+        "bewindspersoon": [
+            "Sigrid Kaag"
+        ],
+        "datum": "2021-09-06",
+        "locatie": "Den Haag",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "Gesprek",
+        "url": "/actueel/agenda/2021/09/06/bezoek-van-jemenitische-minister-van-buitenlandse-zaken"
+    },
+    {
+        "activiteitnaam": "High-level dialogue with Friends of het Global Center on Adaptation",
+        "bewindspersoon": [],
+        "datum": "2021-09-06",
+        "locatie": "Rotterdam",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/09/06/high-level-dialogue-with-friends-of-het-global-center-on-adaptation"
+    },
+    {
+        "activiteitnaam": "Gesprek met CEO Tennet",
+        "bewindspersoon": [
+            "Dilan Yeşilgöz-Zegerius"
+        ],
+        "datum": "2021-09-06",
+        "locatie": "Den Haag",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "Gesprek",
+        "url": "/actueel/agenda/2021/09/06/gesprek-met-ceo-tennet"
+    },
+    {
+        "activiteitnaam": "Gesprek over lerarentekort",
+        "bewindspersoon": [],
+        "datum": "2021-09-06",
+        "locatie": "Via communicatietechnologie",
+        "subtitel": "Minister Van Engelshoven (OCW) voert een overleg met vertegenwoordigers van de Haagse Hogeschool en de Gemeenteraad Den Haag over ...",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Van Engelshoven (OCW) voert een overleg met vertegenwoordigers van de Haagse Hogeschool en de Gemeenteraad Den Haag over de aanpak van het lerarentekort.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/09/06/gesprek-over-lerarentekort"
     },
     {
         "activiteitnaam": "Ministeriële Commissie COVID-19",
@@ -26498,14 +27200,12 @@
     },
     {
         "activiteitnaam": "Gesprek met bijstandsgerechtigden over de participatiewet",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-09-07",
         "locatie": "Via communicatietechnologie",
         "subtitel": "Staatssecretaris Wiersma gaat in gesprek met bijstandsgerechtigden over de participatiewet.",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma gaat in gesprek met bijstandsgerechtigden over de participatiewet.</p></div>",
-        "type": "Gesprek",
+        "type": "NA",
         "url": "/actueel/agenda/2021/09/07/gesprek-over-de-participatiewet"
     },
     {
@@ -26543,14 +27243,12 @@
     },
     {
         "activiteitnaam": "Gesprek over laaggeletterdheid",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-09-07",
         "locatie": "Via communicatietechnologie",
         "subtitel": "Staatssecretaris Wiersma gaat in gesprek met Stichting Lezen en Schrijven en Stichting ABC over de impact van laaggeletterdheid.",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma gaat in gesprek met Stichting Lezen en Schrijven en Stichting ABC over de impact van laaggeletterdheid.</p></div>",
-        "type": "Gesprek",
+        "type": "NA",
         "url": "/actueel/agenda/2021/09/07/gesprek-over-laaggeletterdheid"
     },
     {
@@ -27043,14 +27741,12 @@
     },
     {
         "activiteitnaam": "Bestuurlijk overleg met Vereniging Nederlandse Gemeenten (VNG)",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-09-09",
         "locatie": "Den Haag",
         "subtitel": "",
         "subtitel_full": "",
-        "type": "Bestuurlijk overleg",
+        "type": "NA",
         "url": "/actueel/agenda/2021/09/09/bestuurlijk-overleg-met-de-vng"
     },
     {
@@ -27154,8 +27850,7 @@
             "Wopke Hoekstra",
             "Alexandra van Huffelen",
             "Hans Vijlbrief",
-            "Dilan Yeşilgöz-Zegerius",
-            "Dennis Wiersma"
+            "Dilan Yeşilgöz-Zegerius"
         ],
         "datum": "2021-09-10",
         "locatie": "Den Haag",
@@ -27192,8 +27887,7 @@
         "activiteitnaam": "Ministeriële Commissie COVID-19",
         "bewindspersoon": [
             "Carola Schouten",
-            "Sigrid Kaag",
-            "Dennis Wiersma,"
+            "Sigrid Kaag"
         ],
         "datum": "2021-09-10",
         "locatie": "Den Haag",
@@ -27216,14 +27910,12 @@
     },
     {
         "activiteitnaam": "Gesprek over schuldencampagne",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-09-10",
         "locatie": "Rotterdam",
         "subtitel": "Staatssecretaris Wiersma gaat in het kader van de schuldencampagne in gesprek met o.a. GeldFit en een schuldenambassadeur.",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma gaat in het kader van de schuldencampagne in gesprek met o.a. GeldFit en een schuldenambassadeur.</p></div>",
-        "type": "Gesprek",
+        "type": "NA",
         "url": "/actueel/agenda/2021/09/10/gesprek-over-schuldencampagne"
     },
     {
@@ -27438,14 +28130,12 @@
     },
     {
         "activiteitnaam": "Werkbezoek aan Sociale Verzekeringsbank",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-09-13",
         "locatie": "Amstelveen",
         "subtitel": "",
         "subtitel_full": "",
-        "type": "Werkbezoek",
+        "type": "NA",
         "url": "/actueel/agenda/2021/09/13/werkbezoek-aan-sociale-verzekeringsbank"
     },
     {
@@ -27620,8 +28310,7 @@
         "activiteitnaam": "Ministeriële Commissie COVID-19",
         "bewindspersoon": [
             "Carola Schouten",
-            "Sigrid Kaag",
-            "Dennis Wiersma"
+            "Sigrid Kaag"
         ],
         "datum": "2021-09-14",
         "locatie": "Den Haag",
@@ -27760,14 +28449,12 @@
     },
     {
         "activiteitnaam": "Gesprek met MKB-Nederland",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-09-15",
         "locatie": "via communicatietechnologie",
         "subtitel": "Staatssecretaris Wiersma gaat in gesprek met de voorzitter en algemeen directeur van MKB-Nederland.",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma gaat in gesprek met de voorzitter en algemeen directeur van MKB-Nederland.</p></div>",
-        "type": "Gesprek",
+        "type": "NA",
         "url": "/actueel/agenda/2021/09/15/gesprek-met-mkb-nederland"
     },
     {
@@ -28285,9 +28972,7 @@
     },
     {
         "activiteitnaam": "Werkbezoek Regionale Mobiliteitsteam (RMT)",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-09-16",
         "locatie": "Amsterdam",
         "subtitel": "",
@@ -28461,14 +29146,12 @@
     },
     {
         "activiteitnaam": "Werkbezoek aan Kinderopvang 2Penselen",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-09-20",
         "locatie": "Den Haag",
         "subtitel": "Staatssecretaris Wiersma brengt een werkbezoek aan Kinderopvang 2Penselen en gaat in gesprek met pedagogisch medewerkers.",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma brengt een werkbezoek aan Kinderopvang 2Penselen en gaat in gesprek met pedagogisch medewerkers.</p></div>",
-        "type": "Werkbezoek",
+        "type": "NA",
         "url": "/actueel/agenda/2021/09/20/werkbezoek-aan-kinderopvang-2penselen"
     },
     {
@@ -28743,8 +29426,7 @@
             "Wopke Hoekstra",
             "Alexandra van Huffelen",
             "Hans Vijlbrief",
-            "Dilan Yeşilgöz-Zegerius",
-            "Dennis Wiersma"
+            "Dilan Yeşilgöz-Zegerius"
         ],
         "datum": "2021-09-21",
         "locatie": "Den Haag",
@@ -29286,14 +29968,12 @@
     },
     {
         "activiteitnaam": "Werkbezoek SW-bedrijf UW Utrecht",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-09-27",
         "locatie": "Utrecht",
         "subtitel": "Staatssecretaris Wiersma brengt een werkbezoek aan SW-bedrijf UW Utrecht en gaat in gesprek met medewerkers en de directie van UW.",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma brengt een werkbezoek aan SW-bedrijf UW Utrecht en gaat in gesprek met medewerkers en de directie van UW.</p></div>",
-        "type": "Werkbezoek",
+        "type": "NA",
         "url": "/actueel/agenda/2021/09/27/werkbezoek-sw-bedrijf-uw-utrecht"
     },
     {
@@ -29468,14 +30148,12 @@
     },
     {
         "activiteitnaam": "Gesprek met MKB Nederland",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-09-27",
         "locatie": "Via communicatietechnologie",
         "subtitel": "Staatssecretaris Wiersma neemt deel aan een overleg met de voorzitter en algemeen directeur van MKB Nederland.",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma neemt deel aan een overleg met de voorzitter en algemeen directeur van MKB Nederland.</p></div>",
-        "type": "Gesprek",
+        "type": "NA",
         "url": "/actueel/agenda/2021/09/27/gesprek-met-mkb-nederland"
     },
     {
@@ -29581,8 +30259,7 @@
             "Mark Rutte",
             "Kajsa Ollongren",
             "Carola Schouten",
-            "Alexandra van Huffelen",
-            "Dennis Wiersma"
+            "Alexandra van Huffelen"
         ],
         "datum": "2021-09-28",
         "locatie": "Den Haag",
@@ -29611,7 +30288,7 @@
         "datum": "2021-09-28",
         "locatie": "Eerste Kamer",
         "subtitel": "Debat met de Eerste Kamer over de Wijziging van de Wet griffierechten burgerlijke zaken in verband met het introduceren van ...",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>Debat met de Eerste Kamer over de Wijziging van de Wet griffierechten burgerlijke zaken in verband met het introduceren van meerdere griffierechtcategorieën voor lagere geldvorderingen en het toevoegen van een griffierechtcategorie voor hoge geldvorderingen.</p></div>",
         "type": "NA",
         "url": "/actueel/agenda/2021/09/28/plenaire-behandeling-wijziging-wet-griffierechten-burgerlijke-zaken"
     },
@@ -29621,7 +30298,7 @@
         "datum": "2021-09-28",
         "locatie": "Tweede Kamer",
         "subtitel": "Minister Van Engelshoven voert een debat in de Tweede Kamer over cultuur en corona.",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Van Engelshoven voert een debat in de Tweede Kamer over cultuur en corona.</p></div>",
         "type": "NA",
         "url": "/actueel/agenda/2021/09/28/commissiedebat-cultuur-en-corona"
     },
@@ -29633,9 +30310,32 @@
         "datum": "2021-09-28",
         "locatie": "Den Haag",
         "subtitel": "Overleg tussen de minister-president en de viceministers-presidenten.",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>Overleg tussen de minister-president en de viceministers-presidenten.</p></div>",
         "type": "Bestuurlijk overleg",
         "url": "/actueel/agenda/2021/09/28/overleg-mp-en-vice-mps"
+    },
+    {
+        "activiteitnaam": "REACH UP diner",
+        "bewindspersoon": [],
+        "datum": "2021-09-28",
+        "locatie": "Via communicatietechnologie",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/09/28/reach-up-diner"
+    },
+    {
+        "activiteitnaam": "Commissiedebat Fatca",
+        "bewindspersoon": [
+            "Wopke Hoekstra",
+            "Hans Vijlbrief"
+        ],
+        "datum": "2021-09-28",
+        "locatie": "Tweede Kamer",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "Kamervergadering",
+        "url": "/actueel/agenda/2021/09/28/commissiedebat-fatca"
     },
     {
         "activiteitnaam": "2nd Ministerial Meeting on Antarctic Marine",
@@ -29790,8 +30490,7 @@
     {
         "activiteitnaam": "Oudergesprekken",
         "bewindspersoon": [
-            "Alexandra van Huffelen",
-            "Dennis Wiersma"
+            "Alexandra van Huffelen,"
         ],
         "datum": "2021-09-29",
         "locatie": "Amsterdam",
@@ -30077,8 +30776,7 @@
     {
         "activiteitnaam": "Bestuurlijk Overleg Huisvesting Aandachtsgroepen",
         "bewindspersoon": [
-            "Kajsa Ollongren",
-            "Dennis Wiersma"
+            "Kajsa Ollongren"
         ],
         "datum": "2021-09-30",
         "locatie": "Via communicatietechnologie",
@@ -30163,9 +30861,7 @@
     },
     {
         "activiteitnaam": "SchuldenlabNL",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-09-30",
         "locatie": "Den Haag",
         "subtitel": "Minister Koolmees en staatssecretaris Wiersma gaan in gesprek met de voorzitter en medebestuurslid van SchuldenlabNL.",
@@ -30408,9 +31104,7 @@
     },
     {
         "activiteitnaam": "Bestuurlijk overleg onderwijsroute in het inburgeringsstelsel",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-10-04",
         "locatie": "Digitaal",
         "subtitel": "Minister Koolmees en staatssecretaris Wiersma nemen deel aan het bestuurlijk overleg over de onderwijsroute in het ...",
@@ -30702,14 +31396,12 @@
     },
     {
         "activiteitnaam": "Werkbezoek UWV",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-10-04",
         "locatie": "Den Haag",
         "subtitel": "Staatssecretaris Wiersma gaat op werkbezoek bij het UWV.",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma gaat op werkbezoek bij het UWV.</p></div>",
-        "type": "Werkbezoek",
+        "type": "NA",
         "url": "/actueel/agenda/2021/10/04/werkbezoek-uwv"
     },
     {
@@ -31012,7 +31704,7 @@
         "datum": "2021-10-06",
         "locatie": "Tweede Kamer",
         "subtitel": "JBZ = Raad Justitie en Binnenlandse Zaken ",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>JBZ = Raad Justitie en Binnenlandse Zaken </p></div>",
         "type": "NA",
         "url": "/actueel/agenda/2021/10/06/commissiedebat-jbz-raad-vreemdelingen--en-asielzaken"
     },
@@ -31025,6 +31717,158 @@
         "subtitel_full": "",
         "type": "NA",
         "url": "/actueel/agenda/2021/10/06/gesprek-met-australische-minister-voor-handel-toerisme-en-investeringen"
+    },
+    {
+        "activiteitnaam": "Gesprek\tmet de heer Van Zanen (burgemeester Den Haag)",
+        "bewindspersoon": [],
+        "datum": "2021-10-06",
+        "locatie": "Den Haag",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/10/06/gesprekmet-burgemeester-den-haag"
+    },
+    {
+        "activiteitnaam": "Werkbezoeken in het kader van de Banenafspraak",
+        "bewindspersoon": [],
+        "datum": "2021-10-06",
+        "locatie": "Woudenberg en Leusden",
+        "subtitel": "Staatssecretaris Wiersma gaat op werkbezoek bij TM techniek BV in Woudenberg en Bloemendal te Leusden.",
+        "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma gaat op werkbezoek bij TM techniek BV in Woudenberg en Bloemendal te Leusden.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/10/06/werkbezoeken-in-het-kader-van-de-banenafspraak"
+    },
+    {
+        "activiteitnaam": "Regulier bestuurlijk overleg PO-Raad",
+        "bewindspersoon": [],
+        "datum": "2021-10-06",
+        "locatie": "Via communicatietechnologie",
+        "subtitel": "Minister Slob heeft een regulier bestuurlijk overleg met de PO-Raad.",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Slob heeft een regulier bestuurlijk overleg met de PO-Raad.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/10/06/regulier-bestuurlijk-overleg-po-raad"
+    },
+    {
+        "activiteitnaam": "Commissie Debat Klimaatakkoord gebouwde omgeving",
+        "bewindspersoon": [
+            "Kajsa Ollongren"
+        ],
+        "datum": "2021-10-06",
+        "locatie": "Tweede Kamer",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "Kamervergadering",
+        "url": "/actueel/agenda/2021/10/06/commissie-debat-klimaatakkoord-gebouwde-omgeving"
+    },
+    {
+        "activiteitnaam": "Gesprek met Koreaanse minister voor Handel",
+        "bewindspersoon": [],
+        "datum": "2021-10-06",
+        "locatie": "Parijs",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/10/06/gesprek-met-koreaanse-minister-voor-handel"
+    },
+    {
+        "activiteitnaam": "Gesprek\tmet de heer Vonhof (MKB-Nederland)",
+        "bewindspersoon": [],
+        "datum": "2021-10-06",
+        "locatie": "Den Haag",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/10/06/gesprekmet-mkb-nederland"
+    },
+    {
+        "activiteitnaam": "Bijdrage discussieplatform inzake de Participatiewet",
+        "bewindspersoon": [],
+        "datum": "2021-10-06",
+        "locatie": "Amsterdam",
+        "subtitel": "Staatssecretaris Wiersma levert een bijdrage aan een discussieplatform inzake de Participatiewet met onder andere de wethouder ...",
+        "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma levert een bijdrage aan een discussieplatform inzake de Participatiewet met onder andere de wethouder van Amsterdam.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/10/06/bijdrage-discussieplatform-inzake-de-participatiewet"
+    },
+    {
+        "activiteitnaam": "Werkbezoek aan Kansspelautoriteit (KSA)",
+        "bewindspersoon": [],
+        "datum": "2021-10-06",
+        "locatie": "Den Haag",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/10/06/werkbezoek-aan-kansspelautoriteit-ksa"
+    },
+    {
+        "activiteitnaam": "Overhandiging IC-dagboek",
+        "bewindspersoon": [],
+        "datum": "2021-10-06",
+        "locatie": "Tweede Kamer",
+        "subtitel": "Minister Grapperhaus krijgt een IC-dagboek overhandigd.",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Grapperhaus krijgt een IC-dagboek overhandigd.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/10/06/overhandiging-ic-dagboek"
+    },
+    {
+        "activiteitnaam": "Overleg met de Raad voor Cultuur",
+        "bewindspersoon": [],
+        "datum": "2021-10-06",
+        "locatie": "Via communicatietechnologie",
+        "subtitel": "Ministers Van Engelshoven en Slob hebben overleg met de Raad voor Cultuur over de culturele Basisinfrastructuur (BIS).",
+        "subtitel_full": "<div class=\"intro\"><p>Ministers Van Engelshoven en Slob hebben overleg met de Raad voor Cultuur over de culturele Basisinfrastructuur (BIS).</p></div>",
+        "type": "Bestuurlijk overleg",
+        "url": "/actueel/agenda/2021/10/06/overleg-met-de-raad-voor-cultuur"
+    },
+    {
+        "activiteitnaam": "Gesprek\tmet BOVAG",
+        "bewindspersoon": [],
+        "datum": "2021-10-06",
+        "locatie": "Den Haag",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/10/06/gesprekmet-bovag"
+    },
+    {
+        "activiteitnaam": "Bestuurlijk overleg Stuurgroep Water 2021",
+        "bewindspersoon": [],
+        "datum": "2021-10-06",
+        "locatie": "Via communicatietechnologie",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/10/06/bestuurlijk-overleg-stuurgroep-water-2021"
+    },
+    {
+        "activiteitnaam": "Overleg met de stedelijke regio’s over cultuur",
+        "bewindspersoon": [],
+        "datum": "2021-10-06",
+        "locatie": "Via communicatietechnologie",
+        "subtitel": "Minister Van Engelshoven heeft een overleg met de stedelijke regio’s (incl. IPO en VNG) over de culturele Basisinfrastructuur.",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Van Engelshoven heeft een overleg met de stedelijke regio’s (incl. IPO en VNG) over de culturele Basisinfrastructuur.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/10/06/overleg-met-de-stedelijke-regios-over-cultuur"
+    },
+    {
+        "activiteitnaam": "Gesprek\tmet de heer Van der Steenhoven (KNMI)",
+        "bewindspersoon": [],
+        "datum": "2021-10-06",
+        "locatie": "Den Haag",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/10/06/gesprekmet-knmi"
+    },
+    {
+        "activiteitnaam": "Gesprek\tmet mevrouw Demmers (Stichting Natuur & Milieu)",
+        "bewindspersoon": [],
+        "datum": "2021-10-06",
+        "locatie": "Den Haag",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/10/06/gesprekmet-stichting-natuur--milieu"
     },
     {
         "activiteitnaam": "Congres Duurzame Zorg 2021",
@@ -31332,8 +32176,7 @@
             "Kajsa Ollongren",
             "Carola Schouten",
             "Wopke Hoekstra",
-            "Hans Vijlbrief",
-            "Dennis Wiersma"
+            "Hans Vijlbrief"
         ],
         "datum": "2021-10-08",
         "locatie": "Den Haag",
@@ -31664,8 +32507,7 @@
         "activiteitnaam": "Ministeriële commissie COVID-19",
         "bewindspersoon": [
             "Carola Schouten",
-            "Alexandra van Huffelen",
-            "Dennis Wiersma,"
+            "Alexandra van Huffelen"
         ],
         "datum": "2021-10-12",
         "locatie": "Den Haag",
@@ -31744,14 +32586,12 @@
     },
     {
         "activiteitnaam": "Gesprek met een werkende arme",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-10-12",
         "locatie": "Tubbergen",
         "subtitel": "",
         "subtitel_full": "",
-        "type": "Gesprek",
+        "type": "NA",
         "url": "/actueel/agenda/2021/10/12/gesprek-met-een-werkende-arme"
     },
     {
@@ -31845,8 +32685,7 @@
             "Kajsa Ollongren",
             "Carola Schouten",
             "Alexandra van Huffelen",
-            "Dilan Yeşilgöz-Zegerius",
-            "Dennis Wiersma"
+            "Dilan Yeşilgöz-Zegerius"
         ],
         "datum": "2021-10-12",
         "locatie": "Den Haag",
@@ -31909,14 +32748,12 @@
     },
     {
         "activiteitnaam": "Overleg met sociale partners over vaccinatie op de werkvloer",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-10-13",
         "locatie": "Via telecommunicatie",
         "subtitel": "Staatssecretaris Wiersma neemt deel aan een overleg met sociale partners over vaccinatie op de werkvloer.",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma neemt deel aan een overleg met sociale partners over vaccinatie op de werkvloer.</p></div>",
-        "type": "Gesprek",
+        "type": "NA",
         "url": "/actueel/agenda/2021/10/13/overleg-met-sociale-partners-over-vaccinatie-op-de-werkvloer"
     },
     {
@@ -32103,26 +32940,22 @@
     },
     {
         "activiteitnaam": "Coalitieoverleg met woordvoerders Pensioenen",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-10-13",
         "locatie": "Via telecommunicatie",
         "subtitel": "Staatssecretaris Wiersma neemt deel aan het coalitieoverleg met woordvoerders Pensioenen VVD, D66, CDA, CU, PvdA, GL en ...",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma neemt deel aan het coalitieoverleg met woordvoerders Pensioenen VVD, D66, CDA, CU, PvdA, GL en medewerkers.</p></div>",
-        "type": "Gesprek",
+        "type": "NA",
         "url": "/actueel/agenda/2021/10/13/coalitieoverleg-met-woordvoerders-pensioenen"
     },
     {
         "activiteitnaam": "Werkbezoek aan schuldenambassadeur",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-10-13",
         "locatie": "Wormerveer",
         "subtitel": "Staatssecretaris Wiersma brengt een werkbezoek aan een schuldenambassadeur en helpt mee in zijn foodtruck.",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma brengt een werkbezoek aan een schuldenambassadeur en helpt mee in zijn foodtruck.</p></div>",
-        "type": "Werkbezoek",
+        "type": "NA",
         "url": "/actueel/agenda/2021/10/13/werkbezoek-aan-schuldenambassadeur"
     },
     {
@@ -32159,14 +32992,12 @@
     },
     {
         "activiteitnaam": "Plenair debat niet-indexeren basiskinderbijslagbedrag",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-10-13",
         "locatie": "Tweede Kamer",
         "subtitel": "Staatssecretaris Wiersma neemt deel aan het plenair debat niet-indexeren basiskinderbijslagbedrag.",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma neemt deel aan het plenair debat niet-indexeren basiskinderbijslagbedrag.</p></div>",
-        "type": "Kamervergadering",
+        "type": "NA",
         "url": "/actueel/agenda/2021/10/13/plenair-debat-niet-indexeren-basiskinderbijslagbedrag"
     },
     {
@@ -32191,14 +33022,12 @@
     },
     {
         "activiteitnaam": "Bestuurlijk Overleg Wetsvoorstel Toekomst Pensioenen met sociale partners",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-10-14",
         "locatie": "Den Haag, SZW",
         "subtitel": "Staatssecretaris Wiersma neemt deel aan het bestuurlijk overleg Wetsvoorstel Toekomst Pensioenen met sociale partners (FNV, CNV, ...",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma neemt deel aan het bestuurlijk overleg Wetsvoorstel Toekomst Pensioenen met sociale partners (FNV, CNV, VNO-NCW, MKB-NL en VCP) en DGW.</p></div>",
-        "type": "Bestuurlijk overleg",
+        "type": "NA",
         "url": "/actueel/agenda/2021/10/14/bestuurlijk-overleg-wetsvoorstel-toekomst-pensioenen-met-sociale-partners"
     },
     {
@@ -32233,14 +33062,12 @@
     },
     {
         "activiteitnaam": "Gesprek NOW met Koninklijke Auping en VNO-NCW",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-10-14",
         "locatie": "Den Haag, SZW",
         "subtitel": "Staatssecretaris Wiersma gaat in gesprek met Koninklijke Auping en VNO-NCW over de NOW.",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma gaat in gesprek met Koninklijke Auping en VNO-NCW over de NOW.</p></div>",
-        "type": "Gesprek",
+        "type": "NA",
         "url": "/actueel/agenda/2021/10/14/gesprek-now-met-koninklijke-auping-en-vno-ncw"
     },
     {
@@ -32321,14 +33148,12 @@
     },
     {
         "activiteitnaam": "Gesprek NOW met VDL-groep en VNO-NCW",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-10-14",
         "locatie": "Den Haag, SZW",
         "subtitel": "Staatssecretaris Wiersma gaat in gesprek met VDL-groep en VNO-NCW over de NOW.",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma gaat in gesprek met VDL-groep en VNO-NCW over de NOW.</p></div>",
-        "type": "Gesprek",
+        "type": "NA",
         "url": "/actueel/agenda/2021/10/14/gesprek-now-met-vdl-groep-en-vno-ncw"
     },
     {
@@ -32369,7 +33194,7 @@
         "datum": "2021-10-14",
         "locatie": "Den Haag",
         "subtitel": "Minister Knapen neemt deel aan het Commissiedebat Raad Buitenlandse Zaken in de Tweede Kamer.",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Knapen neemt deel aan het Commissiedebat Raad Buitenlandse Zaken in de Tweede Kamer.</p></div>",
         "type": "NA",
         "url": "/actueel/agenda/2021/10/14/commissiedebat-raad-buitenlandse-zaken"
     },
@@ -32381,7 +33206,7 @@
         "datum": "2021-10-14",
         "locatie": "via communicatietechnologie",
         "subtitel": "Bestuurlijk overleg ministers BZK, EZK, LNV en OCW.",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>Bestuurlijk overleg ministers BZK, EZK, LNV en OCW.</p></div>",
         "type": "Bestuurlijk overleg",
         "url": "/actueel/agenda/2021/10/14/bewindsliedenoverleg"
     },
@@ -32391,7 +33216,7 @@
         "datum": "2021-10-14",
         "locatie": "Haarlemmermeer",
         "subtitel": "Minister Grapperhaus brengt een werkbezoek aan Nieuw-Vennep in het kader van de inleveractie en actieplan Wapens en Jongeren.",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Grapperhaus brengt een werkbezoek aan Nieuw-Vennep in het kader van de inleveractie en actieplan Wapens en Jongeren.</p></div>",
         "type": "NA",
         "url": "/actueel/agenda/2021/10/14/werkbezoek-inleveractie-en-actieplan-wapens-en-jongeren"
     },
@@ -32401,9 +33226,81 @@
         "datum": "2021-10-14",
         "locatie": "Den Haag",
         "subtitel": "Minister Kamp heeft een 2 Minutendebat over Afghanistan.",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Kamp heeft een 2 Minutendebat over Afghanistan.</p></div>",
         "type": "NA",
         "url": "/actueel/agenda/2021/10/14/2-minutendebat"
+    },
+    {
+        "activiteitnaam": "Fotoserie voor magazine over beschut werk",
+        "bewindspersoon": [],
+        "datum": "2021-10-14",
+        "locatie": "Den Haag",
+        "subtitel": "Staatssecretaris Wiersma levert een bijdrage aan een magazine over beschut werk.",
+        "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma levert een bijdrage aan een magazine over beschut werk.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/10/12/fotoserie-voor-magazine-over-beschut-werk"
+    },
+    {
+        "activiteitnaam": "Bestuurlijk overleg examenmonitor",
+        "bewindspersoon": [],
+        "datum": "2021-10-14",
+        "locatie": "via communicatietechnologie",
+        "subtitel": "Minister Van Engelshoven en minister Slob voeren een bestuurlijk overleg met een brede vertegenwoordiging van sectorraden over de ...",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Van Engelshoven en minister Slob voeren een bestuurlijk overleg met een brede vertegenwoordiging van sectorraden over de examenmonitor 2021.</p></div>",
+        "type": "Bestuurlijk overleg",
+        "url": "/actueel/agenda/2021/10/14/bestuurlijk-overleg-examenmonitor"
+    },
+    {
+        "activiteitnaam": "Motie Westerscheldetunnel",
+        "bewindspersoon": [],
+        "datum": "2021-10-14",
+        "locatie": "Digitaal",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/10/14/motie-westerscheldetunnel"
+    },
+    {
+        "activiteitnaam": "Overleg met de Taskforce Cultuur",
+        "bewindspersoon": [],
+        "datum": "2021-10-14",
+        "locatie": "via communicatietechnologie",
+        "subtitel": "Minister Van Engelshoven heeft een overleg met de Taskforce Cultuur over de culturele Basisinfrastructuur.",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Van Engelshoven heeft een overleg met de Taskforce Cultuur over de culturele Basisinfrastructuur.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/10/14/overleg-met-de-taskforce-cultuur"
+    },
+    {
+        "activiteitnaam": "Bewindsliedenoverleg over Groningen",
+        "bewindspersoon": [
+            "Carola Schouten"
+        ],
+        "datum": "2021-10-14",
+        "locatie": "Via communicatietechnologie",
+        "subtitel": "Bestuurlijk overleg over de gevolgen van de aardbevingsproblematiek in Groningen.",
+        "subtitel_full": "<div class=\"intro\"><p>Bestuurlijk overleg over de gevolgen van de aardbevingsproblematiek in Groningen.</p></div>",
+        "type": "Bestuurlijk overleg",
+        "url": "/actueel/agenda/2021/10/14/bewindsliedenoverleg-over-groningen"
+    },
+    {
+        "activiteitnaam": "CES Unveiled",
+        "bewindspersoon": [],
+        "datum": "2021-10-14",
+        "locatie": "Amsterdam",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/10/14/ces-unveiled"
+    },
+    {
+        "activiteitnaam": "Werkbezoek Kinderboekenweek",
+        "bewindspersoon": [],
+        "datum": "2021-10-14",
+        "locatie": "Den Haag",
+        "subtitel": "Minister Slob leest voor aan leerlingen van groep 5 en 6 van een school voor primair onderwijs in het kader van de ...",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Slob leest voor aan leerlingen van groep 5 en 6 van een school voor primair onderwijs in het kader van de Kinderboekenweek.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/10/14/werkbezoek-kinderboekenweek"
     },
     {
         "activiteitnaam": "Ontvangst Oostenrijkse minister van Binnenlandse Zaken door minister Grapperhaus",
@@ -32474,8 +33371,7 @@
             "Carola Schouten",
             "Wopke Hoekstra",
             "Hans Vijlbrief",
-            "Dilan Yeşilgöz-Zegerius",
-            "Dennis Wiersma"
+            "Dilan Yeşilgöz-Zegerius"
         ],
         "datum": "2021-10-15",
         "locatie": "Den Haag",
@@ -32948,8 +33844,7 @@
     {
         "activiteitnaam": "Ministeriële Commissie COVID-19",
         "bewindspersoon": [
-            "Dilan Yeşilgöz-Zegerius",
-            "Dennis Wiersma"
+            "Dilan Yeşilgöz-Zegerius"
         ],
         "datum": "2021-10-26",
         "locatie": "Den Haag",
@@ -33176,26 +34071,22 @@
     },
     {
         "activiteitnaam": "Gesprek Good Busy",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-10-28",
         "locatie": "Den Haag",
         "subtitel": "Staatssecretaris Wiersma schuift aan bij een bijeenkomst van de adviesraad Good Busy.",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma schuift aan bij een bijeenkomst van de adviesraad <span dir=\"ltr\" lang=\"en\">Good Busy</span>.</p></div>",
-        "type": "Gesprek",
+        "type": "NA",
         "url": "/actueel/agenda/2021/10/28/gesprek-good-busy"
     },
     {
         "activiteitnaam": "Werkbezoek Schuldhulpmaatje",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-10-28",
         "locatie": "Utrecht",
         "subtitel": "Staatssecretaris Wiersma brengt een bezoek aan vrijwilligersorganisatie Schuldhulpmaatje in Utrecht.",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma brengt een bezoek aan vrijwilligersorganisatie Schuldhulpmaatje in Utrecht.</p></div>",
-        "type": "Werkbezoek",
+        "type": "NA",
         "url": "/actueel/agenda/2021/10/28/werkbezoek-schuldhulpmaatje"
     },
     {
@@ -33264,14 +34155,12 @@
     },
     {
         "activiteitnaam": "Werkbezoek Inlichtingenbureau",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-10-28",
         "locatie": "Utrecht",
         "subtitel": "",
         "subtitel_full": "",
-        "type": "Werkbezoek",
+        "type": "NA",
         "url": "/actueel/agenda/2021/10/28/werkbezoek-inlichtingenbureau"
     },
     {
@@ -33411,8 +34300,7 @@
             "Hugo de Jonge",
             "Kajsa Ollongren",
             "Carola Schouten",
-            "Wopke Hoekstra",
-            "Dennis Wiersma"
+            "Wopke Hoekstra"
         ],
         "datum": "2021-10-29",
         "locatie": "Den Haag",
@@ -33449,8 +34337,7 @@
             "Kajsa Ollongren",
             "Carola Schouten",
             "Wopke Hoekstra",
-            "Alexandra van Huffelen",
-            "Dennis Wiersma"
+            "Alexandra van Huffelen"
         ],
         "datum": "2021-10-29",
         "locatie": "Den Haag",
@@ -33462,8 +34349,7 @@
     {
         "activiteitnaam": "Strategiesessie Catshuis",
         "bewindspersoon": [
-            "Mark Rutte",
-            "Dennis Wiersma"
+            "Mark Rutte"
         ],
         "datum": "2021-10-29",
         "locatie": "Den Haag",
@@ -33566,7 +34452,7 @@
         "datum": "2021-11-01",
         "locatie": "Amsterdam",
         "subtitel": "Minister Van Engelshoven is bij de lancering van de website cultuurexplosie.eu, waar projecten die mogelijk gemaakt zijn met ...",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Van Engelshoven is bij de lancering van de website cultuurexplosie.eu, waar projecten die mogelijk gemaakt zijn met subsidie uit het Steunfonds Rechtensector worden gepresenteerd.</p></div>",
         "type": "NA",
         "url": "/actueel/agenda/2021/11/01/lancering-website-cultuurexplosie"
     },
@@ -33588,7 +34474,7 @@
         "datum": "2021-11-01",
         "locatie": "via communicatietechnologie",
         "subtitel": "Minister Ollongren spreekt via een videoboodschap bij de Dag van de Stad",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Ollongren spreekt via een videoboodschap bij de Dag van de Stad</p></div>",
         "type": "Evenement",
         "url": "/actueel/agenda/2021/11/01/dag-van-de-stad"
     },
@@ -33631,6 +34517,183 @@
         "subtitel_full": "",
         "type": "NA",
         "url": "/actueel/agenda/2021/11/01/bezoek-aan-maatschappelijke-diensttijd-festival"
+    },
+    {
+        "activiteitnaam": "Overleg Estse minister van EZK",
+        "bewindspersoon": [
+            "Dilan Yeşilgöz-Zegerius"
+        ],
+        "datum": "2021-11-01",
+        "locatie": "Nieuwegein",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "Bestuurlijk overleg",
+        "url": "/actueel/agenda/2021/11/01/overleg-estse-minister-van-ezk"
+    },
+    {
+        "activiteitnaam": "Overleg evenementensector",
+        "bewindspersoon": [],
+        "datum": "2021-11-01",
+        "locatie": "Via communicatietechnologie",
+        "subtitel": "Minister Van Engelshoven spreekt een afvaardiging van de evenementensector over de maatregelen ter bestrijding van het ...",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Van Engelshoven spreekt een afvaardiging van de evenementensector over de maatregelen ter bestrijding van het coronavirus.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/11/01/overleg-evenementensector"
+    },
+    {
+        "activiteitnaam": "Werkbezoek bij week van de Motoriek",
+        "bewindspersoon": [],
+        "datum": "2021-11-01",
+        "locatie": "Ede",
+        "subtitel": "Staatssecretaris Blokhuis is aanwezig bij de opening van de week van de Motoriek waarbij aandacht is voor veel bewegen voor ...",
+        "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Blokhuis is aanwezig bij de opening van de week van de Motoriek waarbij aandacht is voor veel bewegen voor kinderen en jongeren.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/11/01/werkbezoek-bij-week-van-de-motoriek"
+    },
+    {
+        "activiteitnaam": "Opening dag van het Klimaatakkoord",
+        "bewindspersoon": [
+            "Dilan Yeşilgöz-Zegerius"
+        ],
+        "datum": "2021-11-01",
+        "locatie": "Nieuwegein",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "Werkbezoek",
+        "url": "/actueel/agenda/2021/11/01/opening-dag-van-het-klimaatakkoord"
+    },
+    {
+        "activiteitnaam": "Overleg met de directeur NAM",
+        "bewindspersoon": [],
+        "datum": "2021-11-01",
+        "locatie": "Via communicatietechnologie",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/11/01/overleg-met-de-directeur-nam"
+    },
+    {
+        "activiteitnaam": "Internationale Economische Week",
+        "bewindspersoon": [],
+        "datum": "2021-11-01",
+        "locatie": "Den Haag",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/11/01/internationale-economische-week"
+    },
+    {
+        "activiteitnaam": "Vervolgoverleg Noord-Holland",
+        "bewindspersoon": [],
+        "datum": "2021-11-01",
+        "locatie": "via communicatietechnologie",
+        "subtitel": "Staatssecretaris Blokhuis heeft samen met Minister Dekker een vervolg van het Bestuurlijk Overleg Noord-Holland met als thema ...",
+        "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Blokhuis heeft samen met Minister Dekker een vervolg van het Bestuurlijk Overleg Noord-Holland met als thema jeugd.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/11/01/vervolgoverleg-noord-holland"
+    },
+    {
+        "activiteitnaam": "Wetgevingsoverleg pakket Belastingplan 2022",
+        "bewindspersoon": [
+            "Alexandra van Huffelen",
+            "Hans Vijlbrief"
+        ],
+        "datum": "2021-11-01",
+        "locatie": "Tweede Kamer",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "Kamervergadering",
+        "url": "/actueel/agenda/2021/11/01/wetgevingsoverleg-pakket-belastingplan-2022"
+    },
+    {
+        "activiteitnaam": "Gesprek\tmet de heer Dijsselbloem (OvV)",
+        "bewindspersoon": [],
+        "datum": "2021-11-01",
+        "locatie": "Den Haag",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/11/01/gesprekmet-ovv"
+    },
+    {
+        "activiteitnaam": "Werkbezoek RIVM",
+        "bewindspersoon": [],
+        "datum": "2021-11-01",
+        "locatie": "Bilthoven",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/11/01/werkbezoek-rivm"
+    },
+    {
+        "activiteitnaam": "Opening kindertentoonstelling “Gedonder in de Sassenpoort”",
+        "bewindspersoon": [],
+        "datum": "2021-11-01",
+        "locatie": "Zwolle",
+        "subtitel": "Minister Slob brengt een bezoek aan de lancering van de kindertentoonstelling “Gedonder in de Sassenpoort” over de Middeleeuwen.",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Slob brengt een bezoek aan de lancering van de kindertentoonstelling “Gedonder in de Sassenpoort” over de Middeleeuwen.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/11/01/opening-kindertentoonstelling-gedonder-in-de-sassenpoort"
+    },
+    {
+        "activiteitnaam": "Bezoek aan Green Valley Estate",
+        "bewindspersoon": [],
+        "datum": "2021-11-01",
+        "locatie": "Deurne",
+        "subtitel": "Staatssecretaris Wiersma brengt een bezoek aan Green Valley Estate/de Keertwending, een project voor jongeren met een ...",
+        "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma brengt een bezoek aan Green Valley Estate/de Keertwending, een project voor jongeren met een arbeidsbeperking.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/11/01/bezoek-aan-green-valley-estate"
+    },
+    {
+        "activiteitnaam": "Bestuurlijk overleg wachttijden GGZ",
+        "bewindspersoon": [],
+        "datum": "2021-11-01",
+        "locatie": "Via communicatietechnologie",
+        "subtitel": "Staatssecretaris Blokhuis gaat in overleg met verschillende partijen over de wachttijden in de Geestelijke gezondheidszorg (GGZ).",
+        "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Blokhuis gaat in overleg met verschillende partijen over de wachttijden in de Geestelijke gezondheidszorg (GGZ).</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/11/01/bestuurlijk-overleg-wachttijden-ggz"
+    },
+    {
+        "activiteitnaam": "Jubileumbijeenkomst Gelijke Kansen Alliantie",
+        "bewindspersoon": [],
+        "datum": "2021-11-01",
+        "locatie": "via communicatietechnologie",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "Evenement",
+        "url": "/actueel/agenda/2021/11/01/jubileumbijeenkomst-gelijke-kansen-alliantie"
+    },
+    {
+        "activiteitnaam": "Spreken bij Studievereniging Thomas More",
+        "bewindspersoon": [],
+        "datum": "2021-11-01",
+        "locatie": "‘s-Hertogenbosch",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/11/01/spreken-bij-studievereniging-thomas-more"
+    },
+    {
+        "activiteitnaam": "Overleg onderwijskoepels",
+        "bewindspersoon": [],
+        "datum": "2021-11-01",
+        "locatie": "Via communicatietechnologie",
+        "subtitel": "Minister Van Engelshoven spreekt met vertegenwoordigers van de koepels van het mbo en hoger onderwijs over de maatregelen ter ...",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Van Engelshoven spreekt met vertegenwoordigers van de koepels van het mbo en hoger onderwijs over de maatregelen ter bestrijding van het coronavirus.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/11/01/overleg-onderwijskoepels"
+    },
+    {
+        "activiteitnaam": "Deelname Internationale Economie Week 2021",
+        "bewindspersoon": [],
+        "datum": "2021-11-01",
+        "locatie": "Via communicatietechnologie",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/11/01/deelname-internationale-economie-week-2021"
     },
     {
         "activiteitnaam": "Overleg minister Van Engelshoven – staatssecretaris Wiersma over inburgering",
@@ -33701,8 +34764,7 @@
         "activiteitnaam": "Ministeriële commissie COVID-19",
         "bewindspersoon": [
             "Hugo de Jonge",
-            "Alexandra van Huffelen",
-            "Dennis Wiersma"
+            "Alexandra van Huffelen,"
         ],
         "datum": "2021-11-02",
         "locatie": "Den Haag",
@@ -33725,14 +34787,12 @@
     },
     {
         "activiteitnaam": "Bestuurlijk overleg met VNG, OCW, NRTO, MBO-raad UAF, Divosa, VHN en VSNU",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-11-02",
         "locatie": "via communicatietechnologie",
         "subtitel": "Staatssecretaris Wiersma neemt deel aan een bestuurlijk overleg over de onderwijsroute in het inburgeringsstelsel. ",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma neemt deel aan een bestuurlijk overleg over de onderwijsroute in het inburgeringsstelsel. </p></div>",
-        "type": "Bestuurlijk overleg",
+        "type": "NA",
         "url": "/actueel/agenda/2021/11/02/bestuurlijk-overleg-met-vng-ocw-nrto-mbo-raad-uaf-divosa-vhn-en-vsnu"
     },
     {
@@ -33788,8 +34848,7 @@
     {
         "activiteitnaam": "Onderraden en ministeriële overleggen",
         "bewindspersoon": [
-            "Mark Rutte",
-            "Dennis Wiersma,"
+            "Mark Rutte"
         ],
         "datum": "2021-11-02",
         "locatie": "Den Haag",
@@ -33945,14 +35004,12 @@
     },
     {
         "activiteitnaam": "Bestuurlijk overleg Vereniging van Nederlandse Gemeenten (VNG)",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-11-04",
         "locatie": "Den Haag",
         "subtitel": "",
         "subtitel_full": "",
-        "type": "Bestuurlijk overleg",
+        "type": "NA",
         "url": "/actueel/agenda/2021/11/04/bestuurlijk-overleg-vereniging-van-nederlandse-gemeenten"
     },
     {
@@ -33967,14 +35024,12 @@
     },
     {
         "activiteitnaam": "Bezoek aan Sociaal Economische Raad (SER)",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-11-04",
         "locatie": "Den Haag",
         "subtitel": "Staatssecretaris Wiersma bezoekt de Sociaal Economische Raad en neemt het rapport Werken zonder armoede in ontvangst.",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma bezoekt de Sociaal Economische Raad en neemt het rapport Werken zonder armoede in ontvangst.</p></div>",
-        "type": "Ontvangst",
+        "type": "NA",
         "url": "/actueel/agenda/2021/11/04/bezoek-aan-sociaal-economische-raad"
     },
     {
@@ -34053,14 +35108,12 @@
     },
     {
         "activiteitnaam": "Congres Sterk door Werk",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-11-04",
         "locatie": "Amsterdam",
         "subtitel": "Staatssecretaris Wiersma gaat in gesprek over het thema duurzaam werk voor mensen met een psychische kwetsbaarheid tijdens het ...",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma gaat in gesprek over het thema duurzaam werk voor mensen met een psychische kwetsbaarheid tijdens het congres Sterk door Werk.</p></div>",
-        "type": "Evenement",
+        "type": "NA",
         "url": "/actueel/agenda/2021/11/04/congres-sterk-door-werk"
     },
     {
@@ -34071,8 +35124,7 @@
             "Kajsa Ollongren",
             "Carola Schouten",
             "Wopke Hoekstra",
-            "Hans Vijlbrief",
-            "Dennis Wiersma"
+            "Hans Vijlbrief"
         ],
         "datum": "2021-11-05",
         "locatie": "Den Haag",
@@ -34189,9 +35241,7 @@
     },
     {
         "activiteitnaam": "Bestuurlijk overleg kinderopvangtoeslag",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-11-08",
         "locatie": "Den Haag / via communicatietechnologie",
         "subtitel": "Minister Dekker en staatssecretaris Wiersma gaan in overleg met de VNG over kinderopvangtoeslag.",
@@ -34255,14 +35305,12 @@
     },
     {
         "activiteitnaam": "Bestuurlijk overleg over onderwijsroute inburgeringsstelsel",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-11-08",
         "locatie": "Via communicatietechnologie",
         "subtitel": "Staatssecretaris Wiersma neemt deel aan een bestuurlijk overleg over de onderwijsroute in het inburgeringsstelsel met VNG, OCW, ...",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma neemt deel aan een bestuurlijk overleg over de onderwijsroute in het inburgeringsstelsel met VNG, OCW, NRTO, MBO-raad, UAF, Divosa, VHN en VSNU.</p></div>",
-        "type": "Bestuurlijk overleg",
+        "type": "NA",
         "url": "/actueel/agenda/2021/11/08/bestuurlijk-overleg-over-onderwijsroute-inburgeringsstelsel"
     },
     {
@@ -34469,14 +35517,12 @@
     },
     {
         "activiteitnaam": "Gesprek met thuiswerkers",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-11-09",
         "locatie": "Digitaal",
         "subtitel": "Staatssecretaris Wiersma gaat in gesprek met thuiswerkers waarin zij ervaringen delen met betrekking tot thuiswerken.",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma gaat in gesprek met thuiswerkers waarin zij ervaringen delen met betrekking tot thuiswerken.</p></div>",
-        "type": "Gesprek",
+        "type": "NA",
         "url": "/actueel/agenda/2021/11/09/gesprek-met-thuiswerkers"
     },
     {
@@ -34587,14 +35633,12 @@
     },
     {
         "activiteitnaam": "Gastles ROC",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-11-10",
         "locatie": "Utrecht",
         "subtitel": "Staatssecretaris Wiersma geeft een gastles op het ROC in het kader van de Week van Respect.",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma geeft een gastles op het ROC in het kader van de Week van Respect.</p></div>",
-        "type": "Gesprek",
+        "type": "NA",
         "url": "/actueel/agenda/2021/11/10/gastles-roc"
     },
     {
@@ -34685,14 +35729,12 @@
     },
     {
         "activiteitnaam": "Gesprek met thuiswerkers",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-11-10",
         "locatie": "Digitaal",
         "subtitel": "Staatssecretaris Wiersma gaat in gesprek met thuiswerkers waarin zij ervaringen delen met betrekking tot thuiswerken.",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma gaat in gesprek met thuiswerkers waarin zij ervaringen delen met betrekking tot thuiswerken.</p></div>",
-        "type": "Gesprek",
+        "type": "NA",
         "url": "/actueel/agenda/2021/11/10/gesprek-met-thuiswerkers"
     },
     {
@@ -34821,8 +35863,7 @@
         "activiteitnaam": "Strategiesessie COVID-19 Catshuis",
         "bewindspersoon": [
             "Mark Rutte",
-            "Wopke Hoekstra",
-            "Dennis Wiersma"
+            "Wopke Hoekstra,"
         ],
         "datum": "2021-11-11",
         "locatie": "Den Haag",
@@ -34917,14 +35958,12 @@
     },
     {
         "activiteitnaam": "Plenaire behandeling Verzamelwet SZW 2022",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-11-11",
         "locatie": "Tweede Kamer",
         "subtitel": "",
         "subtitel_full": "",
-        "type": "Kamervergadering",
+        "type": "NA",
         "url": "/actueel/agenda/2021/11/11/plenaire-behandeling-verzamelwet-szw-2022"
     },
     {
@@ -34980,8 +36019,7 @@
     {
         "activiteitnaam": "Ministeriële commissie COVID-19",
         "bewindspersoon": [
-            "Wopke Hoekstra",
-            "Dennis Wiersma"
+            "Wopke Hoekstra"
         ],
         "datum": "2021-11-12",
         "locatie": "Den Haag",
@@ -35007,8 +36045,7 @@
             "Hugo de Jonge",
             "Kajsa Ollongren",
             "Carola Schouten",
-            "Wopke Hoekstra",
-            "Dennis Wiersma"
+            "Wopke Hoekstra"
         ],
         "datum": "2021-11-12",
         "locatie": "Den Haag",
@@ -35273,14 +36310,12 @@
     },
     {
         "activiteitnaam": "Vervolg bestuurlijk overleg over corona",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-11-15",
         "locatie": "via communicatietechnologie",
         "subtitel": "Staatssecretaris Wiersma neemt deel aan het bestuurlijk overleg over corona met onder andere MKB-Nederland en FNV.",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma neemt deel aan het bestuurlijk overleg over corona met onder andere MKB-Nederland en FNV.</p></div>",
-        "type": "Bestuurlijk overleg",
+        "type": "NA",
         "url": "/actueel/agenda/2021/11/15/vervolg-bestuurlijk-overleg-over-corona"
     },
     {
@@ -35349,9 +36384,7 @@
     },
     {
         "activiteitnaam": "Opening week van de werkstress",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-11-15",
         "locatie": "Via communicatietechnologie",
         "subtitel": "Staatssecretaris Blokhuis (VWS) en staatssecretaris Wiersma (SZW) openen digitaal de Week van de Werkstress.",
@@ -35397,8 +36430,7 @@
         "activiteitnaam": "Onderraden en ministeriële overleggen",
         "bewindspersoon": [
             "Mark Rutte",
-            "Kajsa Ollongren",
-            "Dennis Wiersma"
+            "Kajsa Ollongren"
         ],
         "datum": "2021-11-16",
         "locatie": "Den Haag",
@@ -35410,8 +36442,7 @@
     {
         "activiteitnaam": "Ministeriële Commissie COVID-19",
         "bewindspersoon": [
-            "Hugo de Jonge",
-            "Dennis Wiersma"
+            "Hugo de Jonge"
         ],
         "datum": "2021-11-16",
         "locatie": "Den Haag",
@@ -35487,14 +36518,12 @@
     },
     {
         "activiteitnaam": "Gesprek met pedagogisch medewerkers",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-11-16",
         "locatie": "via communicatietechnologie",
         "subtitel": "",
         "subtitel_full": "",
-        "type": "Gesprek",
+        "type": "NA",
         "url": "/actueel/agenda/2021/11/16/gesprek-met-pedagogisch-medewerkers"
     },
     {
@@ -35629,14 +36658,12 @@
     },
     {
         "activiteitnaam": "Gesprek Randstad Groep Nederland",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-11-17",
         "locatie": "Den Haag",
         "subtitel": "Staatssecretaris Wiersma heeft een gesprek met Randstad Groep Nederland.",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma heeft een gesprek met Randstad Groep Nederland.</p></div>",
-        "type": "Gesprek",
+        "type": "NA",
         "url": "/actueel/agenda/2021/11/17/gesprek-randstad-groep-nederland"
     },
     {
@@ -35851,26 +36878,22 @@
     },
     {
         "activiteitnaam": "Gesprek met Laevo en MKB Nederland",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-11-18",
         "locatie": "via communicatietechnologie",
         "subtitel": "Staatssecretaris Wiersma spreekt met Laevo en MKB Nederland in het kader van de Dag van de Ondernemer.",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma spreekt met Laevo en MKB Nederland in het kader van de Dag van de Ondernemer.</p></div>",
-        "type": "Gesprek",
+        "type": "NA",
         "url": "/actueel/agenda/2021/11/18/gesprek-met-laevo-en-mkb-nederland"
     },
     {
         "activiteitnaam": "Gesprekken over werkstress",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-11-18",
         "locatie": "via communicatietechnologie",
         "subtitel": "Staatssecretaris Wiersma voert gesprekken met mensen die te maken hebben gehad, of expert zijn op het gebied van werkstress.",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma voert gesprekken met mensen die te maken hebben gehad, of expert zijn op het gebied van werkstress.</p></div>",
-        "type": "Gesprek",
+        "type": "NA",
         "url": "/actueel/agenda/2021/11/18/gesprekken-over-werkstress"
     },
     {
@@ -36089,8 +37112,7 @@
             "Kajsa Ollongren",
             "Carola Schouten",
             "Wopke Hoekstra",
-            "Dilan Yeşilgöz-Zegerius",
-            "Dennis Wiersma"
+            "Dilan Yeşilgöz-Zegerius"
         ],
         "datum": "2021-11-19",
         "locatie": "Den Haag",
@@ -36133,14 +37155,12 @@
     },
     {
         "activiteitnaam": "Werkbezoek vanwege de Dag van de Ondernemer",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-11-19",
         "locatie": "Den Haag",
         "subtitel": "Staatssecretaris Wiersma brengt een bezoek aan Granny’s Corner en Biologische Slagerij de Groene Weg in het kader van de Dag van ...",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma brengt een bezoek aan Granny’s Corner en Biologische Slagerij de Groene Weg in het kader van de Dag van de Ondernemer en de verscherpte coronamaatregelen.</p></div>",
-        "type": "Werkbezoek",
+        "type": "NA",
         "url": "/actueel/agenda/2021/11/19/bezoek-vanwege-de-dag-van-de-ondernemer"
     },
     {
@@ -36177,14 +37197,12 @@
     },
     {
         "activiteitnaam": "Wetgevingsoverleg Inburgering, Integratie en maatschappelijke samenhang",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-11-22",
         "locatie": "Tweede Kamer",
         "subtitel": "",
         "subtitel_full": "",
-        "type": "Kamervergadering",
+        "type": "NA",
         "url": "/actueel/agenda/2021/11/22/wetgevingsoverleg-inburgering-integratie-en-maatschappelijke-samenhang"
     },
     {
@@ -36281,9 +37299,7 @@
     },
     {
         "activiteitnaam": "Bestuurlijk overleg kinderopvangtoeslag met VNG",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-11-22",
         "locatie": "via communicatietechnologie",
         "subtitel": "",
@@ -36430,8 +37446,7 @@
     {
         "activiteitnaam": "Ministeriële Commissie COVID-19",
         "bewindspersoon": [
-            "Alexandra van Huffelen",
-            "Dennis Wiersma,"
+            "Alexandra van Huffelen"
         ],
         "datum": "2021-11-23",
         "locatie": "Den Haag",
@@ -36478,8 +37493,7 @@
         "activiteitnaam": "Onderraden en ministeriële overleggen",
         "bewindspersoon": [
             "Mark Rutte",
-            "Kajsa Ollongren",
-            "Dennis Wiersma,"
+            "Kajsa Ollongren"
         ],
         "datum": "2021-11-23",
         "locatie": "Den Haag",
@@ -36786,9 +37800,7 @@
     },
     {
         "activiteitnaam": "Catshuissessie",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-11-25",
         "locatie": "Catshuis, Den Haag",
         "subtitel": "",
@@ -36854,26 +37866,22 @@
     },
     {
         "activiteitnaam": "Interview over Regionale Mobiliteitsteams",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-11-25",
         "locatie": "Den Haag",
         "subtitel": "Staatssecretaris Wiersma heeft een interview met EenVandaag over de Regionale Mobiliteitsteams.",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma heeft een interview met EenVandaag over de Regionale Mobiliteitsteams.</p></div>",
-        "type": "Gesprek",
+        "type": "NA",
         "url": "/actueel/agenda/2021/11/25/interview-over-regionale-mobiliteitsteams"
     },
     {
         "activiteitnaam": "Vervolggesprek met wethouders G4",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-11-25",
         "locatie": "via communicatietechnologie",
         "subtitel": "",
         "subtitel_full": "",
-        "type": "Gesprek",
+        "type": "NA",
         "url": "/actueel/agenda/2021/11/25/vervolggesprek-met-wethouders-g4"
     },
     {
@@ -36894,7 +37902,7 @@
         "datum": "2021-11-25",
         "locatie": "Den Haag",
         "subtitel": "Commissiedebat samenstelling en opdracht onderzoekscommissie evacuaties Afghanistan.",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>Commissiedebat samenstelling en opdracht onderzoekscommissie evacuaties Afghanistan.</p></div>",
         "type": "NA",
         "url": "/actueel/agenda/2021/11/25/commissiedebat-samenstelling-en-opdracht-onderzoekscommissie-evacuaties-afghanistan"
     },
@@ -36936,9 +37944,7 @@
     },
     {
         "activiteitnaam": "Ministeriële Commissie COVID-19",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-11-26",
         "locatie": "Den Haag",
         "subtitel": "",
@@ -36982,8 +37988,7 @@
             "Carola Schouten",
             "Wopke Hoekstra",
             "Alexandra van Huffelen",
-            "Hans Vijlbrief",
-            "Dennis Wiersma"
+            "Hans Vijlbrief"
         ],
         "datum": "2021-11-26",
         "locatie": "Den Haag",
@@ -37026,14 +38031,12 @@
     },
     {
         "activiteitnaam": "In ontvangstname preadviezen Koninklijke Vereniging van de Staatshuishoudkunde",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-11-29",
         "locatie": "via communicatietechnologie",
         "subtitel": "",
         "subtitel_full": "",
-        "type": "Evenement",
+        "type": "NA",
         "url": "/actueel/agenda/2021/11/29/in-ontvangstname-preadviezen-koninklijke-vereniging-van-de-staatshuishoudkunde"
     },
     {
@@ -37285,8 +38288,7 @@
         "bewindspersoon": [
             "Mark Rutte",
             "Kajsa Ollongren",
-            "Alexandra van Huffelen",
-            "Dennis Wiersma"
+            "Alexandra van Huffelen,"
         ],
         "datum": "2021-11-30",
         "locatie": "Den Haag",
@@ -37307,14 +38309,12 @@
     },
     {
         "activiteitnaam": "Begrotingsbehandeling Sociale Zaken en Werkgelegenheid",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-11-30",
         "locatie": "Den Haag",
         "subtitel": "",
         "subtitel_full": "",
-        "type": "Kamervergadering",
+        "type": "NA",
         "url": "/actueel/agenda/2021/11/30/begrotingsbehandeling-sociale-zaken-en-werkgelegenheid"
     },
     {
@@ -37567,14 +38567,12 @@
     },
     {
         "activiteitnaam": "Begrotingsbehandeling Sociale Zaken en Werkgelegenheid",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-12-02",
         "locatie": "Den Haag",
         "subtitel": "",
         "subtitel_full": "",
-        "type": "Kamervergadering",
+        "type": "NA",
         "url": "/actueel/agenda/2021/12/02/begrotingsbehandeling-sociale-zaken-en-werkgelegenheid"
     },
     {
@@ -37772,8 +38770,7 @@
             "Carola Schouten",
             "Alexandra van Huffelen",
             "Hans Vijlbrief",
-            "Dilan Yeşilgöz-Zegerius",
-            "Dennis Wiersma"
+            "Dilan Yeşilgöz-Zegerius"
         ],
         "datum": "2021-12-03",
         "locatie": "Den Haag",
@@ -38073,14 +39070,12 @@
     },
     {
         "activiteitnaam": "Gesprek met wethouder gemeente Rotterdam",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-12-07",
         "locatie": "via communicatietechnologie",
         "subtitel": "Staatssecretaris Wiersma gaat in gesprek met Wethouder Karremans.",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma gaat in gesprek met Wethouder Karremans.</p></div>",
-        "type": "Gesprek",
+        "type": "NA",
         "url": "/actueel/agenda/2021/12/07/gesprek-met-wethouder-gemeente-rotterdam"
     },
     {
@@ -38097,14 +39092,12 @@
     },
     {
         "activiteitnaam": "Interview Nederlands Dagblad",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-12-07",
         "locatie": "via communicatietechnologie",
         "subtitel": "Staatssecretaris Wiersma wordt geïnterviewd door het Nederlands Dagblad over het Waarborgfonds.",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma wordt geïnterviewd door het Nederlands Dagblad over het Waarborgfonds.</p></div>",
-        "type": "Gesprek",
+        "type": "NA",
         "url": "/actueel/agenda/2021/12/07/interview-nederlands-dagblad"
     },
     {
@@ -38146,14 +39139,12 @@
     },
     {
         "activiteitnaam": "Bestuurlijk overleg inzake tegemoetkoming stijging energiekosten",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-12-07",
         "locatie": "via communicatietechnologie",
         "subtitel": "Staatssecretaris Wiersma neemt deel aan het bestuurlijk overleg met de Vereniging Nederlandse Gemeenten en Divosa over de ...",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma neemt deel aan het bestuurlijk overleg met de Vereniging Nederlandse Gemeenten en Divosa over de tegemoetkoming stijging energiekosten..</p></div>",
-        "type": "Bestuurlijk overleg",
+        "type": "NA",
         "url": "/actueel/agenda/2021/12/07/bestuurlijk-overleg-inzake-tegemoetkoming-stijging-energiekosten"
     },
     {
@@ -38194,7 +39185,7 @@
         "datum": "2021-12-08",
         "locatie": "Den Haag",
         "subtitel": "Staatssecretaris Broekers-Knol gaat in debat met de Tweede Kamer over de JBZ-Raad, deel vreemdelingen- en asielzaken. ",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Broekers-Knol gaat in debat met de Tweede Kamer over de JBZ-Raad, deel vreemdelingen- en asielzaken. </p></div>",
         "type": "NA",
         "url": "/actueel/agenda/2021/12/08/commissiedebat-jbz-raad-vreemdelingen--en-asielzaken"
     },
@@ -38216,7 +39207,7 @@
         "datum": "2021-12-08",
         "locatie": "Tilburg",
         "subtitel": "Minister van Engelshoven spreekt met leden van het Zuidelijk Toneel, jeugddansgezelschap De Stilte en jeugdgezelschap Theater ...",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>Minister van Engelshoven spreekt met leden van het Zuidelijk Toneel, jeugddansgezelschap De Stilte en jeugdgezelschap Theater Artemis over de coronamaatregelen.</p></div>",
         "type": "NA",
         "url": "/actueel/agenda/2021/12/08/werkbezoek-zuidelijk-toneel-de-stilte-en-artemis"
     },
@@ -38232,14 +39223,12 @@
     },
     {
         "activiteitnaam": "Bijeenkomst lancering Waarborgfonds Saneringskredieten",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-12-08",
         "locatie": "via communicatietechnologie",
         "subtitel": "Staatssecretaris Wiersma neemt deel aan de bijeenkomst voor de ceremoniële lancering van het Waarborgfonds Saneringskredieten.",
-        "subtitel_full": "",
-        "type": "Evenement",
+        "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma neemt deel aan de bijeenkomst voor de ceremoniële lancering van het Waarborgfonds Saneringskredieten.</p></div>",
+        "type": "NA",
         "url": "/actueel/agenda/2021/12/08/bijeenkomst-lancering-waarborgfonds-saneringskredieten"
     },
     {
@@ -38248,7 +39237,7 @@
         "datum": "2021-12-08",
         "locatie": "Via communicatietechnologie",
         "subtitel": "Minister Knapen neemt digitaal deel aan de Summit for Democracy.",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Knapen neemt digitaal deel aan de Summit for Democracy.</p></div>",
         "type": "NA",
         "url": "/actueel/agenda/2021/12/08/summit-for-democracy"
     },
@@ -38260,7 +39249,7 @@
         "datum": "2021-12-08",
         "locatie": "Tweede Kamer",
         "subtitel": "Plenair debat huisvesting statushouders met staatssecretaris  Broekers-Knol.",
-        "subtitel_full": "",
+        "subtitel_full": "<div class=\"intro\"><p>Plenair debat huisvesting statushouders met staatssecretaris  Broekers-Knol.</p></div>",
         "type": "Kamervergadering",
         "url": "/actueel/agenda/2021/12/08/plenair-debat-huisvesting-statushouders"
     },
@@ -38285,6 +39274,130 @@
         "subtitel_full": "",
         "type": "NA",
         "url": "/actueel/agenda/2021/12/08/bestuurlijk-overleg-wadden"
+    },
+    {
+        "activiteitnaam": "Gesprek met de Chargé d’Affaires Ambassade van de Verenigde Staten",
+        "bewindspersoon": [
+            "Dilan Yeşilgöz-Zegerius"
+        ],
+        "datum": "2021-12-08",
+        "locatie": "Den Haag",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "Gesprek",
+        "url": "/actueel/agenda/2021/12/08/gesprek-met-ambassade-van-de-verenigde-staten"
+    },
+    {
+        "activiteitnaam": "Commissiedebat Handelsbetrekkingen Afrika",
+        "bewindspersoon": [],
+        "datum": "2021-12-08",
+        "locatie": "Den Haag",
+        "subtitel": "Minister De Bruijn neemt in de Tweede Kamer deel aan het commissiedebat over de handelsbetrekkingen Afrika.",
+        "subtitel_full": "<div class=\"intro\"><p>Minister De Bruijn neemt in de Tweede Kamer deel aan het commissiedebat over de handelsbetrekkingen Afrika.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/12/08/commissiedebat-handelsbetrekkingen-afrika"
+    },
+    {
+        "activiteitnaam": "High-level Pledging Event Central Emergency Response Fund",
+        "bewindspersoon": [],
+        "datum": "2021-12-08",
+        "locatie": "Den Haag",
+        "subtitel": "Minister De Bruijn neemt deel aan het High-level Pledging Event Central Emergency Response Fund.",
+        "subtitel_full": "<div class=\"intro\"><p>Minister De Bruijn neemt deel aan het High-level Pledging Event Central Emergency Response Fund.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/12/08/high-level-pledging-event-central-emergency-response-fund"
+    },
+    {
+        "activiteitnaam": "Interventie EU Internetforum",
+        "bewindspersoon": [],
+        "datum": "2021-12-08",
+        "locatie": "digitaal vergaderen",
+        "subtitel": "Minister Grapperhaus spreekt tijdens de jaarlijkse ministeriële bijeenkomst Interventie EU Internetforum over de aanpak van ...",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Grapperhaus spreekt tijdens de jaarlijkse ministeriële bijeenkomst Interventie EU Internetforum over de aanpak van online seksueel kindermisbruik. </p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/12/08/interventie-eu-internetforum"
+    },
+    {
+        "activiteitnaam": "Vervolg nota-overleg steunpakket",
+        "bewindspersoon": [],
+        "datum": "2021-12-08",
+        "locatie": "Den Haag",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/12/08/vervolg-nota-overleg-steunpakket"
+    },
+    {
+        "activiteitnaam": "Werkbezoek PO-school",
+        "bewindspersoon": [],
+        "datum": "2021-12-08",
+        "locatie": "digitaal overleg",
+        "subtitel": "Minister Slob brengt een bezoek aan een school voor primair onderwijs om in gesprek te gaan over de coronamaatregelen. ",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Slob brengt een bezoek aan een school voor primair onderwijs om in gesprek te gaan over de coronamaatregelen. </p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/12/08/werkbezoek-po-school"
+    },
+    {
+        "activiteitnaam": "Werkbezoek Tivoli Vredenburg",
+        "bewindspersoon": [],
+        "datum": "2021-12-08",
+        "locatie": "Utrecht",
+        "subtitel": "Minister van Engelshoven spreekt met zelfstandigen uit de popsector over de coronamaatregelen",
+        "subtitel_full": "<div class=\"intro\"><p>Minister van Engelshoven spreekt met zelfstandigen uit de popsector over de coronamaatregelen</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/12/08/werkbezoek-tivoli-vredenburg"
+    },
+    {
+        "activiteitnaam": "Commissiedebat Nationaal Strategisch Plan",
+        "bewindspersoon": [
+            "Carola Schouten"
+        ],
+        "datum": "2021-12-08",
+        "locatie": "Tweede Kamer",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "Kamervergadering",
+        "url": "/actueel/agenda/2021/12/08/commissiedebat-nationaal-strategisch-plan"
+    },
+    {
+        "activiteitnaam": "Commissiedebat JBZ-Raad",
+        "bewindspersoon": [],
+        "datum": "2021-12-08",
+        "locatie": "Den Haag",
+        "subtitel": "Minister Grapperhaus en minister Dekker gaan in debat met de Tweede Kamer over de JBZ-Raad.",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Grapperhaus en minister Dekker gaan in debat met de Tweede Kamer over de JBZ-Raad.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/12/08/commissiedebat-jbz-raad"
+    },
+    {
+        "activiteitnaam": "Werkbezoek Zuidelijk Toneel, De Stilte en Artemis",
+        "bewindspersoon": [],
+        "datum": "2021-12-08",
+        "locatie": "Utrecht",
+        "subtitel": "Minister van Engelshoven spreekt met een aantal vrije theaterproducenten over de coronamaatregelen.",
+        "subtitel_full": "<div class=\"intro\"><p>Minister van Engelshoven spreekt met een aantal vrije theaterproducenten over de coronamaatregelen.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/12/08/werkbezoek-vrije-theaterproducenten"
+    },
+    {
+        "activiteitnaam": "VN Peacekeeping Conferentie",
+        "bewindspersoon": [],
+        "datum": "2021-12-08",
+        "locatie": "Via communicatietechnologie",
+        "subtitel": "Minister Knapen neemt digitaal deel aan de VN Peacekeeping Conferentie.",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Knapen neemt digitaal deel aan de VN Peacekeeping Conferentie.</p></div>",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/12/08/vn-peacekeeping-conferentie"
+    },
+    {
+        "activiteitnaam": "Bezoek aan College Economics of Sustainability",
+        "bewindspersoon": [],
+        "datum": "2021-12-08",
+        "locatie": "Rotterdam",
+        "subtitel": "",
+        "subtitel_full": "",
+        "type": "NA",
+        "url": "/actueel/agenda/2021/12/08/bezoek-aan-college-economics-of-sustainability"
     },
     {
         "activiteitnaam": "Gesprek met Aedes",
@@ -38464,9 +39577,7 @@
     },
     {
         "activiteitnaam": "Ministeriële Commissie COVID-19",
-        "bewindspersoon": [
-            "Dennis Wiersma,"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-12-10",
         "locatie": "Den Haag",
         "subtitel": "",
@@ -38481,8 +39592,7 @@
             "Hugo de Jonge",
             "Kajsa Ollongren",
             "Carola Schouten",
-            "Hans Vijlbrief",
-            "Dennis Wiersma"
+            "Hans Vijlbrief"
         ],
         "datum": "2021-12-10",
         "locatie": "Den Haag",
@@ -38493,14 +39603,12 @@
     },
     {
         "activiteitnaam": "Bestuurlijk overleg met sociale partners",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-12-10",
         "locatie": "via communicatietechnologie",
         "subtitel": "Staatssecretaris Wiersma neemt deel aan het bestuurlijk overleg met minister de Jonge, minister Blok en de sociale partners.",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma neemt deel aan het bestuurlijk overleg met minister de Jonge, minister Blok en de sociale partners.</p></div>",
-        "type": "Bestuurlijk overleg",
+        "type": "NA",
         "url": "/actueel/agenda/2021/12/10/bestuurlijk-overleg-met-sociale-partners"
     },
     {
@@ -38562,14 +39670,12 @@
     },
     {
         "activiteitnaam": "Digitaal werkbezoek Noordelijke Scholingsalliantie",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-12-13",
         "locatie": "via communicatietechnologie",
         "subtitel": "Staatssecretaris Wiersma gaat digitaal op bezoek bij de Scholingsalliantie Noord.",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma gaat digitaal op bezoek bij de Scholingsalliantie Noord.</p></div>",
-        "type": "Werkbezoek",
+        "type": "NA",
         "url": "/actueel/agenda/2021/12/13/digitaal-werkbezoek-noordelijke-scholingsalliantie"
     },
     {
@@ -38664,14 +39770,12 @@
     },
     {
         "activiteitnaam": "Lancering werkagenda Verder Integratie op de Arbeidsmarkt (VIA)",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-12-13",
         "locatie": "via communicatietechnologie",
         "subtitel": "Staatssecretaris Wiersma neemt deel aan de online presentatie van de Werkagenda VIA.",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma neemt deel aan de online presentatie van de Werkagenda VIA.</p></div>",
-        "type": "Evenement",
+        "type": "NA",
         "url": "/actueel/agenda/2021/12/13/lancering-werkagenda-via"
     },
     {
@@ -38788,9 +39892,7 @@
     },
     {
         "activiteitnaam": "Gesprek met CMO en andere moslimorganisaties",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-12-14",
         "locatie": "via communicatietechnologie",
         "subtitel": "Minister Grapperhaus (J&V) en staatssecretaris Wiersma (SZW) spreken met het Contactorgaan Moslims en Overheid (CMO) en andere ...",
@@ -38863,8 +39965,7 @@
     {
         "activiteitnaam": "Onderraden en ministeriële overleggen",
         "bewindspersoon": [
-            "Mark Rutte",
-            "Dennis Wiersma"
+            "Mark Rutte"
         ],
         "datum": "2021-12-14",
         "locatie": "Den Haag",
@@ -38876,8 +39977,7 @@
     {
         "activiteitnaam": "Ministeriële Commissie COVID-19",
         "bewindspersoon": [
-            "Hugo de Jonge",
-            "Dennis Wiersma"
+            "Hugo de Jonge"
         ],
         "datum": "2021-12-14",
         "locatie": "Den Haag",
@@ -38988,14 +40088,12 @@
     },
     {
         "activiteitnaam": "Bestuurlijk Overleg met de Vereniging Nederlandse Gemeenten",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-12-15",
         "locatie": "via communicatietechnologie",
         "subtitel": "Staatssecretaris Wiersma neemt deel aan het bestuurlijk overleg met de Vereniging Nederlandse Gemeenten inzake het aanpassen van ...",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma neemt deel aan het bestuurlijk overleg met de Vereniging Nederlandse Gemeenten inzake het aanpassen van de Participatiewet op de menselijke maat.</p></div>",
-        "type": "Bestuurlijk overleg",
+        "type": "NA",
         "url": "/actueel/agenda/2021/12/15/bestuurlijk-overleg-met-de-vereniging-nederlandse-gemeenten"
     },
     {
@@ -39023,14 +40121,12 @@
     },
     {
         "activiteitnaam": "Commissiedebat Armoede en Schulden",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-12-15",
         "locatie": "Den Haag",
         "subtitel": "Staatssecretaris Wiersma neemt deel aan het Commissiedebat Armoede en Schulden.",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma neemt deel aan het Commissiedebat Armoede en Schulden.</p></div>",
-        "type": "Kamervergadering",
+        "type": "NA",
         "url": "/actueel/agenda/2021/12/15/commissiedebat-armoede-en-schulden"
     },
     {
@@ -39110,8 +40206,7 @@
     {
         "activiteitnaam": "Landelijke Regietafel Migratie en Integratie",
         "bewindspersoon": [
-            "Kajsa Ollongren",
-            "Dennis Wiersma"
+            "Kajsa Ollongren"
         ],
         "datum": "2021-12-16",
         "locatie": "via communicatietechnologie",
@@ -39174,14 +40269,12 @@
     },
     {
         "activiteitnaam": "Bestuurlijk overleg met het UWV",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-12-16",
         "locatie": "via communicatietechnologie",
         "subtitel": "Staatssecretaris Wiersma heeft een bestuurlijk overleg met het UWV.",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma heeft een bestuurlijk overleg met het UWV.</p></div>",
-        "type": "Bestuurlijk overleg",
+        "type": "NA",
         "url": "/actueel/agenda/2021/12/16/bestuurlijk-overleg-met-het-uwv"
     },
     {
@@ -39320,14 +40413,12 @@
     },
     {
         "activiteitnaam": "Gesprek met Good Busy",
-        "bewindspersoon": [
-            "Dennis Wiersma"
-        ],
+        "bewindspersoon": [],
         "datum": "2021-12-16",
         "locatie": "via communicatietechnologie",
         "subtitel": "Staatssecretaris Wiersma heeft een gesprek met adviesraad Good Busy.",
         "subtitel_full": "<div class=\"intro\"><p>Staatssecretaris Wiersma heeft een gesprek met adviesraad Good Busy.</p></div>",
-        "type": "Gesprek",
+        "type": "NA",
         "url": "/actueel/agenda/2021/12/16/gesprek-met-good-busy"
     },
     {
@@ -39337,8 +40428,7 @@
             "Hugo de Jonge",
             "Kajsa Ollongren",
             "Carola Schouten",
-            "Wopke Hoekstra",
-            "Dennis Wiersma"
+            "Wopke Hoekstra"
         ],
         "datum": "2021-12-17",
         "locatie": "Den Haag",
@@ -39488,28 +40578,28 @@
         "url": "/actueel/agenda/2022/01/03/onderwijsvertegenwoordigers-over-corona"
     },
     {
-        "activiteitnaam": "Gesprek met de Kinderombudsman",
-        "bewindspersoon": [
-            "Alexandra van Huffelen"
-        ],
-        "datum": "2022-01-04",
-        "locatie": "Via communicatietechnologie",
-        "subtitel": "",
-        "subtitel_full": "",
-        "type": "Gesprek",
-        "url": "/actueel/agenda/2022/01/04/gesprek-met-de-kinderombudsman"
-    },
-    {
         "activiteitnaam": "Oudergesprekken",
         "bewindspersoon": [
             "Alexandra van Huffelen"
         ],
         "datum": "2022-01-05",
         "locatie": "Via communicatietechnologie",
-        "subtitel": "",
-        "subtitel_full": "",
+        "subtitel": "Media kunnen voor meer informatie contact opnemen met Sonja van der Graaf, +316-29647422.",
+        "subtitel_full": "<div class=\"intro\"><p>Media kunnen voor meer informatie contact opnemen met Sonja van der Graaf, <a href=\"tel:+316-29647422\">+316-29647422</a>.</p></div>",
         "type": "Gesprek",
         "url": "/actueel/agenda/2022/01/05/oudergesprekken"
+    },
+    {
+        "activiteitnaam": "Afspraak met het ministerie van Financiën",
+        "bewindspersoon": [
+            "Karien van Gennip"
+        ],
+        "datum": "2022-01-07",
+        "locatie": "Den Haag",
+        "subtitel": "Minister Van Gennip heeft een gesprek met het ministerie van Financiën.",
+        "subtitel_full": "<div class=\"intro\"><p>Minister Van Gennip heeft een gesprek met het ministerie van Financiën.</p></div>",
+        "type": "Gesprek",
+        "url": "/actueel/agenda/2022/01/07/afspraak-met-het-ministerie-van-financien"
     },
     {
         "activiteitnaam": "Ministerraad",

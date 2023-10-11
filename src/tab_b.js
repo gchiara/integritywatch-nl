@@ -26,6 +26,7 @@ import ChartHeader from './components/ChartHeader.vue';
 
 var vuedata = {
   page: 'tabB',
+  previousmandate: false,
   loader: true,
   showInfo: true,
   showShare: true,
@@ -80,7 +81,16 @@ var vuedata = {
       "GroenLinks": "#39A935",
       "ChristenUnie": "#032963",
       "Fractie-Otten": "#FAE800",
-      "OSF": "#8FD5FF"
+      "OSF": "#8FD5FF",
+      "Omtzigt": "#34b4eb",
+      "Ephraim": "#333",
+      "Gündoğan": "#b5a2fa",
+      "Krol": "#9379f2",
+      "GroenLinks-PvdA": "#BB1018",
+      "JA21": "#2f4b91",
+      "Volt": "#582488",
+      "OPNL": "#d69f3a",
+      "BBB": "#A6CB45",
     }
   }
 }
@@ -306,11 +316,27 @@ jQuery.extend( jQuery.fn.dataTableExt.oSort, {
   }
 });
 
+//Get URL parameters
+function getParameterByName(name, url) {
+  if (!url) url = window.location.href;
+  name = name.replace(/[\[\]]/g, '\\$&');
+  var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+      results = regex.exec(url);
+  if (!results) return null;
+  if (!results[2]) return '';
+  return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+var eerstekamerDataset = './data/eerstekamer.json';
+if(getParameterByName('previousmandate') == '1') {
+  eerstekamerDataset = './data/eerstekamer_previous.json';
+  vuedata.previousmandate = true;
+}
+
 //Totals for footer counters
 var totalActivities = 0;
 
 //Load data and generate charts
-json('./data/eerstekamer.json', (err, senators) => {
+json(eerstekamerDataset, (err, senators) => {
   //Loop through data to apply fixes and calculations
   _.each(senators, function (d) {
     //Photo URL

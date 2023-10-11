@@ -245,6 +245,7 @@ if(getParameterByName('cabinet') == 'rutteIII') {
   ministriesMatchingFile = './data/agendas_ministries_matching_rutteIII.csv';
 }
 
+var types = [];
 //Load data and generate charts
 json(agendasDataFile, (err, events) => {
   csv(ministriesMatchingFile, (err, ministriesMatching) => {
@@ -266,6 +267,22 @@ json(agendasDataFile, (err, events) => {
       if(splitDate.length == 3) {
         d.datumFormatted = splitDate[2] + "/" + splitDate[1] + "/" + splitDate[0];
       }
+      //Clean even type
+      if(d.type.toLowerCase().indexOf('werkbezoek') > -1) { d.type = 'Werkbezoek'; }
+      if(d.type.toLowerCase().indexOf('bestuurlijk overleg') > -1) { d.type = 'Bestuurlijk overleg'; }
+      if(d.type.toLowerCase().indexOf('gesprek') > -1) { d.type = 'Gesprek'; }
+      if(d.type.toLowerCase().indexOf('ministerraad') > -1) { d.type = 'Ministerraad'; }
+      if(d.type.toLowerCase().indexOf('kamervergadering') > -1) { d.type = 'Kamervergadering'; }
+      if(d.type.toLowerCase().indexOf('bewindspersonenoverleg') > -1) { d.type = 'Bewindspersonenoverleg'; }
+      if(d.type.toLowerCase().indexOf('bewindsliedenoverleg') > -1) { d.type = 'Bewindsliedenoverleg'; }
+      if(d.type.toLowerCase().indexOf('evenement') > -1) { d.type = 'Evenement'; }
+      if(d.type.toLowerCase().indexOf('kamervergadering') > -1) { d.type = 'Kamervergadering'; }
+      
+    
+  
+      if(types.indexOf(d.type) == -1) {
+        types.push(d.type);
+      }
       _.each(d.people, function (p) {
         //Get ministers
         var matchingEntry = _.find(ministriesMatching, function (x) { 
@@ -280,6 +297,7 @@ json(agendasDataFile, (err, events) => {
         }
       });
     });
+    console.log(types);
 
     //Set dc main vars. The second crossfilter is used to handle the travels stacked bar chart.
     var ndx = crossfilter(events);
@@ -343,7 +361,7 @@ json(agendasDataFile, (err, events) => {
       var filteredGroup = (function(source_group) {
         return {
           all: function() {
-            return source_group.top(100).filter(function(d) {
+            return source_group.top(15).filter(function(d) {
               return (d.value != 0);
             });
           }

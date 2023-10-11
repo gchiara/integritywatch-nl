@@ -35,6 +35,11 @@
               </div>
             </div>
           </div>
+          <!-- MANDATE SELECTOR -->
+          <div class="col-md-12 chart-col mandate-select-container">
+            <a href="./eerste-kamerleden.php" class="link-button" :class="{active: previousmandate == false}">Huidige kamer</a>
+            <a href="./eerste-kamerleden.php?previousmandate=1" class="link-button" :class="{active: previousmandate == true}">Vorige kamer</a>
+          </div>
           <!-- CHARTS - FIRST ROW -->
           <div class="col-md-3 chart-col">
             <div class="boxed-container chart-container tab_a_1">

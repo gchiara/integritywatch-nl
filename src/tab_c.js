@@ -80,7 +80,20 @@ var vuedata = {
       "Fractie-Otten": "#FAE800",
       "OSF": "#8FD5FF",
       "Partij voor de Dieren": "#518354",
-      "Forum voor Democratie": "#6F2422"
+      "Forum voor Democratie": "#6F2422",
+      "Fractie Den Haan": "#aaaaaa",
+      "Van Haga": "#777777",
+      "BBB": "#A6CB45",
+      "BIJ1": "#FFFF00",
+      "Volt": "#582488",
+      "Groep Van Haga": "#cccccc",
+      "Omtzigt": "#34b4eb",
+      "Ephraim": "#333",
+      "Gündoğan": "#b5a2fa",
+      "Krol": "#9379f2",
+      "GroenLinks-PvdA": "#BB1018",
+      "JA21": "#2f4b91",
+      "OPNL": "#d69f3a",
     }
   }
 }
@@ -132,7 +145,8 @@ var charts = {
     divId: 'party_chart'
   },
   years: {
-    chart: dc.lineChart("#years_chart"),
+    //chart: dc.lineChart("#years_chart"),
+    chart: new dc.compositeChart("#years_chart"),
     type: 'line',
     divId: 'years_chart'
   },
@@ -221,6 +235,7 @@ var resizeGraphs = function() {
       charts[c].chart.redraw();
     } else if(charts[c].type == 'line') {
       charts[c].chart.width(newWidth);
+      charts[c].chart.legend(dc.legend().x(0).y(420).itemHeight(10).gap(10).horizontal(true).autoItemWidth(true).legendWidth(newWidth));
       charts[c].chart.rescale();
       charts[c].chart.redraw();
     }
@@ -271,10 +286,32 @@ jQuery.extend( jQuery.fn.dataTableExt.oSort, {
 var totalDonationsAmt = 0;
 
 //Load data and generate charts
-csv('./data/donations.csv', (err, donations) => {
-csv('./data/donations_mps_names.csv', (err, mps) => {
+csv('./data/donations/donations.csv', (err, donations) => {
+csv('./data/donations/donations_2020.csv', (err, donations_2020) => {
+csv('./data/donations/donations_2021.csv', (err, donations_2021) => {
+csv('./data/donations/donations_2022.csv', (err, donations_2022) => {
+csv('./data/donations/donations_2023.csv', (err, donations_2023) => {
+csv('./data/donations/donations_mps_names.csv', (err, mps) => {
+  //Append 2020 and 2021 donations to main list
+  _.each(donations_2020, function (d) {
+      donations.push(d);
+  });
+  _.each(donations_2021, function (d) {
+    donations.push(d);
+  });
+  _.each(donations_2022, function (d) {
+    donations.push(d);
+  });
+  _.each(donations_2023, function (d) {
+    if(isNaN(d.amount_total)) {
+      console.log(d);
+    }
+    donations.push(d);
+  });
+  
   //Loop through data to apply fixes and calculations
   var idCount = 0;
+  var partiesList = [];
   _.each(donations, function (d) {
     d.id = idCount;
     idCount ++;
@@ -291,6 +328,20 @@ csv('./data/donations_mps_names.csv', (err, mps) => {
     d.mp = false;
     if(_.find(mps, function (x) { return x.name.toLowerCase().trim() == d.name_donor.toLowerCase().trim() })) {
       d.mp = true;
+    }
+    //Name and parties fixes
+    d.political_affiliation = d.political_affiliation.trim();
+    d.name_donor = d.name_donor.trim();
+    d.recipient_name = d.recipient_name.trim();
+    if(d.political_affiliation == 'Forum voor Democratie' || d.political_affiliation.toLowerCase() == 'fvd') {
+      d.political_affiliation = 'FVD';
+    }
+    if(d.political_affiliation == 'Partij voor de Dieren' || d.political_affiliation.toLowerCase() == 'pvdd') {
+      d.political_affiliation = 'PvdD';
+    }
+    //Add party to list
+    if(partiesList.indexOf(d.political_affiliation) == -1) {
+      partiesList.push(d.political_affiliation);
     }
   });
 
@@ -381,6 +432,63 @@ csv('./data/donations_mps_names.csv', (err, mps) => {
         return d.key + ': ' + d.value.toFixed(2);
       });
       chart.render();
+  }
+
+  //CHART 3
+  var createYearMultilineChart = function(){
+    var chart = charts.years.chart;
+    var dimension = ndx.dimension(function (d) {
+      if(d.year) {
+        return d.year;
+      }
+    });
+    var groups = [];
+    var composeArray = [];
+    _.each(partiesList, function (p) {
+      var thisGroup = dimension.group().reduceSum(function (d) { 
+        if(d.political_affiliation == p) {
+          return d.amt;
+        }
+        return 0;
+      });
+      var thisCompose = dc.lineChart(chart)
+      .group(thisGroup, p)
+      .colors(vuedata.colors.parties[p])
+      .defined(function(d){
+        return d.data.value !== -1;
+      })
+      .renderDataPoints({
+        radius: 2,
+        fillOpacity: 0.5,
+        strokeOpacity: 0.8
+      });
+      groups.push(thisGroup);
+      composeArray.push(thisCompose);
+    });
+    var width = recalcWidth(charts.years.divId);
+    
+    chart
+      .width(width)
+      .height(450)
+      .yAxisPadding(10)
+      .renderHorizontalGridLines(true)
+      .margins({top: 10, left: 40, right: 10, bottom: 50})
+      .legend(dc.legend().x(0).y(460).itemHeight(10).gap(10).horizontal(true).autoItemWidth(true).legendWidth(width))
+      .x(d3.scaleBand())
+      .xUnits(dc.units.ordinal)
+      .brushOn(false)
+      .xAxisLabel('')
+      .yAxisLabel('')
+      .dimension(dimension)
+      .group(groups[0], 'Amt')
+      ._rangeBandPadding(1)
+      .compose(composeArray);
+    chart.xAxis()
+      //.tickValues(d3.range(data.length))
+      .tickFormat(function(d) { return d; });
+    chart.filter = function() {};
+    chart.render();
+    
   }
 
   //CHART 3
@@ -606,6 +714,7 @@ csv('./data/donations_mps_names.csv', (err, mps) => {
   //Render charts
   createPartyChart();
   createYearChart();
+  createYearMultilineChart();
   createTopDonorsChart();
   createTable();
 
@@ -688,5 +797,9 @@ csv('./data/donations_mps_names.csv', (err, mps) => {
   window.onresize = function(event) {
     resizeGraphs();
   };
+})
+})
+})
+})
 })
 })

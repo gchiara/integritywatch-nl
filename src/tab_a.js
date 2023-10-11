@@ -98,7 +98,14 @@ var vuedata = {
       "BIJ1": "#FFFF00",
       "Volt": "#582488",
       "Groep Van Haga": "#cccccc",
-      "JA21": "#999999",
+      //"JA21": "#999999",
+      "Omtzigt": "#34b4eb",
+      "Ephraim": "#333",
+      "Gündoğan": "#b5a2fa",
+      "Krol": "#9379f2",
+      "GroenLinks-PvdA": "#BB1018",
+      "JA21": "#2f4b91",
+      "OPNL": "#d69f3a",
     },
     partiesPrevious: {
       "VVD": "#f68f1e",
@@ -117,7 +124,8 @@ var vuedata = {
       "vKA": "#aaa",
       "Onafhankelijk": "#c0c0c0",
       "Groep Krol/vKA": "#999",
-      "Van Haga": "#777"
+      "Van Haga": "#777",
+      "Krol": "#9379f2",
     }
   }
 }
@@ -804,23 +812,24 @@ json(tweedekamerDataset, (err, meps) => {
     var chart = charts.gifts.chart;
     var dimension = ndx.dimension(function (d) {
         return d.party;
-        /*
-        var gifts = d.PersoonGeschenk.length;
-        if(gifts > 10) {
-          gifts = '> 10';
-        }
-        return gifts.toString();
-        */
     });
     var group = dimension.group().reduceSum(function (d) {
-        //return 1;
         return d.PersoonGeschenk.length;
     });
+    var filteredGroup = (function(source_group) {
+      return {
+        all: function() {
+          return source_group.top(Infinity).filter(function(d) {
+            return d.value > 0;
+          });
+        }
+      };
+    })(group);
     var width = recalcWidth(charts.gifts.divId);
     chart
       .width(width)
       .height(460)
-      .group(group)
+      .group(filteredGroup)
       .dimension(dimension)
       .on("preRender",(function(chart,filter){
       }))

@@ -1,0 +1,444 @@
+name_donor,address,amount_total,year,recipient_name,political_affiliation
+Stichting Godefridus van Heesfonds,"Eikenlaan 22, 4356 HE Oostkapelle",20000,2022,VVD,VVD
+Bestuurdersvereniging van de VVD,"Postbus 30836, 2500 GV Den Haag",70000,2022,VVD,VVD
+"Stichting Ondersteuning VVD Tweede Kamerverkiezing,","Hendrik van Borsselenkade 54, 1181 AZ Amstelveen",300000,2022,VVD,VVD
+Stichting Thorbeckefonds,"Stoeplaan 11 F48, 2243 CW Wassenaar",18950,2022,JOVD,VVD
+E. Nijkerk,Wassenaar,10000,2022,Stichting Ondersteuning VVD Tweede Kamerverkiezing (SOV),VVD
+R.R. Nijkerk,Singapore (Singapore),10000,2022,Stichting Ondersteuning VVD Tweede Kamerverkiezing (SOV),VVD
+Stichting The Dreamery Foundation,"Hof van Zevenbergen 1A, 5211 HB 's Hertogenbosch ",100000,2022,D66,D66
+Stichting Hartwig Foundation,"Dr Lelykade 10B, 2583 CM Den Haag",50000,2022,D66,D66
+R.H. Defares,Den Haag,50000,2022,D66,D66
+W.M. Witteveen,Den Haag,17000,2022,D66,D66
+Godefridus van Hees Fonds,"Eikenlaan 22, 4356 HE Oostkapelle",12000,2022,D66,D66
+W.F. Sijthoff,Amsterdam,10000,2022,D66,D66
+K. Ollongren,Amsterdam,6446,2022,D66,D66
+F.Q. Gräper-van Koolwijk,Groningen,6136,2022,D66,D66
+S.H. in 't Veld,Sint Pieters Woluwe (België),5510,2022,D66,D66
+J. Baak,Soest,5000,2022,D66,D66
+F.M. Weerwind,Almere,4728,2022,D66,D66
+S.A.M. Kaag,Den Haag,4686,2022,D66,D66
+J.A. Vijlbrief,Woubrugge,4557,2022,D66,D66
+R. Dijkgraaf,Roermond,4594,2022,D66,D66
+F.J. van der Linden,Lunteren,35000,2022,Vrienden van de PVV,PVV
+H. Bruins Slot,Utrecht,4700,2022,CDA,CDA
+W.J. van der Wind,Loenen aan de Vecht,30000,2022,CDA,CDA
+Movet Beheer,"Rijksstraatweg 87a, 3632 AA Loenen aan de Vecht",15000,2022,CDA,CDA
+Oostwal Goes BV,"Oude Rijksweg 105, 4458 AK s Heer Arendskerke",6000,2022,CDA,CDA
+T. Mans,Amsterdam,9300,2022,CDA,CDA
+H.O.C.R. Ruding,Den Haag,10000,2022,CDA,CDA
+H.M. de Jonge,Rotterdam,4700.02,2022,CDA,CDA
+Keurvorst B.V.,"Lindenlaan 11, 3707 EN Zeist",50000,2022,CDA Business Club,CDA
+R.E. van Boxsel,Leiden,5000,2022,Christendemocratische Club voor Fondsenwerving,CDA
+G. en W. Verburg-Westerlaken,Mies (Zwitserland),5000,2022,Christendemocratische Club voor Fondsenwerving,CDA
+Herakleitos BV,"Balistraat 76, 2585 XV Den Haag",7500,2022,Christendemocratische Club voor Fondsenwerving,CDA
+H.O.C.R. Ruding,Den Haag,10000,2022,Steenkamp Fonds,CDA
+J. Bakker,Bentveld,5700.82,2022,PvdA,PvdA
+P. Tang,Amsterdam,5975.28,2022,PvdA,PvdA
+A. Jongerius,Utrecht,6325.08,2022,PvdA,PvdA
+H. Nijboer,Groningen,5812.82,2022,PvdA,PvdA
+B. Kathmann,Rotterdam,4765.26,2022,PvdA,PvdA
+A. Kuiken,Breda,6328.66,2022,PvdA,PvdA
+F. Timmermans,Tervuren (België),8139.84,2022,PvdA,PvdA
+K. Piri,Den Haag,5840.18,2022,PvdA,PvdA
+M. Chahim,Helmond,6177.72,2022,PvdA,PvdA
+E.M. Sent,Nijmegen,4861.48,2022,PvdA,PvdA
+S. Mutluer,Zaandam,4712.68,2022,PvdA,PvdA
+J. Thijssen,Muidenberg,5745.26,2022,PvdA,PvdA
+L. Wolters,Brussel (België),6059.62,2022,PvdA,PvdA
+H. de Hoop,Wommels,5569.85,2022,PvdA,PvdA
+V. Tax,Venlo,5899.56,2022,PvdA,PvdA
+M. Chahim,Helmond,4800,2022,Wiardi Beckman stichting,PvdA
+Atlantische Commissie,"Emmapark 12, 2595 ET Den Haag",38481,2022,Wiardi Beckman stichting,PvdA
+L. Verbeek,Lelystad,4634.3,2022,Centrum voor Lokaal Bestuur,PvdA
+A. Aboutaleb,Rotterdam,4600.44,2022,Centrum voor Lokaal Bestuur,PvdA
+H. Oosters,Ameide,4620.8,2022,Centrum voor Lokaal Bestuur,PvdA
+A. van Beveren,Vlaardingen,7630.65,2022,SP,SP
+A. Geerts,Berghem,10174.2,2022,SP,SP
+A. Bakker,Groningen,5871.48,2022,SP,SP
+A. Sprong,Lelystad,13585.79,2022,SP,SP
+A. Vervoort,Belfeld,17422.16,2022,SP,SP
+A. van Leeuwen,Drachten,6634.26,2022,SP,SP
+A. Piquer,Utrecht,19000,2022,SP,SP
+A. Hendriks Berg,Heerlen,10173.38,2022,SP,SP
+A. de Groot,Wormerveer,9953.11,2022,SP,SP
+A. Theeuwen,Leiden,11784.57,2022,SP,SP
+A. Stöcker,Hoensbroek,5735.79,2022,SP,SP
+A. Gerkens,Haarlem,7974.19,2022,SP,SP
+A. Schut,Maastricht,5426.5,2022,SP,SP
+A. Vrusch,Heerlen,7629.83,2022,SP,SP
+A. Hoekstra,Vlaardingen,8055.72,2022,SP,SP
+B. Ermis,Enkhuizen,5968.92,2022,SP,SP
+B. van Kent,Den Haag,26347.4,2022,SP,SP
+B. Tromp,Eindhoven,8398.53,2022,SP,SP
+B. van der Voort,Megen,7602.76,2022,SP,SP
+B. van Apeldoorn,Haarlem,8526.31,2022,SP,SP
+B. Moeskops,Vierlingsbeek,8828.11,2022,SP,SP
+B. Velthuis,Nijmegen,7636.4,2022,SP,SP
+B. van Beugen,Heeswijk-Dinther,5818.68,2022,SP,SP
+B. Verweij,Hilversum,7871.43,2022,SP,SP
+B. Markovic,Nijmegen,4834.92,2022,SP,SP
+B. Roovers,s-Hertogenbosch,11598.51,2022,SP,SP
+B. Geerling,Zwolle,7744.97,2022,SP,SP
+B. van Lieshout,Cuijk,9155.88,2022,SP,SP
+C. Claassen,Bemmel,5962.92,2022,SP,SP
+C. Woltjer,Enschede,8398.53,2022,SP,SP
+C. Visscher,s-Hertogenbosch,11198.04,2022,SP,SP
+C. Offenberg,Amsterdam,5790,2022,SP,SP
+C. Ester-Schokker,Emmen,8488.98,2022,SP,SP
+C. van Erp,Heesch,6055.38,2022,SP,SP
+D. Brandenbarg,Groningen,11177.31,2022,SP,SP
+D. de Vreede,Almere,17698.63,2022,SP,SP
+D. van Dam,Helmond,7630.65,2022,SP,SP
+E. Eikenaar,Haren Gn,14030.21,2022,SP,SP
+E. Draisma,Almere,8398.53,2022,SP,SP
+E. Sweelssen,Venray,6634.26,2022,SP,SP
+E. Van de Baan-Ravestein,Almere,8398.13,2022,SP,SP
+E. Bobeldijk,Amsterdam,12938.55,2022,SP,SP
+E. de Vries,Helmond,14180.87,2022,SP,SP
+E. Maassen,Voorschoten,7644.93,2022,SP,SP
+E. Berends,Amsterdam,6574.53,2022,SP,SP
+Erven T. Eimer,Nijmegen,26382.79,2022,SP,SP
+E. Portegies,Appeltern,6081.34,2022,SP,SP
+E. Schut,Meppel,7248.24,2022,SP,SP
+E. Dansen,Gorinchem,5466.21,2022,SP,SP
+E. Schaaij,Enschede,5158.45,2022,SP,SP
+F.J. Hoogendam,Delft,5627.4,2022,SP,SP
+F. Mulckhuijse,Almere,5435.64,2022,SP,SP
+F. van der Tol,Wijk bij Duurstede,6227.96,2022,SP,SP
+F. Akse,Almelo,10624.92,2022,SP,SP
+G. Nauta,Enkhuizen,7214.22,2022,SP,SP
+G. Loos,Oude Pekela,7248.24,2022,SP,SP
+G. Vennegoor,Hengelo,10174.2,2022,SP,SP
+G. Elfrink,Arnhem,11598.51,2022,SP,SP
+G.J. Leusink,Hengelo,7630.65,2022,SP,SP
+G. Müller,Warnsveld,6634.26,2022,SP,SP
+G. Dikkers,Tynaarlo,5655.36,2022,SP,SP
+G. van Ginkel,Stoutenburg,7545.78,2022,SP,SP
+H. Frentz,Heijen,7045.5,2022,SP,SP
+H. Kokke,Tilburg,8398.53,2022,SP,SP
+H. Teunis,Almelo,10174.2,2022,SP,SP
+H. van Hooft,Nijmegen,9042.13,2022,SP,SP
+H. Schoonewille,Veendam,7374.09,2022,SP,SP
+H. Melissen,Doesburg,7248.24,2022,SP,SP
+H. Oostelbos,Tilburg,12535.62,2022,SP,SP
+H. Kalter,Delden,13619.31,2022,SP,SP
+H. Koetsveld,Hengelo,7886.14,2022,SP,SP
+H. Kruyt,Amersfoort,7727.28,2022,SP,SP
+H. Ghijsen,Middelburg,9261.92,2022,SP,SP
+I. Verdaasdonk,Breda,11598.51,2022,SP,SP
+I. van de Kolk,Alphen aan den Rijn,11769.36,2022,SP,SP
+J. Wedemeijer,Amsterdam,36634.26,2022,SP,SP
+J. al Sari,Drachten,8742.81,2022,SP,SP
+J. Baas,Nieuwerkerk aan den IJssel,9318.33,2022,SP,SP
+J. Breur,Veenendaal,13963.7,2022,SP,SP
+J. Broekema,Assen,8974.81,2022,SP,SP
+J. Hendriks,Venray,9303.09,2022,SP,SP
+J. van der Veen,Jubbega,9318.33,2022,SP,SP
+J. van Kreij,Oijen,10174.2,2022,SP,SP
+J. Velner,Zoetermeer,8829.09,2022,SP,SP
+J. Zoll,Oss,10975.02,2022,SP,SP
+J. Drenthe,Assen,12315.9,2022,SP,SP
+J. Visscher,Eindhoven,11198.04,2022,SP,SP
+J. Knipping,Doetinchem,7016.76,2022,SP,SP
+J. van Dijk,Utrecht,45332.42,2022,SP,SP
+J.P. Casteleijn,Terneuzen,9260.61,2022,SP,SP
+J. van Zeist,Apeldoorn,6639.27,2022,SP,SP
+J. Pomper,Hoogeveen,8779.83,2022,SP,SP
+J. Dijk,Groningen,11698.35,2022,SP,SP
+J.M. Ham,Stadskanaal,6022.38,2022,SP,SP
+J. Arts,Brunssum,5733.72,2022,SP,SP
+J. Wesselink,Finsterwolde,7248.24,2022,SP,SP
+J. Schoon,Burgh-Haamstede,5096.64,2022,SP,SP
+J. Lesman-Veenstra,Hoogezand,13640.64,2022,SP,SP
+J. van der Sluis,Delft,8488.98,2022,SP,SP
+J. Clemens,Heerlen,20702.62,2022,SP,SP
+J. Wolters Gregório,Roermond,11789,2022,SP,SP
+J. Swartjes,Winssen,7698.87,2022,SP,SP
+J. van Zon,Amersfoort,11198.04,2022,SP,SP
+J. Rensema,Nieuwe Pekela,5818.68,2022,SP,SP
+J. van den Oord,Hoogeveen,9333.51,2022,SP,SP
+K. de Kok,Deventer,8786.61,2022,SP,SP
+K. Frenay,Groningen,4689.5,2022,SP,SP
+K. van Limpt,Veghel,10174.2,2022,SP,SP
+K. van Baal,Zwolle,6634.26,2022,SP,SP
+L. Ivens,Amsterdam,15273.96,2022,SP,SP
+L. Vossenberg,Oss,7630.65,2022,SP,SP
+L. Veenstra,Veendam,5818.68,2022,SP,SP
+L. van Rossum,Delft,10803.56,2022,SP,SP
+L. van Aelst,Gorinchem,4648.74,2022,SP,SP
+L. Marijnissen,Oss,34617.57,2022,SP,SP
+L. Maráczi,Helmond,10628.19,2022,SP,SP
+M. Everling,Heesch,6328.01,2022,SP,SP
+M. Hijink,Amersfoort,44400.27,2022,SP,SP
+M. Alkaya,Amsterdam,42757.31,2022,SP,SP
+M. Muller,Almere,5207.6,2022,SP,SP
+M. Kuiper,Zwartemeer,11701.23,2022,SP,SP
+M. van Caldenberg,Landgraaf,13134.44,2022,SP,SP
+M. Keesman,Enkhuizen,7768.05,2022,SP,SP
+M. Laumann,Kerkrade,11618.22,2022,SP,SP
+M. van Oosterhout,Heerlen,8279.33,2022,SP,SP
+M.T. Janssen-van Amstel,Oss,10174.2,2022,SP,SP
+M.F. van Oorsouw,Oijen,7630.65,2022,SP,SP
+M. Broekmeulen,Sint-Oedenrode,7630.65,2022,SP,SP
+M. ten Heuw,Hengelo,8276.39,2022,SP,SP
+M. Faber,Doetinchem,4805.26,2022,SP,SP
+M. de Ridder,Zutphen,9387.48,2022,SP,SP
+M. ten Broeke,Zutphen,6816.02,2022,SP,SP
+M. van Beers,Vlaardingen,5405.04,2022,SP,SP
+M. Gemmink,Ulft,5962.92,2022,SP,SP
+M. Manheim,Lelystad,7630.65,2022,SP,SP
+M. Verschuren,Breda,7887.62,2022,SP,SP
+M. Schrier,Drachtstercompagnie,4590.44,2022,SP,SP
+M. van Nispen,Breda,45444.17,2022,SP,SP
+M. Visser,Borne,6370.77,2022,SP,SP
+M. Memis,Eindhoven,10665.32,2022,SP,SP
+N. Heijmans,s-Hertogenbosch,5830.8,2022,SP,SP
+N. Altundal,Oss,4570.4,2022,SP,SP
+P. Adriaans,Amstelveen,10624.92,2022,SP,SP
+P. Vonk,Hilversum,7970.76,2022,SP,SP
+P. Kwint,Amsterdam,45198.36,2022,SP,SP
+P. Oest,Hoogezand,7630.65,2022,SP,SP
+P. van Noort,Hollum,5627.4,2022,SP,SP
+P. van Zutphen,Heerlen,21199.14,2022,SP,SP
+P. Verschuren,Groningen,12299.16,2022,SP,SP
+P. Molenaar,Nijmegen,15753.66,2022,SP,SP
+P. van Ek,Enschede,11295.15,2022,SP,SP
+Q. Braakman,Steenokkerzeel,7210.65,2022,SP,SP
+R. Alberts,Amsterdam,13875.63,2022,SP,SP
+R. van der Valk,Noorbeek,4659.48,2022,SP,SP
+R. Helmer-Englebert,Nijmegen,10770.47,2022,SP,SP
+R. Leijten,Haarlem,42944.88,2022,SP,SP
+R. Janssen,Wassenaar,20904.7,2022,SP,SP
+R. van der Veen,Boxtel,7248.24,2022,SP,SP
+R. Portier,Dordrecht,11715.24,2022,SP,SP
+R. van der Molen,Drachten,8845.68,2022,SP,SP
+R. Kuin,Haarlem,8693.19,2022,SP,SP
+R. Merks,Schijndel,7225.29,2022,SP,SP
+S. Beckerman,Groningen,49502.47,2022,SP,SP
+S. Dobbe,Arnhem,11198.04,2022,SP,SP
+S. Bayraktar,Heerlen,10173.38,2022,SP,SP
+S. Stroosnijder,Oost-Souburg,7404.73,2022,SP,SP
+S. Zandvliet,Dedemsvaart,5627.4,2022,SP,SP
+S. Bottenberg,Heerlen,10173.38,2022,SP,SP
+S. Dingemans,Zaltbommel,5733.72,2022,SP,SP
+S. de Groen,Zutphen,8845.68,2022,SP,SP
+S. Biharie,Apeldoorn,20464.5,2022,SP,SP
+T. Coşkun,Rotterdam,7884.45,2022,SP,SP
+T. Korevaar,Scherpenisse,7624.58,2022,SP,SP
+T. van Halm,Leiden,11318.64,2022,SP,SP
+T. Reijnders,Heerlen,8093.42,2022,SP,SP
+T. de Vries,Maarssen,5285.52,2022,SP,SP
+T. Kox,Tilburg,34042.2,2022,SP,SP
+T. Segers,Uden,9472.88,2022,SP,SP
+T. Wouters,Schijndel,10174.2,2022,SP,SP
+V. Mulder,Hengelo,10174.2,2022,SP,SP
+W. Snoeks,Uden,8845.68,2022,SP,SP
+W. de Man,Vlaardingen,7630.65,2022,SP,SP
+W. Arts,Eindhoven,5627.4,2022,SP,SP
+W. Hoogervorst,Enkhuizen,6653.2,2022,SP,SP
+W. Koks,Groningen,5657.39,2022,SP,SP
+W. Moinat,Zwartemeer,9329.17,2022,SP,SP
+W. Rijnders,Callantsoog,8490.41,2022,SP,SP
+X. Topma,Meppel,7698.87,2022,SP,SP
+H.I. Roijackers,Den Bosch,19230.6,2022,GL,GL
+H.P. van Essen,Utrecht,18280.6,2022,GL,GL
+A. Kapteijns,Den Haag,18159.52,2022,GL,GL
+B. Potjer,Den Haag,18130.6,2022,GL,GL
+T. Meliani,Amsterdam,18084.52,2022,GL,GL
+B.R. Groot Wassink,Amsterdam,18059.52,2022,GL,GL
+J.N. Kuipers,Meppel,18024.6,2022,GL,GL
+G.J.W. Gabriëls,Weert,17904.6,2022,GL,GL
+M.K. van Hoorn,Groningen,17816.58,2022,GL,GL
+E.P. Stigter,Vogelenzang,17784.5,2022,GL,GL
+R. Grashoff,Delft,16238.24,2022,GL,GL
+L.G.J. Voortman,Utrecht,16084.92,2022,GL,GL
+P.E. Broeksma,Groningen,15860.92,2022,GL,GL
+R. Thijs,Eindhoven,15762.39,2022,GL,GL
+L. van Hooijdonk,Utrecht,15724.92,2022,GL,GL
+M.H.A. Strik,Dodewaard,15711.34,2022,GL,GL
+A.P.A.M. Janssen,Amersfoort,15684.92,2022,GL,GL
+N.P. Vergunst,Nijmegen,15664.92,2022,GL,GL
+C.C. Bouwkamp,Arnhem,15529.92,2022,GL,GL
+R.A.H. Berkhout,Haarlem,15508.92,2022,GL,GL
+K. van Sparrentak,Rotterdam,15171.84,2022,GL,GL
+B. Eickhout,Utrecht,15147.82,2022,GL,GL
+S.C. Kröger,Amsterdam,15020.72,2022,GL,GL
+C.E. de Jonge van Ellemeet,Abcoude,15020.72,2022,GL,GL
+T.M.T. van der Lee,Amsterdam,15020.68,2022,GL,GL
+S. Maatoug,Leiden,15000.72,2022,GL,GL
+K 8ouchallikht,Amsterdam,15000.72,2022,GL,GL
+L. Bromet,Monnickendam,14994.72,2022,GL,GL
+M.P.A.G. Pollux,Venlo,14654.52,2022,GL,GL
+J.W.M. van der Meer,Nijmegen,14590.87,2022,GL,GL
+B. Heller,Hitversum,14569.89,2022,GL,GL
+H.M.M. Schuttenbeld,Zwolle,14499.52,2022,GL,GL
+D.S. de Jong,Zwolle,14484.52,2022,GL,GL
+Y. van Delft,Leiden,14464.52,2022,GL,GL
+W.M. Breunesse,Zaandam,14239.08,2022,GL,GL
+C.J.M. Dortmans,Helmond,14014.76,2022,GL,GL
+Z. Pels,Amsterdam,13224.5,2022,GL,GL
+U. Kâhya,s-Hertogenbosch,13187,2022,GL,GL
+M. Klljmij-van der Laan,Gouda,13050.76,2022,GL,GL
+L.H.H. Hoogstraten,Zeist,12990.76,2022,GL,GL
+M. Schouten,Nieuwegein,12924,2022,GL,GL
+J. Bokhove,Rotterdam,12869.76,2022,GL,GL
+M.A.J. Smitsmans,Roermond,12707.88,2022,GL,GL
+G. Krabbendam,Maastricht,12502,2022,GL,GL
+E.M. Westerveld,Nijmegen,12288.34,2022,GL,GL
+F. Ulichki,Amsterdam,12282.96,2022,GL,GL
+A. Bonte,Rotterdam,12190.9,2022,GL,GL
+A.M. North,Leiden,12104.1,2022,GL,GL
+M. de Nobel,Breda,11967.62,2022,GL,GL
+F.J.R. Faber,Assen,11663.15,2022,GL,GL
+T. van de Ven,Vught,11582.76,2022,GL,GL
+J. Maouche,Oosterbeek,11335,2022,GL,GL
+D.S. Huizer,Apeldoorn,11313.96,2022,GL,GL
+N.F. Mulder,Hoofddorp,11004.64,2022,GL,GL
+M.J.A. Maas,Rijkevoort,10892.04,2022,GL,GL
+T..F. de Jonge,Dordrecht,10749.94,2022,GL,GL
+C.F.G.R. Koenraad,Roosendaal,10514.79,2022,GL,GL
+M.A. Sikkes -  van den Berg,Diemen,10490.4,2022,GL,GL
+F.M.H.P. Houben,Beuningen Gld,10311.4,2022,GL,GL
+J.G. Smit,Nieuwerkerk,10259.4,2022,GL,GL
+L. van Kalken,Vlaardingen,10094.29,2022,GL,GL
+S. Lammers,Eindhoven,9910.97,2022,GL,GL
+S.Y. Dinjens,Amsterdam,9799.15,2022,GL,GL
+A.F. de Leede,Vlaardingen,9610.01,2022,GL,GL
+A.A.M. Boomgaars,Hoorn,9490.08,2022,GL,GL
+G.A.M. van Doorninck,Amsterdam,9279.76,2022,GL,GL
+S. Toub,Eindhoven,9254.77,2022,GL,GL
+P. Bakker,Breda,9197.66,2022,GL,GL
+C.M.H. Daemen,Lent,8869.58,2022,GL,GL
+I. Groeneveld,Terherne,8847.16,2022,GL,GL
+A.T.L. van den Dam,Zetten,8682.57,2022,GL,GL
+J. Hoek,Almere,8625.22,2022,GL,GL
+P.L.P.S. Hofman-Fransen,Drempt,8571.9,2022,GL,GL
+R.P.M. Kocken,Amsterdam,8467.95,2022,GL,GL
+W. Kosterman,Wijk bij Duurstede,8361.04,2022,GL,GL
+E. Stellingwerf,Leeuwarden,8352.3,2022,GL,GL
+B. Vastenhoud,Leiderdorp,8308.58,2022,GL,GL
+E. Spil,Mijdrecht,8173.44,2022,GL,GL
+N.E. Kramers,Leeuwarden,8147.91,2022,GL,GL
+C. van Eijk,Utrecht,7942.46,2022,GL,GL
+J. Portier,Oost-Souburg,7923.12,2022,GL,GL
+H.M.M. Vermin,Amsterdam,7895.36,2022,GL,GL
+E. Ünver,Amsterdam,7815.36,2022,GL,GL
+M.T.I. Meijs,Haarlem,7792.46,2022,GL,GL
+C.C. van Benschop,Dordrecht,7791.78,2022,GL,GL
+P. Smeulders,Arnhem,7766.46,2022,GL,GL
+G. Chakor,Groningen,7719.12,2022,GL,GL
+J. Wijnia,Nijmegen,7598.35,2022,GL,GL
+A.M. 't Hart,De Bilt,7504.29,2022,GL,GL
+W.J.W.A. van der Zanden,Oosterhout,7487.98,2022,GL,GL
+H.A. Warris,Oss,7456.8,2022,GL,GL
+M. Molema,Meerstad,7432,2022,GL,GL
+F.W.J. van Vliet,Delft,7357.32,2022,GL,GL
+R. Richters,Eindhoven,7236.64,2022,GL,GL
+M. Wit,Rijswijk,7029.06,2022,GL,GL
+E. Lagendijk,Amsterdam,6943.28,2022,GL,GL
+M.N.A. Mos,Amsterdam,6923.28,2022,GL,GL
+S.M. Brandligt,Delft,6876.61,2022,GL,GL
+K. Diepeveen,Amsterdam,6839.17,2022,GL,GL
+E. Bijleveld,Wageningen,6775.27,2022,GL,GL
+J.B. Wassink,Drouwen,6706.13,2022,GL,GL
+R.H.M. Paping,Arnhem,6602.05,2022,GL,GL
+P. lnberg,Brummen,6577.48,2022,GL,GL
+C.J. Verhaar,Deventer,6545.38,2022,GL,GL
+M. Wijnja,Groningen,6537.05,2022,GL,GL
+F.J. Kist,Voorburg,6520.38,2022,GL,GL
+A Zalinyan,Hoofddorp,6465.99,2022,GL,GL
+J.W. Groeneveld,Zoetermeer,6426.37,2022,GL,GL
+M.M.E. Peters,Culemborg,6307.99,2022,GL,GL
+B.M. Kagel,Zevenaar,6250.64,2022,GL,GL
+R.P.A. Piers,"Amsterdam
+",6213.54,2022,GL,GL
+R. Kieft,Den Burg,6211.89,2022,GL,GL
+F van der Vegte,Leusden,6032.74,2022,GL,GL
+J. Veldhuizen,Goes,5982.22,2022,GL,GL
+P. Baneke,Mook,5975.4,2022,GL,GL
+A. van de Weijenberg,Monnickendam,5957.76,2022,GL,GL
+A. Harijgens,Bergen op Zoom,5900.84,2022,GL,GL
+H. van Zeijts,Eefde,5693.34,2022,GL,GL
+S. de Vries,Utrecht,5473.59,2022,GL,GL
+J.A.H. van der Does,Weesp,5464.54,2022,GL,GL
+V.P. Brouwer,Castricum,5442.09,2022,GL,GL
+C.T. Dekker,Groningen,5420.92,2022,GL,GL
+N Aboyaakoub-Akkooh,Nijkerk,5246.64,2022,GL,GL
+J.C. Wikkerink,Bredevoort,5227.76,2022,GL,GL
+H.S. de Groot,t Goy,5217.92,2022,GL,GL
+S.J.A. Löwik,Nuenen,5075.41,2022,GL,GL
+B. van Zandbergen-Vrolijk,Münein,5071.66,2022,GL,GL
+M.A. Ririhena,Vries,4993.53,2022,GL,GL
+G. van Vulpen,Wageningen,4865.4,2022,GL,GL
+J.E. Waaldijk,Driebergen-Rijsenburg,4828.35,2022,GL,GL
+H.W. van Gelder,Leeuwarden,4617.6,2022,GL,GL
+J.H. Jansen,Kampen,4563.46,2022,GL,GL
+E.A. Peters,Hippolytushoef,4650,2022,GL,GL
+Gemeente Eemsdelta,"Wilhelminaweg 14, 9901 CM Appingedam",10800,2022,GL,GL
+Gemeente Land van Cuijk,"Louis Jansenplein, 5431 BV Cuijck",8000,2022,GL,GL
+Gemeente Emmen,"Raadhuisplein 1, 7811 AP Emmen",5503.5,2022,GL,GL
+Gemeente Rijswijk,"Bogaardplein 15, 2284 DP Rijswijk",5500,2022,GL,GL
+Fractie GroenLinks Delft,"Markt 87, 2611 GS Delft",5000,2022,GL,GL
+Gemeente Westerkwartier,"Hooiweg 9, 9801 AJ Zuidhorn",4875,2022,GL,GL
+B. Eickhout,Utrecht,58553,2022,GroenLinks in de Europese Unie,GL
+T. Strik,Dodewaard,66778,2022,GroenLinks in de Europese Unie,GL
+K. van Sparrentak,Rotterdam,83168,2022,GroenLinks in de Europese Unie,GL
+Nalatenschap A.A. Bouwman - p/a BMS Netwerk Notarissen,"Plantsoen 25, 2311 KG Leiden",32489.08,2022,PvdD,PvdD
+Nalatenschap A. Kramer p/a Stevens ldema Notariaat,"Boermandestraat 1, 9723 DS Groningen",32016.67,2022,PvdD,PvdD
+Legaat E.A. Aschmoneit - Judell - p/a Van Buttingha Wichers Notarissen,"Koninginnegracht 23, 2508 CK Den Haag",10000,2022,PvdD,PvdD
+Nalatenschap J.C. de Jonge - p/a Westerhuis Notarissen,"Bleulandweg 1 D, 2803 HG Gouda",9224.45,2022,PvdD,PvdD
+Nalatenschap M.A.J. Kooien - p/a Knook & Schot Notarissen,"Hoogstraat 15, 4691 CA Tholen",360000,2022,PvdD,PvdD
+E.M. van Esch,Utrecht,15839.76,2022,PvdD,PvdD
+A.A.H. Hazekamp,Etterbeek,16638.84,2022,PvdD,PvdD
+F.P. Wassenberg,Geleen,15839.9,2022,PvdD,PvdD
+L. van Raan,Amsterdam,15839.76,2022,PvdD,PvdD
+L. Vestering,Almere,14486.05,2022,PvdD,PvdD
+J.F.W. van Lammeren,Amsterdam,8956.71,2022,PvdD,PvdD
+E. Ouwehand,Den Haag,12410,2022,PvdD,PvdD
+J. Luijendijk,Almere,13478.43,2022,PvdD,PvdD
+K. de Wrede,Groningen,7658.2,2022,PvdD,PvdD
+R.Smit,Den Haag,4592.04,2022,PvdD,PvdD
+C. Teunissen,Den Haag,12348,2022,PvdD,PvdD
+Stichting Familie Klem La Brijn,"Zwolsestraat 206, 2587 WC Den Haag",5000,2022,PvdD,PvdD
+Handelsonderneming De Vogel B.V.,"Veilingweg 48B, 2651 BE Berkel en Rodenrijs",35000,2022,PvdD,PvdD
+Herakleitos Holding B.V.,"Cevennen 5, 3524 HP Utrecht",5000,2022,PvdD,PvdD
+Erven van hr JB Vosters- Y Vosters,Diemen,8656,2022,PvdD,PvdD
+A.F. van Langeveld,Zoetermeer,6777.25,2022,PvdD,PvdD
+"Nalatenschap Dr Scholte, via Derdengeld Batenburg Notarissen","Spanjaardslaan 7 bg, 2012 NR Haarlem ",65000,2022,Nicolaas G. Pierson Foundation,PvdD
+Partij voor de Dieren,"Nieuwezijds Voorburgwal 32, 1012 RZ Amsterdam",38633,2022,Animal Politics Foundation,PvdD
+H.T. Dake,Lochem,10120,2022,CU,CU
+ChristenUnie,"Piet Mondriaanlaan 48, 3818 GV Amersfoort",108000,2022,Mr. G. Groen van Prinsterer-stichting,CU
+Bestuurdersvereniging ChristenUnie,"Piet Mondriaanlaan 48, 3818 GV Amersfoort",14000,2022,Mr. G. Groen van Prinsterer-stichting,CU
+ChristenUnie,"Piet Mondriaanlaan 48, 3818 GV Amersfoort",35000,2022,Perspectief,CU
+G. Franke,Kussnacht am Rigi (Zwitserland),50000,2022,FvD,FvD
+I. Jonassen,Amstelveen,10000,2022,FvD,FvD
+F.G. Richartz,Nijmegen,10000,2022,FvD,FvD
+Ozephius Groep BV,"Simon Stevenstraat 1, 3261 MG Oud-Beijerland",5000,2022,FvD,FvD
+L. Tukenmez,Amsterdam,5000,2022,FvD,FvD
+D. Schaap,Amsterdam,7500,2022,FvD,FvD
+Bolkesteijn Group BV,"Postbus 172, 7900 AD Hoogeveen",5000,2022,FvD,FvD
+,,0,2022,SGP,SGP
+T. Kuzu,Rotterdam,5355.51,2022,DENK,DENK
+S.R.T. van Baarle,Rotterdam,5040,2022,DENK,DENK
+J.H. Brus,Schijndel,5000,2022,Volt,Volt
+J.L. Davis,Amsterdam,10000,2022,Volt,Volt
+L. Dassen,Den Haag,16080,2022,Volt,Volt
+M. Koekkoek,Utrecht,26737.66,2022,Volt,Volt
+Stichting Ondersteuning Tweede Kamerfractie Volt,"Bezuidenhoutseweg 67, 2594 AC Den Haag",104640.94,2022,Volt,Volt
+M.J. ten Bosch,Haarlem,5000,2022,JA21,JA21
+Probest BV,"Gevers Deynootweg 15, 2586 BB Den Haag",7500,2022,JA21,JA21
+M.P.H. Veerman,Rotterdam,12500,2022,JA21,JA21
+Ka Ve Invest BV,"Boekenroodeweg 45, 2111 HK Aerdenhout",50000,2022,JA21,JA21
+First Rank Holding B.V.,"Noordeinde 162, 2514 GR Den Haag",4500,2022,BVNL,BVNL
+Eizema Heerenveen Vastgoed B.V.,"Burgemeester Falkenaweg 36, 8442 LD Heereveen",4500,2022,BVNL,BVNL
+R. Berghuis,Rotterdam,5000,2022,BVNL,BVNL
+Katzenklub B.V.,"Herengracht 191C, 1016 BE Amsterdam",10000,2022,BVNL,BVNL
+Ys Holding B.V.,"Willemskade 1, 8911 AW Leeuwarden,",10000,2022,BVNL,BVNL
+,,0,2022,50PLUS,50PLUS
+,,0,2022,BIJ1,BIJ1
+,,0,2022,OPNL,OPNL
+Theeuwes Mengvoeders,"Molenstraat 10, 5113 GG Ulicoten ",5000,2022,BBB,BBB
+SmartDocuments Nederland B.V.,Keulenstraat 7 7418 ET Deventer,5000,2022,BBB,BBB
+Graansloot Kampen B.V.,Haatlandhaven 21 8263 AS Kampen,5000,2022,BBB,BBB
+Trigona Dairy Trade,Luijnhorststraat 16 6941 RD Didam,12500,2022,BBB,BBB
+Jojavi B.V.,Molenstraat 10 5113 GG Ulicoten,5000,2022,BBB,BBB
