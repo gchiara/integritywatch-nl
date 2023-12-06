@@ -197,16 +197,16 @@ $color_lobby: #42b983;
     height: 530px;
   }
   &.tab_c_1 {
-    height: 630px;
+    height: 640px;
     @media only screen and (max-width: 767px) {
-      height: 630px !important;
+      height: 640px !important;
     }
   }
   &.tab_c_2 {
-    height: 630px;
+    height: 640px;
   }
   &.tab_c_3 {
-    height: 630px;
+    height: 640px;
   }
   @media only screen and (max-width: 767px) {
     height: auto !important;
@@ -400,6 +400,10 @@ $color_lobby: #42b983;
     transition: all .4s;
     @media only screen and (max-width: 1250px) {
       display: none;
+    }
+    @media only screen and (max-width: 1420px) {
+      font-size: 12px;
+      padding: 10px 10px;
     }
     &:hover, &:focus, &.active {
       background: rgb(206, 74, 88);

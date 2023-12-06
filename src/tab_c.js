@@ -415,7 +415,7 @@ csv('./data/donations/donations_mps_names.csv', (err, mps) => {
     var width = recalcWidth(charts.years.divId);
     chart
       .width(width)
-      .height(550)
+      .height(560)
       .margins({top: 10, left: 30, right: 0, bottom: 20})
       .group(group)
       .dimension(dimension)
@@ -469,7 +469,7 @@ csv('./data/donations/donations_mps_names.csv', (err, mps) => {
     
     chart
       .width(width)
-      .height(450)
+      .height(460)
       .yAxisPadding(10)
       .renderHorizontalGridLines(true)
       .margins({top: 10, left: 40, right: 10, bottom: 50})
@@ -622,7 +622,7 @@ csv('./data/donations/donations_mps_names.csv', (err, mps) => {
       "bPaginate": true,
       "bLengthChange": true,
       "bFilter": false,
-      "order": [[ 1, "asc" ]],
+      "order": [[ 3, "desc" ]],
       "bSort": true,
       "bInfo": true,
       "bAutoWidth": false,
@@ -686,13 +686,13 @@ csv('./data/donations/donations_mps_names.csv', (err, mps) => {
     if(vuedata.showMps){
       vuedata.showMps = false;
       excludeMps();
-      $('.toggle-mps-btn').html("Met kamerleden");
+      $('.toggle-mps-btn').html("Met Tweedekamerleden");
     } else {
       vuedata.showMps = true;
       searchDimension.filter(null);
       $('#search-input').val('');
       dc.redrawAll();
-      $('.toggle-mps-btn').html("Zonder kamerleden");
+      $('.toggle-mps-btn').html("Zonder Tweedekamerleden");
     }
   })
 

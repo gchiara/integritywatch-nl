@@ -2,7 +2,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -96,7 +96,7 @@
             },
             "woonplaats": {
                 "content": [
-                    "Den Haag, Zuid-Holland"
+                    "Voorburg, Zuid-Holland"
                 ],
                 "text_only": "false"
             }
@@ -125,7 +125,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "3006 dagen",
+                "3058 dagen",
                 "(9 juni 2015 tot heden)"
             ]
         },
@@ -243,7 +243,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -405,7 +405,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "1543 dagen",
+                "1595 dagen",
                 "(11 juni 2019 tot heden)"
             ]
         },
@@ -592,7 +592,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -637,6 +637,17 @@
                     },
                     {
                         "advieswerk": "nee",
+                        "beschrijving": "Toetsingen uitvoeren bij te accrediteren organisaties",
+                        "bezoldigd": "ja",
+                        "title": "Freelance lead assessor Raad voor Accreditatie vanaf 1 februari 2006"
+                    }
+                ],
+                "text_only": "false"
+            },
+            "afgesloten": {
+                "content": [
+                    {
+                        "advieswerk": "nee",
                         "beschrijving": "Intern toezicht houden",
                         "bezoldigd": "ja",
                         "title": "Lid Raad van Commissarissen Vecht en IJssel vanaf 1 oktober 2015 tot 1 oktober 2023"
@@ -646,12 +657,6 @@
                         "beschrijving": "Intern toezicht houden",
                         "bezoldigd": "ja",
                         "title": "Lid Raad van Toezicht Vivium Zorggroep vanaf 1 september 2015 tot 1 september 2023"
-                    },
-                    {
-                        "advieswerk": "nee",
-                        "beschrijving": "Toetsingen uitvoeren bij te accrediteren organisaties",
-                        "bezoldigd": "ja",
-                        "title": "Freelance lead assessor Raad voor Accreditatie vanaf 1 februari 2006"
                     }
                 ],
                 "text_only": "false"
@@ -731,7 +736,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -837,6 +842,7 @@
         "committees": [
             "Buitenlandse Zaken, Defensie en Ontwikkelingssamenwerking (BDO)",
             "Delegatie naar de Benelux Interparlementaire Assemblee",
+            "Delegatie naar de Parlementaire Assembleé van de Unie voor de Mediterrane Regio",
             "Justitie en Veiligheid (J&V)",
             "Koninkrijksrelaties (KOREL)",
             "Onderwijs, Cultuur en Wetenschap (OCW)",
@@ -851,7 +857,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "591 dagen",
+                "643 dagen",
                 "(18 januari 2022 tot heden)"
             ]
         },
@@ -860,15 +866,41 @@
                 "content": [
                     {
                         "advieswerk": "nee",
+                        "beschrijving": "De Stichting Van Panhuys verpacht landerijen en beheert een financieel vermogen. De opbrengsten komen ten goede aan maatschappelijke initiatieven en culturele instellingen.",
+                        "bezoldigd": "ja",
+                        "title": "Secretaris Stichting Van Panhuys vanaf 1 juli 2023",
+                        "toelichting": "Vacatiegeld"
+                    },
+                    {
+                        "advieswerk": "nee",
                         "beschrijving": "Onderwijs en onderzoek",
                         "bezoldigd": "ja",
                         "title": "Bijzonder hoogleraar Transities in de publieke sector Universiteit Leiden vanaf 1 november 2021"
+                    },
+                    {
+                        "advieswerk": "ja",
+                        "beschrijving": "Toekenning van beurzen voor masteropleidingen en PhD-onderzoek aan buitenlandse universiteiten",
+                        "bezoldigd": "nee",
+                        "sector": "hoger onderwijs",
+                        "title": "Adviseur wetenschappelijke beurzen Prins Bernhard Cultuurfonds vanaf januari 2018"
                     },
                     {
                         "advieswerk": "nee",
                         "beschrijving": "Onderwijs en onderzoek",
                         "bezoldigd": "ja",
                         "title": "Hoogleraar Global and Local Governance Rijksuniversiteit Groningen vanaf 1 november 2017"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Het Montesquieu Instituut verwelkomt vooraanstaande onderzoekers van Nederlandse universiteiten die bijdragen aan het uitvoeren van zijn onderzoeksmissie. De onderzoekers zijn als 'fellow' verbonden aan het instituut.",
+                        "bezoldigd": "nee",
+                        "title": "Montesquieu Fellow Montesquieu Instituut vanaf 1 september 2017"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": ".",
+                        "bezoldigd": "nee",
+                        "title": "Lid Curatorium Prof.mr. B.M. Teldersstichting vanaf 1 april 2017"
                     }
                 ],
                 "text_only": "false"
@@ -911,6 +943,38 @@
                 "text_only": "false"
             }
         },
+        "Partijpolitieke_functies": {
+            "afgesloten": {
+                "content": [
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": ".",
+                        "bezoldigd": "nee",
+                        "title": "Lid verkiezingsprogrammacommissie 2023 VVD vanaf juli 2023 tot september 2023"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": ".",
+                        "bezoldigd": "nee",
+                        "title": "Lid kandidaatstellingscommissie waterschapsverkiezingen 2023 VVD - Afdeling Zuid-Holland vanaf september 2022 tot december 2022"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": ".",
+                        "bezoldigd": "nee",
+                        "title": "Lid kandidaatstellingscommissie gemeenteraadsverkiezingen 2022 VVD - Afdeling Den Haag vanaf juni 2021 tot november 2021"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": ".",
+                        "bezoldigd": "nee",
+                        "title": "Lid evaluatiecommissie gemeenteraadsverkiezingen 2014 VVD - Afdeling Den Haag vanaf april 2014 tot oktober 2014"
+                    }
+                ],
+                "text_only": "false"
+            },
+            "extraInfo": []
+        },
         "Personalia": {
             "extraInfo": [
                 "geboren te Angerlo, 19 mei 1980Getrouwd"
@@ -937,6 +1001,7 @@
         },
         "committees": [
             "Binnenlandse Zaken (BIZA)",
+            "Delegatie naar de Parlementaire Assembleé van de Unie voor de Mediterrane Regio",
             "Europese Zaken (EUZA)",
             "Justitie en Veiligheid (J&V)",
             "Onderwijs, Cultuur en Wetenschap (OCW)",
@@ -951,7 +1016,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "1543 dagen",
+                "1595 dagen",
                 "(11 juni 2019 tot heden)"
             ]
         },
@@ -1065,7 +1130,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -1197,7 +1262,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -1206,15 +1271,15 @@
                 "content": [
                     {
                         "advieswerk": "nee",
-                        "beschrijving": "Op het Amerikaans Oorlogskerkhof te Margraten liggen aantal zwarte soldaten begraven. De laatste jaren is er meer aandacht voor de rol van Black Liberators in de bevrijding van Europa in een gesegregeerd leger. Met steun van de Amerikaanse ambassade loopt divers historisch onderzoek. Samen met het doel eerbetoon is deze taak ondergebracht in een aparte rechtspersoon. www.blackliberators.nl",
+                        "beschrijving": "De Stichting eert de Amerikaanse bevrijders uit WO2, m.n. hen die sneuvelden en begraven liggen in Margraten. In het weekend na 12 september (de dag dat in 1944 de bevrijding van Nederland in Mesch begon) wordt het Liberation Concert georganiseerd op het kerkhof, met óf de Philharmonie Zuidnederland óf één van de Nederlandse militaire orkesten.",
                         "bezoldigd": "nee",
-                        "title": "Voorzitter Stichting Black Liberators in the Netherlands vanaf 5 mei 2023"
+                        "title": "Voorzitter bestuur Stichting Eerbetoon Netherlands American Cemetary and Memorial Margraten vanaf 1 juni 2023"
                     },
                     {
                         "advieswerk": "nee",
-                        "beschrijving": "De Stichting eert de Amerikaanse bevrijders uit WO2, m.n. hen die sneuvelden en begraven liggen in Margraten. In het weekend na 12 september (de dag dat in 1944 de bevrijding van Nederland in Mesch begon) wordt het Liberation Concert georganiseerd op het kerkhof, met óf de Philharmonie Zuidnederland óf één van de Nederlandse militaire orkesten.",
+                        "beschrijving": "Op het Amerikaans Oorlogskerkhof te Margraten liggen aantal zwarte soldaten begraven. De laatste jaren is er meer aandacht voor de rol van Black Liberators in de bevrijding van Europa in een gesegregeerd leger. Met steun van de Amerikaanse ambassade loopt divers historisch onderzoek. Samen met het doel eerbetoon is deze taak ondergebracht in een aparte rechtspersoon. www.blackliberators.nl",
                         "bezoldigd": "nee",
-                        "title": "Voorzitter bestuur Stichting Eerbetoon Netherlands American Cemetary and Memorial Margraten vanaf 1 mei 2023"
+                        "title": "Voorzitter Stichting Black Liberators in the Netherlands vanaf 5 mei 2023"
                     },
                     {
                         "advieswerk": "nee",
@@ -1402,7 +1467,8 @@
             "Europese Zaken (EUZA)",
             "Financiën (FIN)",
             "Koninkrijksrelaties (KOREL)",
-            "Sociale Zaken en Werkgelegenheid (SZW)"
+            "Sociale Zaken en Werkgelegenheid (SZW)",
+            "Delegatie naar de Parlementaire Assemblee van de Raad van Europa"
         ],
         "hasPhoto": true,
         "id": "drs_t_j_f_m_bovens_cda",
@@ -1413,13 +1479,19 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "3951 dagen",
+                "4003 dagen",
                 "(6 november 2012 tot heden)"
             ]
         },
         "Functies_naast_het_Eerste_Kamerlidmaatschap": {
             "actueel": {
                 "content": [
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Ondersteuning studenten",
+                        "bezoldigd": "nee",
+                        "title": "Lid Comité van Aanbeveling XXIIe Lustrum Rotterdamse Studentensociëteit Hermes vanaf 22 september 2023 tot 1 januari 2025"
+                    },
                     {
                         "advieswerk": "nee",
                         "beschrijving": "De periodieke bijeenkomsten van Le Cercle Cigogne zijn bedoeld voor het onderhouden van relaties tussen verschillende maatschappelijke partijen vanuit het openbaar bestuur, kennisinstellingen, internationale instellingen, Corps Diplomatique en bedrijfsleven.",
@@ -1810,7 +1882,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -1926,7 +1998,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "1543 dagen",
+                "1595 dagen",
                 "(11 juni 2019 tot heden)"
             ]
         },
@@ -2057,7 +2129,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "1543 dagen",
+                "1595 dagen",
                 "(11 juni 2019 tot heden)"
             ]
         },
@@ -2165,7 +2237,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "3006 dagen",
+                "3058 dagen",
                 "(9 juni 2015 tot heden)"
             ]
         },
@@ -2323,7 +2395,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "1543 dagen",
+                "1595 dagen",
                 "(11 juni 2019 tot heden)"
             ]
         },
@@ -2751,7 +2823,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "1543 dagen",
+                "1595 dagen",
                 "(11 juni 2019 tot heden)"
             ]
         },
@@ -2866,7 +2938,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "4469 dagen",
+                "4521 dagen",
                 "(7 juni 2011 tot heden)"
             ]
         },
@@ -3000,7 +3072,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "1123 dagen",
+                "1175 dagen",
                 "(12 oktober 2021 tot heden)",
                 "(3 april 2018 tot 11 juni 2019)"
             ]
@@ -3191,9 +3263,29 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "52 dagen",
+                "104 dagen",
                 "(11 juli 2023 tot heden)"
             ]
+        },
+        "Functies_naast_het_Eerste_Kamerlidmaatschap": {
+            "actueel": {
+                "content": [
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Vereniging Achmea is de (65%) meerderheidsaandeelhouder van Achmea bekend van merken zoals Centraal Beheer, FBTO, Interpolis, Zilveren Kruis, De Friesland, Inshared. Daarnaast is Rabobank 30% aandeelhouder. Achmea is opgericht als coöperatie in 1811 door 38 boeren in het Friese Achlum.",
+                        "bezoldigd": "ja",
+                        "title": "Lid Bestuur (niet-uitvoerend) Vereniging Achmea vanaf 1 juni 2015"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Internationale firma werkzaam op het snijvlak van innovatie, investeringen en M&A voor fondsen, family offices, venture capital, corporate venture capital en handelshuizen",
+                        "bezoldigd": "ja",
+                        "title": "Co-founder Annlyz Inc vanaf 1 juli 2014"
+                    }
+                ],
+                "text_only": "false"
+            },
+            "extraInfo": []
         },
         "Geschenken": {
             "Geschenken": {
@@ -3205,9 +3297,7 @@
         "Loopbaan": {
             "extraInfo": [],
             "functies": {
-                "content": [
-                    "Lid Eerste Kamer der Staten-Generaal vanaf 11 juli 2023"
-                ],
+                "content": [],
                 "text_only": "false"
             }
         },
@@ -3223,7 +3313,13 @@
         "Personalia": {
             "extraInfo": [
                 "geboren te Rotterdam, 7 januari 1959"
-            ]
+            ],
+            "woonplaats": {
+                "content": [
+                    "Lansingerland, Zuid-Holland"
+                ],
+                "text_only": "false"
+            }
         },
         "Reizen": {
             "Reizen": {
@@ -3237,16 +3333,258 @@
             "Koninkrijksrelaties (KOREL)",
             "Sociale Zaken en Werkgelegenheid (SZW)"
         ],
-        "hasPhoto": false,
-        "id": "mr_r_m_j_van_gasteren_bbb",
-        "name": "mr. R.M.J. van Gasteren",
-        "name_page": "Mr. R.M.J. van Gasteren  (BBB)",
-        "url": "https://www.eerstekamer.nl/persoon/mr_r_m_j_van_gasteren_bbb"
+        "hasPhoto": true,
+        "id": "mr_r_m_j_van_gasteren_llm_bbb",
+        "name": "mr. R.M.J. van Gasteren LLM",
+        "name_page": "Mr. R.M.J. van Gasteren LLM (BBB)",
+        "url": "https://www.eerstekamer.nl/persoon/mr_r_m_j_van_gasteren_llm_bbb"
     },
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "1595 dagen",
+                "(11 juni 2019 tot heden)"
+            ]
+        },
+        "Functies_naast_het_Eerste_Kamerlidmaatschap": {
+            "actueel": {
+                "content": [
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Begeleiden leerling van IMC Weekendschool",
+                        "bezoldigd": "nee",
+                        "title": "Mentor bovenbouwprogramma IMC Weekendschool vanaf 26 september 2023"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Bestuurlijke-, management- en toezichthoudende werkzaamheden",
+                        "bezoldigd": "ja",
+                        "title": "Eigenaar PWGA vanaf 28 februari 2022"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Toezichthouden. Provinciaal Fonds, deelnemen in en het financieren van innovatieve ondernemingen in hoofdzaak in Overijssel.",
+                        "bezoldigd": "ja",
+                        "title": "Voorzitter van de Raad van Commissarissen Innovatiefonds Overijssel I B.V. vanaf 18 oktober 2021"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Toezichthouden. Provinciaal Fonds, het verstrekken van financieringen aan innovatieve ondernemingen, in hoofdzaak in Overijssel",
+                        "bezoldigd": "ja",
+                        "title": "Voorzitter van de Raad van Commissarissen Innovatiefonds Overijssel II B.V. vanaf 18 oktober 2021"
+                    },
+                    {
+                        "advieswerk": "ja",
+                        "beschrijving": "Organisatieadviesbureau in Noord-Nederland",
+                        "bezoldigd": "ja",
+                        "sector": "Organisatieadvies in Noord-Nederland",
+                        "title": "Lid van de Raad van Inspiratie Het Zuiderlicht vanaf 1 juni 2021"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Lid van het bestuur van de Nederlandse Groep der Interparlementaire Unie",
+                        "bezoldigd": "nee",
+                        "title": "Bestuurslid Nederlandse Groep der Interparlementaire Unie vanaf 18 mei 2021"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "ROC Drenthe College verzorgt opleidingen in Drenthe",
+                        "bezoldigd": "ja",
+                        "title": "Lid Raad van Toezicht, voorzitter Auditcommissie, lid Renumeratiecommisssie ROC Drenthe College vanaf 1 april 2021"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Het Gevangenismuseum in Veenhuizen vertelt twee hoofdverhalen: de geschiedenis van gevangenschap en vrijheidsbeneming en het verhaal van de onvrije kolonie voor stedelijke wezen en paupers in Veenhuizen. Beide verhalen gaan over vrijheidsbeneming en heropvoeding en opvattingen daarover door de tijd heen.",
+                        "bezoldigd": "nee",
+                        "title": "Voorzitter Raad van Toezicht Stichting Nationaal Gevangenismuseum Veenhuizen vanaf 12 november 2020"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "De Interparlementaire Commissie is samengesteld uit Nederlandse en Vlaamse volksvertegenwoordigers en controleert de werking van de Taalunie.",
+                        "bezoldigd": "ja",
+                        "title": "Lid Interparlementaire Commissie (IPC) van de Nederlandse Taalunie vanaf 1 september 2019"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Toezichthouden",
+                        "bezoldigd": "ja",
+                        "title": "Voorzitter van de RvT, lid van de Auditcommissie, lid van de Renumeratiecommissie Wilhelmina Ziekenhuis Assen vanaf 2018"
+                    }
+                ],
+                "text_only": "false"
+            },
+            "afgesloten": {
+                "content": [
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Directeur van het stafbureau Financieel Economische Zaken van de Hanzehogeschool (HBO) in Groningen",
+                        "bezoldigd": "ja",
+                        "title": "Interim directeur Financieel Economische Zaken Hanzehogeschool vanaf 1 maart 2022 tot 31 december 2022"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Deelname aan de interparlementaire werkgroep van de IPU",
+                        "bezoldigd": "nee",
+                        "title": "Lid van de Working Group on Science and Technology Interparlementaire Unie vanaf 24 mei 2021 tot 13 april 2023"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "De Parlementaire Assemblee van de Raad van Europa (PACE) vergadert vier keer per jaar gedurende een week in het Palais de l’ Europe in Straatsburg.",
+                        "bezoldigd": "ja",
+                        "title": "Plaatsvervangend lid Parlementaire Assemblee van de Raad van Europa (PACE) vanaf 1 september 2019 tot 5 april 2022"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Controlerende functie jaarrekening VVD",
+                        "bezoldigd": "nee",
+                        "title": "Lid van de financiële commissie VVD vanaf 2017 tot 13 juni 2020"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Steunfonds Internationaal Franz Liszt Pianoconcours",
+                        "bezoldigd": "nee",
+                        "title": "Bestuurslid, secretaris Henk de By Fonds vanaf 2016 tot 31 mei 2023"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Besturen",
+                        "bezoldigd": "nee",
+                        "title": "Bestuurslid, secretaris Stichting vrienden van het Liszt Concours vanaf 2016 tot 31 mei 2023"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Toezichthouden. Provinciaal Fonds ter versterking van de economie in Overijssel.",
+                        "bezoldigd": "ja",
+                        "title": "Lid Raad van Commissarissen Houdstermaatschappij Fondsen Overijssel B.V. vanaf 2015 tot 18 oktober 2021"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Internationaal Franz Liszt Pianoconcours",
+                        "bezoldigd": "nee",
+                        "title": "Bestuurslid Stichting Liszt Concours vanaf 2012 tot 31 mei 2023"
+                    }
+                ],
+                "text_only": "false"
+            },
+            "extraInfo": []
+        },
+        "Geschenken": {
+            "Geschenken": {
+                "content": [
+                    {
+                        "betaald door": "Groningen Seaports",
+                        "title": "Waterstofpakket ten behoeve van havendiner, 20 oktober 2020",
+                        "waarde": "Meer dan 50 euro"
+                    }
+                ],
+                "text_only": "false"
+            },
+            "extraInfo": []
+        },
+        "Loopbaan": {
+            "extraInfo": [],
+            "functies": {
+                "content": [],
+                "text_only": "false"
+            }
+        },
+        "Opleidingen": {
+            "extraInfo": [],
+            "voortgezet onderwijs": {
+                "content": [
+                    "VWO, OSG De Groene Driehoek in Hoogeveen en Kottenparkcollege Enschede, vanaf 1981 tot 1987"
+                ],
+                "text_only": "false"
+            },
+            "wetenschappelijk onderwijs": {
+                "content": [
+                    "Erasmus programma, juridische faculteit, Universiteit Hannover, vanaf 1993 tot 1993",
+                    "Fiscale economie, Rijksuniversiteit Groningen, vanaf 1987 tot 1993"
+                ],
+                "text_only": "false"
+            }
+        },
+        "Partijpolitieke_functies": {
+            "afgesloten": {
+                "content": [
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Advisering Hoofdbestuur VVD over samenstelling kandidatenlijsten Tweede Kamer, Eerste Kamer en Europees Parlement",
+                        "bezoldigd": "nee",
+                        "title": "Lid permanente scoutingscommissie VVD vanaf 2012 tot 2016"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "bezoldigd": "nee",
+                        "title": "Fractievoorzitter VVD Provinciale Staten van Groningen VVD vanaf 2011 tot 2014"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "bezoldigd": "nee",
+                        "title": "Lid van het Algemeen Bestuur Groningen Seaports"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Opleidingsinstituut van de VVD",
+                        "bezoldigd": "nee",
+                        "title": "Lid van de Stuurgroep van de Haya van Somerenstichting VVD vanaf 2006 tot 2007"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "bezoldigd": "ja",
+                        "title": "Gemeenteraadslid VVD gemeente Amsterdam VVD vanaf 2002 tot 2006"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "bezoldigd": "nee",
+                        "title": "Bestuurslid VVD Amsterdam-Zuid VVD vanaf 1996 tot 2002"
+                    }
+                ],
+                "text_only": "false"
+            },
+            "extraInfo": []
+        },
+        "Personalia": {
+            "extraInfo": [
+                "geboren te Delft, 7 maart 1969gehuwd"
+            ],
+            "kinderen": {
+                "content": [
+                    "1 dochter en 1 zoon"
+                ],
+                "text_only": "false"
+            },
+            "woonplaats": {
+                "content": [
+                    "Groningen, Groningen"
+                ],
+                "text_only": "false"
+            }
+        },
+        "Reizen": {
+            "Reizen": {
+                "content": "Geen opgave ontvangen",
+                "text_only": "true"
+            },
+            "extraInfo": []
+        },
+        "committees": [
+            "Binnenlandse Zaken (BIZA)",
+            "Delegatie naar de Nederlandse Taalunie",
+            "Financiën (FIN)",
+            "Onderwijs, Cultuur en Wetenschap (OCW)",
+            "Sociale Zaken en Werkgelegenheid (SZW)"
+        ],
+        "hasPhoto": true,
+        "id": "drs_p_w_geerdink_vvd",
+        "name": "Drs. P.W. Geerdink",
+        "name_page": "Drs. P.W.  Geerdink  (VVD)",
+        "url": "https://www.eerstekamer.nl/persoon/drs_p_w_geerdink_vvd"
+    },
+    {
+        "Anciënniteit": {
+            "extraInfo": [
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -3321,7 +3659,7 @@
         },
         "Personalia": {
             "extraInfo": [
-                "geboren te Hoensbroek, 5 augustus 1954Gehuwd"
+                "geboren te Hoensbroek, 5 augustus 1954Alleenstaande"
             ],
             "kinderen": {
                 "content": [
@@ -3360,7 +3698,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -3438,7 +3776,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -3491,22 +3829,11 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "1543 dagen",
+                "1595 dagen",
                 "(11 juni 2019 tot heden)"
             ]
         },
         "Functies_naast_het_Eerste_Kamerlidmaatschap": {
-            "actueel": {
-                "content": [
-                    {
-                        "advieswerk": "nee",
-                        "beschrijving": "Casade is een woningcorporatie in de gemeenten Waalwijk, Loon op Zand en Dongen, 11.500 woningen, plm 110 fte. personeel,",
-                        "bezoldigd": "ja",
-                        "title": "Directeur/bestuurder Stichting Casade vanaf 1 maart 2011"
-                    }
-                ],
-                "text_only": "false"
-            },
             "afgesloten": {
                 "content": [
                     {
@@ -3515,6 +3842,12 @@
                         "bezoldigd": "nee",
                         "title": "Verkenner en Informateur Formatie gemeente Utrecht vanaf 21 maart 2022 tot 15 juni 2022",
                         "toelichting": "Onbezoldigde tijdelijke nevenfunctie"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Casade is een woningcorporatie in de gemeenten Waalwijk, Loon op Zand en Dongen, 11.500 woningen, plm 110 fte. personeel,",
+                        "bezoldigd": "ja",
+                        "title": "Directeur/bestuurder Stichting Casade vanaf 1 maart 2011 tot 1 september 2023"
                     }
                 ],
                 "text_only": "false"
@@ -3596,7 +3929,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -3671,7 +4004,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "3006 dagen",
+                "3058 dagen",
                 "(9 juni 2015 tot heden)"
             ]
         },
@@ -3795,7 +4128,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -3861,6 +4194,11 @@
                 "text_only": "false"
             }
         },
+        "Partijpolitieke_functies": {
+            "extraInfo": [
+                "Fractiemedewerker BBB fractie PS Limburg vanaf 13 juni 2023beschrijving: Ondersteuning fractieadvieswerk: neebezoldigd: nee"
+            ]
+        },
         "Personalia": {
             "extraInfo": [
                 "geboren te Heerlen, 22 juli 1964Gehuwd"
@@ -3900,7 +4238,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -3985,14 +4323,16 @@
                 "content": [
                     {
                         "advieswerk": "nee",
-                        "beschrijving": "Het wetenschappelijk instituut van de ChristenUnie de denktank van de partij.",
+                        "beschrijving": "Het wetenschappelijk instituut van de ChristenUnie is de denktank van de partij.",
                         "bezoldigd": "nee",
                         "title": "Lid van het Curatorium Wetenschappelijk Instituut van de ChristenUnie, Amersfoort vanaf 2022 tot 2023"
                     }
                 ],
                 "text_only": "false"
             },
-            "extraInfo": []
+            "extraInfo": [
+                "Adviseur van het Curatorium Wetenschappelijk Instituut van de ChristenUnie, Amersfoort vanaf 1 september 2023beschrijving: Het wetenschappelijk instituut van de ChristenUnie is de denktank van de partij.advieswerk: neebezoldigd: nee"
+            ]
         },
         "Personalia": {
             "extraInfo": [
@@ -4033,7 +4373,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "1543 dagen",
+                "1595 dagen",
                 "(11 juni 2019 tot heden)"
             ]
         },
@@ -4089,7 +4429,7 @@
         },
         "Geschenken": {
             "Geschenken": {
-                "content": "Geen opgave ontvangen",
+                "content": "Geen geschenken ontvangen",
                 "text_only": "true"
             },
             "extraInfo": []
@@ -4164,7 +4504,7 @@
         },
         "Reizen": {
             "Reizen": {
-                "content": "Geen opgave ontvangen",
+                "content": "Geen reizen gemaakt",
                 "text_only": "true"
             },
             "extraInfo": []
@@ -4185,7 +4525,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "1543 dagen",
+                "1595 dagen",
                 "(11 juni 2019 tot heden)"
             ]
         },
@@ -4197,12 +4537,6 @@
                         "beschrijving": "Gastdocent bij de opleiding Management of Safety, Health & Environment van de faculteit Techniek, Bestuur en Management van de TU Delft.",
                         "bezoldigd": "ja",
                         "title": "Gastdocent Technische Universiteit Delft vanaf 10 maart 2021"
-                    },
-                    {
-                        "advieswerk": "nee",
-                        "beschrijving": "(Gast)medewerker in het kader van een promotieonderzoek",
-                        "bezoldigd": "nee",
-                        "title": "(Gast)medewerker Universiteit Leiden vanaf 17 september 2019"
                     },
                     {
                         "advieswerk": "nee",
@@ -4229,6 +4563,12 @@
             },
             "afgesloten": {
                 "content": [
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "(Gast)medewerker in het kader van een promotieonderzoek",
+                        "bezoldigd": "nee",
+                        "title": "(Gast)medewerker Universiteit Leiden vanaf 17 september 2019 tot 1 september 2023"
+                    },
                     {
                         "advieswerk": "ja",
                         "beschrijving": "Advisering op gebied van management en bedrijfsvoering",
@@ -4367,7 +4707,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -4453,7 +4793,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -4477,6 +4817,11 @@
                 "text_only": "true"
             },
             "extraInfo": []
+        },
+        "Hobby's": {
+            "extraInfo": [
+                "Paarden"
+            ]
         },
         "Loopbaan": {
             "andere activiteiten": {
@@ -4505,8 +4850,14 @@
         },
         "Personalia": {
             "extraInfo": [
-                "geboren 27 april 1961"
+                "geboren te Geldrop, 27 april 1961Gehuwd"
             ],
+            "kinderen": {
+                "content": [
+                    "1 zoon en 2 dochters"
+                ],
+                "text_only": "false"
+            },
             "woonplaats": {
                 "content": [
                     "Someren, Noord-Brabant"
@@ -4535,7 +4886,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -4552,6 +4903,18 @@
             ]
         },
         "Loopbaan": {
+            "andere activiteiten": {
+                "content": [
+                    {
+                        "advieswerk": "ja",
+                        "beschrijving": "Strategisch advies in de gezondheidszorg",
+                        "bezoldigd": "ja",
+                        "sector": "Gezondheidszorg",
+                        "title": "Zzp'er Kaljouw Advies in de Zorg vanaf 1 oktober 2023"
+                    }
+                ],
+                "text_only": "false"
+            },
             "extraInfo": [],
             "functies": {
                 "content": [
@@ -4616,7 +4979,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "1543 dagen",
+                "1595 dagen",
                 "(11 juni 2019 tot heden)"
             ]
         },
@@ -4741,7 +5104,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -4833,7 +5196,7 @@
             },
             "promotie": {
                 "content": [
-                    "Bedrijfskunde, Erasmus Universiteit Promoveren in Deeltijd, vanaf 1 september 2009 tot 1 november 2013"
+                    "Bedrijfskunde, Erasmus Universiteit Promoveren in Deeltijd, vanaf 1 september 2009 tot 1 november 2013 (niet afgerond)"
                 ],
                 "text_only": "false"
             },
@@ -4886,7 +5249,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "2607 dagen",
+                "2659 dagen",
                 "(12 juli 2016 tot heden)"
             ]
         },
@@ -5168,7 +5531,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "1543 dagen",
+                "1595 dagen",
                 "(11 juni 2019 tot heden)"
             ]
         },
@@ -5255,6 +5618,21 @@
             "Geschenken": {
                 "content": [
                     {
+                        "betaald door": "M50, verenging voor middelgrote gemeenten",
+                        "title": "XD design coffee mok, 21 september 2023",
+                        "waarde": "10,00"
+                    },
+                    {
+                        "betaald door": "M50, vereniging van middelgrote gemeenten",
+                        "title": "Fles Odavi, 20 september 2023",
+                        "waarde": "12,50"
+                    },
+                    {
+                        "betaald door": "ambassade van Zuid-Korea",
+                        "title": "Kistje met versieringen, 3 juli 2023",
+                        "waarde": "onbekend, minder dan 100 euro?"
+                    },
+                    {
                         "betaald door": "Provincie Utrecht en gemeente Utrecht",
                         "title": "Fietskostuum van de Vuelta organisatie, 14 augustus 2022",
                         "waarde": "60,00"
@@ -5326,7 +5704,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -5393,7 +5771,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "5925 dagen",
+                "5977 dagen",
                 "(12 juni 2007 tot heden)"
             ]
         },
@@ -5501,7 +5879,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "7388 dagen",
+                "7440 dagen",
                 "(10 juni 2003 tot heden)"
             ]
         },
@@ -5635,7 +6013,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -5781,7 +6159,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -5990,7 +6368,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -6076,6 +6454,32 @@
                 "text_only": "false"
             }
         },
+        "Partijpolitieke_functies": {
+            "afgesloten": {
+                "content": [
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Portefeuille Ruimtelijke Ordening",
+                        "bezoldigd": "ja",
+                        "title": "Wethouder Gemeente Medemblik vanaf 14 mei 2018 tot 12 juli 2022"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Commissie Natuur, Landbouw, Water en Milieu, woordvoerder Landbouw en Natuur",
+                        "bezoldigd": "ja",
+                        "title": "Statenlid Provincie Noord-Holland vanaf 1 september 2015 tot 1 maart 2019"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Portefeuille Ruimtelijke ordening",
+                        "bezoldigd": "ja",
+                        "title": "Raadslid en Fractievoorzitter VVD Gemeente Medemblik (en Andijk) vanaf 1 december 2006 tot 14 december 2018"
+                    }
+                ],
+                "text_only": "false"
+            },
+            "extraInfo": []
+        },
         "Personalia": {
             "extraInfo": [
                 "geboren te Heerenveen, 5 maart 1968"
@@ -6114,7 +6518,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -6255,7 +6659,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -6282,7 +6686,7 @@
         },
         "Geschenken": {
             "Geschenken": {
-                "content": "Geen geschenken ontvangen",
+                "content": "Geen opgave ontvangen",
                 "text_only": "true"
             },
             "extraInfo": []
@@ -6343,7 +6747,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -6441,7 +6845,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "1543 dagen",
+                "1595 dagen",
                 "(11 juni 2019 tot heden)"
             ]
         },
@@ -6481,13 +6885,6 @@
                         "bezoldigd": "ja",
                         "sector": "Leisure",
                         "title": "President-commissaris Wildlands Adventure Zoo vanaf 1 december 2018"
-                    },
-                    {
-                        "advieswerk": "ja",
-                        "beschrijving": "Trendbureau verkent trends en levert inhoudelijke bijdragen aan relevante beleidsonderwerpen.",
-                        "bezoldigd": "ja",
-                        "sector": "Algemeen",
-                        "title": "Voorzitter Programmaraad Trendbureau Provincie Overijssel vanaf juli 2015 tot 1 september 2023"
                     }
                 ],
                 "text_only": "false"
@@ -6514,6 +6911,13 @@
                         "bezoldigd": "ja",
                         "sector": "Veiligheid",
                         "title": "Voorzitter Auditteam Voetbal en Veiligheid Ministerie van Justitie en Veiligheid vanaf 1 september 2016 tot 31 augustus 2022"
+                    },
+                    {
+                        "advieswerk": "ja",
+                        "beschrijving": "Trendbureau verkent trends en levert inhoudelijke bijdragen aan relevante beleidsonderwerpen.",
+                        "bezoldigd": "ja",
+                        "sector": "Algemeen",
+                        "title": "Voorzitter Programmaraad Trendbureau Provincie Overijssel vanaf juli 2015 tot 1 september 2023"
                     },
                     {
                         "advieswerk": "nee",
@@ -6651,7 +7055,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "1543 dagen",
+                "1595 dagen",
                 "(11 juni 2019 tot heden)"
             ]
         },
@@ -6663,12 +7067,6 @@
                         "beschrijving": "De Jaarbeurs is leidend op het gebied van de organisatie van beurzen en events in Nederland. Als plv. voorzitter van de RvC ben ik toezichthouder van de directie van de Jaarbeurs.",
                         "bezoldigd": "ja",
                         "title": "Lid RvC Jaarbeurs vanaf 1 maart 2022"
-                    },
-                    {
-                        "advieswerk": "nee",
-                        "beschrijving": "Begeleiden afstudeerprojecten Management van de Leefomgeving",
-                        "bezoldigd": "ja",
-                        "title": "Hogeschooldocent parttime Hogere Agrarische School vanaf 1 september 2020 tot 1 september 2023"
                     },
                     {
                         "advieswerk": "nee",
@@ -6707,6 +7105,12 @@
             },
             "afgesloten": {
                 "content": [
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Begeleiden afstudeerprojecten Management van de Leefomgeving",
+                        "bezoldigd": "ja",
+                        "title": "Hogeschooldocent parttime Hogere Agrarische School vanaf 1 september 2020 tot 1 september 2023"
+                    },
                     {
                         "advieswerk": "nee",
                         "beschrijving": "An Artificial Intelligence Organisation for Sustainable Futures. Member of the International Board. A few meetings each year (predominantly conference calls).",
@@ -6811,7 +7215,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "1431 dagen",
+                "1483 dagen",
                 "(15 februari 2021 tot heden)",
                 "(11 juni 2019 tot 26 oktober 2020)"
             ]
@@ -6913,7 +7317,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "1543 dagen",
+                "1595 dagen",
                 "(11 juni 2019 tot heden)"
             ]
         },
@@ -7049,9 +7453,84 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
+        },
+        "Functies_naast_het_Eerste_Kamerlidmaatschap": {
+            "actueel": {
+                "content": [
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Nieuwe BV welke nog niet wordt gebruikt.",
+                        "bezoldigd": "nee",
+                        "title": "Bestuurder Columbus BV vanaf 1 januari 2023"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Het samenstellen en laten bezorgen van voedseldozen met daarin verse producten.",
+                        "bezoldigd": "nee",
+                        "title": "Bestuurder Eerlijk Eten BV vanaf 1 januari 2023"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Het uitgeven van boeken.",
+                        "bezoldigd": "ja",
+                        "title": "Bestuurder Amsterdam Media Group vanaf 1 januari 2022"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Het aanbieden van FVD merchandise via de webshop van FVD. Opbrengsten komen volledig ten goede aan de partij.",
+                        "bezoldigd": "nee",
+                        "title": "Bestuurder Forum voor Democratie BV vanaf 1 januari 2022"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Secretaris van het dagelijks bestuur van de partij.",
+                        "bezoldigd": "ja",
+                        "title": "Bestuurder Vereniging Forum voor Democratie vanaf 1 januari 2021",
+                        "toelichting": "vacatiegeld"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Eindverantwoordelijke voor offline campagnes en het organiseren van FVD activiteiten en events.",
+                        "bezoldigd": "ja",
+                        "title": "Campagneleider/Coördinator Events Forum voor Democratie vanaf 1 januari 2021"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Op de manege worden rijlessen gegeven aan kinderen en personen die zelf geen paard bezitten.",
+                        "bezoldigd": "nee",
+                        "title": "Bestuurder Manege de Molenheide VOF vanaf 1 januari 2020"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "British Breeding organiseert diverse activiteiten de Groot Brittannië om de fokkerij van sportpaarden te bevorderen.",
+                        "bezoldigd": "nee",
+                        "title": "Directeur British Breeding Ltd vanaf 1 januari 2019"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Het Anglo European Studbook(AES) is een in Nederland en Groot Brittannië gevestigd paardenstamboek dat zich bezighoudt met het keuren en registreren van sportpaarden.",
+                        "bezoldigd": "ja",
+                        "title": "Directeur Anglo European Studbook Ltd vanaf 1 juni 2013"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Het organiseren van muziek en paardensportevenementen",
+                        "bezoldigd": "nee",
+                        "title": "Directeur JCM van den Oetelaar BV vanaf 1 februari 2008"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Het faciliteren van diverse paardensport en muziekevenementen en het verhuren van stallen aan derden.",
+                        "bezoldigd": "ja",
+                        "title": "Bestuurder Pension & Handelsstal de Molenheide vanaf 1 januari 2006"
+                    }
+                ],
+                "text_only": "false"
+            },
+            "extraInfo": []
         },
         "Geschenken": {
             "Geschenken": {
@@ -7061,6 +7540,84 @@
             "extraInfo": []
         },
         "Loopbaan": {
+            "andere activiteiten": {
+                "content": [
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Nieuwe BV welke nog niet wordt gebruikt.",
+                        "bezoldigd": "nee",
+                        "title": "Bestuurder Columbus BV vanaf 1 januari 2023"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Het samenstellen en laten bezorgen van voedseldozen met daarin verse producten.",
+                        "bezoldigd": "nee",
+                        "title": "Bestuurder Eerlijk Eten BV vanaf 1 januari 2023"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Het uitgeven van boeken.",
+                        "bezoldigd": "ja",
+                        "title": "Bestuurder Amsterdam Media Group vanaf 1 januari 2022"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Het aanbieden van FVD merchandise via de webshop van FVD. Opbrengsten komen volledig ten goede aan de partij.",
+                        "bezoldigd": "nee",
+                        "title": "Bestuurder Forum voor Democratie BV vanaf 1 januari 2022"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Secretaris van het dagelijks bestuur van de partij.",
+                        "bezoldigd": "ja",
+                        "title": "Bestuurder Vereniging Forum voor Democratie vanaf 1 januari 2021",
+                        "toelichting": "vacatiegeld"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Eindverantwoordelijke voor offline campagnes en het organiseren van FVD activiteiten en events.",
+                        "bezoldigd": "ja",
+                        "title": "Campagneleider/Coördinator Events Forum voor Democratie vanaf 1 januari 2021"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Op de manege worden rijlessen gegeven aan kinderen en personen die zelf geen paard bezitten.",
+                        "bezoldigd": "nee",
+                        "title": "Bestuurder Manege de Molenheide VOF vanaf 1 januari 2020"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "British Breeding organiseert diverse activiteiten de Groot Brittannië om de fokkerij van sportpaarden te bevorderen.",
+                        "bezoldigd": "nee",
+                        "title": "Directeur British Breeding Ltd vanaf 1 januari 2019"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Het Anglo European Studbook(AES) is een in Nederland en Groot Brittannië gevestigd paardenstamboek dat zich bezighoudt met het keuren en registreren van sportpaarden.",
+                        "bezoldigd": "ja",
+                        "title": "Directeur Anglo European Studbook Ltd vanaf 1 juni 2013"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Het organiseren van muziek en paardensportevenementen",
+                        "bezoldigd": "nee",
+                        "title": "Directeur JCM van den Oetelaar BV vanaf 1 februari 2008"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Het faciliteren van diverse paardensport en muziekevenementen en het verhuren van stallen aan derden.",
+                        "bezoldigd": "ja",
+                        "title": "Bestuurder Pension & Handelsstal de Molenheide vanaf 1 januari 2006"
+                    },
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Het promoten en netwerken van FVD in het buitenland.",
+                        "bezoldigd": "nee",
+                        "title": "Bestuurder Forum voor Democratie International tot 1 januari 2023"
+                    }
+                ],
+                "text_only": "false"
+            },
             "extraInfo": [],
             "functies": {
                 "content": [
@@ -7096,7 +7653,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -7211,6 +7768,7 @@
         },
         "committees": [
             "Buitenlandse Zaken, Defensie en Ontwikkelingssamenwerking (BDO)",
+            "Delegatie naar de Parlementaire Assemblee van de Raad van Europa",
             "Europese Zaken (EUZA)",
             "Landbouw, Natuur en Voedselkwaliteit (LNV)"
         ],
@@ -7223,9 +7781,23 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
+        },
+        "Functies_naast_het_Eerste_Kamerlidmaatschap": {
+            "actueel": {
+                "content": [
+                    {
+                        "advieswerk": "nee",
+                        "beschrijving": "Voornamelijk in MKB bij bedrijven met werkzaamheden gerelateerd aan logistiek, productie en ICT",
+                        "bezoldigd": "ja",
+                        "title": "Interim manager Zelfstandige vanaf 1 januari 2015"
+                    }
+                ],
+                "text_only": "false"
+            },
+            "extraInfo": []
         },
         "Geschenken": {
             "Geschenken": {
@@ -7253,9 +7825,7 @@
         "Loopbaan": {
             "extraInfo": [],
             "functies": {
-                "content": [
-                    "Lid Eerste Kamer der Staten-Generaal vanaf 13 juni 2023"
-                ],
+                "content": [],
                 "text_only": "false"
             }
         },
@@ -7312,7 +7882,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -7397,7 +7967,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -7417,8 +7987,19 @@
         },
         "Geschenken": {
             "Geschenken": {
-                "content": "Geen opgave ontvangen",
-                "text_only": "true"
+                "content": [
+                    {
+                        "betaald door": "Ambassadeur Zuid-Korea",
+                        "title": "Theedoos, 26 maart 2023",
+                        "waarde": "onbekend"
+                    },
+                    {
+                        "betaald door": "Gemeente Den Haag",
+                        "title": "Ticket Prinsjesdagconcert met aangeklede borrel, 19 september 2023",
+                        "waarde": "onbekend"
+                    }
+                ],
+                "text_only": "false"
             },
             "extraInfo": []
         },
@@ -7516,7 +8097,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "1543 dagen",
+                "1595 dagen",
                 "(11 juni 2019 tot heden)"
             ]
         },
@@ -7701,7 +8282,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -7862,7 +8443,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "1543 dagen",
+                "1595 dagen",
                 "(11 juni 2019 tot heden)"
             ]
         },
@@ -7991,7 +8572,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "1543 dagen",
+                "1595 dagen",
                 "(11 juni 2019 tot heden)"
             ]
         },
@@ -8172,7 +8753,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "2195 dagen",
+                "2247 dagen",
                 "(11 juni 2019 tot heden)",
                 "(9 juni 2015 tot 22 maart 2017)"
             ]
@@ -8368,7 +8949,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -8492,7 +9073,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "1543 dagen",
+                "1595 dagen",
                 "(11 juni 2019 tot heden)"
             ]
         },
@@ -8654,75 +9235,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "66 dagen",
-                "(27 juni 2023 tot heden)"
-            ]
-        },
-        "Functies_naast_het_Eerste_Kamerlidmaatschap": {
-            "actueel": {
-                "content": [
-                    {
-                        "advieswerk": "nee",
-                        "beschrijving": "advocaat",
-                        "bezoldigd": "ja",
-                        "title": "Advocaat-partner SandenHartman vanaf 1 september 2022"
-                    }
-                ],
-                "text_only": "false"
-            },
-            "extraInfo": []
-        },
-        "Geschenken": {
-            "Geschenken": {
-                "content": "Geen geschenken ontvangen",
-                "text_only": "true"
-            },
-            "extraInfo": []
-        },
-        "Loopbaan": {
-            "extraInfo": [],
-            "functies": {
-                "content": [],
-                "text_only": "false"
-            }
-        },
-        "Opleidingen": {
-            "extraInfo": [],
-            "wetenschappelijk onderwijs": {
-                "content": [
-                    "Nederlands recht, Universiteit van Tilburg, vanaf 1 september 2001 tot 1 oktober 2006"
-                ],
-                "text_only": "false"
-            }
-        },
-        "Personalia": {
-            "extraInfo": [
-                "geboren 11 december 1962"
-            ]
-        },
-        "Reizen": {
-            "Reizen": {
-                "content": "Geen reizen gemaakt",
-                "text_only": "true"
-            },
-            "extraInfo": []
-        },
-        "committees": [
-            "Economische Zaken en Klimaat (EZK)",
-            "Financiën (FIN)",
-            "Onderwijs, Cultuur en Wetenschap (OCW)",
-            "Sociale Zaken en Werkgelegenheid (SZW)"
-        ],
-        "hasPhoto": true,
-        "id": "mr_c_a_h_van_de_sanden_vvd",
-        "name": "mr. C.A.H van de Sanden",
-        "name_page": "Mr. C.A.H van de Sanden  (VVD)",
-        "url": "https://www.eerstekamer.nl/persoon/mr_c_a_h_van_de_sanden_vvd"
-    },
-    {
-        "Anciënniteit": {
-            "extraInfo": [
-                "3006 dagen",
+                "3058 dagen",
                 "(9 juni 2015 tot heden)"
             ]
         },
@@ -8952,7 +9465,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -9000,7 +9513,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "4469 dagen",
+                "4521 dagen",
                 "(7 juni 2011 tot heden)"
             ]
         },
@@ -9143,7 +9656,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "878 dagen",
+                "930 dagen",
                 "(6 april 2021 tot heden)"
             ]
         },
@@ -9311,7 +9824,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -9404,7 +9917,7 @@
         },
         "Publicaties": {
             "extraInfo": [
-                "N. Thijssen en F. Crone, Een transitie voor iedereen: rode gedachten over een groene industrie, 7 juni 2022B. Snels & N. Thijssen (red.), De grote kloof: Nederland in tijden van verwarring, 12 september 2008N. Thijssen, De jaren zestig herinnerd: over gedeelde idealen uit een linkse periode, 1 juni 2012"
+                "T. 'S Jongers en N. Thijssen, Het tij keren. Samen voor een hoopvolle toekomst, 3 oktober 2023H. Rodenburg, N. Thijssen en K. Bruning (red.), Er is wel een alternatief. Postkapitalisme: een einde aan de roofbouw op aarde en mens, 20 september 2023N. Thijssen en F. Crone, Een transitie voor iedereen: rode gedachten over een groene industrie, 7 juni 2022B. Snels & N. Thijssen (red.), De grote kloof: Nederland in tijden van verwarring, 12 september 2008N. Thijssen, De jaren zestig herinnerd: over gedeelde idealen uit een linkse periode, 1 juni 2012"
             ]
         },
         "Reizen": {
@@ -9430,7 +9943,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -9470,6 +9983,16 @@
         "Geschenken": {
             "Geschenken": {
                 "content": [
+                    {
+                        "betaald door": "Opera Zuid",
+                        "title": "Uitnodiging première Der Schauspieldirektor, 3 oktober 2023",
+                        "waarde": "80 euro"
+                    },
+                    {
+                        "betaald door": "Burgemeester Den Haag",
+                        "title": "Prinsjesdagconcert, 20 juli 2023",
+                        "waarde": "minder dan 50 euro"
+                    },
                     {
                         "betaald door": "Diverse relaties (als gedeputeerde Limburg) die mij tevens feliciteerden met lidmaatschap 1e Kamer.",
                         "title": "Bij afscheid als gedeputeerde (Limburg) diverse streekproducten, boeken, bloemen, dranken, chocolade, etc. ontvangen., 23 juni 2023",
@@ -9585,6 +10108,7 @@
             "Binnenlandse Zaken (BIZA)",
             "Buitenlandse Zaken, Defensie en Ontwikkelingssamenwerking (BDO)",
             "Delegatie naar de OVSE-assemblee",
+            "Delegatie naar de Parlementaire Assemblee van de Raad van Europa",
             "Europese Zaken (EUZA)",
             "Immigratie & Asiel / JBZ-Raad (I&A/JBZ)",
             "Justitie en Veiligheid (J&V)"
@@ -9598,7 +10122,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "1543 dagen",
+                "1595 dagen",
                 "(11 juni 2019 tot heden)"
             ]
         },
@@ -9727,7 +10251,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -9735,16 +10259,21 @@
             "actueel": {
                 "content": [
                     {
+                        "beschrijving": "Onderzoek en onderwijs op het gebied van milieu en maatschappij vraagstukken",
+                        "bezoldigd": "ja",
+                        "title": "Hoogleraar Milieubeleid en Politiek Radboud Universiteit vanaf 15 mei 2019"
+                    }
+                ],
+                "text_only": "false"
+            },
+            "afgesloten": {
+                "content": [
+                    {
                         "advieswerk": "ja",
                         "beschrijving": "Advies over transitie naar proefdiervrije innovatie",
                         "bezoldigd": "ja",
                         "sector": "overheid",
                         "title": "Expert NCAD vanaf 1 augustus 2022 tot 1 september 2023"
-                    },
-                    {
-                        "beschrijving": "Onderzoek en onderwijs op het gebied van milieu en maatschappij vraagstukken",
-                        "bezoldigd": "ja",
-                        "title": "Hoogleraar Milieubeleid en Politiek Radboud Universiteit vanaf 15 mei 2019"
                     }
                 ],
                 "text_only": "false"
@@ -9815,7 +10344,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -9827,7 +10356,12 @@
                         "beschrijving": "De Sint Maartenskliniek is een gespecialiseerd ziekenhuis in de behandeling van aandoeningen op het gebied van houding en beweging. De Raad van Toezicht houdt toezicht op het functioneren en het beleid van de Raad van Bestuur en de organisatie. De Raad van Toezicht is klankbord/adviseur en tegelijkertijd de werkgever van de Raad van Bestuur.",
                         "bezoldigd": "ja",
                         "title": "Vicevoorzitter Raad van Toezicht Sint Maartenskliniek te Nijmegen vanaf 14 september 2022 tot 14 september 2026"
-                    },
+                    }
+                ],
+                "text_only": "false"
+            },
+            "afgesloten": {
+                "content": [
                     {
                         "advieswerk": "nee",
                         "beschrijving": "De Integriteitskamer is een vast college van advies van de regering als bedoeld in artikel 79 van de Staatsregeling van Sint Maarten. Zij heeft als taak integriteit in de publieke sector te bevorderen. Gevraagd en ongevraagd geeft de Integriteitskamer advies en doet zij onderzoek naar vermeende misstanden in de publieke sector. Verder geeft de Integriteitskamer continu voorlichting om het bewustzijn over het belang van integriteit in de samenleving te versterken.",
@@ -9836,9 +10370,9 @@
                     },
                     {
                         "advieswerk": "nee",
-                        "beschrijving": "LMC biedt interconfessioneel en algemeen bijzonder onderwijs aan in Rotterdam. Binnen de 23 vestigingen zijn alle onderwijsniveaus vertegenwoordigd, van praktijkonderwijs tot en met gymnasium. De Raad van Toezicht houdt toezicht op het functioneren en het beleid van het College van Bestuur en de organisatie. De Raad van Toezicht is klankbord/adviseur en tegelijkertijd de werkgever van het College van Bestuur. Lid Raad van Toezicht per 19 april 2016, vicevoorzitter per 20 december 2017 en voorzitter per 1 september 2021.",
+                        "beschrijving": "LMC biedt interconfessioneel en algemeen bijzonder onderwijs aan in Rotterdam. Binnen de 23 vestigingen met ruim 9000 leerlingen en 1200 medewerkers zijn alle onderwijsniveaus vertegenwoordigd, van praktijkonderwijs tot en met gymnasium. De Raad van Toezicht houdt toezicht op het functioneren en het beleid van het College van Bestuur en de organisatie. De Raad van Toezicht is klankbord/adviseur en tegelijkertijd de werkgever van het College van Bestuur. Lid Raad van Toezicht per 19 april 2016, vicevoorzitter per 20 december 2017 en voorzitter per 1 september 2021.",
                         "bezoldigd": "ja",
-                        "title": "Voorzitter (eerder vicevoorzitter/lid) Raad van Toezicht Stichting LMC Voortgezet Onderwijs te Rotterdam vanaf 19 april 2016 tot 19 april 2024"
+                        "title": "Voorzitter Raad van Toezicht Stichting LMC Voortgezet Onderwijs te Rotterdam vanaf 19 april 2016 tot 1 oktober 2023"
                     }
                 ],
                 "text_only": "false"
@@ -9862,7 +10396,7 @@
         "Opleidingen": {
             "andere opleidingen": {
                 "content": [
-                    "Summer School Legal English for Foreign Lawyers, University of Cambridge, Verenigd Koninkrijk"
+                    "Summer School English Legal Methods, University of Cambridge, Verenigd Koninkrijk"
                 ],
                 "text_only": "false"
             },
@@ -9924,7 +10458,8 @@
             "Europese Zaken (EUZA)",
             "Financiën (FIN)",
             "Justitie en Veiligheid (J&V)",
-            "Koninkrijksrelaties (KOREL)"
+            "Koninkrijksrelaties (KOREL)",
+            "Delegatie naar de Parlementaire Assemblee van de Raad van Europa"
         ],
         "hasPhoto": true,
         "id": "mr_h_w_vogels_vvd",
@@ -9935,7 +10470,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "1543 dagen",
+                "1595 dagen",
                 "(11 juni 2019 tot heden)"
             ]
         },
@@ -10041,6 +10576,11 @@
         "Geschenken": {
             "Geschenken": {
                 "content": [
+                    {
+                        "betaald door": "Stage Entertainment",
+                        "title": "Twee kaartjes musical Aida, 22 september 2023",
+                        "waarde": "140 euro"
+                    },
                     {
                         "betaald door": "Universal Maurice Group",
                         "title": "Concertkaartje Tame Impala, 30 augustus 2022",
@@ -10148,7 +10688,7 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
         },
@@ -10274,7 +10814,8 @@
         "committees": [
             "Delegatie naar de Nederlandse Taalunie",
             "Europese Zaken (EUZA)",
-            "Onderwijs, Cultuur en Wetenschap (OCW)"
+            "Onderwijs, Cultuur en Wetenschap (OCW)",
+            "Volksgezondheid, Welzijn en Sport (VWS)"
         ],
         "hasPhoto": true,
         "id": "drs_p_v_a_walenkamp_ma_bbb",
@@ -10285,9 +10826,24 @@
     {
         "Anciënniteit": {
             "extraInfo": [
-                "80 dagen",
+                "132 dagen",
                 "(13 juni 2023 tot heden)"
             ]
+        },
+        "Functies_naast_het_Eerste_Kamerlidmaatschap": {
+            "actueel": {
+                "content": [
+                    {
+                        "advieswerk": "ja",
+                        "beschrijving": "binnen Rabobank Legal diverse functies op het snijvlak van financieren en juridische impact",
+                        "bezoldigd": "ja",
+                        "sector": "financiële instellingen",
+                        "title": "Senior legal counsel Coöperatieve Rabobank U.A. vanaf 1 oktober 2001"
+                    }
+                ],
+                "text_only": "false"
+            },
+            "extraInfo": []
         },
         "Geschenken": {
             "Geschenken": {
@@ -10302,10 +10858,47 @@
             ]
         },
         "Loopbaan": {
+            "andere activiteiten": {
+                "content": [
+                    {
+                        "advieswerk": "ja",
+                        "beschrijving": "volksvertegenwoordiger\nlid van het Presidium\ntweemaal lid van de vertrouwenscommissie\ndiverse voorzittersrollen",
+                        "bezoldigd": "ja",
+                        "sector": "politiek",
+                        "title": "Fractievoorzitter en raadslid Gemeente Oudewater vanaf 15 maart 2006 tot 30 maart 2022"
+                    },
+                    {
+                        "advieswerk": "ja",
+                        "beschrijving": "binnen Rabobank Legal diverse functies op het snijvlak van financieren en juridische impact",
+                        "bezoldigd": "ja",
+                        "sector": "financiële instellingen",
+                        "title": "Senior legal counsel Coöperatieve Rabobank U.A. vanaf 1 oktober 2001"
+                    }
+                ],
+                "text_only": "false"
+            },
             "extraInfo": [],
             "functies": {
                 "content": [
                     "Lid Eerste Kamer der Staten-Generaal vanaf 13 juni 2023"
+                ],
+                "text_only": "false"
+            }
+        },
+        "Onderscheidingen": {
+            "extraInfo": [],
+            "ridderorden": {
+                "content": [
+                    "Lid in de Orde van Oranje-Nassau, 15 maart 2022"
+                ],
+                "text_only": "false"
+            }
+        },
+        "Opleidingen": {
+            "extraInfo": [],
+            "voortgezet onderwijs": {
+                "content": [
+                    "VWO, Niels Stensen College Utrecht, vanaf 1 september 1974 tot 30 juni 1980"
                 ],
                 "text_only": "false"
             }
