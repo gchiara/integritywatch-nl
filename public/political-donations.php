@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
-    <link rel="stylesheet" href="static/tab_c.css?v=3">
+    <link rel="stylesheet" href="static/tab_c.css?v=5">
 </head>
 <body>
     <div id="app" class="tabC">   
@@ -71,11 +71,12 @@
                       <th class="header">Nr</th> 
                       <th class="header">Naam donateur</th> 
                       <th class="header">Adres donateur</th> 
-                      <th class="header">Jaar donatie </th>  
+                      <th class="header">Jaar donatie </th>
+                      <th class="header">Politieke affiliatie</th>   
                       <th class="header">Naam ontvanger</th> 
-                      <th class="header">Politieke affiliatie</th> 
                       <th class="header donations-amt-col">Bedrag</th>
                       <th class="header">Tweede Kamerlid</th>
+                      <th class="header">Ubo</th>
                     </tr>
                   </thead>
                 </table>
@@ -121,7 +122,7 @@
     <script type="text/javascript" src="vendor/js/crossfilter.min.js"></script>
     <script type="text/javascript" src="vendor/js/dc.js"></script>
     <script type="text/javascript" src="vendor/js/dc.cloud.js"></script>
-    <script src="static/tab_c.js?v=3"></script>
+    <script src="static/tab_c.js?v=5"></script>
 
  
 </body>

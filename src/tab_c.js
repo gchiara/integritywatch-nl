@@ -72,6 +72,7 @@ var vuedata = {
       "50PLUS": "#90268f",
       "SGP": "#f36421",
       "DENK": "#35bfc1",
+      "Denk": "#35bfc1",
       "FVD": "#933939",
       "vKA": "#aaa",
       "Onafhankelijk": "#c0c0c0",
@@ -94,6 +95,8 @@ var vuedata = {
       "GroenLinks-PvdA": "#BB1018",
       "JA21": "#2f4b91",
       "OPNL": "#d69f3a",
+      "BVNL": "#1D2446",
+      "NSC": "#F0C400"
     }
   }
 }
@@ -235,7 +238,7 @@ var resizeGraphs = function() {
       charts[c].chart.redraw();
     } else if(charts[c].type == 'line') {
       charts[c].chart.width(newWidth);
-      charts[c].chart.legend(dc.legend().x(0).y(420).itemHeight(10).gap(10).horizontal(true).autoItemWidth(true).legendWidth(newWidth));
+      charts[c].chart.legend(dc.legend().x(0).y(460).itemHeight(10).gap(10).horizontal(true).autoItemWidth(true).legendWidth(newWidth));
       charts[c].chart.rescale();
       charts[c].chart.redraw();
     }
@@ -267,9 +270,9 @@ jQuery.extend( jQuery.fn.dataTableExt.oSort, {
 });
 jQuery.extend( jQuery.fn.dataTableExt.oSort, {
   "amt-pre": function (v) {
-    var amt = v.replace(",","").replace("€ ","");
+    var amt = v.replaceAll(",","").replaceAll("€ ","");
     var amtNum = 0;
-    if(!isNaN(amt)) {
+    if(!isNaN(parseFloat(amt))) {
       amtNum = parseFloat(amt);
     }
     return amtNum;
@@ -282,15 +285,22 @@ jQuery.extend( jQuery.fn.dataTableExt.oSort, {
   }
 });
 
+var randomPar = '';
+var randomCharacters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+for ( var i = 0; i < 5; i++ ) {
+  randomPar += randomCharacters.charAt(Math.floor(Math.random() * randomCharacters.length));
+}
+
 //Totals for footer counters
 var totalDonationsAmt = 0;
 
 //Load data and generate charts
 csv('./data/donations/donations.csv', (err, donations) => {
-csv('./data/donations/donations_2020.csv', (err, donations_2020) => {
-csv('./data/donations/donations_2021.csv', (err, donations_2021) => {
-csv('./data/donations/donations_2022.csv', (err, donations_2022) => {
-csv('./data/donations/donations_2023.csv', (err, donations_2023) => {
+csv('./data/donations/donations_2020.csv?' + randomPar, (err, donations_2020) => {
+csv('./data/donations/donations_2021.csv?' + randomPar, (err, donations_2021) => {
+csv('./data/donations/donations_2022.csv?' + randomPar, (err, donations_2022) => {
+csv('./data/donations/donations_2023.csv?' + randomPar, (err, donations_2023) => {
+csv('./data/donations/donations_2024.csv?' + randomPar, (err, donations_2024) => {
 csv('./data/donations/donations_mps_names.csv', (err, mps) => {
   //Append 2020 and 2021 donations to main list
   _.each(donations_2020, function (d) {
@@ -304,7 +314,16 @@ csv('./data/donations/donations_mps_names.csv', (err, mps) => {
   });
   _.each(donations_2023, function (d) {
     if(isNaN(d.amount_total)) {
-      console.log(d);
+      //console.log(d);
+    }
+    if(!d.year || d.year == "") {
+      d.year = "2023";
+    }
+    donations.push(d);
+  });
+  _.each(donations_2024, function (d) {
+    if(isNaN(d.amount_total)) {
+      //console.log(d);
     }
     donations.push(d);
   });
@@ -312,6 +331,8 @@ csv('./data/donations/donations_mps_names.csv', (err, mps) => {
   //Loop through data to apply fixes and calculations
   var idCount = 0;
   var partiesList = [];
+  //Filter out donations from ChristenUnie (these are donations from CU to their own subsidiaries)
+  donations = _.filter(donations, function (x) { return x.name_donor !== "ChristenUnie" });
   _.each(donations, function (d) {
     d.id = idCount;
     idCount ++;
@@ -320,9 +341,19 @@ csv('./data/donations/donations_mps_names.csv', (err, mps) => {
     d.amtString = d.amount_total.replace(' €','').replace('€','');
     if(!isNaN(d.amtString)) {
       d.amt = parseFloat(d.amtString).toFixed(2);
+      if(d.year == '2024') {
+        if(isNaN(d.amt)) {
+          /*
+          console.log(d);
+          console.log(d.amtString);
+          console.log(d.amt);
+          */
+          d.amt = 0;
+        }
+      }
       totalDonationsAmt += parseFloat(d.amt);
     } else {
-      console.log(d.amount_total);
+      //console.log("NaN amtstring: " +  d.amount_total);
     }
     //Check if mp
     d.mp = false;
@@ -339,6 +370,13 @@ csv('./data/donations/donations_mps_names.csv', (err, mps) => {
     if(d.political_affiliation == 'Partij voor de Dieren' || d.political_affiliation.toLowerCase() == 'pvdd') {
       d.political_affiliation = 'PvdD';
     }
+    if(d.political_affiliation == 'GroenLinks' || d.political_affiliation.toLowerCase() == 'gl') {
+      d.political_affiliation = 'GL';
+    }
+    if(d.political_affiliation == 'ChristenUnie' || d.political_affiliation.toLowerCase() == 'cu') {
+      d.political_affiliation = 'CU';
+    }
+
     //Add party to list
     if(partiesList.indexOf(d.political_affiliation) == -1) {
       partiesList.push(d.political_affiliation);
@@ -602,7 +640,15 @@ csv('./data/donations/donations_mps_names.csv', (err, mps) => {
           "defaultContent":"N/A",
           "type": "amt",
           "data": function(d) {
-            return "€ " + addcommas(d.amount_total.replace(",","."));
+            /*
+            if(!isNaN(d.amount_total)) {
+            //d.amount_total = parseFloat(d.amount_total).toFixed(2);
+            } 
+            */
+           if(isNaN(d.amount_total.replace(",",".")) || d.amount_total == '') {
+            return d.amount_total;
+           }
+            return "€ " + addcommas(parseFloat(d.amount_total.replace(",",".")).toFixed(2));
           }
         },
         {
@@ -616,7 +662,20 @@ csv('./data/donations/donations_mps_names.csv', (err, mps) => {
             }
             return "";
           }
-        }
+        },
+        {
+          "searchable": false,
+          "orderable": true,
+          "targets": 8,
+          "defaultContent":"N/A",
+          "data": function(d) {
+            if(d.ubo) {
+              return d.ubo;
+            } else {
+              return "";
+            }
+          }
+        },
       ],
       "iDisplayLength" : 25,
       "bPaginate": true,
@@ -797,6 +856,7 @@ csv('./data/donations/donations_mps_names.csv', (err, mps) => {
   window.onresize = function(event) {
     resizeGraphs();
   };
+})
 })
 })
 })

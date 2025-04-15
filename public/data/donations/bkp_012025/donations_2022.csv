@@ -77,12 +77,12 @@ B. Velthuis,Nijmegen,7636.4,2022,SP,SP
 B. van Beugen,Heeswijk-Dinther,5818.68,2022,SP,SP
 B. Verweij,Hilversum,7871.43,2022,SP,SP
 B. Markovic,Nijmegen,4834.92,2022,SP,SP
-B. Roovers,'s-Hertogenbosch,11598.51,2022,SP,SP
+B. Roovers,s-Hertogenbosch,11598.51,2022,SP,SP
 B. Geerling,Zwolle,7744.97,2022,SP,SP
 B. van Lieshout,Cuijk,9155.88,2022,SP,SP
 C. Claassen,Bemmel,5962.92,2022,SP,SP
 C. Woltjer,Enschede,8398.53,2022,SP,SP
-C. Visscher,'s-Hertogenbosch,11198.04,2022,SP,SP
+C. Visscher,s-Hertogenbosch,11198.04,2022,SP,SP
 C. Offenberg,Amsterdam,5790,2022,SP,SP
 C. Ester-Schokker,Emmen,8488.98,2022,SP,SP
 C. van Erp,Heesch,6055.38,2022,SP,SP
@@ -192,7 +192,7 @@ M. Schrier,Drachtstercompagnie,4590.44,2022,SP,SP
 M. van Nispen,Breda,45444.17,2022,SP,SP
 M. Visser,Borne,6370.77,2022,SP,SP
 M. Memis,Eindhoven,10665.32,2022,SP,SP
-N. Heijmans,'s-Hertogenbosch,5830.8,2022,SP,SP
+N. Heijmans,s-Hertogenbosch,5830.8,2022,SP,SP
 N. Altundal,Oss,4570.4,2022,SP,SP
 P. Adriaans,Amstelveen,10624.92,2022,SP,SP
 P. Vonk,Hilversum,7970.76,2022,SP,SP
@@ -277,7 +277,7 @@ Y. van Delft,Leiden,14464.52,2022,GL,GL
 W.M. Breunesse,Zaandam,14239.08,2022,GL,GL
 C.J.M. Dortmans,Helmond,14014.76,2022,GL,GL
 Z. Pels,Amsterdam,13224.5,2022,GL,GL
-U. Kâhya,'s-Hertogenbosch,13187,2022,GL,GL
+U. Kâhya,s-Hertogenbosch,13187,2022,GL,GL
 M. Klljmij-van der Laan,Gouda,13050.76,2022,GL,GL
 L.H.H. Hoogstraten,Zeist,12990.76,2022,GL,GL
 M. Schouten,Nieuwegein,12924,2022,GL,GL
@@ -420,11 +420,11 @@ Bolkesteijn Group BV,"Postbus 172, 7900 AD Hoogeveen",5000,2022,FvD,FvD
 ,,0,2022,SGP,SGP
 T. Kuzu,Rotterdam,5355.51,2022,DENK,DENK
 S.R.T. van Baarle,Rotterdam,5040,2022,DENK,DENK
-J.H. Brus,Schijndel,5000,2022,Volt ,Volt 
-J.L. Davis,Amsterdam,10000,2022,Volt ,Volt 
-L. Dassen,Den Haag,16080,2022,Volt ,Volt 
-M. Koekkoek,Utrecht,26737.66,2022,Volt ,Volt 
-Stichting Ondersteuning Tweede Kamerfractie Volt,"Bezuidenhoutseweg 67, 2594 AC Den Haag",104640.94,2022,Volt ,Volt 
+J.H. Brus,Schijndel,5000,2022,Volt,Volt
+J.L. Davis,Amsterdam,10000,2022,Volt,Volt
+L. Dassen,Den Haag,16080,2022,Volt,Volt
+M. Koekkoek,Utrecht,26737.66,2022,Volt,Volt
+Stichting Ondersteuning Tweede Kamerfractie Volt,"Bezuidenhoutseweg 67, 2594 AC Den Haag",104640.94,2022,Volt,Volt
 M.J. ten Bosch,Haarlem,5000,2022,JA21,JA21
 Probest BV,"Gevers Deynootweg 15, 2586 BB Den Haag",7500,2022,JA21,JA21
 M.P.H. Veerman,Rotterdam,12500,2022,JA21,JA21
@@ -436,9 +436,8 @@ Katzenklub B.V.,"Herengracht 191C, 1016 BE Amsterdam",10000,2022,BVNL,BVNL
 Ys Holding B.V.,"Willemskade 1, 8911 AW Leeuwarden,",10000,2022,BVNL,BVNL
 ,,0,2022,50PLUS,50PLUS
 ,,0,2022,BIJ1,BIJ1
-,,0,2022,OPNL,OPNL
 Theeuwes Mengvoeders,"Molenstraat 10, 5113 GG Ulicoten ",5000,2022,BBB,BBB
-SmartDocuments Nederland B.V. ,Keulenstraat 7 7418 ET Deventer,5000,2022,BBB,BBB
-Graansloot Kampen B.V. ,Haatlandhaven 21 8263 AS Kampen ,5000,2022,BBB,BBB
-Trigona Dairy Trade ,Luijnhorststraat 16 6941 RD Didam ,12500,2022,BBB,BBB
-Jojavi B.V.  ,Molenstraat 10 5113 GG Ulicoten ,5000,2022,BBB,BBB
+SmartDocuments Nederland B.V.,Keulenstraat 7 7418 ET Deventer,5000,2022,BBB,BBB
+Graansloot Kampen B.V.,Haatlandhaven 21 8263 AS Kampen,5000,2022,BBB,BBB
+Trigona Dairy Trade,Luijnhorststraat 16 6941 RD Didam,12500,2022,BBB,BBB
+Jojavi B.V.,Molenstraat 10 5113 GG Ulicoten,5000,2022,BBB,BBB

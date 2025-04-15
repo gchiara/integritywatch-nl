@@ -1,117 +1,708 @@
-last name ,name_donor,address,amount_total,year,recipient_name,political_affiliation
-Nijkerk,E.A. Nijkerk,Wassenaar,75000,2023,VVD,VVD
-van Hees Fonds,Godefridus van Hees Fonds,"Eikenlaan 22, 4356 HE Oostkapelle",15000,2023,VVD,VVD
-Moos,R.M. Moos,Hoofddorp,100000,2023,VVD,VVD
-van Hoof,H. van Hoof,’s-Hertogenbosch,20100,2023,VVD,VVD
-Dobber,J. Dobber,Bloemendaal,50000,2023,VVD,VVD
-van der Wallen,H.W.M. van der Wallen ,Cromvoirt ,50000,2023,VVD,VVD
-Bun B.V.,Lin Bun B.V.,"Watercipresstraat 11, 1326 CM  Almere",75000,2023,VVD,VVD
-Nijkerk,E.A. Nijkerk,Wassenaar,25000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
-Thielen,R. Thielen,Monaco,50000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
-Holding,Yip Holding ,"Dam 3-7, 1012 JS Amsterdam ",50000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
-Boekhoorn B.V.,M&A Boekhoorn B.V. ,"Postbus 126, 3910 AC Rhenen ",50000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
-Holding B.V.,Molinsart Holding B.V. ,"Sweelincklaan 18, 3055 WT Rotterdam ",50000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
-Nederland B.V.,Prowinko Nederland B.V. ,"Bella Donna 2, 1181 RM Amstelveen ",25000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
-Deursen Beheer B.V.,Van Deursen Beheer B.V. ,"Heer en Beekstraat 5, 5242 AC Rosmalen ",50000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
-Logistics B.V.,Rapid Logistics B.V. ,"Incheonweg 7-13, 1437 ED Rozenburg ",17485,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
-Management,SCP Management ,"Postbus 340, 5060 AH Oisterwijk ",100000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
-Group,Boels Group ,"Dr. Nolensstraat 140, 6136 GV Sittard ",50000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
-B.V.,Watoessi B.V. ,"Dijsselhofplantsoen 12, 1077 BL Amsterdam  ",50000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
-Carli,J. Carli ,Noordeloos ,50000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
-to Build Vastgoed B.V.,Built to Build Vastgoed B.V. ,"Magistratenlaan 62, 5223 MD Den Bosch  ",50000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
-B.V.,Steflo B.V. ,"Stadionplein 16, 1076 CM Amsterdam ",50000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
-B.V.,KiMi B.V. ,"Hoenderstraat 119, 5801 CJ Venray ",100000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
-van Huffelen,A. van Huffelen,Utrecht,11999,2023,D66,D66
-M J C. Pauw-van Doormalen,C M J C. Pauw-van Doormalen,Den Haag,13479,2023,D66,D66
-van der Heijden,S. van der Heijden,Amsterdam,100000,2023,D66,D66
-Lavooy,F. Lavooy,Rotterdam,10000,2023,D66,D66
-Baak,J. Baak,Soest,15000,2023,D66,D66
-Winter,J. Winter,Amsterdam,10330,2023,D66,D66
-van Marwijk Kooy,A. van Marwijk Kooy,Amsterdam,16660,2023,D66,D66
-BV,Persimmons BV,"Nieuwe Gracht 45, 2011 ND Haarlem",25000,2023,D66,D66
-B.V.,Piegretia B.V.,Oostvoornelaan 26 2554 BH Den Haag,15000,2023,PVV,PVV
-Ruding,H.O.C.R. Ruding,Den Haag,10000,2023,CDA,CDA
-Venghaus,E. Venghaus,Leidschendam,10000,2023,CDA,CDA
-B.V.,Keurvorst B.V.,"P.O. box 150, 3700 AD Zeist",50000,2023,CDA Businessclub,CDA
-van den Bergh en E.F.A. van Buitenen,L.G. van den Bergh en E.F.A. van Buitenen,Utrecht,44091.37,2023,SP,SP
-Sprong,A. Sprong,Almere,11148.41,2023,SP,SP
-de Groot,A. de Groot,Wormerveer,10469.79,2023,SP,SP
-van Kent,B. van Kent,Den Haag,13154.76,2023,SP,SP
-Eikenaar,E. Eikenaar,Haren Gn,21712.53,2023,SP,SP
-de Vries,E. de Vries,Helmond,10429.73,2023,SP,SP
-Dansen,E. Dansen,Gorinchem,10540.71,2023,SP,SP
-Futselaar,F. Futselaar,Zwolle,10787.71,2023,SP,SP
-Kalter,H. Kalter,Delden,10169.49,2023,SP,SP
-Wedemeijer,J. Wedemeijer,Amsterdam,21036.77,2023,SP,SP
-van Dijk,J. van Dijk,Utrecht,20605.1,2023,SP,SP
-Dijk,J. Dijk,Groningen,30454.54,2023,SP,SP
-Clemens,J. Clemens,Heerlen,11053.72,2023,SP,SP
-Wolters Gregório,J. Wolters Gregório,Roermond,10885.33,2023,SP,SP
-Marijnissen,L. Marijnissen,Oss,23460.34,2023,SP,SP
-Hijink,M. Hijink,Amersfoort,11828.88,2023,SP,SP
-Alkaya,M. Alkaya,Amsterdam,32856.47,2023,SP,SP
-van Caldenberg,M. van Caldenberg,Landgraaf,10510.18,2023,SP,SP
-van Nispen,M. van Nispen,Breda,31517.01,2023,SP,SP
-Temmink,N. Temmink,Zwolle,13042.93,2023,SP,SP
-Kwint,P. Kwint,Amsterdam,30425.82,2023,SP,SP
-van Zutphen,P. van Zutphen,Heerlen,11641.15,2023,SP,SP
-Alberts,R. Alberts,Amsterdam,10785.74,2023,SP,SP
-Leijten,R. Leijten,Haarlem,17126.4,2023,SP,SP
-Beckerman,S. Beckerman,Groningen,32553.46,2023,SP,SP
-Biharie,S. Biharie,Apeldoorn,11051.72,2023,SP,SP
-Pels,Z. Pels,Amsterdam,10176.2,2023,GL,GL
-Lahlah,E. Lahlah,Tilburg,12344.08,2023,GL,GL
-Potjer,B. Potjer,Den Haag,11019.57,2023,GL,GL
-van Essen,H.P. van Essen,Utrecht,10994.57,2023,GL,GL
-Kapteijns,A. Kapteijns,Den Haag,10962.17,2023,GL,GL
-Meliani,T. Meliani,Amsterdam,10937.17,2023,GL,GL
-Kocken,R. Kocken,Amsterdam,10869.57,2023,GL,GL
-Roijackers,H.I. Roijackers,‘s Hertogenbosch,10857.07,2023,GL,GL
-Wijnja,M. Wijnja,Groningen,10101.94,2023,GL,GL
-Voortman,L.G.J. Voortman,Utrecht,11183.52,2023,GL,GL
-Lammers,S. Lammers,Eindhoven,10883.52,2023,GL,GL
-Janssen,A.P.A.M. Janssen,Amersfoort,10883.52,2023,GL,GL
-Bakkker,P. Bakkker,Breda,10883.52,2023,GL,GL
-Daemen,C.M.H. Daemen,Lent,10846.52,2023,GL,GL
-van Hooijdonk,L. van Hooijdonk,Utrecht,10823.52,2023,GL,GL
-Vergunst,N.P. Vergunst,Nijmegen,10803.52,2023,GL,GL
-Broeksma,P.E. Broeksma,Groningen,10783.52,2023,GL,GL
-Aboyaakoub-Akkouh,N. Aboyaakoub-Akkouh,Nijkerk,10768.52,2023,GL,GL
-Huizer,D.S. Huizer,Apeldoorn,10763.52,2023,GL,GL
-Bouwkamp,C.C. Bouwkamp,Arnhem,10728.52,2023,GL,GL
-Thijs,R. Thijs,Eindhoven,10707.52,2023,GL,GL
-Berkhout,R.A.H. Berkhout,Haarlem,10707.52,2023,GL,GL
-Smeulders,P. Smeulders,Arnhem,10707.52,2023,GL,GL
-Toub,S. Toub,Eindhoven,10707.52,2023,GL,GL
-Strik,M.H.A. Strik,Dodewaard,10598.56,2023,GL,GL
-de Jonge van Ellemeet,C.E. de Jonge van Ellemeet,Abcoude,10362.16,2023,GL,GL
-Maatoug,S. Maatoug,Leiden,10342.16,2023,GL,GL
-Bromet,L. Bromet,Monnickendam,10336.16,2023,GL,GL
-Kröger,S.C. Kröger,Amsterdam,10312.16,2023,GL,GL
-Bouchallikht,K. Bouchallikht,Amsterdam,10312.16,2023,GL,GL
-Kramers,N.E. Kramers,Leeuwarden,10177.08,2023,GL,GL
-van Sparrentak,K. van Sparrentak,Rotterdam,10122.56,2023,GL,GL
-Pollux,M.P.A.G. Pollux,Venlo,10112.08,2023,GL,GL
-Schuttenbeld,H.M.M. Schuttenbeld,Zwolle,10037.08,2023,GL,GL
-van Vliet,F.W.J. van Vliet,Delft,10027.08,2023,GL,GL
-van Delft,Y. van Delft,Leiden,10002.08,2023,GL,GL
-de Wrede,K. de Wrede,Groningen,10721.48,2023,PvdD,PvdD
-A H Hazekamp,A A H Hazekamp,Etterbeek (België),11092.56,2023,PvdD,PvdD
-Wassenberg,F.P. Wassenberg,Geleen,11024,2023,PvdD,PvdD
-van Esch,E.M. van Esch,Utrecht,11023.84,2023,PvdD,PvdD
-van Raan,L. van Raan,Amsterdam,11023.06,2023,PvdD,PvdD
-van Lammeren,J.F.W. van Lammeren,Amsterdam,10024.41,2023,PvdD,PvdD
-Dake,H.T. Dake,Lochem,39786,2023,CU,CU
-B.V.,Beyuna B.V.,"Paasheuvelweg 26, 1105 BJ Amsterdam",10000,2023,FvD,FvD
-Management B.V.,Mega Management B.V.,"Boeing Avenue 250, 1119 PZ Schiphol-Rijk",50000,2023,FvD,FvD
-de Mast B.V.,Op de Mast B.V.,"Zijldijk 24B, 2352 AB Leiderdorp",12500.01,2023,FvD,FvD
-B.V.,CodeGuild B.V.,"Johan Huizingalaan 763a, 1066 VH Amsterdam",10000,2023,FvD,FvD
-Group B.V.,Ozephius Group B.V.,"Simon Stevinstraat 1, 3261 MG Oud-Beijerland",15000,2023,FvD,FvD
-Nederlandse Investeringsmaatschappij B.V.,De Nederlandse Investeringsmaatschappij B.V.,"Molenstraat 33, 7921 KL Zuidwolde",10000,2023,FvD,FvD
-B.V.,Piegretia B.V.,"Oostvoornelaan 26, 2554 BH Den Haag",15000,2023,FvD,FvD
-B.V.,Aquaviento B.V.,"Noorderven 61, 1504 AL Zaandam",15323,2023,Volt,Volt
-Van den Hoek Familie Stichting,Ribbink Van den Hoek Familie Stichting,"Bernard Zweerskade 1, 1077 TX Amsterdam",10000,2023,Volt,Volt
-Mulder,A.D. Mulder,Schoten (België),10000,2023,Volt,Volt
-Dassen,L. Dassen,Den Haag,10720,2023,Volt,Volt
-Ventures BV,Wizard Ventures BV ,"Rondehoep 52 A, 1191 KM Ouderkerk",10000,2023,BVNL,BVNL
-Holding BV,VDE Holding BV,"Langewijk 328, 7701 AP Dedemsvaart",10000,2023,BBB,BBB
+name_donor,address,amount_total,year,recipient_name,political_affiliation
+Piegretia B.V.,"Voorburglaan 21, 
+4318 BL Brouwershaven",15000,2023,Stichting Vrienden van de PVV,PVV
+E.A. Nijkerk,Wassenaar,75000,2023,VVD,VVD
+Bestuurdersvereniging van de VVD,"Postbus 30836, 
+2500 GV Den Haag",30000,2023,VVD,VVD
+Godefridus van Hees Fonds,"Eikenlaan 22, 
+4356 HE Oostkapelle",15000,2023,VVD,VVD
+R.M. Moos,Hoofddorp,100000,2023,VVD,VVD
+H. van Hoof,’s-Hertogenbosch,30000,2023,VVD,VVD
+J. Dobber,Bloemendaal,50000,2023,VVD,VVD
+H.W.M. van der Wallen ,Cromvoirt ,50000,2023,VVD,VVD
+J.G.A. Rijnierse,Rotterdam,5000,2023,VVD,VVD
+Lin Bun B.V.,"Watercipresstraat 11, 
+1326 CM  Almere",75000,2023,VVD,VVD
+"Stichting VVD Ondersteuning 
+Tweede Kamerverkiezing,","Hendrik van Borsselenkade 54, 
+1181 AZ Amstelveen",1300000,2023,VVD,VVD
+Loo Investments I B.V.,"Loolaan 83, 
+7314 AH Apeldoorn",15000,2023,VVD,VVD
+Wetzels B.V.,"Coba Pulskensdreef 11, 
+4904 WB Oosterhout",10000,2023,VVD,VVD
+Steurstaete B.V.,"Industrieweg 19, 
+4731 SB Oudenbosch",50000,2023,VVD,VVD
+A.J. Klaver,Amsterdam,5643,2023,VVD,VVD
+Stichting Ivo Opstelten Foundation,"Mauritskade 21, 
+2514 HD Den Haag",160000,2023,VVD,VVD
+Stichting Het Thorbeckefonds,"Stoeplaan 11, 
+2243 CW Wassenaar",350000,2023,VVD,VVD
+Godefridus van Hees Fonds,"Eikenlaan 22, 
+4356 HE Oostkapelle",7200,2023,JOVD,VVD
+Stichting Thorbecke Fonds,"Stoeplein 11 F48, 
+2243 CW Wassebaar",20000,2023,JOVD,VVD
+Rijsterborgh Vastgoed B.V.,"Eleanor Rooseveltlaan 255, 
+1183 CK Amstelveen",9000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+E.A. Nijkerk,Wassenaar,25000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+Constar Beheer B.V.,"Zuiderhavenweg 56, 
+4004 JJ Tiel",9999,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+"H.J. van Bentum International 
+Transport B.V.","Parrallelweg 80, 
+3931 MT Woudenberg",6000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+Helios Investments,"Bloemgracht 33, 
+1016 KC Amsterdam",9450,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+Maarsen Groep Beheer B.V.,"Postbus 87030, 
+1080 JA Amsterdam",9999,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+Mavet B.V.,"Hooiweg 15, 
+5321 JG Hedel",6000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+Graniet Imp Benelux,"Amerikahavenweg 36, 
+1045 AG Amsterdam",6000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+Kuijper Kontrol,"Dorpsstraat 77, 
+3632 AS Loenen aan de Vecht",6000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+Annexum Investments,"Postbus 79032, 
+1070 NB Amsterdam",6000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+F. Bontrup Holding,"Amerikahavenweg 36, 
+1045 AG Amsterdam",9999,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+FMB Beheer,"Koningsvaren 6, 
+1391 AJ Abcoude",5000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+R. Thielen,Monaco,50000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+Yip Holding ,"Dam 3-7, 
+1012 JS Amsterdam ",50000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+M&A Boekhoorn B.V. ,"Postbus 126, 
+3910 AC Rhenen ",50000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+Rapid Logistics B.V. ,"Incheonweg 7-13, 
+1437 ED Rozenburg ",17485,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+Molinsart Holding B.V. ,"Sweelincklaan 18, 
+3055 WT Rotterdam ",50000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+Prowinko Nederland B.V. ,"Bella Donna 2, 
+1181 RM Amstelveen ",25000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+Van Deursen Beheer B.V. ,"Heer en Beekstraat 5, 
+5242 AC Rosmalen ",50000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+Vasell Monumenten B.V.,"De Savornin Lohmanlaan 29, 
+1181 XL Amstelveen",5000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+Nijenveste Holding,"Dijkstraat 14, 
+7121 ET Aalten",5000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+SCP Management ,"Postbus 340, 
+5060 AH Oisterwijk ",100000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+Built to Build Vastgoed B.V. ,"Magistratenlaan 62, 
+5223 MD Den Bosch  ",50000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+Steflo B.V. ,"Stadionplein 16, 
+1076 CM Amsterdam ",50000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+Boels Group ,"Dr. Nolensstraat 140, 
+6136 GV Sittard ",50000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+Watoessi B.V. ,"Dijsselhofplantsoen 12, 
+1077 BL Amsterdam  ",50000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+J. Carli ,Noordeloos ,50000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+KiMi B.V. ,"Hoenderstraat 119, 
+5801 CJ Venray ",100000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+Verwelius Holding B.V ,"Energieweg 2, 
+1271 ED Huizen ",50000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+Karo B.V. ,"Keizersveld 53d, 
+4803 AP Venray ",50000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+Smits & Smits B.V. ,"Steenstraat 70, 
+5831 JH Boxmeer ",50000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+Van den Tweel Groep,"Frieswijkstraat 70, 
+3862 BM Nijkerk ",53000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+All Safe Management ,"Chocoladeweg 6, 
+1381 DA Weesp ",28000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+Navara Group B.V. ,"Hoofdstraat 244, 
+3972 LK Driebergen-Rijsenburg ",13000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+Bolk Beheer B.V.,"Beatrix de Rijkweg 1, 
+7602 PR Almelo",5000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+C. Durlacher,Breukelen,4500,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+OVG Projectontwikkeling B.V.,"Fred Roeskesstraat 115, 
+1076 EE Amsterdam",5000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+JW Blokland Holding,"Vaart 13, 
+4206 CC Gorinchem",5000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+Hunt Corporate Finance B.V.,"Sophialaan 43, 
+1075 BM Amsterdam",4500,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+Focus on Impact ,"Parklaan 48, 
+5613 BG Eindhoven ",50000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+K. Bekkering,Hilversum,22000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+B. Sleeman,Laren ,22000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+K.J. van Uchelen ,Hilversum,22000,2023,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV),VVD
+J. Smeets,Zaandam,5761.4,2023,PvdA,PvdA
+T. Reuten,Zaandam,7950.24,2023,PvdA,PvdA
+J. Dijsselbloem,Eindhoven,6345.72,2023,PvdA,PvdA
+P. Tang,Amsterdam,6620.91,,PvdA,PvdA
+A. Jongerius,Utrecht,6872.55,2023,PvdA,PvdA
+F. Timmermans,Tervuren (België),7834.6,,PvdA,PvdA
+H. Nijboer,Groningen,5803.71,,PvdA,PvdA
+J.C.H. Bakker,Bentveld,25735.96,2023,PvdA,PvdA
+M. Chahim,Helmond,6833.5,,PvdA,PvdA
+A. Kuiken,Breda,6370.1,,PvdA,PvdA
+M. Mohandis,Gouda,6321,,PvdA,PvdA
+K. Piri,Den Haag,6336,,PvdA,PvdA
+S. Mutluer,Zaandam,6122.52,,PvdA,PvdA
+V. Tax,Venlo,6541.47,,PvdA,PvdA
+E. Sent,Nijmegen,5363.6,,PvdA,PvdA
+L. Wolters,Brussel (België),6518.26,2023,PvdA,PvdA
+H. Luyks ,Soest,10395.99,2023,PvdA,PvdA
+J. Rafalowicz,Amsterdam,5000,2023,PvdA,PvdA
+Stichting The Dreamery Foundation,"Hof van Zevenbergen 1A, 
+5211 HB 's Hertogenbosch",20000,2023,PvdA,PvdA
+E.W. Wolfensperger,Groningen,6204.96,2023,PvdA,PvdA
+J. Lambrechtsen,Utrecht,4916.02,2023,PvdA,PvdA
+"A.E.M. Mutsaers - 
+p/a notariskantoor Nielsen","Zuiderpark 22, 
+9724 AH Groningen",68535.22,2023,Wiardi Beckman Stichting,PvdA
+L. Verbeek,Lelystad,4602.5,,Centrum voor Lokaal Bestuur,PvdA
+J. de Vries,Sittard,4911.48,2023,Centrum voor Lokaal Bestuur,PvdA
+B. Kathmann,Rotterdam,7938.09,2023,Centrum voor Lokaal Bestuur,PvdA
+J. Bushoff,Groningen,6043.32,,Centrum voor Lokaal Bestuur,PvdA
+H. de Hoop,Wommels,6043.32,,Centrum voor Lokaal Bestuur,PvdA
+J. Thijssen,Muiderberg,6043.32,,Centrum voor Lokaal Bestuur,PvdA
+V. Molkenboer,Woerden,4720.41,2023,Centrum voor Lokaal Bestuur,PvdA
+Z. Pels,Amsterdam,24861.78,2023,GL,GL
+A. Lahlah,Tilburg,20483.56,2023,GL,GL
+A. Kapteijns,Den Haag,18763.72,2023,GL,GL
+T. Meliani,Amsterdam,18713.72,2023,GL,GL
+H.P. van Essen,Utrecht,18762.12,2023,GL,GL
+R.P.M. Kocken,Amsterdam,18562.12,2023,GL,GL
+B. Potjer,Den Haag,18712.12,2023,GL,GL
+H.I. Roijackers,’s-Hertogenbosch,19812.12,2023,GL,GL
+M. Wijnja,Groningen,18868.44,2023,GL,GL
+M. Molema,Meerstad,18675.24,2023,GL,GL
+K. van Sparrentak,Rotterdam,16379.33,2023,GL,GL
+N. Aboyaakoub-Akkouh,Nijkerk,16360.28,2023,GL,GL
+M.H.A. Strik,Dodewaard,16642.08,2023,GL,GL
+B. Eickhout,Utrecht,16442.06,2023,GL,GL
+F.W.J. van Vliet,Delft,16279.33,2023,GL,GL
+S. Lammers,Eindhoven,17544.08,2023,GL,GL
+A.P.A.M. Janssen,Amersfoort,16225.28,2023,GL,GL
+R. Thijs,Eindhoven,17368.08,2023,GL,GL
+C.M.H. Daemen,Lent,16188.26,2023,GL,GL
+N.P. Vergunst,Nijmegen,16205.28,2023,GL,GL
+P.E. Broeksma,Groningen,17625.28,2023,GL,GL
+P. Bakker,Breda,16225.28,2023,GL,GL
+R. Grashoff,Delft,16825.28,2023,GL,GL
+C.C. Bouwkamp,Arnhem,16070.28,2023,GL,GL
+R.A.H. Berkhout,Haarlem,16049.28,2023,GL,GL
+P. Smeulders,Arnhem,16049.28,2023,GL,GL
+L. van Hooijdonk,Utrecht,16225.28,2023,GL,GL
+D.S. Huizer,Apeldoorn,16150.28,2023,GL,GL
+S. Toub,Eindhoven,17368.08,2023,GL,GL
+L.G.J. Voortman,Utrecht,16725.28,2023,GL,GL
+L. Bromet,Monnickendam,15492.24,2023,GL,GL
+S.C. Kröger,Amsterdam,15518.24,2023,GL,GL
+S. Maatoug,Leiden,16023.24,2023,GL,GL
+T.M.T. van der Lee,Amsterdam,15518.12,2023,GL,GL
+D.S. de Jong,Zwolle,15133.12,2023,GL,GL
+E. Stellingwerf,Leeuwarden,14952.12,2023,GL,GL
+M.P.A.G. Pollux,Venlo,16848.12,2023,GL,GL
+H.M.M. Schuttenbeld,Nieuwleusen,15013.12,2023,GL,GL
+N.E. Kramers,Leeuwarden,15228.12,2023,GL,GL
+J.W.M. van der Meer,Nijmegen,14591.04,2023,GL,GL
+C.E. de Jonge van Ellemeet,Abcoude,14437.13,2023,GL,GL
+K. Bouchallikht,Amsterdam,14417.13,2023,GL,GL
+U. Kâhya,'s-Hertogenbosch,15144.81,2023,GL,GL
+W.M. Breunesse,Zaandam,14250.23,2023,GL,GL
+A.M. North,Leiden,13726.11,2023,GL,GL
+Y. van Delft,Leiden,13734.11,2023,GL,GL
+H.A. Warris,Oss,13400.2,2023,GL,GL
+A.A.M. Boomgaars,Hoorn,13390.2,2023,GL,GL
+S. Kruis,Lelystad,13666.2,2023,GL,GL
+M. Klijmij-van der Laan,Gouda,13526.2,2023,GL,GL
+B. Heller,Hilversum,13990.2,2023,GL,GL
+M.J.A. Maas,Rijkevoort,13390.2,2023,GL,GL
+L.H.H. Hoogstraten,Zeist,13416.2,2023,GL,GL
+C.F.G.R. Koenraad,Roosendaal,13390.2,2023,GL,GL
+C.J.M. Dortmans,Helmond,14590.2,2023,GL,GL
+P.L.P.S. Hofman‐Fransen,Drempt,12810.21,,GL,GL
+M.A.J. Smitsmans,Roermond,12707.8,2023,GL,GL
+F. Ulichki,Amsterdam,12282.96,,GL,GL
+M. Schouten,Nieuwegein,12284,2023,GL,GL
+E.M. Westerveld,Nijmegen,12288.34,2023,GL,GL
+W.J.W.A. van der Zanden,Oosterhout,12011.92,,GL,GL
+J. Portier,Oost-Souburg,11995.92,,GL,GL
+F.J.R. Faber,Assen,13321.92,,GL,GL
+A.T.L. van den Dam,Zetten,11995.92,,GL,GL
+M. Wit ,Rijswijk,12531.92,,GL,GL
+A.M. 't Hart,De Bilt,12011.92,,GL,GL
+A.J. Nolles,Schouwerzijl,12166.92,2023,GL,GL
+S.Y. Dinjens,Amsterdam,11974.5,2023,GL,GL
+M. de Nobel,Breda,11967.11,2023,GL,GL
+G. van Gaal,Leiden,11339.96,2023,GL,GL
+G.J.W. Gabriëls,Weert,10843.89,2023,GL,GL
+M.A. Sikkes - van den Berg,Diemen,10884.48,,GL,GL
+J. Maouche,Oosterbeek,11744.08,,GL,GL
+E. Bijleveld,Wageningen,10684.48,,GL,GL
+S. de Vries,Baarn,10744.48,,GL,GL
+F.M.H.P. Houben,Beuningen Gld,10729.48,,GL,GL
+G. van Vulpen,Wageningen,10704.48,,GL,GL
+B. van Zandbergen-Vrolijk,Mûnein,10694.48,,GL,GL
+J. Veldhuizen,Goes,10694.48,2023,GL,GL
+M.M.E. Peters,Culemborg,10824.48,,GL,GL
+V.P. Brouwer,Castricum,10694.48,,GL,GL
+A. Zalinyan,Hoofddorp,10704.48,,GL,GL
+T.F. de Jonge,Dordrecht,10513.02,2023,GL,GL
+B.M. Kagei,Zevenaar,10568.77,,GL,GL
+M.K. van Hoorn,Groningen,11062.01,2023,GL,GL
+A. Bonte,Helmond,11172.12,,GL,GL
+L. van Kalken,Vlaardingen,9989.24,,GL,GL
+J.N. Kuipers,Meppel,9830.98,2023,GL,GL
+J.G. Smit,Nieuwerkerk,9881.44,,GL,GL
+M.A. Ririhena,VrIes,9803.36,,GL,GL
+B. Boudewijnse,Bussum,9625,,GL,GL
+S. Goossens,Sint-Michielsgestel,9136.95,2023,GL,GL
+T. van de Ven,Vught,10096.9,,GL,GL
+E.P. Stigter,Vogelenzang,8990.3,2023,GL,GL
+I. Groeneveld,Terherne,9739.9,,GL,GL
+H.M.M. Vermin,Amsterdam,9018.07,2023,GL,GL
+E.A. Peters,Hippolytushoef,8812.84,,GL,GL
+M. Dadema,Heino,8910.14,2023,GL,GL
+J.J. de Maa,Duivendrecht,8573.52,,GL,GL
+R. Kieft,Den Burg,8523.52,,GL,GL
+E. Spil,Mijdrecht,8360.96,,GL,GL
+R.P.A. Piers,Amsterdam,8344.48,,GL,GL
+E. Ünver,Amsterdam,8364.48,,GL,GL
+C.C. van Benschop,Dordrecht,8100,,GL,GL
+G.A. But,Nijeberkoop,8185.88,,GL,GL
+B.R. Groot Wassink,Amsterdam,7826.55,2023,GL,GL
+S.J.A. Löwik,Nuenen,7308.06,2023,GL,GL
+J.A.H. van der Does,Weesp,7437.46,2023,GL,GL
+M.N.A. Mos,Amsterdam,7394.16,,GL,GL
+E. Lagendijk,Amsterdam,7414.16,,GL,GL
+P. Baneke,Mook,7163.02,,GL,GL
+P. Inberg,Brummen,6860.08,,GL,GL
+A. van de Weijenberg,Monnickendam,6219.6,,GL,GL
+A.E.L. Boswinkel,Zutphen,6090,2023,GL,GL
+P. Lage Venterink,Nijverdal,6012.15,2023,GL,GL
+R.J.W. White,Purmerend,5990.55,2023,GL,GL
+K.Z. Butt,Den Haag,5633.52,,GL,GL
+A. van Hunnik,Zwijndrecht,5511.13,,GL,GL
+J.C. Wikkerink,Bredevoort,5457.24,,GL,GL
+J.F. Klaver,Den Haag,13571.91,2023,GL,GL
+H.S. de Groot,t Goy,4881.04,,GL,GL
+G. Rozema,Akkrum,5074.2,2023,GL,GL
+G.A.A. Mambre,Eindhoven,4605.65,,GL,GL
+H.T. Siersema-Orsel,Stadskanaal,6380.96,2023,GL,GL
+A. Wouda,Sneek,7400,2023,GL,GL
+A.M. Blom,Rotterdam,5496,,GL,GL
+T. Tieleman,Diemen,8600,2023,GL,GL
+Stichting The Dreamery Foundation,"Hof van Zevenbergen 1A, 
+5211 HB 's Hertogenbosch",20000,2023,GL,GL
+Gemeente Emmen,"Raadhuisplein 1, 
+7811 AP Emmen",7338,2023,GL,GL
+Gemeente Land van Cuijk,"Louis Jansenplein 1, 
+5431 BV Cuijk",7166.51,2023,GL,GL
+Gemeente Helmond,"Weg op den Heuvel 35, 
+5701 NV Helmond",9200,2023,GL,GL
+Gemeente Westerkwartier,"Hooiweg 9, 
+9801 AJ Zuidhorn",6500,2023,GL,GL
+Gemeente Eemsdelta,"Wilhelminaweg 14, 
+9901 CM Groningen",5800,2023,GL,GL
+Gemeente Rijswijk,"Generaal Spoorlaan 2, 
+2283 GM Rijswijk",5500,2023,GL,GL
+Gemeente Assen,"Noordersingel 33, 
+9401 JW Assen",4774.53,2023,GL,GL
+B. Eickhout,Utrecht,79347,2023,GroenLinks in de Europese Unie,GL
+T. Strik,Dodewaard,57336,2023,GroenLinks in de Europese Unie,GL
+K. van Sparrentak,Rotterdam,64000,2023,GroenLinks in de Europese Unie,GL
+,,0,,NSC,NSC
+S. van der Heijden,Amsterdam,100000,2023,D66,D66
+R. Defares,Den Haag,100000,2023,D66,D66
+Stichting The Dreamery Foundation,"Hof van Zevenbergen 1A, 
+5211 HB 's Hertogenbosch",100000,2023,D66,D66
+M. Witteveen,Den Haag,57000,2023,D66,D66
+Persimmons BV,"Nieuwe Gracht 45, 
+2011 ND Haarlem",53000,2023,D66,D66
+A. van Marwijk Kooy,Amsterdam,17660,2023,D66,D66
+J. Backer,Den Haag,15201,2023,D66,D66
+J. Baak,Soest,15156,2023,D66,D66
+A. van Huffelen,Utrecht,14282,2023,D66,D66
+C M J C. Pauw-van Doormalen,Den Haag,14258,2023,D66,D66
+R. de Jong,Amsterdam,10680,2023,D66,D66
+J. Winter,Amsterdam,10330,2023,D66,D66
+A. Mulder,Schoten (België),10330,2023,D66,D66
+F. Lavooy,Rotterdam,10000,2023,D66,D66
+W.F. Sijthoff,Amsterdam,10000,2023,D66,D66
+F. van Rappard,Londen (Verenigd Koninkrijk),9900,2023,D66,D66
+L.J. Brinkhorst,Den Haag,8699,2023,D66,D66
+Godefridus van Hees Fonds,"Hoytedesingel 24, 
+3054 EK Rotterdam",8000,2023,D66,D66
+I. Kantor,Amsterdam,7500,2023,D66,D66
+K. Ollongren,Amsterdam,7126,2023,D66,D66
+H. Mantel,Rotterdam,6966,2023,D66,D66
+H. Vijlbrief,Kaag en Braassem,6557,2023,D66,D66
+F. Graper-Van Koolwjk,Groningen ,6212,2023,D66,D66
+S. van Veldhoven Van Der Meer,Rijswijk,5965,2023,D66,D66
+P. van Meenen,Leiden,5570,2023,D66,D66
+R. Raemakers,Leudal,5538,2023,D66,D66
+E. Kuipers,Epe,5344,2023,D66,D66
+R. Dijkgraaf,Roermond,5344,2023,D66,D66
+H. Horn,Haarlem,5330,2023,D66,D66
+H. Wijers,Amsterdam,5265,2023,D66,D66
+H. Dekker-Abdulaziz,Utrecht,5244,2023,D66,D66
+W. Knlbbeler,Hilversum,5000,2023,D66,D66
+I. Lurvink,Gooise Meren,5000,2023,D66,D66
+R. Jetten,Berg en Dal,4866,,D66,D66
+O. Michielse,Nijmegen,4829,2023,D66,D66
+F. Weerwind,Almere,4700,2023,D66,D66
+K. van der Meer,Leiden,4549,2023,D66,D66
+B. Roelvink,Bloemendaal,4500,2023,D66,D66
+M. Brinkhorst,Amsterdam,4500,2023,D66,D66
+Trigona Dairy Trade ,"Luijnhorststraat 16 a, 
+6941 RD Didam",50000,2023,BBB,BBB
+VDE Holding BV,"Langewijk 328, 
+7701 AP Dedemsvaart",10000,2023,BBB,BBB
+Devaxo Holding B.V.,"Rivium Westaan 19, 
+2909 LD Capelle aan den ljssel",9933,2023,BBB,BBB
+Graansloot Kampen B.V.,"Haatlandhaven 21, 
+8263 AS Kampen",7500,2023,BBB,BBB
+SmartDocuments Nederland B.V.,"Keulenstraat 7, 
+7418 ET Deventer",5000,2023,BBB,BBB
+Fransen Gerrits B.V.,"Brugstraat 13, 
+5469 EA Erp",5000,2023,BBB,BBB
+H. Bontenbal,Ridderkerk,8665,2023,CDA,CDA
+A. Kuik,Ermelo,8632.5,2023,CDA,CDA
+H.M. Palland-Mulder,Kampen,8704.5,2023,CDA,CDA
+D.G. Boswijk,Kockengen,8617.5,2023,CDA,CDA
+C.E.G. van Gennip,Oegstgeest,9555,2023,CDA,CDA
+H.G.J. Bruins Slot,Utrecht,4850,2023,CDA,CDA
+H.M. de Jonge,Rotterdam,4700.04,,CDA,CDA
+V.L.W.A. Heijnen,Maastricht,9032,2023,CDA,CDA
+M.L.A. van Rij,Amsterdam,5012.5,2023,CDA,CDA
+J.J.M. Lenaers,Stamproy,6900,2023,CDA,CDA
+E. Venghaus,Leidschendam,16500,2023,CDA,CDA
+T. Mans,Leiden,6714.5,2023,CDA,CDA
+W.J. van der Wind,Loenen aan de Vecht,5080,2023,CDA,CDA
+M.M. van Toorenburg,Rosmalen,5639.5,2023,CDA,CDA
+W.F.C. Stevens,Amsterdam,5500,2023,CDA,CDA
+S. Hamstra,Ermelo,5294,2023,CDA,CDA
+H. Martens,Bergeyk,4600,2023,CDA,CDA
+G. Dolsma,Utrecht,4520,2023,CDA,CDA
+H.O.C.R. Ruding,Den Haag,10000,2023,CDA,CDA
+Keurvorst B.V.,"P.O. box 150, 
+3700 AD Zeist",50000,2023,CDA Businessclub,CDA
+T.R.C de Lange,Dordrecht,5680,2023,CDA Businessclub,CDA
+R.E. van Boxsel,Leiden,5000,2023,Christendemocratische Club voor Fondsenwerving,CDA
+A.A. Naeem,Almere,4857.52,,SP,SP
+A. van Beveren,Vlaardingen,10572.92,,SP,SP
+A. Geerts,Berghem,10598.28,,SP,SP
+A. Bakker,Groningen,7771.72,,SP,SP
+A. Sprong,Almere,11196.41,2023,SP,SP
+A. van Leeuwen,Drachten,9248.8,,SP,SP
+A. Hendriks Berg,Heerlen,10592.92,,SP,SP
+A. de Groot,Wormerveer,13979.72,2023,SP,SP
+A. Theeuwen,Leiden,11262.48,2023,SP,SP
+A. Stöcker,Heerlen,10564.92,,SP,SP
+A. van Houwelingen,Gorinchem,6797.21,2023,SP,SP
+A. Vrusch,Heerlen,14098.58,2023,SP,SP
+A. Hoekstra,Vlaardingen,11164.28,,SP,SP
+A. Yacoub,Vught,5004.64,2023,SP,SP
+B. van Kent,Den Haag,16024.12,2023,SP,SP
+B. van der Voort,Megen,4559.95,2023,SP,SP
+B. van Apeldoorn,Haarlem,6375.57,2023,SP,SP
+B. Moeskops,Vierlingsbeek,8419.91,2023,SP,SP
+B. Markovic,Nijmegen,8299.8,,SP,SP
+B. Roovers,'s-Hertogenbosch,11788.07,2023,SP,SP
+B. Geerling,Zwolle,8251.28,2023,SP,SP
+B. van Barneveld,Beuningen Gld,6801.21,,SP,SP
+B. van Lieshout,Cuijk,7926.09,,SP,SP
+C. Claassen,Bemmel,7280.57,,SP,SP
+C. Woltjer,Enschede,11050.82,,SP,SP
+C. Visscher,'s-Hertogenbosch,11896.28,2023,SP,SP
+C. Offenberg,Amsterdam,9920,2023,SP,SP
+C. Ester Schokker,Emmen,11827,,SP,SP
+C. van Erp,Heesch,5003.6,,SP,SP
+D. Brandenbarg,Groningen,11759.6,,SP,SP
+D. van Dam,Helmond,9983.6,,SP,SP
+E. Eikenaar,Haren Gn,32134.63,2023,SP,SP
+E. Draisma,Almere,10781.3,,SP,SP
+E. Sweelssen,Venray,9228.8,,SP,SP
+E. Van de Baan Ravestein,Almere,12712.71,,SP,SP
+E. van Klaveren,Oude Pekela,9989.43,2023,SP,SP
+E. van Kaathoven,Elst,5556.69,,SP,SP
+E. Bobeldijk,Amsterdam,10865.56,,SP,SP
+E. de Vries,Helmond,16602.9,2023,SP,SP
+E. Maassen,Voorschoten,7176.71,,SP,SP
+"Erven A Piquer en 
+mw MAA Juffermans",Utrecht,44091.37,2023,SP,SP
+Erven T. Eimer,Nijmegen,6946.05,2023,SP,SP
+E. Schut,Meppel,7423.32,,SP,SP
+E. Dansen,Gorinchem,17863.26,2023,SP,SP
+F. Feenstra,Garrelsweer,5757.71,,SP,SP
+F. Mertens,Groningen,5240.12,,SP,SP
+F. Futselaar,Zwolle,14666.49,2023,SP,SP
+F.J. Hoogendam,Delft,7225.73,,SP,SP
+F. Sannen,Boxtel,6181.1,,SP,SP
+F. Schoon,Hertme,7847.32,2023,SP,SP
+F. van der Tol,Wijk bij Duurstede,6616.1,,SP,SP
+F. Akse,Almelo,10127.24,,SP,SP
+G. Nauta,Enkhuizen,6817.21,,SP,SP
+G. Loos,Oude Pekela,6817.21,,SP,SP
+G. Vennegoor,Hengelo,10580.16,,SP,SP
+G. Elfrink,Arnhem,11157.17,2023,SP,SP
+G. Leusink,Hengelo,10572.92,,SP,SP
+G. Müller,Warnsveld,9228.8,,SP,SP
+G. Dikkers,Tynaarlo,7197.73,,SP,SP
+H. de Waard,Groningen,5372.84,,SP,SP
+H. Everhard,Almere,6868.1,,SP,SP
+H. Kokke,Tilburg,11954.86,2023,SP,SP
+H. Teunis,Almelo,10612.92,,SP,SP
+H. van Hooft,Nijmegen,9227.73,,SP,SP
+H. Melissen,Doesburg,5581.1,,SP,SP
+H. Oostelbos,Tilburg,6441.42,2023,SP,SP
+H. Kalter,Delden,15527.37,2023,SP,SP
+H. Koetsveld,Hengelo,11853.8,2023,SP,SP
+H. Kruyt,Amersfoort,9132.23,2023,SP,SP
+H. Ghijsen,Middelburg,9546.02,2023,SP,SP
+I. Verdaasdonk,Breda,11850.16,2023,SP,SP
+I. van de Kolk,Alphen aan den Rijn,8877.29,2023,SP,SP
+J. van Gelooven,Maastricht,5017.52,2023,SP,SP
+J. Wedemeijer,Amsterdam,26534.59,2023,SP,SP
+J. al Sari,Drachten,8004.9,,SP,SP
+J. Baas,Nieuwerkerk aan den IJssel,8895.13,,SP,SP
+J. Breur,Veenendaal,13883.06,2023,SP,SP
+J. Hendriks,Venray,9701.96,,SP,SP
+J. van der Veen,Jubbega,9481.96,,SP,SP
+J. van Kreij,Oijen,10582.92,,SP,SP
+J. Velner,Zoetermeer,11262.48,2023,SP,SP
+J. Zoll,Oss,9219.16,,SP,SP
+J. Drenthe,Assen,10830.88,,SP,SP
+J. Visscher,Eindhoven,11916.48,2023,SP,SP
+J. Knipping,Doetinchem,7879.91,,SP,SP
+J. van Dijk,Utrecht,30168.21,2023,SP,SP
+J.P. Casteleijn,Terneuzen,8039,,SP,SP
+J. van der Vliet,Oss,6321.81,,SP,SP
+J. Pomper,Hoogeveen,9228.8,,SP,SP
+J. Dijk,Groningen,44589.01,2023,SP,SP
+J. Arts,Brunssum,7166.71,2023,SP,SP
+J. Wesselink,Finsterwolde,5961.93,,SP,SP
+J. Cocu,Almere,6219.97,,SP,SP
+J. Schoon,Burgh-Haamstede,8464.4,2023,SP,SP
+J. Ubachs,Landgraaf,6564.86,,SP,SP
+J. Lesman Veenstra,Hoogezand,12559.26,2023,SP,SP
+J. van der Sluis,Delft,11807,2023,SP,SP
+J. Clemens,Heerlen,25715.31,2023,SP,SP
+J. Wolters Gregório,Roermond,18364.18,2023,SP,SP
+J. Swartjes,Winssen,6722.82,,SP,SP
+J. van der Horst,Oisterwijk,11220.93,2023,SP,SP
+J. van Zon,Amersfoort,11763.6,,SP,SP
+J. Rensema,Nieuwe Pekela,7285.17,,SP,SP
+J. Huisman,Groningen,7474.91,,SP,SP
+K. van der Leij,Enschede,5791.97,,SP,SP
+K. de Kok,Deventer,12249,2023,SP,SP
+K. van Limpt,Veghel,10592.92,,SP,SP
+K. van Baal,Zwolle,9228.8,,SP,SP
+L. Veenstra,Veendam,6203.37,,SP,SP
+L. van Rossum,Delft,12239.49,2023,SP,SP
+L. van Aelst,Gorinchem,8223.58,,SP,SP
+L. Marijnissen,Oss,28484.15,2023,SP,SP
+L. van der Ende,Veendam,5574.99,2023,SP,SP
+L. Maráczi,Helmond,10101.27,,SP,SP
+M. Everling,Heesch,11372.08,2023,SP,SP
+M. Hijink,Amersfoort,17134.1,2023,SP,SP
+M. Boer,Lelystad,5118.85,,SP,SP
+M. Alkaya,Amsterdam,39918.19,2023,SP,SP
+M. Siegers,Nieuwe Pekela,7413.32,,SP,SP
+M. König,Eindhoven,8844.7,2023,SP,SP
+M. Kuiper,Zwartemeer,12339.32,2023,SP,SP
+M. van Caldenberg,Landgraaf,16982.09,2023,SP,SP
+M. Keesman,Enkhuizen,7975.64,,SP,SP
+M. Laumann,Kerkrade,5052.91,2023,SP,SP
+M. van Oosterhout,Heerlen,10572.92,,SP,SP
+M.T. Janssen van Amstel,Oss,10600.92,,SP,SP
+M.F. van Oorsouw,Oijen,7954.69,,SP,SP
+M. Broekmeulen,Sint-Oedenrode,9693.51,2023,SP,SP
+M. Faber,Doetinchem,7728.8,,SP,SP
+M. de Ridder,Zutphen,9761.12,,SP,SP
+M. van Beers,Vlaardingen,11323.21,2023,SP,SP
+M. Manheim,Lelystad,4777,,SP,SP
+M. Verschuren,Breda,11769.6,,SP,SP
+M. van Nispen,Breda,51492.84,2023,SP,SP
+M. van Damme,Zoetermeer,6959.27,2023,SP,SP
+N. Heijmans,'s-Hertogenbosch,7836.7,,SP,SP
+N. Temmink,Zwolle,17291.25,2023,SP,SP
+O. van Raak,Breda,5118.85,2023,SP,SP
+P. Adriaans,Amstelveen,11074.08,,SP,SP
+P. Vonk,Hilversum,10933.52,,SP,SP
+P. Kwint,Amsterdam,43643.36,2023,SP,SP
+P. Oest,Hoogezand,8034.69,,SP,SP
+P. van Zutphen,Heerlen,19855.21,2023,SP,SP
+P. van Ek,Enschede,11756.12,,SP,SP
+R. Alberts,Amsterdam,18878.79,2023,SP,SP
+R. Leijten,Haarlem,20356.43,2023,SP,SP
+R. Ravestein,Almere,9803.3,,SP,SP
+R. Janssen,Wassenaar,10038.91,2023,SP,SP
+R. van der Veen,Boxtel,7847.05,,SP,SP
+R.K. Jansen,Den Haag,7500,2023,SP,SP
+R. Besse,Apeldoorn,11759.94,2023,SP,SP
+R. Meinema,Wijk bij Duurstede,6785.12,2023,SP,SP
+R. Portier,Dordrecht,12223.68,2023,SP,SP
+R. van der Molen,Drachten,8461.4,,SP,SP
+R. Kuin,Haarlem,12189.64,2023,SP,SP
+R. Merks,Schijndel,7664.96,,SP,SP
+S. Beckerman,Groningen,51828.08,2023,SP,SP
+S. Dobbe,Arnhem,8773.43,,SP,SP
+S. Bayraktar,Heerlen,10572.92,,SP,SP
+S. van der Bij,Veenendaal,5415.02,,SP,SP
+S. Zandvliet,Beilen,6011.97,,SP,SP
+S. Bottenberg,Heerlen,10572.92,,SP,SP
+S. Dingemans,Zaltbommel,7827.32,,SP,SP
+S. de Groen,Zutphen,9238.8,,SP,SP
+S. Blom,Maastricht,10824.75,,SP,SP
+S. Biharie,Apeldoorn,22593.47,2023,SP,SP
+T. Coşkun,Rotterdam,11108.6,,SP,SP
+T. Korevaar,Scherpenisse,7825.26,2023,SP,SP
+T. Kruiver,Tilburg,4911.5,,SP,SP
+T. van Halm,Leiden,11847,,SP,SP
+T. Reijnders,Heerlen,11500.92,,SP,SP
+T. de Vries,Maarssen,10986.92,,SP,SP
+T. Kox,Tilburg,15317.8,2023,SP,SP
+T. Segers,Uden,9761.12,,SP,SP
+T. Wouters,Schijndel,10572.92,,SP,SP
+T. van Vugt,Heeswijk-Dinther,5311.5,,SP,SP
+V. Mulder,Hengelo,10572.92,,SP,SP
+W. Snoeks,Uden,9168.8,,SP,SP
+W. de Man,Vlaardingen,10612.92,,SP,SP
+W. Hoogervorst,Enkhuizen,13452.13,2023,SP,SP
+W. Rijnders,Callantsoog,9627.1,,SP,SP
+X. Topma,Meppel,7230.94,,SP,SP
+A A H Hazekamp,Etterbeek (België),20024.17,2023,PvdD,PvdD
+K. de Wrede,Groningen,19911.32,2023,PvdD,PvdD
+F.P. Wassenberg,Geleen,15158,2023,PvdD,PvdD
+R.N. Barker,Den Haag,5889.18,2023,PvdD,PvdD
+C. Teunissen,Den Haag,17175.84,2023,PvdD,PvdD
+E. Ouwehand,Den Haag,16540,2023,PvdD,PvdD
+E.M. van Esch,Utrecht,15157.78,2023,PvdD,PvdD
+J.F.W. van Lammeren,Amsterdam,13024.41,2023,PvdD,PvdD
+E.S. Akerboom,Lisse,7323.76,2023,PvdD,PvdD
+I.F.T. Frencken,Obdam,6000,2023,PvdD,PvdD
+J.L. Rathmann,Schoorl,4750,2023,PvdD,PvdD
+Fitter,"Binnendamseweg 29, 
+3381 GA Giessenburg",4500,2023,PvdD,PvdD
+L. Vestering,Almere,6599.9,2023,PvdD,PvdD
+L. van Raan,Amsterdam,13779.02,2023,PvdD,PvdD
+M.C. van der Wel,Arnhem,10788,2023,PvdD,PvdD
+J. Luijendijk,Almere,13478.43,2023,PvdD,PvdD
+M. Visser,Groningen,7125,2023,PvdD,PvdD
+H.T. Dake,Lochem,39786,2023,CU,CU
+J. Vreugdenhil,Nijkerk,10119,2023,CU,CU
+B en S Group BV,"Veldstraat 8, 
+4261 TA Wijk en Aalburg",10000,2023,CU,CU
+Jethro BV,"Postbus 661, 
+2700 AE Zoetermeer",9990,2023,CU,CU
+Hofstede Roozendaal Beheer B.V.,"Utrechtseweg 174, 
+3818 ES Amersfoort",9800,2023,CU,CU
+J.K.S. Born-van Woerden,Maasland,7530,2023,CU,CU
+Marku Holding B.V.,"Utrechtseweg 174, 
+3818 ES Amersfoort",5400,2023,CU,CU
+B.M. Tax,Leiderdorp,5060,2023,CU,CU
+Lily Holding,"Wenpad 4, 
+2685 SJ Poeldijk",5000,2023,CU,CU
+P. van Veelen Beheer BV,"Anker 29, 
+3904 PK Veenendaal",5000,2023,CU,CU
+ChristenUnie,"Piet Mondriaanlaan 48, 
+3818 GV Amersfoort",94000,2023,Mr. Groen van Prinstererstichting,CU
+ChristenUnie,"Piet Mondriaanlaan 48, 
+3818 GV Amersfoort",26250,2023,"Perspectief, 
+ChristenUnie jongeren",CU
+Beyuna B.V.,"Paasheuvelweg 26, 
+1105 BJ Amsterdam",10000,2023,FvD,FvD
+Ozephius Group B.V.,"Simon Stevinstraat 1, 
+3261 MG Oud-Beijerland",16840,2023,FvD,FvD
+Mega Management B.V.,"Boeingavenue 250, 
+1119 PZ Schiphol-Rijk",50000,2023,FvD,FvD
+Op de Mast B.V.,"Zijldijk 24B, 
+2352 AB Leiderdorp",21279,2023,FvD,FvD
+Kantuta Holding BV,"Bisonlaan 6, 
+1217 GH Hilversum",8500,2023,FvD,FvD
+Avenue Business Consultancy BV,"Rapenburg 23, 
+2311 GE Leiden",4999,2023,FvD,FvD
+C.H. van Dalen,Leiden,5000,2023,FvD,FvD
+Holding W. Muurmans BV,"Heerenstraat Noord 64, 
+6171 Stein",5000,2023,FvD,FvD
+T. Poot,Sulzbach (Zwitserland),9900,2023,FvD,FvD
+CodeGuild B.V.,"Johan Huizingalaan 763a, 
+1066 VH Amsterdam",10000,2023,FvD,FvD
+"De Nederlandse 
+Investeringsmaatschappij B.V.","Molenstraat 33, 
+7921 KL Zuidwolde",10000,2023,FvD,FvD
+Piegretia B.V.,"Oostvoornelaan 26, 
+2554 BH Den Haag",15000,2023,FvD,FvD
+"SalesFlo, h.o.d.n. Goodbye BigTech","Marialaan 2, 
+6576 BJ Ooij",10000,2023,FvD,FvD
+Verwarmings Techniek Ede B.V.,"Hoefweg 12, 
+6717 LS Ede",10000,2023,FvD,FvD
+Chipshol 2000 B.V.,"Boeingavenue 250, 
+1119 PZ Schiphol-Rijk",48400,2023,FvD,FvD
+F. Richartz,Nijmegen,100000,2023,FvD,FvD
+Sensemakers BV,"Achterwerf 305, 
+1367 DD Almere",50000,2023,FvD,FvD
+Lambda Furtherance BV,"Landgoed De Wittenburg 1, 
+2244 BV Wassenaar",20000,2023,FvD,FvD
+Broekhuis Volvo,"Blanckenhagenweg 4-6, 
+3712 DE Zeist",4538,2023,SGP,SGP
+Vellekoop Logistics BV,"Postbus 99, 
+3340 AB Hendrik-Ido-Ambacht",5000,2023,SGP,SGP
+AVM Asbestverwijdering,"Garderbroekerweg 175, 
+3774 JD Kootwijkerbroek",7500,2023,SGP,SGP
+FTH-Groep B.V.,"Batterijenweg 2, 
+4041 DA Kesteren",5000,2023,SGP,SGP
+Van Middendorp Montage B.V.,"Krollerweg 11, 
+3774 RG Kootwijkerbroek",5000,2023,SGP,SGP
+BOJ Beheer BV,"Oosterbrinkweg 17, 
+3774 BW Kootwijkerbroek",5000,2023,SGP,SGP
+Van der Nagel Modulaire Bouw,"Ambon 35, 
+3772 ZT Barneveld",6000,2023,SGP,SGP
+Bincx B.V.,"De Bonkelaar 7, 
+3774 SB Kootwijkerbroek",10000,2023,SGP,SGP
+"Montagebedrijf Hardeman 
+van Harten B.V.","Lage Veldweg 10, 
+6741 JL Lunteren",19478,2023,SGP,SGP
+"Exploitatie en Beheermaatschappij 
+Merwestreek","Rivierdijk 636, 
+3371 EE Hardinxveld-Giessendam",4500,2023,SGP,SGP
+Stichting Donum,"s-Gravenweg 100, 
+2902 LE Capelle a/d IJssel",5000,2023,SGP,SGP
+S.R.T. van Baarle,Rotterdam,6850,,DENK,DENK
+A.D. Mulder,Amsterdam,20000,2023,Volt,Volt
+Aquaviento B.V.,"Noorderven 61, 
+1504 AL Zaandam",15323,2023,Volt,Volt
+Direct Voltage Holding B.V.,"De Muzen 26, 
+1431 XP Aalsmeer",10000,2023,Volt,Volt
+H.A. van Joolen,Amsterdam,5000,2023,Volt,Volt
+L.A.J.M. Dassen,Den Haag,10730,2023,Volt,Volt
+M. Koekkoek,Utrecht,6875,2023,Volt,Volt
+M.M.M. Dreesmann,Amsterdam,17500,2023,Volt,Volt
+M.W. Pruijt,Zuidlaren,5000,2023,Volt,Volt
+Pave Holding B.V.,"Chopinstraat 12, 
+1077 GN Amsterdam",5000,2023,Volt,Volt
+"Ribbink Van den Hoek 
+Familie Stichting","Bernard Zweerskade 1, 
+1077 TX Amsterdam",10000,2023,Volt,Volt
+Stichting Shuksan,"Noorderven 61, 
+1504 AL Zaandam",20000,2023,Volt,Volt
+V.M. Swinkels,Amsterdam,10000,2023,Volt,Volt
+Van den Hoff Beheer B.V.,"Kerckeboschlaan 39, 
+3708 XH Zeist",10000,2023,Volt,Volt
+Van Goethem Internet Ventures B.V.,"Amstel 93, 
+1018 EL Amsterdam",27500,2023,Volt,Volt
+F.F.J. van Toly,Amersfoort,5080,2023,JA21,JA21
+M.P.H. Veerman,Rotterdam,12500,2023,JA21,JA21
+Chipshol 2000 B.V.,"Boeingavenue 250, 
+1119 PZ Schiphol-Rijk",50000,2023,BVNL,BVNL
+Sjopperdepop BV,"Palletweg 32, 
+2031 DB Haarlem",25000,2023,BVNL,BVNL
+Stichting Dona,"Boeingavenue 250, 
+1119 PZ Schiphol-Rijk",25000,2023,BVNL,BVNL
+Wizard Ventures BV ,"Rondehoep 52 A, 
+1191 KM Ouderkerk aan de Amstel",20000,2023,BVNL,BVNL
+Horeca Beheer B.V,"Leenderbos 48, 
+1447 TV Purmerend",10000,2023,BVNL,BVNL
+W.R. van Haga,Haarlem,10000,2023,BVNL,BVNL
+Stradale Sport B.V.,"Laboratoriumweg 15, 
+1544 MP Zaandijk",6000,2023,BVNL,BVNL
+J.C.M. Veldhuijzen,Amsterdam,6000,2023,BVNL,BVNL
+Fortitudo Legal Concepts,"Rontgenlaan 5, 
+2719 DX Zoetermeer",5350,2023,BVNL,BVNL
+Horst Vastgoed Den Haag B.V.,"Oosteinde 55, 
+2548 AK ""s Gravenhage",5000,2023,BVNL,BVNL
+R. Berghuis,Rotterdam,5000,2023,BVNL,BVNL
+Jut Finance B.V.,"Palletweg 32, 
+2031 DB Haarlem",5000,2023,BVNL,BVNL
+"Meyer Beheer BV / 
+Meyer Horeca Groep","Pottenbakkerstraat 30, 
+4871 EP Etten-Leur",5000,2023,BVNL,BVNL
+Kidswereld Nederhorst den Berg BV,"Kanaaldijk 1, 
+1383 ND Weesp",5000,2023,BVNL,BVNL
+NSTD Beheer BV,"Houtplein 7, 
+2012 DD Haarlem",5000,2023,BVNL,BVNL
+Houdstermaatschappij Engel B.V.,"Lange Steigerstraat 4, 
+5301 CG Zaltbommel ",5001.21,2023,BVNL,BVNL
+,,0,,50PLUS,50PLUS
+,,0,,BIJ1,BIJ1
+,,0,,OPNL,OPNL
+,,-,,Goud,Goud
