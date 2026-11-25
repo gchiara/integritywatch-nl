@@ -15,6 +15,7 @@ $color_lobby: #42b983;
   a {
     font-weight: bold;
     color: $color_TI;
+    font-size: 15px;
     &:hover {
       color: #dd3c31;
     }
@@ -324,6 +325,7 @@ $color_lobby: #42b983;
       cursor: pointer;
       position: relative;
       vertical-align: middle;
+      top: -8px;
       i {
         font-size: 35px;
         vertical-align: middle;
@@ -412,6 +414,54 @@ $color_lobby: #42b983;
   }
 }
 
+/* DONATION MODAL */
+#donationModal {
+  .modal-dialog {
+    width: 700px;
+    max-width: 90%;
+    margin: 80px auto 0 auto;
+  }
+  .modal-title {
+    font-weight: 700;
+    color: $color_TI;
+  }
+  .donation-modal-title {
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    margin-top: -20px;
+  }
+  .modal-header {
+    border-bottom: 0;
+  }
+  .modal-body {
+    p {
+
+    }
+    .supportus-buttons {
+      margin-top: 30px;
+    }
+    a {
+      display: block;
+      margin: 15px auto 15px auto;
+      width: 300px;
+      background: $color_TI;
+      color: #fff;
+      padding: 8px 15px;
+      transition: 0.4s all;
+      border-radius: 20px;
+      font-size: 15px;
+      font-weight: 700;
+      text-transform: uppercase;
+      &:hover, &:active {
+        color: #fff;
+        background: $color_TI_darker;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
 /* MODAL */
 
 .modal-open {
@@ -444,6 +494,18 @@ $color_lobby: #42b983;
     .subject {
       margin: 0 auto;
     }
+  }
+  .agenda-week-title {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #222;
+    font-weight: 800;
+  }
+  .agenda-act-title-small {
+    font-size: 16px;
+  }
+  .agenda-act-title {
+
   }
   .details-title {
     display: inline-block;
@@ -640,6 +702,13 @@ table.dataTable tbody tr:hover {
   cursor: pointer;
   background: #eee;
 }
+.tabD {
+  .dataTables_wrapper {
+    td {
+      font-size: 14px;
+    }
+  }
+}
 
 /* POPOVER */
 
@@ -809,6 +878,9 @@ table.dataTable tbody tr:hover {
       }
     }
   }
+  .tweedekamer-photo {
+    max-width: 120px;
+  }
 }
 
 /* Mobile tables */
@@ -917,11 +989,84 @@ table.dataTable tbody tr:hover {
   }
 }
 
+/* COOKIE NOTICE */
+#cookie-banner {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  max-width: 720px;
+  margin: auto;
+  background: #1f1f1f;
+  color: #fff;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 8px 25px rgba(0,0,0,.25);
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.45;
+  z-index: 99999;
+  text-align: left;
+  &.hidden {
+    display: none;
+  }
+  a {
+    color: #9fd3ff;
+    text-decoration: underline;
+  }
+}
+.cookie-actions {
+  margin-top: 14px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.cookie-btn {
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  &.accept {
+    background: #2f9e44;
+    color: white;
+  }
+  &.reject {
+    background: #555;
+    color: white;
+  }
+  &.settings {
+    background: #2b6cb0;
+    color: white;
+  }
+}
+#cookie-settings-link {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  z-index: 10001;
+  //display: none;
+  button {
+    background: none;
+    border: none;
+    color: rgba(255,255,255,0.5);
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+
 /* DC legend vertical alignment fix */
 .dc-legend{
   .dc-legend-item {
     rect  {
       y: -5px !important;
+    }
+    @supports (-moz-appearance:none) {
+      rect  {
+        y: 0px !important;
+      }
     }
   }
 }

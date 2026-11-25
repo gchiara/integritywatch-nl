@@ -24,8 +24,14 @@ import ChartHeader from './components/ChartHeader.vue';
 
 Vue.component('chart-header', ChartHeader);
 
-new Vue({
+var vuedata = {
+  page: 'about',
+  supportModalShown: 0
+};
+
+var vueApp = new Vue({
   el: '#app',
+  data: vuedata,
   methods: {
     getUrlParameter(sParam) {
       var sPageURL = decodeURIComponent(window.location.search.substring(1)),
@@ -46,3 +52,18 @@ new Vue({
     }
   }
 });
+
+//Show donation modal if not already shown   
+  if(vueApp.getUrlParameter('s') && vueApp.getUrlParameter('s') == 1) {
+    vuedata.supportModalShown = 1;
+  }  
+  if(vuedata.supportModalShown == 0) {
+    $('#donationModal').modal();
+    vuedata.supportModalShown = 1;
+    var url = new URL(window.location.href);
+    url.searchParams.set("s", vuedata.supportModalShown);
+    window.history.pushState(null, "", url.toString());
+  }
+  $("#donateBtn").on( "click", function() {
+    $('#donationModal').modal();
+  });

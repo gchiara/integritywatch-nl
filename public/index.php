@@ -1,6 +1,5 @@
 <html lang="en">
 <head>
-    <?php include 'gtag.php' ?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -15,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
-    <link rel="stylesheet" href="static/tab_a.css?v=1">
+    <link rel="stylesheet" href="static/tab_a.css?v=8">
 </head>
 <body>
     <div id="app" class="tabA">   
@@ -37,8 +36,10 @@
           </div>
           <!-- MANDATE SELECTOR -->
           <div class="col-md-12 chart-col mandate-select-container">
-            <a href="./" class="link-button" :class="{active: previousmandate == false}">Huidige kamer</a>
-            <a href="./index.php?previousmandate=1" class="link-button" :class="{active: previousmandate == true}">Vorige kamer</a>
+            <a :href="'./index.php?s='+supportModalShown" class="link-button" :class="{active: previousmandate17_21 == false && previousmandate21_23 == false}">Kamerperiode 2025-heden</a>
+            <a :href="'./tweede-kamerleden_2023-2025.php?s='+supportModalShown" class="link-button">Kamerperiode 2023-2025</a>
+            <a :href="'./index.php?previousmandate21_23=1&s='+supportModalShown" class="link-button" :class="{active: previousmandate21_23 == true}">Kamerperiode 2021-2023</a>
+            <a :href="'./index.php?previousmandate17_21=1&s='+supportModalShown" class="link-button" :class="{active: previousmandate17_21 == true}">Kamerperiode 2017-2021</a>
           </div>
           <!-- CHARTS - FIRST ROW -->
           <div class="col-md-3 chart-col">
@@ -112,7 +113,7 @@
                       <th class="header">Nr</th> 
                       <th class="header">Naam</th> 
                       <th class="header">Fractie</th> 
-                      <th class="header">Aantal aangegeven nevenfuncties</th> 
+                      <th class="header">Totaal opgegeven nevenfuncties</th> 
                       <th class="header">Aantal huidige nevenfuncties</th> 
                       <th class="header">Aantal giften</th> 
                       <th class="header">Aantal reizen</th> 
@@ -142,11 +143,10 @@
                 <div class="row">
                   <div class="col-md-8">
                     <div class="details-line"><span class="details-line-title">Geboren:</span> {{ selectedElement.birthDate }}, {{ selectedElement.Geboorteplaats }}</div>
-                    <div class="details-line"><span class="details-line-title">Tweede kamer lid sinds:</span> TBD</div>
-                    <div class="details-line"><span class="details-line-title">Profiel:</span> TBD</div>
+                    <!-- <div class="details-line"><span class="details-line-title">Profiel:</span> TBD</div> -->
                   </div>
                   <div class="col-md-4">
-                    <img :src="selectedElement.photoUrl" />
+                    <img class="tweedekamer-photo" :src="selectedElement.photoUrl" />
                   </div>
                   <div class="col-md-12">
                     <!-- Divider -->
@@ -317,16 +317,38 @@
           <button class="btn-linkedin" @click="share('linkedin')"><img src="./images/linkedin.png" /></button>
         </div>
       </div>
+      <!-- SUPPORT US MODAL -->
+      <div class="modal" id="donationModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <div class="modal-title"></div>
+              <button type="button" class="close" data-dismiss="modal"><i class="material-icons">close</i></button>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+              <p class="donation-modal-title">Steun ons werk met een gift!</p>
+              <p>Transparency International Nederland strijdt voor een samenleving vrij van corruptie. Met Integrity Watch vragen wij aandacht voor de transparantie en integriteit van de Tweede Kamer en de overheid. Uw gift zorgt ervoor dat wij dat werk kunnen voortzetten.</p>
+              <div class="supportus-buttons">
+                <a href="https://www.pifworld.com/nl/nonprofits/1UG8djhGLxU/transparency-international-neder/donate" target="_blank">Donatie</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- Loader -->
       <loader v-if="loader" :text="'Loading ...'" />
     </div>
+
+    <?php require 'consent_notice.php' ?>
 
     <script type="text/javascript" src="vendor/js/d3.v5.min.js"></script>
     <script type="text/javascript" src="vendor/js/d3.layout.cloud.js"></script>
     <script type="text/javascript" src="vendor/js/crossfilter.min.js"></script>
     <script type="text/javascript" src="vendor/js/dc.js"></script>
     <script type="text/javascript" src="vendor/js/dc.cloud.js"></script>
-    <script src="static/tab_a.js?v=1"></script>
+    <script src="static/tab_a.js?v=8"></script>
 
  
 </body>

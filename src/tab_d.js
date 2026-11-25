@@ -27,10 +27,11 @@ import ChartHeader from './components/ChartHeader.vue';
 var vuedata = {
   page: 'tabD',
   loader: true,
+  supportModalShown: 0,
   showInfo: true,
   showShare: true,
   chartMargin: 40,
-  cabinet: 'rutteIV',
+  cabinet: 'jetten',
   charts: {
     ministries: {
       title: 'Aantal items per ministerie',
@@ -236,8 +237,21 @@ function getParameterByName(name, url) {
 }
 
 //Define datasets based on terms
-var agendasDataFile = './data/agendas_rutteIV.json';
-var ministriesMatchingFile = './data/agendas_ministries_matching_rutteIV.csv';
+vuedata.cabinet = 'jetten';
+var agendasDataFile = './data/agendas_jetten.json';
+var ministriesMatchingFile = './data/agendas_ministries_matching_jetten.csv';
+
+if(getParameterByName('cabinet') == 'schoof') {
+  vuedata.cabinet = 'schoof';
+  agendasDataFile = './data/agendas_schoof.json';
+  ministriesMatchingFile = './data/agendas_ministries_matching_schoof.csv';
+}
+
+if(getParameterByName('cabinet') == 'rutteIV') {
+  vuedata.cabinet = 'rutteIV';
+  agendasDataFile = './data/agendas_rutteIV_updated.json';
+  ministriesMatchingFile = './data/agendas_ministries_matching_rutteIV.csv';
+}
 
 if(getParameterByName('cabinet') == 'rutteIII') {
   vuedata.cabinet = 'rutteIII';
@@ -256,9 +270,15 @@ json(agendasDataFile, (err, events) => {
       d.subtitel = d.subtitel.trim();
       d.people = d.bewindspersoon;
       d.peopleString = d.bewindspersoon.join(', ');
+      if(d.peopleString == '' && d.mainTitle) {
+        if(d.mainTitle.includes('Agenda') && d.mainTitle.includes('week')) {
+          d.peopleString = d.mainTitle.split('Agenda')[1].split('week')[0].trim();
+        }
+      }
       d.ministries = [];
       //Fix links in full description
-      d.subtitel_full = d.subtitel_full.replaceAll('href="/', 'href="https://www.rijksoverheid.nl/')
+      d.subtitel_full = d.subtitel_full.replaceAll('href="/', 'href="https://www.rijksoverheid.nl/');
+      d.subtitel_full = d.subtitel_full.replaceAll('\n','<br />');
       //Get date int
       var dateInt = dateToInt(d.datum);
       //Format date
@@ -297,7 +317,7 @@ json(agendasDataFile, (err, events) => {
         }
       });
     });
-    console.log(types);
+    //console.log(types);
 
     //Set dc main vars. The second crossfilter is used to handle the travels stacked bar chart.
     var ndx = crossfilter(events);
@@ -414,6 +434,9 @@ json(agendasDataFile, (err, events) => {
             "targets": 1,
             "defaultContent":"N/A",
             "data": function(d) {
+              if(d.mainTitle) {
+                return '<strong>'+d.mainTitle+'</strong><br />' + d.activiteitnaam;
+              }
               return d.activiteitnaam;
             }
           },
@@ -441,6 +464,9 @@ json(agendasDataFile, (err, events) => {
             "targets": 4,
             "defaultContent":"N/A",
             "data": function(d) {
+              if(d.subtitel.length > 200) {
+                return d.subtitel.slice(0,200) + '...';
+              }
               return d.subtitel;
             }
           },
@@ -559,5 +585,21 @@ json(agendasDataFile, (err, events) => {
     window.onresize = function(event) {
       resizeGraphs();
     };
+
+    //Show donation modal if not already shown   
+  if(getParameterByName('s') && getParameterByName('s') == 1) {
+    vuedata.supportModalShown = 1;
+  }  
+  if(vuedata.supportModalShown == 0) {
+    $('#donationModal').modal();
+    vuedata.supportModalShown = 1;
+    var url = new URL(window.location.href);
+    url.searchParams.set("s", vuedata.supportModalShown);
+    window.history.pushState(null, "", url.toString());
+  }
+  $("#donateBtn").on( "click", function() {
+    $('#donationModal').modal();
+  });
+  
   })
 })

@@ -1,6 +1,7 @@
 node_modules/
 dist/
 public/fonts/
+public/analytics-config.js
 npm-debug.log
 yarn-error.log
 .cache/

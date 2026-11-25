@@ -1,6 +1,5 @@
 <html lang="en">
 <head>
-    <?php include 'gtag.php' ?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -15,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
-    <link rel="stylesheet" href="static/tab_b.css?v=1">
+    <link rel="stylesheet" href="static/tab_b.css?v=5">
 </head>
 <body>
     <div id="app" class="tabB">   
@@ -37,8 +36,8 @@
           </div>
           <!-- MANDATE SELECTOR -->
           <div class="col-md-12 chart-col mandate-select-container">
-            <a href="./eerste-kamerleden.php" class="link-button" :class="{active: previousmandate == false}">Huidige kamer</a>
-            <a href="./eerste-kamerleden.php?previousmandate=1" class="link-button" :class="{active: previousmandate == true}">Vorige kamer</a>
+            <a :href="'./eerste-kamerleden.php?s='+supportModalShown" class="link-button" :class="{active: previousmandate == false}">Huidige kamer</a>
+            <a :href="'./eerste-kamerleden.php?previousmandate=1&s='+supportModalShown" class="link-button" :class="{active: previousmandate == true}">Vorige kamer</a>
           </div>
           <!-- CHARTS - FIRST ROW -->
           <div class="col-md-3 chart-col">
@@ -244,16 +243,38 @@
           <button class="btn-linkedin" @click="share('linkedin')"><img src="./images/linkedin.png" /></button>
         </div>
       </div>
+      <!-- SUPPORT US MODAL -->
+      <div class="modal" id="donationModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <div class="modal-title"></div>
+              <button type="button" class="close" data-dismiss="modal"><i class="material-icons">close</i></button>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+              <p class="donation-modal-title">Steun ons werk met een gift!</p>
+              <p>Transparency International Nederland strijdt voor een samenleving vrij van corruptie. Met Integrity Watch vragen wij aandacht voor de transparantie en integriteit van de Tweede Kamer en de overheid. Uw gift zorgt ervoor dat wij dat werk kunnen voortzetten.</p>
+              <div class="supportus-buttons">
+                <a href="https://www.pifworld.com/nl/nonprofits/1UG8djhGLxU/transparency-international-neder/donate" target="_blank">Donatie</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- Loader -->
       <loader v-if="loader" :text="'Loading ...'" />
     </div>
+
+    <?php require 'consent_notice.php' ?>
 
     <script type="text/javascript" src="vendor/js/d3.v5.min.js"></script>
     <script type="text/javascript" src="vendor/js/d3.layout.cloud.js"></script>
     <script type="text/javascript" src="vendor/js/crossfilter.min.js"></script>
     <script type="text/javascript" src="vendor/js/dc.js"></script>
     <script type="text/javascript" src="vendor/js/dc.cloud.js"></script>
-    <script src="static/tab_b.js?v=1"></script>
+    <script src="static/tab_b.js?v=5"></script>
 
  
 </body>

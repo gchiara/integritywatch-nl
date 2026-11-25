@@ -118,3 +118,21 @@
     }
   }
 }
+
+#cookie-settings-link {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  z-index: 10001;
+  //display: none;
+  button {
+    background: #eee;
+    border-radius: 5px;
+    border: none;
+    color: #666;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}

@@ -14,12 +14,11 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
-    <link rel="stylesheet" href="static/about.css">
+    <link rel="stylesheet" href="static/about.css?v=1">
 </head>
 <body>
-    <?php include 'header.php' ?>
-
-    <div id="app">    
+    <div id="app">   
+      <?php include 'header.php' ?> 
       <div class="container">
         <div class="panel-group" id="accordion">
           <!-- BLOCK 1 -->
@@ -39,7 +38,8 @@
               <p><strong>Het reizenregister</strong> – in dit register staan de reizen die politici naar het buitenland hebben gemaakt, al dan niet vergoed door derden.</p> 
               <p><strong>Het schenkingenregister</strong> – hier geven politici aan welke giften zij hebben ontvangen met een hogere waarde dan vijftig euro.</p> 
               <p>Er bestaat ook een <a href="https://www.tweedekamer.nl/sites/default/files/atoms/files/lobbyistenregister_d.d._27_mei_2019.pdf" target="_blank">lobbyregister</a>, maar daarin wordt alleen bijgehouden welke lobbyisten toegang hebben tot het parlement, niet wanneer ze wie ontmoeten, zoals in het Europese transparantieregister wel wordt bijgehouden. Volgens Transparancy International Nederland ligt hier nog veel ruimte voor verbetering.</p> 
-              <p>Alle data komen van de officiële bronnen van de Tweede Kamer. Deze zijn <a href="https://www.tweedekamer.nl/kamerleden_en_commissies/openbare_registers" target="_blank">hier</a> te vinden en worden iedere maand geüpdatet. De data van partijfinanciering komen van de website van de Rijksoverheid. Deze informatie wordt eens per jaar geüpload. Het overzicht van alle giften aan politieke partijen en hun neveninstellingen in 2019 zijn <a href="https://www.rijksoverheid.nl/documenten/jaarverslagen/2020/10/08/overzicht-van-giften-aan-politieke-partijen-en-hun-neveninstellingen-2019" target="_blank">hier</a> te vinden. Indien je onjuiste of onnauwkeurige informatie opvalt, laat het ons weten via het contactformulier. Wanneer je de data van het platform gebruikt, controleer dan altijd bevindingen bij de originele bron.</p> 
+              <p>Alle data komen van de officiële bronnen van de Tweede Kamer. Deze zijn <a href="https://www.tweedekamer.nl/kamerleden_en_commissies/openbare_registers" target="_blank">hier</a> te vinden en worden iedere maand geüpdatet. Voor de Eerste Kamer kun je alle gegevens via de webpagina <a href="https://www.eerstekamer.nl/begrip/integriteit" target="_blank">hier</a> vinden, deze informatie wordt eens per jaar geüpload door TI-NL. De data van partijfinanciering komen van de website van de Rijksoverheid. Deze informatie wordt eens per jaar geüpload. Het overzicht van alle giften aan politieke partijen en hun neveninstellingen in 2019 zijn <a href="https://www.rijksoverheid.nl/documenten/jaarverslagen/2020/10/08/overzicht-van-giften-aan-politieke-partijen-en-hun-neveninstellingen-2019" target="_blank">hier</a> te vinden. De data voor de agenda’s van bewindspersonen halen wij van de website van de rijksoverheid. Deze kun je <a href="https://www.rijksoverheid.nl/actueel/agenda" target="_blank">hier</a> vinden. Indien je onjuiste of onnauwkeurige informatie opvalt, laat het ons weten via het contactformulier. Wanneer je de data van het platform gebruikt, controleer dan altijd bevindingen bij de originele bron.</p> 
+              <p>TI-NL stelt een gedetailleerde beschrijving van de data en een bestand om het platform digitaal uit te lezen ter beschikking. In de <a href="./data_dictionary/Integrity_Watch_NL_Data_Dictionary.md" target="_blank">data dictionary</a> vindt u alle informatie over de data en met het <a href="./data_dictionary/generate_metadata.py" target="_blank">metadata</a>-bestand kunt u de data digitaal uitlezen.</p>
               <p>Dit project wordt mede gefinancierd door de Europese Commissie Noch de instellingen en organen van de Europese Unie, noch enige persoon die namens hen optreedt, kunnen aansprakelijk worden gesteld voor het gebruik van de opgenomen informatie van Integrity Watch NL.</p>
                 <div class="about-eu-funding">
                   <img class="logo" src="./images/flag_yellow_low.jpg" />
@@ -74,7 +74,28 @@
 
         </div>
       </div>
+      <!-- SUPPORT US MODAL -->
+      <div class="modal" id="donationModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <div class="modal-title"></div>
+              <button type="button" class="close" data-dismiss="modal"><i class="material-icons">close</i></button>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+              <p class="donation-modal-title">Steun ons werk met een gift!</p>
+              <p>Transparency International Nederland strijdt voor een samenleving vrij van corruptie. Met Integrity Watch vragen wij aandacht voor de transparantie en integriteit van de Tweede Kamer en de overheid. Uw gift zorgt ervoor dat wij dat werk kunnen voortzetten.</p>
+              <div class="supportus-buttons">
+                <a href="https://www.pifworld.com/nl/nonprofits/1UG8djhGLxU/transparency-international-neder/donate" target="_blank">Donatie</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <script src="static/about.js"></script>
+    <?php require 'consent_notice.php' ?>
+    <script src="static/about.js?v=1"></script>
 </body>
 </html>

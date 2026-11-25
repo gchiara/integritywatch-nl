@@ -1,0 +1,61 @@
+﻿person,role,ministry,start_date,end_date
+Dick Schoof,Minister-president / Minister,Algemene Zaken,02-07-2024,23-02-2026
+Caspar Veldkamp,Minister,Buitenlandse Zaken,02-07-2024,22-08-2025
+Ruben Brekelmans,Minister,Buitenlandse Zaken,22-08-2025,05-09-2025
+David van Weel,Minister,Buitenlandse Zaken,05-09-2025,23-02-2026
+David van Weel,Minister,Justitie en Veiligheid,02-07-2024,05-09-2025
+Foort van Oosten,Minister,Justitie en Veiligheid,05-09-2025,23-02-2026
+Judith Uitermark,Minister,Binnenlandse Zaken en Koninkrijksrelaties,02-07-2024,22-08-2025
+David van Weel,Minister,Binnenlandse Zaken en Koninkrijksrelaties,22-08-2025,05-09-2025
+Frank Rijkaart,Minister,Binnenlandse Zaken en Koninkrijksrelaties,05-09-2025,23-02-2026
+Eppo Bruins,Minister,"Onderwijs, Cultuur en Wetenschap",02-07-2024,22-08-2025
+Sophie Hermans,Minister,"Onderwijs, Cultuur en Wetenschap",22-08-2025,05-09-2025
+Gouke Moes,Minister,"Onderwijs, Cultuur en Wetenschap",05-09-2025,23-02-2026
+Eelco Heinen,Minister,Financiën,02-07-2024,23-02-2026
+Ruben Brekelmans,Minister,Defensie,02-07-2024,23-02-2026
+Barry Madlener,Minister,Infrastructuur en Waterstaat,02-07-2024,03-06-2025
+Sophie Hermans,Minister,Infrastructuur en Waterstaat,03-06-2025,19-06-2025
+Robert Tieman,Minister,Infrastructuur en Waterstaat,19-06-2025,23-02-2026
+Dirk Beljaarts,Minister,Economische Zaken,02-07-2024,03-06-2025
+Eelco Heinen,Minister,Economische Zaken,03-06-2025,19-06-2025
+Vincent Karremans,Minister,Economische Zaken,19-06-2025,23-02-2026
+Sophie Hermans,Minister,Klimaat en Groene Groei,02-07-2024,23-02-2026
+Femke Wiersma,Minister,"Landbouw, Visserij, Voedselzekerheid en Natuur",02-07-2024,23-02-2026
+Eddy van Hijum,Minister,Sociale Zaken en Werkgelegenheid,02-07-2024,22-08-2025
+Mona Keijzer,Minister,Sociale Zaken en Werkgelegenheid,22-08-2025,05-09-2025
+Mariëlle Paul,Minister,Sociale Zaken en Werkgelegenheid,05-09-2025,23-02-2026
+Fleur Agema,Minister,"Volksgezondheid, Welzijn en Sport",02-07-2024,03-06-2025
+Eddy van Hijum,Minister,"Volksgezondheid, Welzijn en Sport",03-06-2025,19-06-2025
+Daniëlle Jansen,Minister,"Volksgezondheid, Welzijn en Sport",19-06-2025,22-08-2025
+Robert Tieman,Minister,"Volksgezondheid, Welzijn en Sport",22-08-2025,05-09-2025
+Jan Anthonie Bruijn,Minister,"Volksgezondheid, Welzijn en Sport",05-09-2025,23-02-2026
+Mona Keijzer,Minister,Volkshuisvesting en Ruimtelijke Ordening,02-07-2024,23-02-2026
+Marjolein Faber,Minister,Asiel en Migratie,02-07-2024,03-06-2025
+David van Weel,Minister,Asiel en Migratie,03-06-2025,23-02-2026
+Eddy van Hijum,Minister voor,Asiel en Migratie,19-06-2025,22-08-2025
+Mona Keijzer,Minister voor,Asiel en Migratie,19-06-2025,23-02-2026
+Reinette Klever,Minister voor,Buitenlandse Handel en Ontwikkelingshulp,02-07-2024,03-06-2025
+Ingrid Coenradie,Staatssecretaris,Justitie en Veiligheid,02-07-2024,03-06-2025
+Arno Rutte,Staatssecretaris,Justitie en Veiligheid,05-09-2025,23-02-2026
+Teun Struycken,Staatssecretaris,Rechtsbescherming,02-07-2024,22-08-2025
+Zsolt Szabó,Staatssecretaris,Binnenlandse Zaken en Koninkrijksrelaties (Digitalisering en Koninkrijksrelaties),02-07-2024,03-06-2025
+Eddie van Marum,Staatssecretaris,Binnenlandse Zaken en Koninkrijksrelaties (Herstel Groningen),02-07-2024,19-06-2025
+Eddie van Marum,Staatssecretaris,Binnenlandse Zaken en Koninkrijksrelaties,19-06-2025,23-02-2026
+Mariëlle Paul,Staatssecretaris,"Onderwijs, Cultuur en Wetenschap (Funderend Onderwijs en Emancipatie)",02-07-2024,05-09-2025
+Koen Becking,Staatssecretaris,"Onderwijs, Cultuur en Wetenschap",05-09-2025,23-02-2026
+Folkert Idsinga,Staatssecretaris,Financiën (Fiscaliteit en Belastingdienst),02-07-2024,01-11-2024
+Tjebbe van Oostenbruggen,Staatssecretaris,"Financiën (Fiscaliteit, Belastingdienst en Douane)",15-11-2024,22-08-2025
+E.H.J. Heijnen,Staatssecretaris,"Financiën (Fiscaliteit, Belastingdienst en Douane)",05-09-2025,23-02-2026
+Nora Achahbar,Staatssecretaris,Financiën (Toeslagen en Douane),02-07-2024,15-11-2024
+Sandra Palmen,Staatssecretaris,Financiën (Herstel en Toeslagen),12-12-2024,23-02-2026
+Gijs Tuinman,Staatssecretaris,Defensie,02-07-2024,23-02-2026
+Chris Jansen,Staatssecretaris,Infrastructuur en Waterstaat (Openbaar Vervoer en Milieu),02-07-2024,03-06-2025
+Thierry Aartsen,Staatssecretaris,Infrastructuur en Waterstaat (Openbaar Vervoer en Milieu),19-06-2025,23-02-2026
+Jean Rummenie,Staatssecretaris,"Landbouw, Visserij, Voedselzekerheid en Natuur",02-07-2024,23-02-2026
+Jurgen Nobel,Staatssecretaris,Sociale Zaken en Werkgelegenheid (Participatie en Integratie),02-07-2024,23-02-2026
+Vicky Maeijer,Staatssecretaris,"Volksgezondheid, Welzijn en Sport (Langdurige en Maatschappelijke Zorg)",02-07-2024,03-06-2025
+Nicki Pouw-Verweij,Staatssecretaris,"Volksgezondheid, Welzijn en Sport (Langdurige en Maatschappelijke Zorg)",19-06-2025,23-02-2026
+Vincent Karremans,Staatssecretaris,"Volksgezondheid, Welzijn en Sport (Jeugd, Preventie en Sport)",02-07-2024,19-06-2025
+Judith Tielen,Staatssecretaris,"Volksgezondheid, Welzijn en Sport (Jeugd, Preventie en Sport)",19-06-2025,23-02-2026
+Hanneke Boerma,Staatssecretaris,Buitenlandse Handel en Ontwikkelingshulp,19-06-2025,22-08-2025
+Aukje de Vries,Staatssecretaris,Buitenlandse Handel en Ontwikkelingshulp,05-09-2025,23-02-2026

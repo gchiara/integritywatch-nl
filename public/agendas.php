@@ -1,6 +1,5 @@
 <html lang="en">
 <head>
-    <?php include 'gtag.php' ?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -12,10 +11,10 @@
     <meta property="og:description" content="Dit gebruiksvriendelijke interactieve database geeft een overzicht op nevenfuncties, giften en reizen van Eerste en Tweede kamerleden." />
     <meta property="og:image" content="https://www.integritywatch.nl/images/thumbnail.png" />
     <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
-    <link rel="stylesheet" href="static/tab_d.css?v=1">
+    <link rel="stylesheet" href="static/tab_d.css?v=5">
 </head>
 <body>
     <div id="app" class="tabD">   
@@ -37,8 +36,10 @@
           </div>
           <!-- MANDATE SELECTOR -->
           <div class="col-md-12 chart-col mandate-select-container">
-            <a href="./agendas.php?cabinet=rutteIII" class="link-button" :class="{active: cabinet == 'rutteIII'}">Rutte III</a>
-            <a href="./agendas.php" class="link-button" :class="{active: cabinet == 'rutteIV'}">Rutte IV</a>
+            <a :href="'./agendas.php?s='+supportModalShown" class="link-button" :class="{active: cabinet == 'jetten'}">Jetten</a>
+            <a :href="'./agendas.php?cabinet=schoof&s='+supportModalShown" class="link-button" :class="{active: cabinet == 'schoof'}">Schoof I</a>
+            <a :href="'./agendas.php?cabinet=rutteIV&s='+supportModalShown" class="link-button" :class="{active: cabinet == 'rutteIV'}">Rutte IV</a>
+            <a :href="'./agendas.php?cabinet=rutteIII&s='+supportModalShown" class="link-button" :class="{active: cabinet == 'rutteIII'}">Rutte III</a>
           </div>
           <!-- CHARTS - FIRST ROW -->
           <div class="col-md-6 chart-col">
@@ -65,7 +66,7 @@
                       <th class="header">Activiteitnaam</th> 
                       <th class="header">Type</th> 
                       <th class="header">Bewindspersoon</th> 
-                      <th class="header">Subtitel</th> 
+                      <th class="header">Onderwerp</th> 
                       <th class="header">Datum</th> 
                     </tr>
                   </thead>
@@ -83,7 +84,9 @@
             <div class="modal-header">
               <div class="modal-title">
                 <div>{{selectedElement.datumFormatted}}</div>
-                <div class="">{{selectedElement.activiteitnaam}}</div>
+                <div class="agenda-week-title" v-if="selectedElement.mainTitle">{{selectedElement.mainTitle}}</div>
+                <div class="agenda-act-title-small" v-if="selectedElement.activiteitnaam && selectedElement.activiteitnaam.length > 50">{{selectedElement.activiteitnaam}}</div>
+                <div class="agenda-act-title" v-else-if="selectedElement.activiteitnaam">{{selectedElement.activiteitnaam}}</div>
               </div>
               <button type="button" class="close" data-dismiss="modal"><i class="material-icons">close</i></button>
             </div>
@@ -92,10 +95,16 @@
               <div class="container">
                 <div class="row">
                   <div class="col-md-12">
+                    <div class="details-line" v-if="selectedElement.dateText"><span class="details-line-title">Datum:</span> {{selectedElement.dateText}}</div>
                     <div class="details-line"><span class="details-line-title">Event type:</span> {{selectedElement.type}}</div>
                     <div class="details-line"><span class="details-line-title">Locatie:</span> {{selectedElement.locatie}}</div>
                     <div class="details-line"><span class="details-line-title">Bewindspersoon:</span> {{selectedElement.peopleString}}</div>
-                    <div class="details-line" v-if="selectedElement.subtitel_full && selectedElement.subtitel_full.length > 1"><span class="details-line-title">Subtitel:</span> <div v-html="selectedElement.subtitel_full"></div></div>
+                    <div class="details-line" v-if="selectedElement.mainTitle && selectedElement.subtitel">
+                      <span class="details-line-title">Subtitel:</span> <div v-html="selectedElement.subtitel"></div>
+                    </div>
+                    <div class="details-line" v-else-if="selectedElement.subtitel_full && selectedElement.subtitel_full.length > 1">
+                      <span class="details-line-title">Subtitel:</span> <div v-html="selectedElement.subtitel_full"></div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -127,16 +136,38 @@
           <button class="btn-linkedin" @click="share('linkedin')"><img src="./images/linkedin.png" /></button>
         </div>
       </div>
+      <!-- SUPPORT US MODAL -->
+      <div class="modal" id="donationModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <div class="modal-title"></div>
+              <button type="button" class="close" data-dismiss="modal"><i class="material-icons">close</i></button>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+              <p class="donation-modal-title">Steun ons werk met een gift!</p>
+              <p>Transparency International Nederland strijdt voor een samenleving vrij van corruptie. Met Integrity Watch vragen wij aandacht voor de transparantie en integriteit van de Tweede Kamer en de overheid. Uw gift zorgt ervoor dat wij dat werk kunnen voortzetten.</p>
+              <div class="supportus-buttons">
+                <a href="https://www.pifworld.com/nl/nonprofits/1UG8djhGLxU/transparency-international-neder/donate" target="_blank">Donatie</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- Loader -->
       <loader v-if="loader" :text="'Loading ...'" />
     </div>
+
+    <?php require 'consent_notice.php' ?>
 
     <script type="text/javascript" src="vendor/js/d3.v5.min.js"></script>
     <script type="text/javascript" src="vendor/js/d3.layout.cloud.js"></script>
     <script type="text/javascript" src="vendor/js/crossfilter.min.js"></script>
     <script type="text/javascript" src="vendor/js/dc.js"></script>
     <script type="text/javascript" src="vendor/js/dc.cloud.js"></script>
-    <script src="static/tab_d.js?v=1"></script>
+    <script src="static/tab_d.js?v=5"></script>
 
  
 </body>
